@@ -1,0 +1,60 @@
+part,supplier_key,supplier,country,bills,score
+li_ion_battery,bst power shenzhen,Bst Power Shenzhen,CN,1,0.832
+li_ion_battery,shenzhen utility energy,Shenzhen Utility Energy Co Ltd,CN,1,0.829
+li_ion_battery,guangdong rept battero energy,Guangdong Rept Battero Energy,HK,1,0.828
+li_ion_battery,dongguan best new energy technology,Dongguan Best New Energy Technology,CN,1,0.828
+li_ion_battery,lg energy solution nanjing lt,Lg Energy Solution Nanjing Co Lt,CN,1,0.821
+camera_module,zf cv systems global,Zf Cv Systems Global Gmbh,CH,1,0.736
+camera_module,zf cv systems,Zf Cv Systems,DE,9,0.715
+camera_module,aptiv safety mobility services si,Aptiv Safety & Mobility Services Si,SG,2,0.69
+camera_module,samsung high tech electronic,Samsung High Tech Electronic Co,CN,5,0.684
+camera_module,zf cv systems hannover,Zf Cv Systems Hannover Gmbh,DE,1,0.669
+display_module,anshan yes optoelectronics display,Anshan Yes Optoelectronics Display,CN,1,0.86
+display_module,all vision display,All Vision Display Inc,US,2,0.854
+display_module,shenzhen av display,Shenzhen Av Display Co Ltd,HK,7,0.82
+display_module,new vision display,New Vision Display,HK,1,0.819
+display_module,goworld display usa,Goworld Display Usa Ltd,CN,8,0.81
+pcba,ht electronic technology vietnam,Ht Electronic Technology Vietnam,VU,1,0.802
+pcba,valuetronics vietnam,Valuetronics Vietnam Co Ltd,VN,5,0.801
+pcba,h t electronic technology vietnam,H&T Electronic Technology Vietnam,VN,2,0.785
+pcba,etron vietnam technologies,Etron Vietnam Technologies Co Ltd,VN,5,0.771
+pcba,nationgate solution m sdn bhd,Nationgate Solution M Sdn Bhd,MY,2,0.762
+flexible_circuit,mektec mfg europe de,Mektec Mfg Corp Europe De Gmbh,CZ,1,0.774
+flexible_circuit,mektec manufacturing corparation,Mektec Manufacturing Corparation,CN,1,0.771
+flexible_circuit,mektec cz s r o,Mektec Cz S R O,CZ,13,0.74
+flexible_circuit,mektec,Mektec Corp,JP,61,0.731
+flexible_circuit,mektec international,Mektec International Corp,CN,9,0.73
+connector,yiwu lens trade,Yiwu Lens Trade Co Ltd,CN,1,0.61
+connector,tec mold holdings,Tec Mold Holdings Limited,CN,1,0.601
+connector,shenzhen ameston electronic,Shenzhen Ameston Electronic Co Ltd,CN,1,0.579
+connector,shenglai international,Shenglai International Limited,HK,4,0.544
+connector,palconn technology,Palconn Technology Co Ltd,HK,1,0.534
+microphone,flextronics international tecnologi,Flextronics International Tecnologi,BR,1,0.446
+microphone,seikaku technical group,Seikaku Technical Group Limited,HK,2,0.414
+microphone,voice craft electronics,Voice Craft Electronics Co Ltd,TW,2,0.39
+microphone,weifang goertek microelectronics,Weifang Goertek Microelectronics Co,CN,21,0.34
+speaker,shenzhen fulian fugui precision ind,Shenzhen Fulian Fugui Precision Ind,CN,22,0.467
+speaker,unison acoustics,Unison Acoustics Co Ltd,KR,8,0.464
+speaker,tymphany acoustic technology,Tymphany Acoustic Technology,SG,1,0.436
+speaker,thien kim long an,Thien Kim Long An Co Ltd,VN,1,0.416
+speaker,prime elecom,Prime Elecom,KR,2,0.415
+integrated_circuit,erdrich umformtechnik s r o,Erdrich Umformtechnik S R O,CZ,1,0.584
+integrated_circuit,onsemi,Onsemi,SG,1,0.555
+integrated_circuit,variosystems ag,Variosystems Ag,CH,1,0.55
+integrated_circuit,brevetek makine arge inovasyon,Brevetek Makine Arge Inovasyon,TR,1,0.548
+integrated_circuit,altice labs sa,Altice Labs Sa,PT,1,0.545
+capacitor,globe capacitors,Globe Capacitors Limited,IN,2,0.817
+capacitor,globe capacitors private,Globe Capacitors Private Limited,IN,1,0.805
+capacitor,nantong hicon capacitor,Nantong Hicon Capacitor Co Ltd,CN,1,0.802
+capacitor,nantong capacitor industries,Nantong Capacitor Industries Co,CN,1,0.797
+capacitor,jb capacitors,Jb Capacitors Co Ltd,HK,1,0.778
+polycarbonate,baoding xinhai plastic,Baoding Xinhai Plastic,CN,1,0.666
+polycarbonate,polylite taiwan,Polylite Taiwan Co Ltd,TW,2,0.659
+polycarbonate,guangdong guoweixing plastic,Guangdong Guoweixing Plastic,CN,1,0.65
+polycarbonate,taizhou rundong plastic technology,Taizhou Rundong Plastic Technology,CN,1,0.637
+polycarbonate,tilara polyplast,Tilara Polyplast Pvt Ltd,IN,1,0.604
+solder_paste,vitrox,Vitrox,MY,1,0.718
+solder_paste,anhui jiebo information technology,Anhui Jiebo Information Technology,CN,1,0.608
+solder_paste,wistron,Wistron Corp,TW,1,0.605
+solder_paste,vitrox technologies sdn bhd,Vitrox Technologies Sdn Bhd,MY,12,0.588
+solder_paste,shenzhen wenzhan electronic,Shenzhen Wenzhan Electronic,CN,1,0.586

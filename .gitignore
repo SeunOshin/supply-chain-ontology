@@ -1,0 +1,16 @@
+# Keys and credentials: never upload
+.env
+.env.*
+!.env.example
+bigquery-sa.json
+*-sa.json
+
+# Machine and editor files
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.vscode/
+
+# Working material that is not part of the project
+Claude outputs/
+Week 7/

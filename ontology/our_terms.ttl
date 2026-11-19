@@ -1,0 +1,51 @@
+@prefix iof: <https://spec.industrialontologies.org/ontology/construct/> .
+@prefix ours: <https://example.org/dissertation/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ours:DutyMeasure a owl:Class ;
+    rdfs:label "duty measure" ;
+    rdfs:comment "One duty that applies to goods under a tariff code, from an origin, on import into a territory." ;
+    rdfs:subClassOf iof:InformationContentEntity .
+
+ours:PredictedSupplyLink a owl:Class ;
+    rdfs:label "predicted supply link" ;
+    rdfs:comment "A supplier the link prediction model scores as a likely source of a good, where no supply relationship is recorded." ;
+    rdfs:subClassOf iof:InformationContentEntity .
+
+ours:RiskBand a owl:Class ;
+    rdfs:label "risk band" ;
+    rdfs:comment "High, Moderate, Low or Unknown. Unknown means the data is missing; it is never read as Low." ;
+    rdfs:subClassOf iof:Classifier .
+
+ours:RiskFinding a owl:Class ;
+    rdfs:label "risk finding" ;
+    rdfs:comment "The result of applying one risk rule to one good: a band, the number behind it and the reason." ;
+    rdfs:subClassOf iof:InformationContentEntity .
+
+ours:RiskRule a owl:Class ;
+    rdfs:label "risk rule" ;
+    rdfs:comment "A named rule that sorts goods into risk bands." ;
+    rdfs:subClassOf iof:Classifier .
+
+ours:TariffCode a owl:Class ;
+    rdfs:label "tariff code" ;
+    rdfs:comment "A code in a named tariff schedule, used to classify goods for customs." ;
+    rdfs:subClassOf iof:Classifier .
+
+ours:affects a owl:ObjectProperty ;
+    rdfs:label "affects" ;
+    rdfs:comment "Relates a disruption event to the goods, by tariff code, that it hits." .
+
+ours:appliesOnImportInto a owl:ObjectProperty ;
+    rdfs:label "applies on import into" ;
+    rdfs:comment "Relates a duty measure to the territory whose customs charges it." .
+
+ours:appliesToOrigin a owl:ObjectProperty ;
+    rdfs:label "applies to origin" ;
+    rdfs:comment "Relates a duty measure to the country of origin it applies to. A measure with no origin applies to all origins." .
+
+ours:importedInto a owl:ObjectProperty ;
+    rdfs:label "imported into" ;
+    rdfs:comment "Relates a product to the territory it is imported into." .
+

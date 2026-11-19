@@ -1,0 +1,401 @@
+split,fold,method,balanced accuracy
+0,0,"Paper: sentence, language model, logistic regression",0.5529411764705883
+0,1,"Paper: sentence, language model, logistic regression",0.553811659192825
+0,2,"Paper: sentence, language model, logistic regression",0.5572139303482586
+0,3,"Paper: sentence, language model, logistic regression",0.5786802030456852
+0,4,"Paper: sentence, language model, logistic regression",0.5234741784037559
+0,0,"Paper: sentence, language model, neural network",0.6647058823529411
+0,1,"Paper: sentence, language model, neural network",0.6412556053811659
+0,2,"Paper: sentence, language model, neural network",0.6393034825870647
+0,3,"Paper: sentence, language model, neural network",0.6802030456852792
+0,4,"Paper: sentence, language model, neural network",0.6150234741784038
+0,0,Paper baseline: sentence word counts,0.5235294117647059
+0,1,Paper baseline: sentence word counts,0.468609865470852
+0,2,Paper baseline: sentence word counts,0.4850746268656716
+0,3,Paper baseline: sentence word counts,0.5304568527918782
+0,4,Paper baseline: sentence word counts,0.4413145539906103
+0,0,"Adapted: names per part, language model, logistic regression",0.7029411764705882
+0,1,"Adapted: names per part, language model, logistic regression",0.695067264573991
+0,2,"Adapted: names per part, language model, logistic regression",0.6741293532338308
+0,3,"Adapted: names per part, language model, logistic regression",0.7055837563451777
+0,4,"Adapted: names per part, language model, logistic regression",0.6619718309859155
+0,0,"Adapted: names and part, language model, neural network",0.6823529411764706
+0,1,"Adapted: names and part, language model, neural network",0.6591928251121076
+0,2,"Adapted: names and part, language model, neural network",0.6716417910447761
+0,3,"Adapted: names and part, language model, neural network",0.7030456852791878
+0,4,"Adapted: names and part, language model, neural network",0.6244131455399061
+0,0,Adapted baseline: name word counts per part,0.7323529411764707
+0,1,Adapted baseline: name word counts per part,0.6726457399103138
+0,2,Adapted baseline: name word counts per part,0.7064676616915423
+0,3,Adapted baseline: name word counts per part,0.700507614213198
+0,4,Adapted baseline: name word counts per part,0.676056338028169
+0,0,"Adapted, supplier's name only (the version used on the BOMs)",0.6647058823529411
+0,1,"Adapted, supplier's name only (the version used on the BOMs)",0.6502242152466368
+0,2,"Adapted, supplier's name only (the version used on the BOMs)",0.6243781094527363
+0,3,"Adapted, supplier's name only (the version used on the BOMs)",0.6395939086294415
+0,4,"Adapted, supplier's name only (the version used on the BOMs)",0.6338028169014085
+0,0,"Check: kind of part only, no names",0.5088235294117647
+0,1,"Check: kind of part only, no names",0.4641255605381166
+0,2,"Check: kind of part only, no names",0.4950248756218905
+0,3,"Check: kind of part only, no names",0.515228426395939
+0,4,"Check: kind of part only, no names",0.4342723004694835
+1,0,"Paper: sentence, language model, logistic regression",0.5349999999999999
+1,1,"Paper: sentence, language model, logistic regression",0.5737327188940092
+1,2,"Paper: sentence, language model, logistic regression",0.527027027027027
+1,3,"Paper: sentence, language model, logistic regression",0.5527638190954773
+1,4,"Paper: sentence, language model, logistic regression",0.5443349753694582
+1,0,"Paper: sentence, language model, neural network",0.6875
+1,1,"Paper: sentence, language model, neural network",0.6497695852534562
+1,2,"Paper: sentence, language model, neural network",0.6513513513513514
+1,3,"Paper: sentence, language model, neural network",0.6733668341708543
+1,4,"Paper: sentence, language model, neural network",0.687192118226601
+1,0,Paper baseline: sentence word counts,0.5249999999999999
+1,1,Paper baseline: sentence word counts,0.4976958525345621
+1,2,Paper baseline: sentence word counts,0.4459459459459459
+1,3,Paper baseline: sentence word counts,0.4849246231155779
+1,4,Paper baseline: sentence word counts,0.4827586206896552
+1,0,"Adapted: names per part, language model, logistic regression",0.685
+1,1,"Adapted: names per part, language model, logistic regression",0.7188940092165899
+1,2,"Adapted: names per part, language model, logistic regression",0.7189189189189189
+1,3,"Adapted: names per part, language model, logistic regression",0.6658291457286432
+1,4,"Adapted: names per part, language model, logistic regression",0.7044334975369457
+1,0,"Adapted: names and part, language model, neural network",0.6799999999999999
+1,1,"Adapted: names and part, language model, neural network",0.6728110599078341
+1,2,"Adapted: names and part, language model, neural network",0.7108108108108109
+1,3,"Adapted: names and part, language model, neural network",0.6809045226130653
+1,4,"Adapted: names and part, language model, neural network",0.6995073891625616
+1,0,Adapted baseline: name word counts per part,0.6725
+1,1,Adapted baseline: name word counts per part,0.7235023041474655
+1,2,Adapted baseline: name word counts per part,0.7243243243243243
+1,3,Adapted baseline: name word counts per part,0.6608040201005025
+1,4,Adapted baseline: name word counts per part,0.7118226600985221
+1,0,"Adapted, supplier's name only (the version used on the BOMs)",0.6825
+1,1,"Adapted, supplier's name only (the version used on the BOMs)",0.6728110599078341
+1,2,"Adapted, supplier's name only (the version used on the BOMs)",0.654054054054054
+1,3,"Adapted, supplier's name only (the version used on the BOMs)",0.6532663316582914
+1,4,"Adapted, supplier's name only (the version used on the BOMs)",0.6305418719211823
+1,0,"Check: kind of part only, no names",0.4875
+1,1,"Check: kind of part only, no names",0.4976958525345622
+1,2,"Check: kind of part only, no names",0.472972972972973
+1,3,"Check: kind of part only, no names",0.4723618090452262
+1,4,"Check: kind of part only, no names",0.4556650246305419
+2,0,"Paper: sentence, language model, logistic regression",0.5548245614035088
+2,1,"Paper: sentence, language model, logistic regression",0.5780346820809248
+2,2,"Paper: sentence, language model, logistic regression",0.5610328638497653
+2,3,"Paper: sentence, language model, logistic regression",0.532608695652174
+2,4,"Paper: sentence, language model, logistic regression",0.5558252427184466
+2,0,"Paper: sentence, language model, neural network",0.6469298245614035
+2,1,"Paper: sentence, language model, neural network",0.6329479768786128
+2,2,"Paper: sentence, language model, neural network",0.7089201877934272
+2,3,"Paper: sentence, language model, neural network",0.6467391304347826
+2,4,"Paper: sentence, language model, neural network",0.6747572815533981
+2,0,Paper baseline: sentence word counts,0.4627192982456141
+2,1,Paper baseline: sentence word counts,0.4450867052023121
+2,2,Paper baseline: sentence word counts,0.5046948356807512
+2,3,Paper baseline: sentence word counts,0.4701086956521739
+2,4,Paper baseline: sentence word counts,0.4878640776699029
+2,0,"Adapted: names per part, language model, logistic regression",0.6754385964912281
+2,1,"Adapted: names per part, language model, logistic regression",0.676300578034682
+2,2,"Adapted: names per part, language model, logistic regression",0.7206572769953052
+2,3,"Adapted: names per part, language model, logistic regression",0.6711956521739131
+2,4,"Adapted: names per part, language model, logistic regression",0.7184466019417476
+2,0,"Adapted: names and part, language model, neural network",0.6578947368421053
+2,1,"Adapted: names and part, language model, neural network",0.6878612716763006
+2,2,"Adapted: names and part, language model, neural network",0.7206572769953052
+2,3,"Adapted: names and part, language model, neural network",0.6603260869565217
+2,4,"Adapted: names and part, language model, neural network",0.7063106796116505
+2,0,Adapted baseline: name word counts per part,0.6885964912280702
+2,1,Adapted baseline: name word counts per part,0.6791907514450868
+2,2,Adapted baseline: name word counts per part,0.7206572769953051
+2,3,Adapted baseline: name word counts per part,0.6711956521739131
+2,4,Adapted baseline: name word counts per part,0.7184466019417476
+2,0,"Adapted, supplier's name only (the version used on the BOMs)",0.6228070175438596
+2,1,"Adapted, supplier's name only (the version used on the BOMs)",0.630057803468208
+2,2,"Adapted, supplier's name only (the version used on the BOMs)",0.619718309859155
+2,3,"Adapted, supplier's name only (the version used on the BOMs)",0.6684782608695652
+2,4,"Adapted, supplier's name only (the version used on the BOMs)",0.7087378640776699
+2,0,"Check: kind of part only, no names",0.4890350877192982
+2,1,"Check: kind of part only, no names",0.4248554913294797
+2,2,"Check: kind of part only, no names",0.4788732394366197
+2,3,"Check: kind of part only, no names",0.4673913043478261
+2,4,"Check: kind of part only, no names",0.4830097087378641
+3,0,"Paper: sentence, language model, logistic regression",0.5735294117647058
+3,1,"Paper: sentence, language model, logistic regression",0.5695187165775402
+3,2,"Paper: sentence, language model, logistic regression",0.4953271028037382
+3,3,"Paper: sentence, language model, logistic regression",0.5398230088495575
+3,4,"Paper: sentence, language model, logistic regression",0.5664739884393064
+3,0,"Paper: sentence, language model, neural network",0.6666666666666667
+3,1,"Paper: sentence, language model, neural network",0.6443850267379679
+3,2,"Paper: sentence, language model, neural network",0.6355140186915887
+3,3,"Paper: sentence, language model, neural network",0.6570796460176991
+3,4,"Paper: sentence, language model, neural network",0.6647398843930636
+3,0,Paper baseline: sentence word counts,0.4411764705882353
+3,1,Paper baseline: sentence word counts,0.5401069518716578
+3,2,Paper baseline: sentence word counts,0.3901869158878505
+3,3,Paper baseline: sentence word counts,0.4668141592920354
+3,4,Paper baseline: sentence word counts,0.5086705202312138
+3,0,"Adapted: names per part, language model, logistic regression",0.7549019607843137
+3,1,"Adapted: names per part, language model, logistic regression",0.7192513368983957
+3,2,"Adapted: names per part, language model, logistic regression",0.647196261682243
+3,3,"Adapted: names per part, language model, logistic regression",0.665929203539823
+3,4,"Adapted: names per part, language model, logistic regression",0.6705202312138728
+3,0,"Adapted: names and part, language model, neural network",0.7156862745098039
+3,1,"Adapted: names and part, language model, neural network",0.6898395721925134
+3,2,"Adapted: names and part, language model, neural network",0.6355140186915887
+3,3,"Adapted: names and part, language model, neural network",0.661504424778761
+3,4,"Adapted: names and part, language model, neural network",0.6502890173410405
+3,0,Adapted baseline: name word counts per part,0.7254901960784315
+3,1,Adapted baseline: name word counts per part,0.6818181818181819
+3,2,Adapted baseline: name word counts per part,0.6985981308411215
+3,3,Adapted baseline: name word counts per part,0.6725663716814159
+3,4,Adapted baseline: name word counts per part,0.6907514450867052
+3,0,"Adapted, supplier's name only (the version used on the BOMs)",0.6813725490196079
+3,1,"Adapted, supplier's name only (the version used on the BOMs)",0.6470588235294118
+3,2,"Adapted, supplier's name only (the version used on the BOMs)",0.6261682242990654
+3,3,"Adapted, supplier's name only (the version used on the BOMs)",0.6194690265486726
+3,4,"Adapted, supplier's name only (the version used on the BOMs)",0.661849710982659
+3,0,"Check: kind of part only, no names",0.446078431372549
+3,1,"Check: kind of part only, no names",0.5240641711229947
+3,2,"Check: kind of part only, no names",0.4042056074766355
+3,3,"Check: kind of part only, no names",0.4557522123893806
+3,4,"Check: kind of part only, no names",0.4826589595375722
+4,0,"Paper: sentence, language model, logistic regression",0.5867346938775511
+4,1,"Paper: sentence, language model, logistic regression",0.5726256983240223
+4,2,"Paper: sentence, language model, logistic regression",0.573394495412844
+4,3,"Paper: sentence, language model, logistic regression",0.5129533678756477
+4,4,"Paper: sentence, language model, logistic regression",0.5711009174311927
+4,0,"Paper: sentence, language model, neural network",0.6377551020408163
+4,1,"Paper: sentence, language model, neural network",0.6955307262569832
+4,2,"Paper: sentence, language model, neural network",0.676605504587156
+4,3,"Paper: sentence, language model, neural network",0.6683937823834196
+4,4,"Paper: sentence, language model, neural network",0.6720183486238531
+4,0,Paper baseline: sentence word counts,0.461734693877551
+4,1,Paper baseline: sentence word counts,0.4525139664804469
+4,2,Paper baseline: sentence word counts,0.481651376146789
+4,3,Paper baseline: sentence word counts,0.4559585492227979
+4,4,Paper baseline: sentence word counts,0.4701834862385321
+4,0,"Adapted: names per part, language model, logistic regression",0.7270408163265306
+4,1,"Adapted: names per part, language model, logistic regression",0.7094972067039107
+4,2,"Adapted: names per part, language model, logistic regression",0.6857798165137614
+4,3,"Adapted: names per part, language model, logistic regression",0.6839378238341969
+4,4,"Adapted: names per part, language model, logistic regression",0.6674311926605505
+4,0,"Adapted: names and part, language model, neural network",0.6862244897959184
+4,1,"Adapted: names and part, language model, neural network",0.7094972067039107
+4,2,"Adapted: names and part, language model, neural network",0.6743119266055047
+4,3,"Adapted: names and part, language model, neural network",0.6683937823834196
+4,4,"Adapted: names and part, language model, neural network",0.6743119266055045
+4,0,Adapted baseline: name word counts per part,0.6964285714285714
+4,1,Adapted baseline: name word counts per part,0.7346368715083799
+4,2,Adapted baseline: name word counts per part,0.7247706422018348
+4,3,Adapted baseline: name word counts per part,0.6761658031088082
+4,4,Adapted baseline: name word counts per part,0.7087155963302753
+4,0,"Adapted, supplier's name only (the version used on the BOMs)",0.6505102040816326
+4,1,"Adapted, supplier's name only (the version used on the BOMs)",0.6843575418994413
+4,2,"Adapted, supplier's name only (the version used on the BOMs)",0.6811926605504587
+4,3,"Adapted, supplier's name only (the version used on the BOMs)",0.6398963730569949
+4,4,"Adapted, supplier's name only (the version used on the BOMs)",0.6353211009174312
+4,0,"Check: kind of part only, no names",0.4897959183673469
+4,1,"Check: kind of part only, no names",0.4804469273743016
+4,2,"Check: kind of part only, no names",0.4885321100917431
+4,3,"Check: kind of part only, no names",0.4637305699481865
+4,4,"Check: kind of part only, no names",0.4403669724770642
+5,0,"Paper: sentence, language model, logistic regression",0.5416666666666666
+5,1,"Paper: sentence, language model, logistic regression",0.5666666666666667
+5,2,"Paper: sentence, language model, logistic regression",0.5487179487179488
+5,3,"Paper: sentence, language model, logistic regression",0.5358974358974359
+5,4,"Paper: sentence, language model, logistic regression",0.5575000000000001
+5,0,"Paper: sentence, language model, neural network",0.6348039215686274
+5,1,"Paper: sentence, language model, neural network",0.6428571428571429
+5,2,"Paper: sentence, language model, neural network",0.6692307692307692
+5,3,"Paper: sentence, language model, neural network",0.6564102564102564
+5,4,"Paper: sentence, language model, neural network",0.6799999999999999
+5,0,Paper baseline: sentence word counts,0.446078431372549
+5,1,Paper baseline: sentence word counts,0.5095238095238095
+5,2,Paper baseline: sentence word counts,0.5358974358974359
+5,3,Paper baseline: sentence word counts,0.4769230769230769
+5,4,Paper baseline: sentence word counts,0.49749999999999994
+5,0,"Adapted: names per part, language model, logistic regression",0.6617647058823529
+5,1,"Adapted: names per part, language model, logistic regression",0.6952380952380952
+5,2,"Adapted: names per part, language model, logistic regression",0.7128205128205127
+5,3,"Adapted: names per part, language model, logistic regression",0.7230769230769231
+5,4,"Adapted: names per part, language model, logistic regression",0.675
+5,0,"Adapted: names and part, language model, neural network",0.6446078431372548
+5,1,"Adapted: names and part, language model, neural network",0.6738095238095239
+5,2,"Adapted: names and part, language model, neural network",0.6743589743589744
+5,3,"Adapted: names and part, language model, neural network",0.7
+5,4,"Adapted: names and part, language model, neural network",0.7225
+5,0,Adapted baseline: name word counts per part,0.6985294117647058
+5,1,Adapted baseline: name word counts per part,0.6857142857142857
+5,2,Adapted baseline: name word counts per part,0.6974358974358974
+5,3,Adapted baseline: name word counts per part,0.6974358974358974
+5,4,Adapted baseline: name word counts per part,0.7075
+5,0,"Adapted, supplier's name only (the version used on the BOMs)",0.6323529411764706
+5,1,"Adapted, supplier's name only (the version used on the BOMs)",0.6404761904761904
+5,2,"Adapted, supplier's name only (the version used on the BOMs)",0.6564102564102564
+5,3,"Adapted, supplier's name only (the version used on the BOMs)",0.6435897435897435
+5,4,"Adapted, supplier's name only (the version used on the BOMs)",0.6799999999999999
+5,0,"Check: kind of part only, no names",0.4387254901960784
+5,1,"Check: kind of part only, no names",0.4904761904761905
+5,2,"Check: kind of part only, no names",0.5205128205128204
+5,3,"Check: kind of part only, no names",0.49743589743589745
+5,4,"Check: kind of part only, no names",0.4875
+6,0,"Paper: sentence, language model, logistic regression",0.5412621359223301
+6,1,"Paper: sentence, language model, logistic regression",0.5461165048543689
+6,2,"Paper: sentence, language model, logistic regression",0.5546448087431695
+6,3,"Paper: sentence, language model, logistic regression",0.5535714285714286
+6,4,"Paper: sentence, language model, logistic regression",0.518918918918919
+6,0,"Paper: sentence, language model, neural network",0.6699029126213593
+6,1,"Paper: sentence, language model, neural network",0.6504854368932039
+6,2,"Paper: sentence, language model, neural network",0.6174863387978142
+6,3,"Paper: sentence, language model, neural network",0.7075892857142857
+6,4,"Paper: sentence, language model, neural network",0.6891891891891893
+6,0,Paper baseline: sentence word counts,0.5024271844660194
+6,1,Paper baseline: sentence word counts,0.4684466019417476
+6,2,Paper baseline: sentence word counts,0.4890710382513661
+6,3,Paper baseline: sentence word counts,0.5022321428571428
+6,4,Paper baseline: sentence word counts,0.4540540540540541
+6,0,"Adapted: names per part, language model, logistic regression",0.6553398058252426
+6,1,"Adapted: names per part, language model, logistic regression",0.7014563106796117
+6,2,"Adapted: names per part, language model, logistic regression",0.6666666666666667
+6,3,"Adapted: names per part, language model, logistic regression",0.703125
+6,4,"Adapted: names per part, language model, logistic regression",0.7
+6,0,"Adapted: names and part, language model, neural network",0.6529126213592233
+6,1,"Adapted: names and part, language model, neural network",0.6796116504854369
+6,2,"Adapted: names and part, language model, neural network",0.639344262295082
+6,3,"Adapted: names and part, language model, neural network",0.6852678571428572
+6,4,"Adapted: names and part, language model, neural network",0.664864864864865
+6,0,Adapted baseline: name word counts per part,0.7233009708737863
+6,1,Adapted baseline: name word counts per part,0.7281553398058251
+6,2,Adapted baseline: name word counts per part,0.6721311475409837
+6,3,Adapted baseline: name word counts per part,0.6763392857142858
+6,4,Adapted baseline: name word counts per part,0.6918918918918919
+6,0,"Adapted, supplier's name only (the version used on the BOMs)",0.6383495145631068
+6,1,"Adapted, supplier's name only (the version used on the BOMs)",0.6674757281553398
+6,2,"Adapted, supplier's name only (the version used on the BOMs)",0.6256830601092896
+6,3,"Adapted, supplier's name only (the version used on the BOMs)",0.6741071428571428
+6,4,"Adapted, supplier's name only (the version used on the BOMs)",0.6486486486486487
+6,0,"Check: kind of part only, no names",0.5121359223300971
+6,1,"Check: kind of part only, no names",0.46116504854368934
+6,2,"Check: kind of part only, no names",0.46174863387978143
+6,3,"Check: kind of part only, no names",0.4553571428571429
+6,4,"Check: kind of part only, no names",0.4594594594594595
+7,0,"Paper: sentence, language model, logistic regression",0.5024509803921569
+7,1,"Paper: sentence, language model, logistic regression",0.554245283018868
+7,2,"Paper: sentence, language model, logistic regression",0.5323383084577115
+7,3,"Paper: sentence, language model, logistic regression",0.5174129353233831
+7,4,"Paper: sentence, language model, logistic regression",0.564516129032258
+7,0,"Paper: sentence, language model, neural network",0.6715686274509804
+7,1,"Paper: sentence, language model, neural network",0.6533018867924528
+7,2,"Paper: sentence, language model, neural network",0.7014925373134329
+7,3,"Paper: sentence, language model, neural network",0.664179104477612
+7,4,"Paper: sentence, language model, neural network",0.6720430107526882
+7,0,Paper baseline: sentence word counts,0.4485294117647059
+7,1,Paper baseline: sentence word counts,0.4481132075471698
+7,2,Paper baseline: sentence word counts,0.4701492537313433
+7,3,Paper baseline: sentence word counts,0.48009950248756217
+7,4,Paper baseline: sentence word counts,0.510752688172043
+7,0,"Adapted: names per part, language model, logistic regression",0.6740196078431373
+7,1,"Adapted: names per part, language model, logistic regression",0.7004716981132075
+7,2,"Adapted: names per part, language model, logistic regression",0.7213930348258706
+7,3,"Adapted: names per part, language model, logistic regression",0.6815920398009949
+7,4,"Adapted: names per part, language model, logistic regression",0.6989247311827957
+7,0,"Adapted: names and part, language model, neural network",0.6666666666666666
+7,1,"Adapted: names and part, language model, neural network",0.6816037735849056
+7,2,"Adapted: names and part, language model, neural network",0.6890547263681592
+7,3,"Adapted: names and part, language model, neural network",0.664179104477612
+7,4,"Adapted: names and part, language model, neural network",0.6586021505376344
+7,0,Adapted baseline: name word counts per part,0.7132352941176471
+7,1,Adapted baseline: name word counts per part,0.7051886792452831
+7,2,Adapted baseline: name word counts per part,0.7213930348258706
+7,3,Adapted baseline: name word counts per part,0.6940298507462687
+7,4,Adapted baseline: name word counts per part,0.6881720430107527
+7,0,"Adapted, supplier's name only (the version used on the BOMs)",0.6519607843137254
+7,1,"Adapted, supplier's name only (the version used on the BOMs)",0.660377358490566
+7,2,"Adapted, supplier's name only (the version used on the BOMs)",0.6467661691542288
+7,3,"Adapted, supplier's name only (the version used on the BOMs)",0.6343283582089552
+7,4,"Adapted, supplier's name only (the version used on the BOMs)",0.6451612903225807
+7,0,"Check: kind of part only, no names",0.44607843137254904
+7,1,"Check: kind of part only, no names",0.44339622641509435
+7,2,"Check: kind of part only, no names",0.43781094527363185
+7,3,"Check: kind of part only, no names",0.47512437810945274
+7,4,"Check: kind of part only, no names",0.5
+8,0,"Paper: sentence, language model, logistic regression",0.5164319248826291
+8,1,"Paper: sentence, language model, logistic regression",0.5655737704918032
+8,2,"Paper: sentence, language model, logistic regression",0.5555555555555556
+8,3,"Paper: sentence, language model, logistic regression",0.5236842105263158
+8,4,"Paper: sentence, language model, logistic regression",0.5492227979274611
+8,0,"Paper: sentence, language model, neural network",0.636150234741784
+8,1,"Paper: sentence, language model, neural network",0.7131147540983607
+8,2,"Paper: sentence, language model, neural network",0.6888888888888889
+8,3,"Paper: sentence, language model, neural network",0.6552631578947368
+8,4,"Paper: sentence, language model, neural network",0.6502590673575129
+8,0,Paper baseline: sentence word counts,0.5093896713615024
+8,1,Paper baseline: sentence word counts,0.4808743169398907
+8,2,Paper baseline: sentence word counts,0.5044444444444445
+8,3,Paper baseline: sentence word counts,0.4631578947368421
+8,4,Paper baseline: sentence word counts,0.5155440414507773
+8,0,"Adapted: names per part, language model, logistic regression",0.6690140845070423
+8,1,"Adapted: names per part, language model, logistic regression",0.6857923497267759
+8,2,"Adapted: names per part, language model, logistic regression",0.6911111111111111
+8,3,"Adapted: names per part, language model, logistic regression",0.6842105263157894
+8,4,"Adapted: names per part, language model, logistic regression",0.6813471502590673
+8,0,"Adapted: names and part, language model, neural network",0.6431924882629108
+8,1,"Adapted: names and part, language model, neural network",0.6885245901639344
+8,2,"Adapted: names and part, language model, neural network",0.6755555555555555
+8,3,"Adapted: names and part, language model, neural network",0.6921052631578948
+8,4,"Adapted: names and part, language model, neural network",0.6709844559585492
+8,0,Adapted baseline: name word counts per part,0.6737089201877935
+8,1,Adapted baseline: name word counts per part,0.6967213114754098
+8,2,Adapted baseline: name word counts per part,0.6933333333333334
+8,3,Adapted baseline: name word counts per part,0.6973684210526315
+8,4,Adapted baseline: name word counts per part,0.7046632124352332
+8,0,"Adapted, supplier's name only (the version used on the BOMs)",0.6009389671361502
+8,1,"Adapted, supplier's name only (the version used on the BOMs)",0.639344262295082
+8,2,"Adapted, supplier's name only (the version used on the BOMs)",0.6333333333333333
+8,3,"Adapted, supplier's name only (the version used on the BOMs)",0.6710526315789473
+8,4,"Adapted, supplier's name only (the version used on the BOMs)",0.6528497409326425
+8,0,"Check: kind of part only, no names",0.4812206572769953
+8,1,"Check: kind of part only, no names",0.47540983606557374
+8,2,"Check: kind of part only, no names",0.5133333333333333
+8,3,"Check: kind of part only, no names",0.4631578947368421
+8,4,"Check: kind of part only, no names",0.4948186528497409
+9,0,"Paper: sentence, language model, logistic regression",0.5492227979274611
+9,1,"Paper: sentence, language model, logistic regression",0.5665024630541873
+9,2,"Paper: sentence, language model, logistic regression",0.5422535211267605
+9,3,"Paper: sentence, language model, logistic regression",0.538659793814433
+9,4,"Paper: sentence, language model, logistic regression",0.5621890547263682
+9,0,"Paper: sentence, language model, neural network",0.6735751295336787
+9,1,"Paper: sentence, language model, neural network",0.6527093596059113
+9,2,"Paper: sentence, language model, neural network",0.647887323943662
+9,3,"Paper: sentence, language model, neural network",0.6494845360824741
+9,4,"Paper: sentence, language model, neural network",0.6691542288557214
+9,0,Paper baseline: sentence word counts,0.45595854922279794
+9,1,Paper baseline: sentence word counts,0.5073891625615764
+9,2,Paper baseline: sentence word counts,0.5140845070422535
+9,3,Paper baseline: sentence word counts,0.4896907216494845
+9,4,Paper baseline: sentence word counts,0.5174129353233832
+9,0,"Adapted: names per part, language model, logistic regression",0.7098445595854923
+9,1,"Adapted: names per part, language model, logistic regression",0.7118226600985222
+9,2,"Adapted: names per part, language model, logistic regression",0.6666666666666666
+9,3,"Adapted: names per part, language model, logistic regression",0.7061855670103092
+9,4,"Adapted: names per part, language model, logistic regression",0.6716417910447761
+9,0,"Adapted: names and part, language model, neural network",0.6968911917098446
+9,1,"Adapted: names and part, language model, neural network",0.6748768472906403
+9,2,"Adapted: names and part, language model, neural network",0.676056338028169
+9,3,"Adapted: names and part, language model, neural network",0.6958762886597938
+9,4,"Adapted: names and part, language model, neural network",0.6417910447761195
+9,0,Adapted baseline: name word counts per part,0.6709844559585492
+9,1,Adapted baseline: name word counts per part,0.6970443349753694
+9,2,Adapted baseline: name word counts per part,0.6784037558685446
+9,3,Adapted baseline: name word counts per part,0.7113402061855669
+9,4,Adapted baseline: name word counts per part,0.6741293532338308
+9,0,"Adapted, supplier's name only (the version used on the BOMs)",0.660621761658031
+9,1,"Adapted, supplier's name only (the version used on the BOMs)",0.6699507389162562
+9,2,"Adapted, supplier's name only (the version used on the BOMs)",0.6314553990610329
+9,3,"Adapted, supplier's name only (the version used on the BOMs)",0.6778350515463918
+9,4,"Adapted, supplier's name only (the version used on the BOMs)",0.6318407960199005
+9,0,"Check: kind of part only, no names",0.4637305699481865
+9,1,"Check: kind of part only, no names",0.49261083743842365
+9,2,"Check: kind of part only, no names",0.4859154929577465
+9,3,"Check: kind of part only, no names",0.4948453608247423
+9,4,"Check: kind of part only, no names",0.48009950248756217

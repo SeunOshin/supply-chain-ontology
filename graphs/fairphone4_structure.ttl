@@ -1,0 +1,1396 @@
+@prefix bfo: <http://purl.obolibrary.org/obo/> .
+@prefix data: <https://example.org/dissertation/fairphone4/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iof: <https://spec.industrialontologies.org/ontology/construct/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+data:battery_category_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_amperex_technology,
+        data:sup_kayo_battery_co_ltd ;
+    iof:classifiedBy data:battery_category .
+
+data:bom a iof:DesignSpecification ;
+    rdfs:label "Fairphone 4 enriched public-document BOM reconstruction" ;
+    dcterms:hasVersion "public-enriched-0.2" ;
+    rdfs:comment "Bounded Fairphone 4 public-document reconstruction, enriched from two retained Fairphone documents. Structure: the 13 items of the earlier public reconstruction plus 3 key components from the 2022 repairer key-component table. Suppliers: 75 organisations; 7 item-level associations (final assembly and six key components) and 74 category-level associations across 12 supplier categories from the November 2021 supplier list, with 74 reported sites. Not a complete or certified production BOM; exact revision, quantities and buyers are not established. Supplier links are historical (2021-2022), not current contracts, exclusive sources or buyer relationships. Organisations are not merged across documents except where stated in a link's note. Smelters and refiners (Annex 2) are not included. Item-to-category classifications: 11, all researcher-derived (3 carried from the earlier public reconstruction and 8 added in v0.2 after review); a classification says the item is the kind of component a supplier group produced, not that any listed supplier made it. Every statement carries a status in the assertion audit." ;
+    prov:wasAttributedTo data:researcher ;
+    iof:prescribes data:product .
+
+data:cat_cameras_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_triple_win_technology_jin_cheng_co_ltd ;
+    iof:classifiedBy data:cat_cameras .
+
+data:cat_connectors_clips_spring_contacts_cables_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_hirose_electric_co_ltd,
+        data:sup_hirose_korea_co_ltd,
+        data:sup_yuliang ;
+    iof:classifiedBy data:cat_connectors_clips_spring_contacts_cables .
+
+data:cat_electromechanical_mems_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_aac_technology_nanning_co_ltd,
+        data:sup_baolong_electronic_group_co_ltd,
+        data:sup_obo_pro_2_inc,
+        data:sup_shunqi_electronic_technology_co_ltd,
+        data:sup_taiwan_semiconductor_manufacturing_tsmc,
+        data:sup_tianjia ;
+    iof:classifiedBy data:cat_electromechanical_mems .
+
+data:cat_flexible_printed_circuits_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_hong_neng ;
+    iof:classifiedBy data:cat_flexible_printed_circuits .
+
+data:cat_packaging_labels_adhesive_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_dongguan_city_chuangyi_paper_co_ltd,
+        data:sup_guangdong_ideal_color_printing_co_ltd,
+        data:sup_guangdong_jiaya_enterprise_co_ltd,
+        data:sup_guangzhou_huitian_new_material_co_ltd,
+        data:sup_hui_zhou_dongoing_sheng_paper_co_ltd,
+        data:sup_huizhou_hairunxin_new_material_technology_co_ltd,
+        data:sup_huizhou_haopin_technology_co_ltd,
+        data:sup_new_litop,
+        data:sup_nystein,
+        data:sup_shenzhen_guoxin_trade_co_ltd,
+        data:sup_shenzhen_hatcher_supply_chain_co_ltd ;
+    iof:classifiedBy data:cat_packaging_labels_adhesive .
+
+data:cat_passives_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_beijing_yandong_microelectronic_co_ltd,
+        data:sup_eyang_technology_development_co_ltd,
+        data:sup_guangdong_fenghua_advanced_technology_holding_co_ltd,
+        data:sup_murata_manufacturing_co_ltd,
+        data:sup_ouchi_factory,
+        data:sup_pt_kds_indonesia,
+        data:sup_shenzhen_microgate_technology_co_ltd,
+        data:sup_shenzhen_sunlord_electronics_co_ltd,
+        data:sup_taiyo_yuden_guangdong_co_ltd,
+        data:sup_tfmf,
+        data:sup_tianjin_samsung_electro_mechanics_co_ltd,
+        data:sup_tianjin_wisol_electronics_co_ltd,
+        data:sup_viiyong_hi_tech,
+        data:sup_wakayama_taiyo_yuden_co_ltd,
+        data:sup_walsin_technology_corp ;
+    iof:classifiedBy data:cat_passives .
+
+data:cat_plastics_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_allfine_optics_technology,
+        data:sup_bao_li_jia_plastic_sz_co_ltd,
+        data:sup_celanese_nanjing_chemical_co_ltd,
+        data:sup_covestro,
+        data:sup_mikolta,
+        data:sup_mocom,
+        data:sup_sabic ;
+    iof:classifiedBy data:cat_plastics .
+
+data:cat_shields_metal_parts_screws_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_dongguan_chengguang_metal_products_co_ltd,
+        data:sup_dongguan_qiaofu_hardware_accessories_co_ltd,
+        data:sup_gongchuang,
+        data:sup_jits_communication_co_ltd,
+        data:sup_kam_kiu_aluminum_extrusion_co_ltd,
+        data:sup_kechuang_copper_co_ltd,
+        data:sup_linkconn,
+        data:sup_shenzhen_fengxiang_precision_metal_co_ltd,
+        data:sup_shenzhen_xinkexin_industrial_material_co_ltd,
+        data:sup_xiangjian_precision_industry_szco_ltd,
+        data:sup_yongjin_metal_technology_co_ltd ;
+    iof:classifiedBy data:cat_shields_metal_parts_screws .
+
+data:cat_soldering_paste_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_macdermid_alpha_electronics_solutions ;
+    iof:classifiedBy data:cat_soldering_paste .
+
+data:display_category_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_corning,
+        data:sup_djn ;
+    iof:classifiedBy data:display_category .
+
+data:link_item_battery_kayo_battery_co_ltd a iof:SupplyRelationship ;
+    rdfs:label "Historical FP4 item association: KAYO BATTERY CO.,LTD -> battery" ;
+    rdfs:comment "Vendor 'Kayo' for battery model F4AC1 in the repairer table, joined to 'KAYO BATTERY CO.,LTD' (Battery, 2021 list, p36) by name; cross-document derivation. Item-level historical association (2022 document); not a current contract, exclusive source or buyer relationship." ;
+    prov:wasAttributedTo data:researcher ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36>,
+        <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=6> ;
+    iof:dependsOnProduct data:battery ;
+    iof:dependsOnSupplier data:sup_kayo_battery_co_ltd .
+
+data:link_item_camera_connector_bm24_tohoku_hirose_electric_co a iof:SupplyRelationship ;
+    rdfs:label "Historical FP4 item association: Tohoku Hirose Electric Co. -> camera_connector_bm24" ;
+    rdfs:comment "Vendor as published in the repairer table. Item-level historical association (2022 document); not a current contract, exclusive source or buyer relationship." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=6> ;
+    iof:dependsOnProduct data:camera_connector_bm24 ;
+    iof:dependsOnSupplier data:sup_tohoku_hirose_electric_co .
+
+data:link_item_chipset_qualcomm_technologies_inc a iof:SupplyRelationship ;
+    rdfs:label "Historical FP4 item association: Qualcomm Technologies,Inc -> chipset" ;
+    rdfs:comment "Vendor 'Qualcomm' for SM7225 in the repairer table, joined to 'Qualcomm Technologies,Inc' (2021 list, p32) as in the chipset evidence BOM; cross-document derivation, exact procurement counterparty not established. Item-level historical association (2022 document); not a current contract, exclusive source or buyer relationship." ;
+    prov:wasAttributedTo data:researcher ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32>,
+        <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=6> ;
+    iof:dependsOnProduct data:chipset ;
+    iof:dependsOnSupplier data:sup_qualcomm_technologies_inc .
+
+data:link_item_display_module_9a3r063_djn a iof:SupplyRelationship ;
+    rdfs:label "Historical FP4 item association: DJN -> display_module_9a3r063" ;
+    rdfs:comment "Vendor 'DJN' for display model 9A-3R063-11 02B in the repairer table; same name as the 2021 list's display supplier (p36). Item-level historical association (2022 document); not a current contract, exclusive source or buyer relationship." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36>,
+        <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=6> ;
+    iof:dependsOnProduct data:display_module_9a3r063 ;
+    iof:dependsOnSupplier data:sup_djn .
+
+data:link_item_microphone_aac a iof:SupplyRelationship ;
+    rdfs:label "Historical FP4 item association: AAC -> microphone" ;
+    rdfs:comment "Vendor as published in the repairer table for part SM0103B-RIS421-M02, the part number of this record. Item-level historical association (2022 document); not a current contract, exclusive source or buyer relationship." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=7> ;
+    iof:dependsOnProduct data:microphone ;
+    iof:dependsOnSupplier data:sup_aac .
+
+data:link_item_product_huizhou_tcl_mobile_communication_co_ltd a iof:SupplyRelationship ;
+    rdfs:label "Historical FP4 association: Huizhou TCL Mobile Communication Co., Ltd. -> Phone Assembly - Fairphone 4" ;
+    rdfs:comment "Tier 1 phone assembly for Fairphone 4 as listed in November 2021 (website listed: www.tclcomm.com). Final assembly of the product; historical association, not a current contract." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=31> ;
+    iof:dependsOnProduct data:product ;
+    iof:dependsOnSupplier data:sup_huizhou_tcl_mobile_communication_co_ltd .
+
+data:link_item_speaker_sls1115d_aac a iof:SupplyRelationship ;
+    rdfs:label "Historical FP4 item association: AAC -> speaker_sls1115d" ;
+    rdfs:comment "Vendor as published in the repairer table. Item-level historical association (2022 document); not a current contract, exclusive source or buyer relationship." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=6> ;
+    iof:dependsOnProduct data:speaker_sls1115d ;
+    iof:dependsOnSupplier data:sup_aac .
+
+data:semiconductors_suppliers a iof:GroupOfSuppliers ;
+    bfo:BFO_0000115 data:sup_glofonde_semiconductor_co_ltd,
+        data:sup_jcet_group_co_ltd,
+        data:sup_moda_innochips,
+        data:sup_qualcomm_technologies_inc,
+        data:sup_rf360,
+        data:sup_samsung_electronics,
+        data:sup_shanghai_huahong_hongli_semiconductor_manufacturing_co_ltd,
+        data:sup_shanghai_weier_semiconductor_co_ltd,
+        data:sup_suzhou_asen_semiconductors_co_ltd,
+        data:sup_taiwan_semiconductor_manufacturing_co_ltd,
+        data:sup_taiwan_semiconductor_manufacturing_tsmc,
+        data:sup_tianjin_samsung_electro_mechanics_co_ltd,
+        data:sup_tsmc_china_co_ltd,
+        data:sup_unisem ;
+    iof:classifiedBy data:semiconductors .
+
+data:back_cover a iof:MaterialComponent ;
+    rdfs:label "Back cover / battery cover" ;
+    rdfs:comment "Selected physical item in the overview; ontology record, not a physical object. Quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=11> ;
+    iof:classifiedBy data:cat_plastics ;
+    iof:isMadeOfAtSomeTime data:polycarbonate .
+
+data:cat_flexible_printed_circuits a iof:Classifier ;
+    rdfs:label "Flexible Printed Circuits" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:cat_packaging_labels_adhesive a iof:Classifier ;
+    rdfs:label "Packaging, Labels, Adhesive" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:cat_passives a iof:Classifier ;
+    rdfs:label "Passives" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:cat_soldering_paste a iof:Classifier ;
+    rdfs:label "Soldering Paste" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:country_ID a iof:GeospatialSite ;
+    rdfs:label "ID" ;
+    iof:designatedBy data:country_code_ID .
+
+data:country_SA a iof:GeospatialSite ;
+    rdfs:label "SA" ;
+    iof:designatedBy data:country_code_SA .
+
+data:country_SG a iof:GeospatialSite ;
+    rdfs:label "SG" ;
+    iof:designatedBy data:country_code_SG .
+
+data:country_code_CN a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "CN" .
+
+data:country_code_DE a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "DE" .
+
+data:country_code_ID a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "ID" .
+
+data:country_code_JP a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "JP" .
+
+data:country_code_KR a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "KR" .
+
+data:country_code_SA a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "SA" .
+
+data:country_code_SG a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "SG" .
+
+data:country_code_TW a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "TW" .
+
+data:country_code_US a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "US" .
+
+data:display a iof:Assembly ;
+    rdfs:label "Display assembly" ;
+    rdfs:comment "Selected physical item in the overview; ontology record, not a physical object. Quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=11> ;
+    iof:classifiedBy data:display_category .
+
+data:earpiece a iof:MaterialComponent ;
+    rdfs:label "Earpiece" ;
+    rdfs:comment "Selected physical item in the overview; ontology record, not a physical object. Quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=11> ;
+    iof:classifiedBy data:cat_electromechanical_mems .
+
+data:line_chipset_quantity a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue "1.0 each" .
+
+data:line_microphone_quantity a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue "3.0 each" .
+
+data:loudspeaker a iof:Assembly ;
+    rdfs:label "Loudspeaker assembly" ;
+    rdfs:comment "Selected physical item in the overview; ontology record, not a physical object. Quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=11> ;
+    iof:classifiedBy data:cat_electromechanical_mems .
+
+data:mid_frame a iof:MaterialComponent ;
+    rdfs:label "Mid frame" ;
+    rdfs:comment "Selected physical item in the overview; ontology record, not a physical object. Quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=11> ;
+    iof:classifiedBy data:cat_plastics,
+        data:cat_shields_metal_parts_screws .
+
+data:pcba a iof:Assembly ;
+    rdfs:label "Populated main printed circuit board assembly (PCBA)" ;
+    rdfs:comment "Selected physical item in the overview; ontology record, not a physical object. Quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=11> ;
+    iof:hasComponentPartAtSomeTime data:chipset,
+        data:microphone .
+
+data:polycarbonate a iof:RawMaterial ;
+    rdfs:label "Polycarbonate (PC)" ;
+    rdfs:comment "Back-cover material association only; no mass, recycled share or material origin asserted." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=81> .
+
+data:rear_cameras a iof:Assembly ;
+    rdfs:label "Rear cameras assembly" ;
+    rdfs:comment "Selected physical item in the overview; ontology record, not a physical object. Quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=11> ;
+    iof:classifiedBy data:cat_cameras .
+
+data:selfie_camera a iof:MaterialComponent ;
+    rdfs:label "Selfie camera" ;
+    rdfs:comment "Selected physical item in the overview; ontology record, not a physical object. Quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=11> ;
+    iof:classifiedBy data:cat_cameras .
+
+data:site_aac_technology_nanning_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Shenguan collagen think tank 3# factory, 9# factory, 13# factory, No.13, Guokai Avenue East, Jiangnan District, Nanning, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:site_allfine_optics_technology_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Building#3,1552# road,Gangxia, Chang An town,Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:site_amperex_technology_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "1 West Industrial Road, Songshan Lake Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:site_bao_li_jia_plastic_sz_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "A-28 Block, Fu Chengao Industrial, PingHu Community, LongGang District, Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:site_baolong_electronic_group_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.388, Ningkang East Road, Wenzhou, Zhejiang, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:site_beijing_yandong_microelectronic_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.2 Wanhong West Street, Xibajianfang, DongZhiMenWai, ChaoYang District, BeiJing, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_celanese_nanjing_chemical_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No. 66, Fangshui West Road, Jiangbei new material science and Technology Park, Nanjing, Jiangsu, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:site_corning_1 a iof:GeospatialLocation ;
+    rdfs:label "One Riverfront Plaza Corning, New York 14831, USA" ;
+    bfo:BFO_0000171 data:country_US ;
+    rdfs:comment "Address reported in November 2021 as headquarters; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:site_covestro_1 a iof:GeospatialLocation ;
+    rdfs:label "Leverkusen Kaiser- Wilhelm-Allee 60 51373 Leverkusen, Germany" ;
+    bfo:BFO_0000171 data:country_DE ;
+    rdfs:comment "Address reported in November 2021 as headquarters; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:site_djn_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Baotang Road, Pengjiang District, Jiangmen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:site_dongguan_chengguang_metal_products_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Xin Tang Industrial Park, Houjie Town, Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_dongguan_city_chuangyi_paper_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Room 905, No. 25, Shangyang Road, Chang'an Town, Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_dongguan_qiaofu_hardware_accessories_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "101, building 1, No. 8, 2nd Lane, Shatian Environmental Protection Middle Road, Shatian Town, Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_eyang_technology_development_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "EYANG High-Tech Garden, YongSheng Road, FengGangTown, DongGuan, GuangDong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_glofonde_semiconductor_co_ltd_1 a iof:GeospatialLocation ;
+    rdfs:label "15 / F, Block B, China Railway Nord International Center, 908 Xiuwen Road, Minhang District, Shanghai, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as headquarters; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_gongchuang_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Suzhou , Jiangsu, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_guangdong_fenghua_advanced_technology_holding_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.19, Fenghua Road, Zhaoqing, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_guangdong_ideal_color_printing_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Longling Industrial, Heyuan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_guangdong_jiaya_enterprise_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "3rd Road No.26, Zhongkai High-tech Zone, Huizhou, Guangdong 516006, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_guangzhou_huitian_new_material_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.6 Qibei Road, Huagang Avenue, XinHua Town, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_hirose_electric_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No. 87, Ōkawara, Kōriyama, Fukushima, Japan" ;
+    bfo:BFO_0000171 data:country_JP ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=35> .
+
+data:site_hirose_korea_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.143, Gongdan1daero, Siheung-si, Gyeonggi-do, Korea" ;
+    bfo:BFO_0000171 data:country_KR ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=35> .
+
+data:site_hong_neng_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "ChuangYe road, Baoan district, Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:site_hui_zhou_dongoing_sheng_paper_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Building 6, Hujing Industrial Zone, Huicheng District, Huizhou, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_huizhou_hairunxin_new_material_technology_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Workshop No.1, Huifeng East Road 1, Community No.53, Huitai Industrial Park, Huicheng District, Huizhou, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_huizhou_haopin_technology_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Floor 3, Building A, Linhai Industrial Park, Shuikou Avenue, Huicheng District, Huizhou, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_huizhou_tcl_mobile_communication_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.86, Hechang 7th West Road, Zhongkai Hi-tech Development District, Huizhou, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=31> .
+
+data:site_jcet_group_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "275 Middle Binjiang Road, Jiangyin, Jiangsu, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_jits_communication_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Building 7, No.391, Shatian section, Gangkou Avenue, Shatian Town, Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_kam_kiu_aluminum_extrusion_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Dajiang County, Taishan City, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_kayo_battery_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "ShaJingTou ten Lane, Matigang Village, DaLingShan Town ,DongGuan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:site_kechuang_copper_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "3/F, building No.109, Shigu Industrial Avenue, Tangxia, Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_linkconn_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_macdermid_alpha_electronics_solutions_1 a iof:GeospatialLocation ;
+    rdfs:label "245 Freight Street Waterbury, CT 06702, United States" ;
+    bfo:BFO_0000171 data:country_US ;
+    rdfs:comment "Address reported in November 2021 as headquarters; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:site_mikolta_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "18 Bihu Road, Songbailang Industrial Zone, Dalang, Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:site_mocom_1 a iof:GeospatialLocation ;
+    rdfs:label "Mühlenhagen 35, DE - 20539 Hamburg, Germany" ;
+    bfo:BFO_0000171 data:country_DE ;
+    rdfs:comment "Address reported in November 2021 as headquarters; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:site_moda_innochips_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "42-7, Dongsan-Ro 27 Beon-Gil Wonsi-dong Danwon-Gu, Korea" ;
+    bfo:BFO_0000171 data:country_KR ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_murata_manufacturing_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.6, Xingchuang Road 1, Zone B, Wuxi Export Processing Zone, Wuxi, Jiangsu, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_new_litop_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "A46 Floor, Fuchengao Area ,Pinghu Street, Longgang, Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_nystein_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Nystein Building, Yizhong Industry Park, Jinshadun, Dalang Town, Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_obo_pro_2_inc_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.15, Dianchang Road, Bixi Dist, Changshu, Jiangsu, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:site_ouchi_factory_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "146-1, Haraigawa, Ouchisankawa, Yurihonjo-Shi, Akita 018-0731, Japan" ;
+    bfo:BFO_0000171 data:country_JP ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_pt_kds_indonesia_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Blok O-20, O-21 Kawasan Berikat MM2100 Industrial Town Cikarang Barat, Bekasi 17520 Jawa Barat, Indonesia" ;
+    bfo:BFO_0000171 data:country_ID ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_qualcomm_technologies_inc_1 a iof:GeospatialLocation ;
+    rdfs:label "5775 Morehouse Dr.San Diego CA 92121, United States" ;
+    bfo:BFO_0000171 data:country_US ;
+    rdfs:comment "Address reported in November 2021 as headquarters; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_rf360_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "166 Kallang Way, Singapore" ;
+    bfo:BFO_0000171 data:country_SG ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_sabic_1 a iof:GeospatialLocation ;
+    rdfs:label "PO Box 5101, Riyadh 11422, Saudi Arabia" ;
+    bfo:BFO_0000171 data:country_SA ;
+    rdfs:comment "Address reported in November 2021 as headquarters; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:site_samsung_electronics_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "1, Samsung jeonja-ro, hwaseong-si, Gyeonggi-do 445-330, Korea" ;
+    bfo:BFO_0000171 data:country_KR ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_shanghai_huahong_hongli_semiconductor_manufacturing_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "China (Shanghai) Pilot Free Trade Zone, Pudong, Shanghai, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_shanghai_weier_semiconductor_co_ltd_1 a iof:GeospatialLocation ;
+    rdfs:label "2F, No.88, ShangKe Road, Pudong District, Shanghai 201210, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as headquarters; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_shenzhen_fengxiang_precision_metal_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "101, building 19, No.156, Yanluo Road, Yanchuan Community, Yanluo street, Bao'an District, Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_shenzhen_guoxin_trade_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Room 605, Building 425, Bagua 4th Road, Futian District, Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_shenzhen_hatcher_supply_chain_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Room 1302, B Unit of ABCD, No. 3 Building, Phase 1, Tian An Cloud Park, Gangtou Community, Bantian Sub-district, Longgang District,Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:site_shenzhen_microgate_technology_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Building, No.5, Longtian Science Park, 6075 Pingshan Road, Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_shenzhen_sunlord_electronics_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Sunlord Industrial Park, Dafuyuan, Guanlan Town, Longhua District, Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_shenzhen_xinkexin_industrial_material_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Room 1009, No.34, Shangzao village, Gaofeng Community, Dalang street, Bao'an District, Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_shunqi_electronic_technology_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "2nd floor, building 127, Shifeng Science and Technology Park, Mashantou seventh industrial zone, Guangming New District, Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:site_suzhou_asen_semiconductors_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "188 Suhong Middle Road, Suzhou, Jiangsu, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_taiwan_semiconductor_manufacturing_co_ltd_1 a iof:GeospatialLocation ;
+    rdfs:label "8, Li-Hsin Rd. 6, Hsinchu Science Park, Hsinchu 300-78, Taiwan, R.O.C." ;
+    bfo:BFO_0000171 data:country_TW ;
+    rdfs:comment "Address reported in November 2021 as headquarters; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_taiwan_semiconductor_manufacturing_tsmc_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "9, Ctreation Road, Hsinchu Science Park, Hsinchu, 30077, Taiwan" ;
+    bfo:BFO_0000171 data:country_TW ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_taiwan_semiconductor_manufacturing_tsmc_2 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "9, Ctreation Rd. 1, Hsinchu Science Park, Hsinchu, 30077, Taiwan" ;
+    bfo:BFO_0000171 data:country_TW ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:site_taiyo_yuden_guangdong_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.13 Keji Dong Road, Shi Jie Town, Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_tfmf_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "288 Chongchuan Road, Nantong, Jiangsu, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_tianjia_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "171 Yu Yin Road, YaoBei village, Hong Qiao, Yue Qing, ZheJiang, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:site_tianjin_samsung_electro_mechanics_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.80 Xiaqing Road, Western Area of Economic- Technological Development Area, Tianjin, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_tianjin_wisol_electronics_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "D1-1/3,D2-2 International Industrial City XEDA, Tianjin, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_triple_win_technology_jin_cheng_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.1216 Lanhua Road Economic&Technology, JinCheng, ShanXi, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:site_tsmc_china_co_ltd_1 a iof:GeospatialLocation ;
+    rdfs:label "4000 Wen Xiang Road, Songjiang, Shanghai, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as headquarters; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_unisem_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No. 8-2 Kexin Road, High-Tech West Zone, Chengdu, Sichuan, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:site_viiyong_hi_tech_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "No.1, Chuangye 2nd Road, Shuangdong Sub-district, Luoding, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_wakayama_taiyo_yuden_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "4026-22, Inanbara, Inami-cho, Hidaka-gun, Wakayama 649-1532, Japan" ;
+    bfo:BFO_0000171 data:country_JP ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_walsin_technology_corp_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "7F, No. 28, North 1st Road, K.E.P.Z Kaohsiung, 80681, Taiwan" ;
+    bfo:BFO_0000171 data:country_TW ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:site_xiangjian_precision_industry_szco_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Building 42, Datian Yangxifang Industrial Zone, Dongfang community, Songgang street, Bao'an District, Shenzhen, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_yongjin_metal_technology_co_ltd_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "99 Chuangye Avenue, Lanxi Economic Development Zone, Zhejiang, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:site_yuliang_1 a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Shabu Second Industrial Zone, Dalang Town, Dongguan, Guangdong, China" ;
+    bfo:BFO_0000171 data:country_CN ;
+    rdfs:comment "Address reported in November 2021 as manufacturing; text as published; not verified as current." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=35> .
+
+data:sup_aac_technology_nanning_co_ltd a iof:Supplier ;
+    rdfs:label "AAC Technology (Nanning) Co., Ltd." ;
+    bfo:BFO_0000171 data:site_aac_technology_nanning_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:sup_allfine_optics_technology a iof:Supplier ;
+    rdfs:label "Allfine Optics Technology" ;
+    bfo:BFO_0000171 data:site_allfine_optics_technology_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:sup_amperex_technology a iof:Supplier ;
+    rdfs:label "Amperex Technology" ;
+    bfo:BFO_0000171 data:site_amperex_technology_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:sup_bao_li_jia_plastic_sz_co_ltd a iof:Supplier ;
+    rdfs:label "Bao li Jia Plastic (SZ)Co,.Ltd" ;
+    bfo:BFO_0000171 data:site_bao_li_jia_plastic_sz_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:sup_baolong_electronic_group_co_ltd a iof:Supplier ;
+    rdfs:label "Baolong Electronic Group Co.,Ltd." ;
+    bfo:BFO_0000171 data:site_baolong_electronic_group_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:sup_beijing_yandong_microelectronic_co_ltd a iof:Supplier ;
+    rdfs:label "BeiJing Yandong Microelectronic Co.,Ltd" ;
+    bfo:BFO_0000171 data:site_beijing_yandong_microelectronic_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_celanese_nanjing_chemical_co_ltd a iof:Supplier ;
+    rdfs:label "Celanese(Nanjing)Chemical Co.,Ltd." ;
+    bfo:BFO_0000171 data:site_celanese_nanjing_chemical_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:sup_corning a iof:Supplier ;
+    rdfs:label "Corning" ;
+    bfo:BFO_0000171 data:site_corning_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:sup_covestro a iof:Supplier ;
+    rdfs:label "Covestro" ;
+    bfo:BFO_0000171 data:site_covestro_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:sup_dongguan_chengguang_metal_products_co_ltd a iof:Supplier ;
+    rdfs:label "Dongguan Chengguang Metal Products Co.,Ltd" ;
+    bfo:BFO_0000171 data:site_dongguan_chengguang_metal_products_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_dongguan_city_chuangyi_paper_co_ltd a iof:Supplier ;
+    rdfs:label "Dongguan City Chuangyi Paper Co., Ltd." ;
+    bfo:BFO_0000171 data:site_dongguan_city_chuangyi_paper_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_dongguan_qiaofu_hardware_accessories_co_ltd a iof:Supplier ;
+    rdfs:label "Dongguan Qiaofu Hardware Accessories Co., Ltd" ;
+    bfo:BFO_0000171 data:site_dongguan_qiaofu_hardware_accessories_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_eyang_technology_development_co_ltd a iof:Supplier ;
+    rdfs:label "Eyang Technology Development CO.,LTD." ;
+    bfo:BFO_0000171 data:site_eyang_technology_development_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_glofonde_semiconductor_co_ltd a iof:Supplier ;
+    rdfs:label "Glofonde Semiconductor Co., LTD" ;
+    bfo:BFO_0000171 data:site_glofonde_semiconductor_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_gongchuang a iof:Supplier ;
+    rdfs:label "Gongchuang" ;
+    bfo:BFO_0000171 data:site_gongchuang_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_guangdong_fenghua_advanced_technology_holding_co_ltd a iof:Supplier ;
+    rdfs:label "Guangdong Fenghua Advanced Technology Holding CO.,LTD" ;
+    bfo:BFO_0000171 data:site_guangdong_fenghua_advanced_technology_holding_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_guangdong_ideal_color_printing_co_ltd a iof:Supplier ;
+    rdfs:label "Guangdong Ideal Color Printing CO.,LTD" ;
+    bfo:BFO_0000171 data:site_guangdong_ideal_color_printing_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_guangdong_jiaya_enterprise_co_ltd a iof:Supplier ;
+    rdfs:label "Guangdong Jiaya Enterprise Co., Ltd" ;
+    bfo:BFO_0000171 data:site_guangdong_jiaya_enterprise_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_guangzhou_huitian_new_material_co_ltd a iof:Supplier ;
+    rdfs:label "Guangzhou Huitian New Material Co.,Ltd" ;
+    bfo:BFO_0000171 data:site_guangzhou_huitian_new_material_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_hirose_electric_co_ltd a iof:Supplier ;
+    rdfs:label "HIROSE ELECTRIC CO LTD" ;
+    bfo:BFO_0000171 data:site_hirose_electric_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=35> .
+
+data:sup_hirose_korea_co_ltd a iof:Supplier ;
+    rdfs:label "HIROSE KOREA CO LTD" ;
+    bfo:BFO_0000171 data:site_hirose_korea_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=35> .
+
+data:sup_hong_neng a iof:Supplier ;
+    rdfs:label "Hong Neng" ;
+    bfo:BFO_0000171 data:site_hong_neng_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:sup_hui_zhou_dongoing_sheng_paper_co_ltd a iof:Supplier ;
+    rdfs:label "Hui Zhou Dongoing Sheng Paper Co.,Ltd" ;
+    bfo:BFO_0000171 data:site_hui_zhou_dongoing_sheng_paper_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_huizhou_hairunxin_new_material_technology_co_ltd a iof:Supplier ;
+    rdfs:label "Huizhou Hairunxin New Material Technology CO.,LTD" ;
+    bfo:BFO_0000171 data:site_huizhou_hairunxin_new_material_technology_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_huizhou_haopin_technology_co_ltd a iof:Supplier ;
+    rdfs:label "Huizhou Haopin Technology Co., LTD" ;
+    bfo:BFO_0000171 data:site_huizhou_haopin_technology_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_jcet_group_co_ltd a iof:Supplier ;
+    rdfs:label "JCET Group Co., Ltd." ;
+    bfo:BFO_0000171 data:site_jcet_group_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_jits_communication_co_ltd a iof:Supplier ;
+    rdfs:label "JITS Communication CO., Ltd" ;
+    bfo:BFO_0000171 data:site_jits_communication_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_kam_kiu_aluminum_extrusion_co_ltd a iof:Supplier ;
+    rdfs:label "Kam Kiu Aluminum Extrusion Co., Ltd" ;
+    bfo:BFO_0000171 data:site_kam_kiu_aluminum_extrusion_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_kechuang_copper_co_ltd a iof:Supplier ;
+    rdfs:label "Kechuang copper co.,Ltd" ;
+    bfo:BFO_0000171 data:site_kechuang_copper_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_linkconn a iof:Supplier ;
+    rdfs:label "Linkconn" ;
+    bfo:BFO_0000171 data:site_linkconn_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_macdermid_alpha_electronics_solutions a iof:Supplier ;
+    rdfs:label "MacDermid Alpha Electronics Solutions" ;
+    bfo:BFO_0000171 data:site_macdermid_alpha_electronics_solutions_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:sup_mikolta a iof:Supplier ;
+    rdfs:label "Mikolta" ;
+    bfo:BFO_0000171 data:site_mikolta_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:sup_mocom a iof:Supplier ;
+    rdfs:label "Mocom" ;
+    bfo:BFO_0000171 data:site_mocom_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:sup_moda_innochips a iof:Supplier ;
+    rdfs:label "Moda-Innochips" ;
+    bfo:BFO_0000171 data:site_moda_innochips_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_murata_manufacturing_co_ltd a iof:Supplier ;
+    rdfs:label "Murata Manufacturing Co., Ltd." ;
+    bfo:BFO_0000171 data:site_murata_manufacturing_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_new_litop a iof:Supplier ;
+    rdfs:label "New Litop" ;
+    bfo:BFO_0000171 data:site_new_litop_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_nystein a iof:Supplier ;
+    rdfs:label "NYSTEIN" ;
+    bfo:BFO_0000171 data:site_nystein_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_obo_pro_2_inc a iof:Supplier ;
+    rdfs:label "OBO Pro.2 Inc." ;
+    bfo:BFO_0000171 data:site_obo_pro_2_inc_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:sup_ouchi_factory a iof:Supplier ;
+    rdfs:label "Ouchi Factory" ;
+    bfo:BFO_0000171 data:site_ouchi_factory_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_pt_kds_indonesia a iof:Supplier ;
+    rdfs:label "PT.KDS INDONESIA" ;
+    bfo:BFO_0000171 data:site_pt_kds_indonesia_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_rf360 a iof:Supplier ;
+    rdfs:label "RF360" ;
+    bfo:BFO_0000171 data:site_rf360_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_sabic a iof:Supplier ;
+    rdfs:label "Sabic" ;
+    bfo:BFO_0000171 data:site_sabic_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:sup_samsung_electronics a iof:Supplier ;
+    rdfs:label "Samsung Electronics" ;
+    bfo:BFO_0000171 data:site_samsung_electronics_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_shanghai_huahong_hongli_semiconductor_manufacturing_co_ltd a iof:Supplier ;
+    rdfs:label "Shanghai Huahong Hongli Semiconductor Manufacturing Co., LTD" ;
+    bfo:BFO_0000171 data:site_shanghai_huahong_hongli_semiconductor_manufacturing_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_shanghai_weier_semiconductor_co_ltd a iof:Supplier ;
+    rdfs:label "Shanghai Weier Semiconductor Co. , Ltd." ;
+    bfo:BFO_0000171 data:site_shanghai_weier_semiconductor_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_shenzhen_fengxiang_precision_metal_co_ltd a iof:Supplier ;
+    rdfs:label "Shenzhen Fengxiang Precision Metal Co., Ltd" ;
+    bfo:BFO_0000171 data:site_shenzhen_fengxiang_precision_metal_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_shenzhen_guoxin_trade_co_ltd a iof:Supplier ;
+    rdfs:label "ShenZhen Guoxin Trade Co., Ltd." ;
+    bfo:BFO_0000171 data:site_shenzhen_guoxin_trade_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_shenzhen_hatcher_supply_chain_co_ltd a iof:Supplier ;
+    rdfs:label "Shenzhen Hatcher Supply Chain Co., Ltd." ;
+    bfo:BFO_0000171 data:site_shenzhen_hatcher_supply_chain_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=39> .
+
+data:sup_shenzhen_microgate_technology_co_ltd a iof:Supplier ;
+    rdfs:label "Shenzhen Microgate Technology CO.,LTD" ;
+    bfo:BFO_0000171 data:site_shenzhen_microgate_technology_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_shenzhen_sunlord_electronics_co_ltd a iof:Supplier ;
+    rdfs:label "Shenzhen Sunlord Electronics Co., Ltd." ;
+    bfo:BFO_0000171 data:site_shenzhen_sunlord_electronics_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_shenzhen_xinkexin_industrial_material_co_ltd a iof:Supplier ;
+    rdfs:label "Shenzhen xinkexin Industrial Material Co., Ltd" ;
+    bfo:BFO_0000171 data:site_shenzhen_xinkexin_industrial_material_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_shunqi_electronic_technology_co_ltd a iof:Supplier ;
+    rdfs:label "Shunqi Electronic Technology Co. , Ltd." ;
+    bfo:BFO_0000171 data:site_shunqi_electronic_technology_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:sup_suzhou_asen_semiconductors_co_ltd a iof:Supplier ;
+    rdfs:label "Suzhou ASEN Semiconductors Co., Ltd." ;
+    bfo:BFO_0000171 data:site_suzhou_asen_semiconductors_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_taiwan_semiconductor_manufacturing_co_ltd a iof:Supplier ;
+    rdfs:label "Taiwan Semiconductor Manufacturing Co. LTD" ;
+    bfo:BFO_0000171 data:site_taiwan_semiconductor_manufacturing_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_taiyo_yuden_guangdong_co_ltd a iof:Supplier ;
+    rdfs:label "Taiyo Yuden (Guangdong) CO., LTD." ;
+    bfo:BFO_0000171 data:site_taiyo_yuden_guangdong_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_tfmf a iof:Supplier ;
+    rdfs:label "TFMF" ;
+    bfo:BFO_0000171 data:site_tfmf_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_tianjia a iof:Supplier ;
+    rdfs:label "Tianjia" ;
+    bfo:BFO_0000171 data:site_tianjia_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:sup_tianjin_wisol_electronics_co_ltd a iof:Supplier ;
+    rdfs:label "Tianjin WISOL Electronics Co.,Ltd" ;
+    bfo:BFO_0000171 data:site_tianjin_wisol_electronics_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_triple_win_technology_jin_cheng_co_ltd a iof:Supplier ;
+    rdfs:label "Triple Win Technology (Jin Cheng) Co.Ltd" ;
+    bfo:BFO_0000171 data:site_triple_win_technology_jin_cheng_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:sup_tsmc_china_co_ltd a iof:Supplier ;
+    rdfs:label "TSMC (China) Co. LTD" ;
+    bfo:BFO_0000171 data:site_tsmc_china_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_unisem a iof:Supplier ;
+    rdfs:label "Unisem" ;
+    bfo:BFO_0000171 data:site_unisem_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:sup_viiyong_hi_tech a iof:Supplier ;
+    rdfs:label "Viiyong Hi-Tech" ;
+    bfo:BFO_0000171 data:site_viiyong_hi_tech_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_wakayama_taiyo_yuden_co_ltd a iof:Supplier ;
+    rdfs:label "WAKAYAMA TAIYO YUDEN CO., LTD." ;
+    bfo:BFO_0000171 data:site_wakayama_taiyo_yuden_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_walsin_technology_corp a iof:Supplier ;
+    rdfs:label "Walsin Technology Corp" ;
+    bfo:BFO_0000171 data:site_walsin_technology_corp_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_xiangjian_precision_industry_szco_ltd a iof:Supplier ;
+    rdfs:label "Xiangjian Precision Industry(SZco.,ltd" ;
+    bfo:BFO_0000171 data:site_xiangjian_precision_industry_szco_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; one unreadable character in the published name was omitted. Inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_yongjin_metal_technology_co_ltd a iof:Supplier ;
+    rdfs:label "Yongjin Metal Technology Co.,Ltd" ;
+    bfo:BFO_0000171 data:site_yongjin_metal_technology_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:sup_yuliang a iof:Supplier ;
+    rdfs:label "Yuliang" ;
+    bfo:BFO_0000171 data:site_yuliang_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=35> .
+
+data:usb_c_port a iof:MaterialComponent ;
+    rdfs:label "USB-C port" ;
+    rdfs:comment "Selected physical item in the overview; ontology record, not a physical object. Quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=11> ;
+    iof:classifiedBy data:cat_connectors_clips_spring_contacts_cables .
+
+data:battery a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "Battery" ;
+    rdfs:comment "Selected physical item in the overview; ontology record, not a physical object. Quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=11> ;
+    iof:classifiedBy data:battery_category ;
+    iof:isSuppliedByAtSomeTime data:sup_kayo_battery_co_ltd .
+
+data:battery_category a iof:Classifier ;
+    rdfs:label "Battery" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:camera_connector_bm24 a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "BM24-30DP/2-0.35V(51) board-to-board camera connector" ;
+    rdfs:comment "Key component 'Board to Board Camera Connector' in the repairer document; part details as published (Model: BM24-30DP /2-0.35V(51)). Parent assembly not stated; quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=6> ;
+    iof:isSuppliedByAtSomeTime data:sup_tohoku_hirose_electric_co .
+
+data:cat_connectors_clips_spring_contacts_cables a iof:Classifier ;
+    rdfs:label "Connectors, Clips, Spring Contacts, Cables" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=35> .
+
+data:cat_shields_metal_parts_screws a iof:Classifier ;
+    rdfs:label "Shields, Metal Parts, Screws" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=38> .
+
+data:chipset a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "SM-7225 chipset (published PCBA sample)" ;
+    rdfs:comment "PDF p27, component table row 190; part AMA0001149CX; manufacturer part SM-7225-0-PSP837-TR-00-0-AB; placements U0501. Applies to this published board table; production revision/configuration unconfirmed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=27> ;
+    iof:classifiedBy data:semiconductors ;
+    iof:hasValueExpressionAtSomeTime data:line_chipset_quantity ;
+    iof:isSuppliedByAtSomeTime data:sup_qualcomm_technologies_inc .
+
+data:country_DE a iof:GeospatialSite ;
+    rdfs:label "DE" ;
+    iof:designatedBy data:country_code_DE .
+
+data:display_category a iof:Classifier ;
+    rdfs:label "Display, Touch Screen" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:display_module_9a3r063 a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "Display 9A-3R063-11 02B (LTPS & incell)" ;
+    rdfs:comment "Key component 'Display' in the repairer document; part details as published (Model: 9A-3R063-11 02B LTPS & incell). Parent assembly not stated; quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=6> ;
+    iof:isSuppliedByAtSomeTime data:sup_djn .
+
+data:microphone a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "SM0103B-RIS421-M02 MEMS microphone (published PCBA sample)" ;
+    rdfs:comment "PDF p29, component table row 334; part AWC2718M06CX; manufacturer part SM0103B-RIS421-M02; placements M4901,M4902,M4904. Applies to this published board table; production revision/configuration unconfirmed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=29> ;
+    iof:hasValueExpressionAtSomeTime data:line_microphone_quantity ;
+    iof:isSuppliedByAtSomeTime data:sup_aac .
+
+data:product a iof:MaterialProduct ;
+    rdfs:label "Fairphone 4 5G model family" ;
+    rdfs:comment "Multiple configurations; no exact shipping SKU or engineering revision asserted." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=3> ;
+    iof:hasComponentPartAtSomeTime data:back_cover,
+        data:battery,
+        data:camera_connector_bm24,
+        data:display,
+        data:display_module_9a3r063,
+        data:earpiece,
+        data:loudspeaker,
+        data:mid_frame,
+        data:pcba,
+        data:rear_cameras,
+        data:selfie_camera,
+        data:speaker_sls1115d,
+        data:usb_c_port ;
+    iof:isSuppliedByAtSomeTime data:sup_huizhou_tcl_mobile_communication_co_ltd .
+
+data:semiconductors a iof:Classifier ;
+    rdfs:label "Semiconductors - Integrated Circuits, Discretes, LEDs" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:speaker_sls1115d a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "SLS1115D-01 dynamic miniature speaker" ;
+    rdfs:comment "Key component 'Speaker' in the repairer document; part details as published (Dynamic). Parent assembly not stated; quantity undisclosed." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=6> ;
+    iof:isSuppliedByAtSomeTime data:sup_aac .
+
+data:sup_huizhou_tcl_mobile_communication_co_ltd a iof:Supplier ;
+    rdfs:label "Huizhou TCL Mobile Communication Co., Ltd." ;
+    bfo:BFO_0000171 data:site_huizhou_tcl_mobile_communication_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=31> .
+
+data:sup_taiwan_semiconductor_manufacturing_tsmc a iof:Supplier ;
+    rdfs:label "Taiwan Semiconductor Manufacturing (TSMC)" ;
+    bfo:BFO_0000171 data:site_taiwan_semiconductor_manufacturing_tsmc_1,
+        data:site_taiwan_semiconductor_manufacturing_tsmc_2 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32>,
+        <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:sup_tianjin_samsung_electro_mechanics_co_ltd a iof:Supplier ;
+    rdfs:label "Tianjin Samsung Electro-Mechanics co.,ltd." ;
+    bfo:BFO_0000171 data:site_tianjin_samsung_electro_mechanics_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32>,
+        <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=33> .
+
+data:sup_tohoku_hirose_electric_co a iof:Supplier ;
+    rdfs:label "Tohoku Hirose Electric Co." ;
+    rdfs:comment "Vendor named in the 2022 repairer key-component table. Not merged with the Hirose entities in the 2021 supplier list; legal entity not established." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=6> .
+
+data:cat_cameras a iof:Classifier ;
+    rdfs:label "Cameras" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:cat_electromechanical_mems a iof:Classifier ;
+    rdfs:label "Electromechanical, MEMS" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=34> .
+
+data:cat_plastics a iof:Classifier ;
+    rdfs:label "Plastics" ;
+    rdfs:comment "Source supplier grouping in the November 2021 list; not a physical BOM component or tariff classification." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=37> .
+
+data:country_JP a iof:GeospatialSite ;
+    rdfs:label "JP" ;
+    iof:designatedBy data:country_code_JP .
+
+data:country_KR a iof:GeospatialSite ;
+    rdfs:label "KR" ;
+    iof:designatedBy data:country_code_KR .
+
+data:country_US a iof:GeospatialSite ;
+    rdfs:label "US" ;
+    iof:designatedBy data:country_code_US .
+
+data:researcher a prov:Agent ;
+    rdfs:label "The researcher" .
+
+data:sup_djn a iof:Supplier ;
+    rdfs:label "DJN" ;
+    bfo:BFO_0000171 data:site_djn_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:sup_kayo_battery_co_ltd a iof:Supplier ;
+    rdfs:label "KAYO BATTERY CO.,LTD" ;
+    bfo:BFO_0000171 data:site_kayo_battery_co_ltd_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=36> .
+
+data:sup_qualcomm_technologies_inc a iof:Supplier ;
+    rdfs:label "Qualcomm Technologies,Inc" ;
+    bfo:BFO_0000171 data:site_qualcomm_technologies_inc_1 ;
+    rdfs:comment "Supplier named in the November 2021 Fairphone 4 supplier list; inclusion does not establish a direct Fairphone buying relationship, current contract or exclusivity (PDF p30)." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2021/11/Supply-Chain-Engagement-F4-2021_3rd-version.pdf#page=32> .
+
+data:country_TW a iof:GeospatialSite ;
+    rdfs:label "TW" ;
+    iof:designatedBy data:country_code_TW .
+
+data:sup_aac a iof:Supplier ;
+    rdfs:label "AAC" ;
+    rdfs:comment "Vendor named in the 2022 repairer key-component table. Not merged with any AAC entity in the 2021 supplier list; legal entity not established." ;
+    prov:wasDerivedFrom <https://www.fairphone.com/wp-content/uploads/2022/09/FP4_Information-for-repairers-and-recyclers.pdf#page=6> .
+
+data:country_CN a iof:GeospatialSite ;
+    rdfs:label "CN" ;
+    iof:designatedBy data:country_code_CN .
+

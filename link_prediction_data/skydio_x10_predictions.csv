@@ -1,0 +1,36 @@
+part,supplier_key,supplier,country,bills,score
+li_ion_battery,bst power shenzhen,Bst Power Shenzhen,CN,1,0.832
+li_ion_battery,shenzhen utility energy,Shenzhen Utility Energy Co Ltd,CN,1,0.829
+li_ion_battery,guangdong rept battero energy,Guangdong Rept Battero Energy,HK,1,0.828
+li_ion_battery,dongguan best new energy technology,Dongguan Best New Energy Technology,CN,1,0.828
+li_ion_battery,lg energy solution nanjing lt,Lg Energy Solution Nanjing Co Lt,CN,1,0.821
+camera_module,zf cv systems global,Zf Cv Systems Global Gmbh,CH,1,0.736
+camera_module,zf cv systems,Zf Cv Systems,DE,9,0.715
+camera_module,aptiv safety mobility services si,Aptiv Safety & Mobility Services Si,SG,2,0.69
+camera_module,samsung high tech electronic,Samsung High Tech Electronic Co,CN,5,0.684
+camera_module,zf cv systems hannover,Zf Cv Systems Hannover Gmbh,DE,1,0.669
+image_sensor,l k industries phils,L & K Industries Phils Inc,PH,31,0.655
+image_sensor,l and k industries phils,L And K Industries Phils Inc,PH,1,0.631
+image_sensor,l k industries philippines,L&K Industries Philippines Inc,PH,1,0.617
+image_sensor,pixon technologies,Pixon Technologies Corp,TW,2,0.514
+image_sensor,shinsei,Shinsei Co Ltd,JP,1,0.511
+thermal_camera,uni trend technology hong kong,Uni Trend Technology Hong Kong Ltd,HK,1,0.643
+thermal_camera,grand dynasty industrial,Grand Dynasty Industrial Co Ltd,TW,1,0.634
+thermal_camera,uni trend technology hong kong li,Uni Trend Technology Hong Kong Li,HK,4,0.605
+thermal_camera,es hk industrial,Es Hk Industrial Co Ltd,CN,2,0.599
+thermal_camera,dahua technology hk,Dahua Technology Hk Limited,HK,5,0.583
+brushless_motor,changzhou hetai motor and electrica,Changzhou Hetai Motor And Electrica,CN,5,0.763
+brushless_motor,nidec techno motor vietnam corporat,Nidec Techno Motor Vietnam Corporat,VN,1,0.745
+brushless_motor,minebea electronics motor zh lt,Minebea Electronics Motor Zh Co Lt,CN,1,0.732
+brushless_motor,minebea electronics motor zhuhai,Minebea Electronics Motor Zhuhai,CN,9,0.716
+brushless_motor,nanjing roytek 3x motion,Nanjing Roytek & 3X Motion,CN,19,0.696
+integrated_circuit,erdrich umformtechnik s r o,Erdrich Umformtechnik S R O,CZ,1,0.584
+integrated_circuit,onsemi,Onsemi,SG,1,0.555
+integrated_circuit,variosystems ag,Variosystems Ag,CH,1,0.55
+integrated_circuit,brevetek makine arge inovasyon,Brevetek Makine Arge Inovasyon,TR,1,0.548
+integrated_circuit,altice labs sa,Altice Labs Sa,PT,1,0.545
+wireless_module,telit wireless services,Telit Wireless Services Ltd,HK,1,0.751
+wireless_module,quectel wireless solutions,Quectel Wireless Solutions Co Ltd,CN,7,0.567
+wireless_module,telit wireless solutions hong kong,Telit Wireless Solutions Hong Kong,HK,56,0.537
+wireless_module,sercomm,Sercomm Corp,TW,1,0.53
+wireless_module,quectel iot technologies,Quectel Iot Technologies Pte Ltd,MY,4,0.512

@@ -1,0 +1,252 @@
+source_id,relevant,reason
+NEWS001,no,Share price note
+NEWS002,yes,"China import hold-up strands 600,000 chips in Hong Kong"
+NEWS003,yes,"China import hold-up strands 600,000 chips in Hong Kong"
+NEWS004,yes,"China import hold-up strands 600,000 chips in Hong Kong"
+NEWS005,no,Stock market report
+NEWS006,no,"Political scandal, not a supply disruption"
+NEWS007,no,"Corporate governance probe, no supply impact"
+NEWS008,no,Unrelated NASA contest
+NEWS009,no,Political speculation about CEO
+NEWS010,no,"Corporate governance probe, no supply impact"
+NEWS011,no,"Corporate governance probe, no supply impact"
+NEWS012,no,Opinion on voters and Big Tech
+NEWS013,no,"Corporate governance probe, no supply impact"
+NEWS014,no,"Corporate governance probe, no supply impact"
+NEWS015,no,"Corporate governance probe, no supply impact"
+NEWS016,no,US political news
+NEWS017,no,Stock market report
+NEWS018,no,"Investigation interference concerns, no supply impact"
+NEWS019,no,"CEO scandal, no supply disruption"
+NEWS020,no,CEO scandal speculation
+NEWS021,no,"CEO scandal, no supply disruption"
+NEWS022,no,Share price move
+NEWS023,no,Stock note on facility opening
+NEWS024,no,Product launch
+NEWS025,no,Product review
+NEWS026,no,Emulator software update
+NEWS027,no,Share price news
+NEWS028,no,Software patch news
+NEWS029,no,Unrelated government AI news
+NEWS030,no,Telecom business news
+NEWS031,no,Market report
+NEWS032,no,Analyst rating change
+NEWS033,no,Product preorder news
+NEWS034,no,Investment stake news
+NEWS035,no,Product feature news
+NEWS036,no,"Product launch, not a disruption event"
+NEWS037,no,Product launch
+NEWS038,no,Stock market report
+NEWS039,no,Product review
+NEWS040,no,Retail pricing news
+NEWS041,no,Retail pricing news
+NEWS042,no,Generic tech page
+NEWS043,no,"Market forecast, no disruption"
+NEWS044,no,Art exhibition
+NEWS045,no,Product concept news
+NEWS046,no,Unrelated court case
+NEWS047,no,Unrelated court case
+NEWS048,no,"Business strategy, no disruption"
+NEWS049,no,"News roundup, no disruption"
+NEWS050,no,"Market analysis, no disruption"
+NEWS051,no,"Investments and executive poaching, not a disruption"
+NEWS052,no,Product leak
+NEWS053,no,Product trend
+NEWS054,no,Software tips
+NEWS055,yes,Storage shortage driving SSD/HDD prices
+NEWS056,no,Software update
+NEWS057,no,Patent news
+NEWS058,no,"Corporate cooperation, no disruption"
+NEWS059,no,Software and pricing opinion
+NEWS060,no,Software feature rumor
+NEWS061,no,Product rumor
+NEWS062,no,Gaming news
+NEWS063,no,Entertainment opinion
+NEWS064,no,Product review
+NEWS065,no,Entertainment
+NEWS066,no,Gift guide
+NEWS067,no,Gaming news
+NEWS068,no,"Product delay, no supply disruption cause stated"
+NEWS069,no,Gaming release schedule
+NEWS070,no,Product concept
+NEWS071,no,Gaming news
+NEWS072,no,Product launch
+NEWS073,no,Product review
+NEWS074,no,Box office
+NEWS075,no,Tech speculation
+NEWS076,no,Game cancellation
+NEWS077,no,Product launch
+NEWS078,no,Gaming performance
+NEWS079,no,Entertainment opinion
+NEWS080,no,Product listing
+NEWS081,no,Gaming news
+NEWS082,no,Engine manufacturer explainer
+NEWS083,no,Thai politics
+NEWS084,no,Local temple news
+NEWS085,no,Media fund news
+NEWS086,no,Lifestyle
+NEWS087,no,Local sports
+NEWS088,no,Wildlife habitat restoration
+NEWS089,no,Royal funeral rites
+NEWS090,no,Regional economy report
+NEWS091,no,"Data center pause, not component supply"
+NEWS092,no,"Local flash flood, no supply link"
+NEWS093,no,Food festival
+NEWS094,no,Celebrity gossip
+NEWS095,no,Local farmland water pollution
+NEWS096,no,Royal funeral rites
+NEWS097,no,Local pollution control zone
+NEWS098,no,Celebrity gossip
+NEWS099,no,Farm machinery repair service
+NEWS100,no,General business digest
+NEWS101,no,"Child electrocution accident, unrelated to supply chain"
+NEWS102,no,"Innovation awards news, no disruption"
+NEWS103,no,Sports news
+NEWS104,no,"Crime commentary, unrelated"
+NEWS105,no,"Innovation awards news, no disruption"
+NEWS106,no,"Innovation awards news, no disruption"
+NEWS107,no,"Factory bonus news, not a disruption"
+NEWS108,no,"Innovation awards news, no disruption"
+NEWS109,no,Education event
+NEWS110,no,Shooting sport competition
+NEWS111,no,Product launch
+NEWS112,no,Office space expansion
+NEWS113,no,"Partnership announcement, no disruption"
+NEWS114,no,Factory bonus chatter
+NEWS115,no,"Fish die-off, tourism concern only"
+NEWS116,no,Sports news
+NEWS117,no,"Weekly labor situation report, no specific disruption"
+NEWS118,no,Domestic politics
+NEWS119,no,Energy company acquisitions and output figures
+NEWS120,no,Inheritance dispute
+NEWS121,no,Share buyback news
+NEWS122,no,Trade expo toys feature
+NEWS123,no,Academic conference
+NEWS124,no,Trade expo toys feature
+NEWS125,no,Trade expo toys feature
+NEWS126,no,Shareholder meeting notice
+NEWS127,no,Board meeting resolution
+NEWS128,no,Opinion piece
+NEWS129,no,Stock forum page
+NEWS130,no,Stock forum page
+NEWS131,no,Trade expo toys feature
+NEWS132,no,Buyback announcements
+NEWS133,no,Urban development research report
+NEWS134,no,Regional opening-up feature
+NEWS135,no,Robot export strategy feature
+NEWS136,no,Opinion on industry
+NEWS137,no,"Shareholder buying plan, share price"
+NEWS138,no,Tax compliance feature
+NEWS139,no,"Race medical incident, unrelated"
+NEWS140,no,"Race medical incident, unrelated"
+NEWS141,no,"Race medical incident, unrelated"
+NEWS142,no,"Race medical incident, unrelated"
+NEWS143,no,"Race medical incident, unrelated"
+NEWS144,no,Stock analysis
+NEWS145,no,Education gala
+NEWS146,no,"Race medical incident, unrelated"
+NEWS147,no,"Race medical incident, unrelated"
+NEWS148,no,"Race medical incident, unrelated"
+NEWS149,no,"Race medical incident, unrelated"
+NEWS150,no,"Race medical incident, unrelated"
+NEWS151,no,Public health incident at a running event
+NEWS152,no,Public health incident at a running event
+NEWS153,no,Public health incident at a running event
+NEWS154,no,Public health incident at a running event
+NEWS155,no,Public health incident at a running event
+NEWS156,no,Public health incident at a running event
+NEWS157,no,Public health incident at a running event
+NEWS158,no,Public health incident at a running event
+NEWS159,no,"Trade mission promotion, no disruption"
+NEWS160,no,Stock market movement
+NEWS161,no,Stock market movement
+NEWS162,no,Stock market movement
+NEWS163,no,"Award news, no disruption"
+NEWS164,no,"Cruise ship arrest, unrelated"
+NEWS165,no,Celebrity gossip
+NEWS166,no,Celebrity gossip
+NEWS167,no,Sports news
+NEWS168,no,Sports news
+NEWS169,no,Empty headline
+NEWS170,no,Personal scandal and espionage commentary
+NEWS171,yes,US export control probe on chips shipped to China
+NEWS172,no,"Executive personal scandal, no supply disruption"
+NEWS173,no,"Executive scandal, no supply disruption"
+NEWS174,no,Executive scandal profile
+NEWS175,no,Scandal commentary
+NEWS176,no,Scandal commentary
+NEWS177,no,Spy history listicle
+NEWS178,no,"Airport relocation proposal, no disruption"
+NEWS179,no,Real estate acquisition
+NEWS180,no,Technology development news
+NEWS181,no,"River pollution curbs, no supply impact stated"
+NEWS182,no,Pollution control zone plan
+NEWS183,no,Pollution control zone plan
+NEWS184,no,Routine port call
+NEWS185,no,Minimum wage update
+NEWS186,no,Local sports event
+NEWS187,no,Football schedule
+NEWS188,no,Football event
+NEWS189,no,Beauty pageant
+NEWS190,no,Job connection event
+NEWS191,no,Beauty pageant
+NEWS192,no,Beauty pageant
+NEWS193,no,Beauty pageant
+NEWS194,no,Beauty pageant
+NEWS195,no,Beauty pageant
+NEWS196,no,Beauty pageant
+NEWS197,no,Beauty pageant
+NEWS198,no,Beauty pageant
+NEWS199,no,War martyrs commemoration
+NEWS200,no,Beauty pageant
+NEWS201,no,Beauty pageant news
+NEWS202,no,Beauty pageant news
+NEWS203,no,"Routine vessel maiden call, no disruption"
+NEWS204,no,Taiwan local politics
+NEWS205,no,Taiwan local politics
+NEWS206,no,Taiwan local election politics
+NEWS207,no,Taiwan party politics
+NEWS208,no,Taiwan local election politics
+NEWS209,no,"Sustainability forum, no disruption"
+NEWS210,no,Taiwan politics
+NEWS211,no,Taiwan party politics
+NEWS212,no,"Library awards, unrelated"
+NEWS213,no,Local election politics
+NEWS214,no,"Sustainability forum, no disruption"
+NEWS215,no,"Arts event, unrelated"
+NEWS216,no,Taiwan politics
+NEWS217,no,Election campaign news
+NEWS218,no,"Sustainability forum, no disruption"
+NEWS219,no,Local election politics
+NEWS220,no,Party politics
+NEWS221,no,Party politics
+NEWS222,no,Party politics
+NEWS223,no,Party politics
+NEWS224,no,"Immigration arrest, unrelated"
+NEWS225,no,"Gas prices, not component supply"
+NEWS226,no,Real estate acquisition
+NEWS227,no,"Tax politics, unrelated"
+NEWS228,no,"Politics, unrelated"
+NEWS229,no,"Appliance regulation, unrelated"
+NEWS230,no,Death penalty news
+NEWS231,no,Death penalty news
+NEWS232,no,Death penalty news
+NEWS233,no,Real estate purchase
+NEWS234,no,"Tax politics, unrelated"
+NEWS235,no,Food news
+NEWS236,yes,Port strike threat at major US port
+NEWS237,yes,LA-Long Beach port strike threat delayed
+NEWS238,yes,"Port strike threat, contract extension"
+NEWS239,yes,Port union strike deadline extended
+NEWS240,yes,Port strike threat deferred
+NEWS241,yes,"Port labor talks, strike risk"
+NEWS242,yes,"Port strike risk, negotiation extension"
+NEWS243,yes,"Port strike delayed, trade logistics risk"
+NEWS244,no,"Residential fire, unrelated"
+NEWS245,yes,Fire at electronics maker Foxlink's plant
+NEWS246,no,"Residential fire, unrelated"
+NEWS247,no,"Residential fire, unrelated"
+NEWS248,no,"Routine weather, flash flood alert only"
+NEWS249,no,Routine weather warning
+NEWS250,yes,Rare earth and battery export controls extended
+NEWS251,no,"Paper price increase in Japan; not electronics, batteries, or drones."

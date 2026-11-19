@@ -1,0 +1,18 @@
+{
+ "li_ion_battery": 52996,
+ "camera_module": 327,
+ "image_sensor": 38,
+ "thermal_camera": 92,
+ "brushless_motor": 908,
+ "display_module": 7736,
+ "pcba": 13548,
+ "flexible_circuit": 375,
+ "connector": 157,
+ "microphone": 27,
+ "speaker": 42,
+ "integrated_circuit": 2618,
+ "capacitor": 12644,
+ "wireless_module": 165,
+ "polycarbonate": 3776,
+ "solder_paste": 131
+}

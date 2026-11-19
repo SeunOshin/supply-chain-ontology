@@ -1,0 +1,8 @@
+pandas
+requests
+python-dotenv
+rdflib
+matplotlib
+notebook
+scikit-learn
+sentence-transformers

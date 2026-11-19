@@ -1,0 +1,1118 @@
+{
+ "Teal Drones": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Teal Drones",
+    "countryCode": "US",
+    "type": "company",
+    "address": "716 E 4500 S, Ste S160, Salt Lake City, Ut 84107, Us",
+    "totalShipments": 1,
+    "mostRecentShipment": "06/08/2017",
+    "topSuppliers": [
+     "Wuhan Jarmoo Flag"
+    ],
+    "key": "company/teal-drones"
+   }
+  ],
+  "executionTime": "6ms"
+ },
+ "Red Cat": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Red Cat",
+    "countryCode": "US",
+    "type": "company",
+    "address": "1 Radisson Plz, Ste 800, New Rochelle, Ny 10801, Us",
+    "totalShipments": 69,
+    "mostRecentShipment": "29/09/2026",
+    "topSuppliers": [
+     "Jiahe Metal Factory",
+     "Shenzhen Weiyi Leather Products",
+     "Missing in source document",
+     "Foshan Jalaxy Homeware"
+    ],
+    "key": "company/red-cat"
+   },
+   {
+    "title": "Redcat Racing",
+    "countryCode": "US",
+    "type": "company",
+    "address": "3145 E Washington St, Phoenix, Az 85034, Us",
+    "totalShipments": 39,
+    "mostRecentShipment": "20/07/2026",
+    "topSuppliers": [
+     "Dongguan Vkar Hobby",
+     "Exportpro International",
+     "Dong Guang Rui Qing Hobby Technolog",
+     "Shenzhen Grepow Battery"
+    ],
+    "key": "company/redcat-racing"
+   },
+   {
+    "title": "Redcat Theatre",
+    "countryCode": "US",
+    "type": "company",
+    "address": "631 W 2Nd St, Los Angeles, Ca 90012, Us",
+    "totalShipments": 2,
+    "mostRecentShipment": "18/09/2024",
+    "topSuppliers": [
+     "Sr On Behalf Of Hotel Modern",
+     "Hawk Showbiz Logistics"
+    ],
+    "key": "company/redcat-theatre"
+   },
+   {
+    "title": "Awd Red Cat Supplies",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Greencastle, Pa 17225, Us",
+    "totalShipments": 2,
+    "mostRecentShipment": "24/08/2025",
+    "topSuppliers": [
+     "Tijarat"
+    ],
+    "key": "company/awd-red-cat-supplies"
+   },
+   {
+    "title": "Redcat",
+    "countryCode": "US",
+    "type": "company",
+    "address": "5656 Opportunity Dr, Ste 4, Toledo, Oh 43612, Us",
+    "totalShipments": 10,
+    "mostRecentShipment": "22/05/2021",
+    "topSuppliers": [
+     "Shenzhen Eastech",
+     "Changzhou Greengarden Tech",
+     "Le 104",
+     "Dsv Air & Sea"
+    ],
+    "key": "company/redcat"
+   }
+  ],
+  "executionTime": "20ms"
+ },
+ "BRINC": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "7ms"
+ },
+ "AeroVironment": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Aerovironment",
+    "countryCode": "US",
+    "type": "company",
+    "address": "181 W Huntington Dr, Ste 202, Monrovia, Ca 91016, Us",
+    "totalShipments": 133,
+    "mostRecentShipment": "30/07/2020",
+    "topSuppliers": [
+     "Orient Semiconductor Electronics Li",
+     "Bassi",
+     "Benchmark Electronics Thailand Pcl",
+     "Borgwarner System Lugo S R"
+    ],
+    "key": "company/aerovironment"
+   }
+  ],
+  "executionTime": "6ms"
+ },
+ "Inspired Flight": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Inspired Flight",
+    "countryCode": "US",
+    "type": "company",
+    "address": "San Luis Obispo, Ca 93401, Us",
+    "totalShipments": 1,
+    "mostRecentShipment": "08/07/2021",
+    "topSuppliers": [
+     "Missing in source document"
+    ],
+    "key": "company/inspired-flight"
+   }
+  ],
+  "executionTime": "14ms"
+ },
+ "Freefly": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Freefly Systems",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Fort Hill, Pa 15540, Us",
+    "totalShipments": 61,
+    "mostRecentShipment": "03/09/2026",
+    "topSuppliers": [
+     "Far East Sourcing International",
+     "Shenzhen Grepow Battery",
+     "Xiamen Tmax Battery Equipments",
+     "Jinan Xintian Technology"
+    ],
+    "key": "company/freefly-systems"
+   }
+  ],
+  "executionTime": "9ms"
+ },
+ "Autel Robotics": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Autel Us",
+    "countryCode": "US",
+    "type": "company",
+    "address": "36 Harbor Park Dr N 516-256, Port Washington, Ny 11050, Us",
+    "totalShipments": 1983,
+    "mostRecentShipment": "04/11/2026",
+    "topSuppliers": [
+     "Autel Viet Nam",
+     "Autel Viet Nam New Energy Technolog",
+     "Autel Intelligent Technology",
+     "Autel Digital Power"
+    ],
+    "key": "company/autel-us"
+   }
+  ],
+  "executionTime": "13ms"
+ },
+ "Parrot": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Parrot",
+    "countryCode": "US",
+    "type": "company",
+    "address": "868 W Crossroads Pkwy, Romeoville, Il 60446, Us",
+    "totalShipments": 202,
+    "mostRecentShipment": "12/06/2022",
+    "topSuppliers": [
+     "Parrot Asia Pacific",
+     "Parrot Drones",
+     "Kmt"
+    ],
+    "key": "company/parrot"
+   },
+   {
+    "title": "Parrot Cay Resort",
+    "countryCode": "US",
+    "type": "company",
+    "address": "164 Providence Ave, Riverside, Ri 02915, Us",
+    "totalShipments": 63,
+    "mostRecentShipment": "03/06/2026",
+    "topSuppliers": [
+     "Como Shambhala",
+     "Como Hotels And Resorts Asia",
+     "Honour Century International",
+     "Smaal Water Services N V"
+    ],
+    "key": "company/parrot-cay-resort"
+   },
+   {
+    "title": "The Flower Parrot",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Oceanside Blvd, Oceanside, Ca 92054, Us",
+    "totalShipments": 448,
+    "mostRecentShipment": "01/11/2026",
+    "topSuppliers": [
+     "Flowercargo S A S Ruc",
+     "Fresh Logistics Carga Cia",
+     "Accesscargo Cia",
+     "Worldwide Cargo Logistics Cia"
+    ],
+    "key": "company/the-flower-parrot"
+   },
+   {
+    "title": "Parrot Communications",
+    "countryCode": "US",
+    "type": "company",
+    "address": "2917 N Ontario St, Burbank, Ca 91504, Us",
+    "totalShipments": 5,
+    "mostRecentShipment": "30/07/2023",
+    "topSuppliers": [
+     "Durable Plastic",
+     "Royal Fernwood Porcelain",
+     "Cangnan Yitian Bags",
+     "Adaline"
+    ],
+    "key": "company/parrot-communications"
+   },
+   {
+    "title": "Como Parrot Cay",
+    "countryCode": "US",
+    "type": "company",
+    "address": "La Ward, Tx 77970, Us",
+    "totalShipments": 65,
+    "mostRecentShipment": "13/10/2026",
+    "topSuppliers": [
+     "Honour Century International",
+     "Warisan Eurindo",
+     "Weifang Heng An Imp&Exp",
+     "Gmc Industrial China"
+    ],
+    "key": "company/como-parrot-cay"
+   },
+   {
+    "title": "Green Parrot",
+    "countryCode": "US",
+    "type": "company",
+    "address": "17229 Edgewater Dr, Lakewood, Oh 44107, Us",
+    "totalShipments": 10,
+    "mostRecentShipment": "26/07/2026",
+    "topSuppliers": [
+     "Suzhou Medsport Products",
+     "Shanghai Guardian Medical Instrumen",
+     "Enerdynamic Building Systems",
+     "Lucaya International School"
+    ],
+    "key": "company/green-parrot"
+   },
+   {
+    "title": "New Parrott",
+    "countryCode": "US",
+    "type": "company",
+    "address": "5565 Tesla Rd Dba Wen Te Vineyards",
+    "totalShipments": 65,
+    "mostRecentShipment": "08/09/2026",
+    "topSuppliers": [
+     "Cuarto Dominio S A",
+     "Josep Masachs S L",
+     "Blanchard Y Lurton",
+     "Crvc Regionale Vins Champagne"
+    ],
+    "key": "company/new-parrott"
+   },
+   {
+    "title": "Parrot Telepromter",
+    "countryCode": "US",
+    "type": "company",
+    "address": "815 W 1250 S, Orem, Ut 84058, Us",
+    "totalShipments": 5,
+    "mostRecentShipment": "24/01/2018",
+    "topSuppliers": [
+     "Shenglong Electronics Technology",
+     "Dongguan Shenglong Electronics Tech"
+    ],
+    "key": "company/parrot-telepromter"
+   }
+  ],
+  "executionTime": "15ms"
+ },
+ "Brinc Drones": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "6ms"
+ },
+ "Red Cat Holdings": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "13ms"
+ },
+ "Teal": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Teal",
+    "countryCode": "US",
+    "type": "company",
+    "address": "5595 149Th Street West Apple Valley Mn Usa",
+    "totalShipments": 11,
+    "mostRecentShipment": "05/08/2025",
+    "topSuppliers": [
+     "Mattsson Metal",
+     "Rems",
+     "Mattson Metal"
+    ],
+    "key": "company/teal"
+   },
+   {
+    "title": "Sterling Teal International",
+    "countryCode": "US",
+    "type": "company",
+    "address": "451 Gordon St 35, Roseville, Oh 43777, Us",
+    "totalShipments": 20,
+    "mostRecentShipment": "25/11/2024",
+    "topSuppliers": [
+     "Nice Can Manufacturing"
+    ],
+    "key": "company/sterling-teal-international"
+   },
+   {
+    "title": "Van Teal",
+    "countryCode": "US",
+    "type": "company",
+    "address": "7240 Ne 4Th Ave, Miami, Fl 33138, Us",
+    "totalShipments": 457,
+    "mostRecentShipment": "31/10/2026",
+    "topSuppliers": [
+     "Bhl Lighting",
+     "Btg Spare",
+     "Hualing Lighting",
+     "Mg Lighting"
+    ],
+    "key": "company/van-teal"
+   },
+   {
+    "title": "Teal Sales",
+    "countryCode": "US",
+    "type": "company",
+    "address": "20818 44Th Ave W, Ste 201, Lynnwood, Wa 98036, Us",
+    "totalShipments": 42,
+    "mostRecentShipment": "02/02/2026",
+    "topSuppliers": [
+     "Ningbo Zhonglian Steel Structure",
+     "Zhongshe M&E Import & Export",
+     "Ningbo Gosteel Structure",
+     "Siam Steel International Public"
+    ],
+    "key": "company/teal-sales"
+   },
+   {
+    "title": "The Teal Jones Group",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Driggs, Id 83422, Us",
+    "totalShipments": 311,
+    "mostRecentShipment": "29/08/2024",
+    "topSuppliers": [
+     "The Teal Jones Group",
+     "Industria De Compensados Sudati",
+     "Tableros Ind E Com De Paineis",
+     "Marini Industria De"
+    ],
+    "key": "company/the-teal-jones-group"
+   },
+   {
+    "title": "Teal Minsk",
+    "countryCode": "US",
+    "type": "company",
+    "address": "318 E St Ne D3",
+    "totalShipments": 4,
+    "mostRecentShipment": "06/11/2024",
+    "topSuppliers": [
+     "Hangzhou Well Trans Supply Chain Ma",
+     "Hainan Golden Shell",
+     "Yiwu Dt Supply Chain Mana"
+    ],
+    "key": "company/teal-minsk"
+   },
+   {
+    "title": "Teal Woodland",
+    "countryCode": "CA",
+    "type": "company",
+    "address": "397 North Shore Blvd W Burlington On L7T1A9 Ca",
+    "totalShipments": 23,
+    "mostRecentShipment": "19/04/2017",
+    "topSuppliers": [
+     "Chung Ming Textiles Enterprise",
+     "Trio S A",
+     "Mega Best Industrial"
+    ],
+    "key": "company/teal-woodland"
+   },
+   {
+    "title": "Tickled Teal",
+    "countryCode": "US",
+    "type": "company",
+    "address": "5061 La Cuenta Dr 858-228, San Diego, Ca 92124, Us",
+    "totalShipments": 2,
+    "mostRecentShipment": "16/09/2016",
+    "topSuppliers": [
+     "Tianjin Zhongya Furniture"
+    ],
+    "key": "company/tickled-teal"
+   }
+  ],
+  "executionTime": "10ms"
+ },
+ "Autel": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Autel Us",
+    "countryCode": "US",
+    "type": "company",
+    "address": "36 Harbor Park Dr N 516-256, Port Washington, Ny 11050, Us",
+    "totalShipments": 1983,
+    "mostRecentShipment": "04/11/2026",
+    "topSuppliers": [
+     "Autel Viet Nam",
+     "Autel Viet Nam New Energy Technolog",
+     "Autel Intelligent Technology",
+     "Autel Digital Power"
+    ],
+    "key": "company/autel-us"
+   },
+   {
+    "title": "Autel California Innovation",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Rancho Cucamonga, Ca 91730, Us",
+    "totalShipments": 69,
+    "mostRecentShipment": "20/09/2026",
+    "topSuppliers": [
+     "Wayzim Technology",
+     "Cimc Pteris Global Suzhou",
+     "Shenzhen Ykd Technology",
+     "Dongguan City Jiaguan Plastic Hardw"
+    ],
+    "key": "company/autel-california-innovation"
+   }
+  ],
+  "executionTime": "8ms"
+ },
+ "Parrot Drones": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "6ms"
+ },
+ "DJI": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Dji Service",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Abbottstown, Pa 17301, Us",
+    "totalShipments": 798,
+    "mostRecentShipment": "17/05/2026",
+    "topSuppliers": [
+     "Iflight Technology",
+     "Missing in source document",
+     "Missing in source document",
+     "Kaifa Technology Malaysia"
+    ],
+    "key": "company/dji-service"
+   },
+   {
+    "title": "Dji Innovations",
+    "countryCode": "US",
+    "type": "company",
+    "address": "2301 W Anderson Ln, Ste 200, Austin, Tx 78757, Us",
+    "totalShipments": 12,
+    "mostRecentShipment": "11/07/2025",
+    "topSuppliers": [
+     "Dji Baiwang Technology",
+     "Iflight Technology",
+     "Jl Department Store Int&Apos L Trad",
+     "Iflight Technology 5F"
+    ],
+    "key": "company/dji-innovations"
+   },
+   {
+    "title": "Dji Technology",
+    "countryCode": "US",
+    "type": "company",
+    "address": "23610 Banning Blvd, Carson, Ca 90745, Us",
+    "totalShipments": 26,
+    "mostRecentShipment": "04/02/2016",
+    "topSuppliers": [
+     "Dji Baiwang Technology",
+     "Iflight Technology"
+    ],
+    "key": "company/dji-technology"
+   },
+   {
+    "title": "Sz Dji Technology",
+    "countryCode": "US",
+    "type": "company",
+    "address": "14Th Floor West Wing Skyworth Semiconductor Design Buidling No 18 G Nanshan District 518057",
+    "totalShipments": 1,
+    "mostRecentShipment": "11/06/2022",
+    "topSuppliers": [
+     "Asi Technologies"
+    ],
+    "key": "company/sz-dji-technology"
+   }
+  ],
+  "executionTime": "11ms"
+ },
+ "Anduril": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Anduril Industries",
+    "countryCode": "US",
+    "type": "company",
+    "address": "1375 Sunflower Ave, Costa Mesa, Ca 92626, Us",
+    "totalShipments": 25,
+    "mostRecentShipment": "26/09/2026",
+    "topSuppliers": [
+     "Joint Service Port Unit",
+     "Recutech S R O",
+     "Anduril Industries",
+     "Anduril Australia"
+    ],
+    "key": "company/anduril-industries"
+   },
+   {
+    "title": "Anduril Australia",
+    "countryCode": "US",
+    "type": "company",
+    "address": "15 Maddox Street Alexandria 2015 Nsw Australia",
+    "totalShipments": 1,
+    "mostRecentShipment": "07/10/2026",
+    "topSuppliers": [
+     "Hydra Slide"
+    ],
+    "key": "company/anduril-australia"
+   }
+  ],
+  "executionTime": "9ms"
+ },
+ "Shield AI": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Shield Ai",
+    "countryCode": "US",
+    "type": "company",
+    "address": "501 W Broadway W, Ste 1520, San Diego, Ca 92101, Us",
+    "totalShipments": 5,
+    "mostRecentShipment": "12/09/2026",
+    "topSuppliers": [
+     "Shenzhen Mobilex Technology",
+     "Changsha Soi Hi I/E Trade",
+     "Nantong Ofisolution New Material",
+     "Shield Ai"
+    ],
+    "key": "company/shield-ai"
+   }
+  ],
+  "executionTime": "16ms"
+ },
+ "Performance Drone Works": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "14ms"
+ },
+ "Vantage Robotics": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "10ms"
+ },
+ "Draganfly": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Draganfly",
+    "countryCode": "US",
+    "type": "company",
+    "address": "2235 Quince Ave C/O Zach Rolfe",
+    "totalShipments": 1,
+    "mostRecentShipment": "21/05/2022",
+    "topSuppliers": [
+     "Draganfly"
+    ],
+    "key": "company/draganfly"
+   }
+  ],
+  "executionTime": "8ms"
+ },
+ "Zipline": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Zipline International",
+    "countryCode": "US",
+    "type": "company",
+    "address": "741 Vanderperren Way, Green Bay, Wi 54304, Us",
+    "totalShipments": 492,
+    "mostRecentShipment": "06/11/2026",
+    "topSuppliers": [
+     "Nanping Montriver Bamboo Product",
+     "Ningbo Toplite",
+     "Hengshui Qijie Clothing",
+     "Zhenghe Ruichang Industrial Art"
+    ],
+    "key": "company/zipline-international"
+   },
+   {
+    "title": "The Northshore Zipline",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Haiku, Hi 96708, Us",
+    "totalShipments": 1,
+    "mostRecentShipment": "29/06/2025",
+    "topSuppliers": [
+     "Guangzhou Lilytoys"
+    ],
+    "key": "company/the-northshore-zipline"
+   },
+   {
+    "title": "Valley Zipline Adventures",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Box 249 8393 Hwy 95 Radium Hot Springs Bc Canada V0A1Mo Ca Patrickvalleyzip Com",
+    "totalShipments": 1,
+    "mostRecentShipment": "05/06/2021",
+    "topSuppliers": [
+     "Eurojumper Bartosz Buzdygan Jerzy"
+    ],
+    "key": "company/valley-zipline-adventures"
+   },
+   {
+    "title": "Zipline Express Car Wash",
+    "countryCode": "US",
+    "type": "company",
+    "address": "8453 Citrus Ave, Fontana, Ca 92335, Us",
+    "totalShipments": 6,
+    "mostRecentShipment": "27/05/2019",
+    "topSuppliers": [
+     "Hebei Beautex Trade"
+    ],
+    "key": "company/zipline-express-car-wash"
+   },
+   {
+    "title": "Castle Rock Water",
+    "countryCode": "US",
+    "type": "company",
+    "address": "4121 Dunsmuir Ave, Dunsmuir, Ca 96025, Us",
+    "totalShipments": 35,
+    "mostRecentShipment": "01/11/2024",
+    "topSuppliers": [
+     "Yiwu Luckygoods Handicraft",
+     "Xuzhou Speed Package Production",
+     "Tessara",
+     "Sichuan Emega Import And Export Lt"
+    ],
+    "key": "company/castle-rock-water"
+   }
+  ],
+  "executionTime": "11ms"
+ },
+ "Hylio": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Hylio",
+    "countryCode": "US",
+    "type": "company",
+    "address": "1020 Agnes Rd, Richmond, Tx 77469, Us",
+    "totalShipments": 7,
+    "mostRecentShipment": "30/08/2026",
+    "topSuppliers": [
+     "Cixi Pneuflex Pneumaticcomponents C",
+     "Changsha Zhonggu Intelligent",
+     "Sichuan Zhengxin Global Supply",
+     "Hefeng Metal Products Shandong"
+    ],
+    "key": "company/hylio"
+   }
+  ],
+  "executionTime": "9ms"
+ },
+ "Ageagle": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "7ms"
+ },
+ "Yuneec": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Yuneec Usa",
+    "countryCode": "US",
+    "type": "company",
+    "address": "5555 Ontario Mills Pkwy Ca91764, Ontario, Ca 91764, Us",
+    "totalShipments": 144,
+    "mostRecentShipment": "30/12/2019",
+    "topSuppliers": [
+     "Yuneec International China",
+     "Good Power Technology",
+     "Yuneec Europe",
+     "Pujiang Fairy Home Textile"
+    ],
+    "key": "company/yuneec-usa"
+   }
+  ],
+  "executionTime": "10ms"
+ },
+ "ModalAI": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "8ms"
+ },
+ "Unusual Machines": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Unusual Machines",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Orlando, Fl 32811, Us",
+    "totalShipments": 10,
+    "mostRecentShipment": "07/11/2026",
+    "topSuppliers": [
+     "Trend Electronics",
+     "Dongguan Ante Hardware Plastic",
+     "Nb Nide Tech",
+     "Dongguan Kerun Electronic Technolog"
+    ],
+    "key": "company/unusual-machines"
+   }
+  ],
+  "executionTime": "14ms"
+ },
+ "Rotor Riot": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Rotor Riot",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Orlando, Fl 32811, Us",
+    "totalShipments": 7,
+    "mostRecentShipment": "28/11/2025",
+    "topSuppliers": [
+     "Shenzhen Hongdali Technology",
+     "Dongguan Gaoya Kitchenware",
+     "Sz Jinxingrui Metal Technology",
+     "Ningbo Yoda Machinery"
+    ],
+    "key": "company/rotor-riot"
+   }
+  ],
+  "executionTime": "10ms"
+ },
+ "Lumenier": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "7ms"
+ },
+ "Wingtra": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "6ms"
+ },
+ "Flyability": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "7ms"
+ },
+ "Ascent Aerosystems": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "9ms"
+ },
+ "Easy Aerial": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Easy Aerial",
+    "countryCode": "US",
+    "type": "company",
+    "address": "63 Flushing Ave, Unit 131, Brooklyn, Ny 11205, Us",
+    "totalShipments": 12,
+    "mostRecentShipment": "19/06/2025",
+    "topSuppliers": [
+     "Shanghai Canggu Plastic Technology",
+     "Foshan Hwstronger Building Material",
+     "Jiangmen Cnct",
+     "Dongguan Shunyue Plastic Products C"
+    ],
+    "key": "company/easy-aerial"
+   }
+  ],
+  "executionTime": "15ms"
+ },
+ "Neros": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Neros",
+    "countryCode": "US",
+    "type": "company",
+    "address": "El Segundo, Ca 90245, Us",
+    "totalShipments": 12,
+    "mostRecentShipment": "14/10/2026",
+    "topSuppliers": [
+     "Timson Enterprise",
+     "Arris Composites",
+     "Cheng Hao Enterprise",
+     "Hekza Tech Elektronik San"
+    ],
+    "key": "company/neros"
+   },
+   {
+    "title": "Neros Technologies",
+    "countryCode": "US",
+    "type": "company",
+    "address": "19681 S Pacific Gateway Dr, Torrance, Ca 90502, Us",
+    "totalShipments": 16,
+    "mostRecentShipment": "07/11/2026",
+    "topSuppliers": [
+     "E One Moli Energy",
+     "Well Force Electronics",
+     "Catcher Technology",
+     "Imakawa Technology"
+    ],
+    "key": "company/neros-technologies"
+   }
+  ],
+  "executionTime": "10ms"
+ },
+ "Quantum Systems": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Quantum Systems",
+    "countryCode": "US",
+    "type": "company",
+    "address": "Hollywood, Fl 33027, Us",
+    "totalShipments": 1,
+    "mostRecentShipment": "17/01/2016",
+    "topSuppliers": [
+     "Quantum Systems"
+    ],
+    "key": "company/quantum-systems"
+   }
+  ],
+  "executionTime": "17ms"
+ },
+ "Skyfish": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Skyfish",
+    "countryCode": "US",
+    "type": "company",
+    "address": "680 S Cache St Ste 100",
+    "totalShipments": 1,
+    "mostRecentShipment": "19/01/2021",
+    "topSuppliers": [
+     "Ningbo Jason International Trade"
+    ],
+    "key": "company/skyfish"
+   },
+   {
+    "title": "Skyfish Outdoor",
+    "countryCode": "US",
+    "type": "company",
+    "address": "3780 Mathis Airpark Rd, Suwanee, Ga 30024, Us",
+    "totalShipments": 4,
+    "mostRecentShipment": "09/04/2022",
+    "topSuppliers": [
+     "Yichun Huaxiang Furniture",
+     "Wuhan Friendly Cross Border E Comme"
+    ],
+    "key": "company/skyfish-outdoor"
+   }
+  ],
+  "executionTime": "9ms"
+ },
+ "Watts Innovations": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "11ms"
+ },
+ "Harris Aerial": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "7ms"
+ },
+ "American Robotics": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "North American Robotics",
+    "countryCode": "US",
+    "type": "company",
+    "address": "San Francisco, Ca 94110, Us",
+    "totalShipments": 6,
+    "mostRecentShipment": "07/01/2018",
+    "topSuppliers": [
+     "Taizhou Huangyan Sigg Mould",
+     "Missing in source document"
+    ],
+    "key": "company/north-american-robotics"
+   },
+   {
+    "title": "American Robotics",
+    "countryCode": "US",
+    "type": "company",
+    "address": "936 Ridgebrook Rd, Sparks Glencoe, Md 21152, Us",
+    "totalShipments": 3,
+    "mostRecentShipment": "28/07/2026",
+    "topSuppliers": [
+     "Airobotics"
+    ],
+    "key": "company/american-robotics"
+   }
+  ],
+  "executionTime": "15ms"
+ },
+ "Matternet": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Matternet",
+    "countryCode": "US",
+    "type": "company",
+    "address": "161 Evelyn Ave Ca 9041 United States",
+    "totalShipments": 8,
+    "mostRecentShipment": "23/08/2022",
+    "topSuppliers": [
+     "Murata Electronics Singapore Lt",
+     "Hobbywing Technology",
+     "Upergy"
+    ],
+    "key": "company/matternet"
+   }
+  ],
+  "executionTime": "12ms"
+ },
+ "Flytrex": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "6ms"
+ },
+ "Edge Autonomy": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "10ms"
+ },
+ "Censys Technologies": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Censys Technologies",
+    "countryCode": "US",
+    "type": "company",
+    "address": "1808 Concept Ct, Ste 200, Daytona Beach, Fl 32114, Us",
+    "totalShipments": 2,
+    "mostRecentShipment": "03/07/2022",
+    "topSuppliers": [
+     "Alber Nathan",
+     "Mianyang Tian Yu Hang Technology"
+    ],
+    "key": "company/censys-technologies"
+   }
+  ],
+  "executionTime": "12ms"
+ },
+ "Vision Aerial": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "30ms"
+ },
+ "Holybro": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [],
+  "executionTime": "7ms"
+ },
+ "Teledyne FLIR": {
+  "requestCost": 0,
+  "creditsRemaining": 994,
+  "data": [
+   {
+    "title": "Flir Surveillance",
+    "countryCode": "US",
+    "type": "company",
+    "address": "25 Esquire Rd, North Billerica, Ma 01862, Us",
+    "totalShipments": 7,
+    "mostRecentShipment": "01/04/2024",
+    "topSuppliers": [
+     "Jia Jie Xing Group",
+     "Nidec Precision",
+     "Bosch Rexroth",
+     "Shenzhen Esorun Technology"
+    ],
+    "key": "company/flir-surveillance"
+   },
+   {
+    "title": "Teledyne Flir Maritime Us",
+    "countryCode": "US",
+    "type": "company",
+    "address": "110 Lowell Rd, Hudson, Nh 03051, Us",
+    "totalShipments": 108,
+    "mostRecentShipment": "27/09/2026",
+    "topSuppliers": [
+     "In Tech Electronics",
+     "Raymarine",
+     "Hongkong Lorom International",
+     "Micro Star International"
+    ],
+    "key": "company/teledyne-flir-maritime-us"
+   },
+   {
+    "title": "Teledyne Lecroy",
+    "countryCode": "US",
+    "type": "company",
+    "address": "700 Chestnut Ridge Rd, Spring Valley, Ny 10977, Us",
+    "totalShipments": 871,
+    "mostRecentShipment": "06/11/2026",
+    "topSuppliers": [
+     "Fuji Silysia Chemical",
+     "Polystal Composites",
+     "Hongkong Lorom International",
+     "Yonton H K Precision Technology"
+    ],
+    "key": "company/teledyne-lecroy"
+   },
+   {
+    "title": "Flir Commercial Systems",
+    "countryCode": "US",
+    "type": "company",
+    "address": "9 Townsend W, Nashua, Nh 03063, Us",
+    "totalShipments": 1077,
+    "mostRecentShipment": "28/10/2026",
+    "topSuppliers": [
+     "Eic Instrument",
+     "Shenzhen Everbest Machinery Industr",
+     "Uni Trend Technology Hong Kong Li",
+     "Shanghai Mcp"
+    ],
+    "key": "company/flir-commercial-systems"
+   }
+  ],
+  "executionTime": "15ms"
+ }
+}
