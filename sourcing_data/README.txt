@@ -23,3 +23,11 @@ Columns
                                  says what the strategy means.
 
 Advice saved here is reused. An item with no row is put to Claude only when PULL is True.
+
+blue_uas_framework.csv   The Blue UAS Framework list of vetted drone parts (226 components), as read on 14 November 2026
+                         from flightbrief.news/topics/blue-uas, which gives the official list at bluelist.dcma.mil as
+                         its source. Not checked against the official page.
+blue_uas_matches.csv     Hand-checked: for a BOM item, the makers on that list of the same kind of part (close) or of a
+                         related part only (loose), with the listed components and the reason. Used in section 8.2.
+
+The advice was asked again on 19 November 2026, after the second round of bills and the vetted makers were added.

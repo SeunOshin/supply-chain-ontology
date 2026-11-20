@@ -1,0 +1,227 @@
+manufacturer,component,category
+Red Cat,Ocellus-3CP,Camera & gimbal
+GREMSY USA LLC,LYNX NDAA,Camera & gimbal
+GREMSY USA LLC,LYNX MAINBOARD,Flight controller & compute
+GREMSY USA LLC,Orus L NDAA,Camera & gimbal
+Silvus Technologies,StreamCaster Radio,Datalink & radio
+Silvus Technologies,StreamCaster 4240,Datalink & radio
+Silvus Technologies,SC4200 Dual Band Radio,Datalink & radio
+"Skydio, Inc.",Skydio Controller 2 MH,Ground control & software
+"Skydio, Inc.",Skydio Controller 2,Ground control & software
+"DTC Communications, Inc.",BluSDR-90UL,Datalink & radio
+"DTC Communications, Inc.",BluSDR-6,Datalink & radio
+Freefly Systems,QGC Freefly Edition,Ground control & software
+Zone 5 Technologies,Zone 5 Paladin Payload,Camera & gimbal
+Zone 5 Technologies,Zone 5 Paladin 308 Payload,Camera & gimbal
+Titan Dynamics Inc,Titan Dynamics Raptor Skeleton,Airframe & power
+Teledyne FLIR Defense LLC,Thermal Camera (Optional),Camera & gimbal
+"Skydio, Inc.",VT300-Z,Camera & gimbal
+"Skydio, Inc.",VT300-L,Camera & gimbal
+"Skydio, Inc.",Skydio Dock for X10,Ground control & software
+"Skydio, Inc.",Skydio Controller,Ground control & software
+Septentrio,mosaic-X5,GNSS & navigation
+Raspberry Pi,Raspberry Pi Camera Module 2,Camera & gimbal
+Raspberry Pi,Raspberry Pi (on 1001657),Flight controller & compute
+Neros Technologies,CrossBow GCS Block 2,Ground control & software
+Neros Technologies,CrossBow GCS Block 1,Ground control & software
+ModalAI,ModalAI Video Receiver (VRX),Ground control & software
+ModalAI,Handheld GCS,Ground control & software
+Microhard,Microhard pMLTE,Datalink & radio
+Kutta Technologies,Kutta Tactical Awareness Controller (KTAC),Ground control & software
+Jeti RC,Jeti DS-12 RC Controller,Datalink & radio
+GREMSY USA LLC,EO/IR Camera,Camera & gimbal
+Futaba,Futaba 16IZS,Ground control & software
+FlightWave,GCS Controller,Ground control & software
+ElSight,Halo,Datalink & radio
+Doodle Labs,"Mini-OEM, Doodle Helix Mesh Rider",Datalink & radio
+Doodle Labs,M1-M6 Radio,Datalink & radio
+Doodle Labs,Doodle Dual Band,Datalink & radio
+"DTC Communications, Inc.",BluSDR-30,Datalink & radio
+CubePilot,GPS,GNSS & navigation
+CubePilot,Cube Orange,Flight controller & compute
+CubePilot,ELE-CUB-ID-HX4-06253,Datalink & radio
+CubePilot,Ethernet Switch,Datalink & radio
+CubePilot Global Pty Ltd,Remote ID,Datalink & radio
+BlueMark Innovations BV,DroneBeacon db300 standard Remote ID mod,Datalink & radio
+AeroCognito,AeroCogito H7 Digital Flight Controller,Flight controller & compute
+ARK Electronics,ARK SAM GPS,GNSS & navigation
+"3DR, Inc.",3DR CAN NODE,Other
+NW Blue,Pro H757,Flight controller & compute
+VectorNav Technologies,VN-210E,GNSS & navigation
+CX2,Vadris,Camera & gimbal
+Inspired Flight Technologies,GS-ONE,Ground control & software
+UXV Technologies,Navigator Tab 5,Ground control & software
+"Sionyx, LLC",XRB-1351-V65,Camera & gimbal
+"Sionyx, LLC",XRB-1350-V65,Camera & gimbal
+Heaviside Industries,Moth Tactical Spectrum Analyzer,Datalink & radio
+Teledyne FLIR Defense LLC,FLIR BOSON 640,Camera & gimbal
+AeroCognito,H7 Digital Flight Controller,Flight controller & compute
+Renegade UxS Inc.,Diversity 5.8 GHz Analog VRX,Datalink & radio
+Raspberry Pi,Raspberry Pi 5 (4GB),Flight controller & compute
+Radionor,CRE2-144-M2-SMA,Datalink & radio
+InnoPilot,InnoPilot FC,Flight controller & compute
+"Elarionas, UAB",Elarion FC F405,Flight controller & compute
+"Elarionas, UAB",Elarion CRSF Splitter,Datalink & radio
+"Elarionas, UAB",Elarion CRSF Combiner,Datalink & radio
+"Elarionas, UAB",Elarion Analog Video Scrambler/Descrambl,Datalink & radio
+"Elarionas, UAB",Elarion 868 MHz ELRS TX,Datalink & radio
+"Elarionas, UAB",Elarion 868 MHz ELRS RX,Datalink & radio
+"Elarionas, UAB",Elarion 5.8 GHz VTX,Datalink & radio
+"Elarionas, UAB",Elarion 4IN1 ESC,Motor & ESC
+"Elarionas, UAB",Elarion 433 MHz ELRS TX,Datalink & radio
+"Elarionas, UAB",Elarion 433 MHz ELRS RX,Datalink & radio
+"Elarionas, UAB",Elarion 2.4 GHz ELRS True Diversity RX,Datalink & radio
+ARK Electronics,ARK FPV Flight Controller,Flight controller & compute
+Teledyne FLIR Defense LLC,Boson+ 640,Camera & gimbal
+Silvus Technologies,StreamCaster 4400,Datalink & radio
+SensorOps,SynDOJO,Ground control & software
+Futaba,R3008SB Receiver,Datalink & radio
+ModalAI,Zorro Blue,Ground control & software
+ModalAI,VOXL 2 Mini (M0204),Flight controller & compute
+Leonardo DRS,STAG5-SLD,Camera & gimbal
+Vantage Robotics,Standard Greenseer,Camera & gimbal
+Vantage Robotics,Monochrome Greenseer,Camera & gimbal
+Vantage Robotics,Mapping Greenseer,Camera & gimbal
+Vantage Robotics,640 Thermal Greenseer,Camera & gimbal
+Tough Stump Technologies,ATOS Flight Tag,Datalink & radio
+Perf Drone Systems,DataLink,Datalink & radio
+Futaba,R7208SB Receiver,Datalink & radio
+Doodle Labs,Nimble Mesh Rider,Datalink & radio
+Doodle Labs,Long-Range Transceiver,Datalink & radio
+Desert Rotor,MIRA X,Ground control & software
+Desert Rotor,MIRA 12X,Ground control & software
+Sierra Wireless,RC7630 IoT Module,Datalink & radio
+Sierra Wireless,RC7620 IoT Module,Datalink & radio
+Sierra Wireless,RC7611 IoT Module,Datalink & radio
+VectorNav Technologies,VN-100 Rugged IMU/AHRS,GNSS & navigation
+UXV Technologies,SRM Airside,Datalink & radio
+Futaba,T16IZ Super,Ground control & software
+"Ascent AeroSystems, Inc. dba Robinson Unmanned",Spirit Airframe,Airframe & power
+Trillium,HD40-LV-LP,Camera & gimbal
+Silvus Technologies,StreamCaster 4200 Plus,Datalink & radio
+GreenSight,UltraBlue,Flight controller & compute
+GreenSight,MicroBlue,Flight controller & compute
+ARK Electronics,ARK Flow,GNSS & navigation
+ARK Electronics,ARK 4IN1 ESC CONS,Motor & ESC
+Fat Shark (Unusual Machines),Analog FPV VTX,Datalink & radio
+Silvus Technologies,StreamCaster LITE 5200,Datalink & radio
+Aries Defense,OverWatch NEOS,Datalink & radio
+RPX Technologies,EmbIR-3,Camera & gimbal
+ModalAI,VOXL VTX,Datalink & radio
+ModalAI,VOXL VRX,Datalink & radio
+ModalAI,VOXL 4IN1 ESC,Motor & ESC
+ModalAI,VOXL 2 LTE + I/O Module,Datalink & radio
+ModalAI,VOXL 2 (M0154),Flight controller & compute
+ModalAI,Tracking Sensor,Camera & gimbal
+ModalAI,Lepton Plus ToF V2 Carrier Board,Datalink & radio
+ModalAI,FPV EO Sensor,Camera & gimbal
+ModalAI,ELRS Gemini TX,Datalink & radio
+ModalAI,ELRS Gemini RX,Datalink & radio
+Ouster,OS1,Camera & gimbal
+Auterion,Skynode X,Flight controller & compute
+ARK Electronics,ARK M.2 LTE (NA),Datalink & radio
+ARK Electronics,ARK M.2 LTE (EMEA),Datalink & radio
+ARK Electronics,ARK M.2 LTE (APAC),Datalink & radio
+Ewing Aerospace,Ewing H7 v1.0,Flight controller & compute
+Ewing Aerospace,Ewing F7 v1.4,Flight controller & compute
+Ewing Aerospace,Ewing 55A 4IN1 ESC,Motor & ESC
+Auterion,Skynode S,Flight controller & compute
+Samsung,S23 Tactical Edition,Ground control & software
+GREMSY USA LLC,VIO F1,Camera & gimbal
+Raspberry Pi,Raspberry Pi 4 Model B (4GB),Flight controller & compute
+Pierce Aerospace,B1 Remote ID Beacon,Datalink & radio
+Panasonic,TOUGHBOOK G2,Ground control & software
+Nvidia,Jetson AGX Orin Industrial,Flight controller & compute
+CubePilot,Cube Purple,Flight controller & compute
+TILT Autonomy,Lightweight Starlink PoE,Datalink & radio
+ARK Electronics,ARK Pi6X,Flight controller & compute
+Raspberry Pi,Raspberry Pi CM4,Flight controller & compute
+Mobilicom,SkyHopper PRO Micro,Datalink & radio
+Mobilicom,SkyHopper PRO Lite,Datalink & radio
+Mobilicom,SkyHopper PRO,Datalink & radio
+Fat Shark (Unusual Machines),Aura Analog FPV V2,Camera & gimbal
+ARK Electronics,ARKV6X Flight Controller Extended Range,Flight controller & compute
+ARK Electronics,ARKV6X,Flight controller & compute
+ARK Electronics,ARK VOXL2 RTK PAB Carrier,Flight controller & compute
+ARK Electronics,ARK TESEO GPS,GNSS & navigation
+ARK Electronics,ARK Pi6X Flow,Flight controller & compute
+ARK Electronics,ARK 4IN1 ESC,Motor & ESC
+Rotor Riot,Brave F7 v1.4,Flight controller & compute
+Raspberry Pi,Raspberry Pi 5 (8GB),Flight controller & compute
+Trillium,HD40-XV,Camera & gimbal
+Trillium,HD40-LV,Camera & gimbal
+Rotor Riot,Brave 55A 4IN1 ESC,Motor & ESC
+Locus Lock,LEO100 GNSS-SDR,GNSS & navigation
+Vertiq,81-08 G2 Module,Motor & ESC
+NextVision,Raptor 360 Pointer,Camera & gimbal
+Samsung,Galaxy Tab Active5,Ground control & software
+RedTail LiDAR,RTL-450,Camera & gimbal
+Phase One,P3 MAVLink,Camera & gimbal
+Persistent Systems,Embedded Module,Datalink & radio
+Vantage Robotics,SRM-S-MH+ (VR),Datalink & radio
+Vantage Robotics,SRM-S-MH (VR),Datalink & radio
+Rotor Riot,Brave F7 v1.0,Flight controller & compute
+LightWare Optoelectronics,SF20/C,Camera & gimbal
+LightWare Optoelectronics,LW20/C,Camera & gimbal
+"Somewear Labs, Inc.",Somewear App,Ground control & software
+Workswell,WIRIS Enterprise,Camera & gimbal
+UXV Technologies,Aeronav,Ground control & software
+Trillium,HD45-LV-CZ,Camera & gimbal
+Tomahawk Robotics,Kinesis,Ground control & software
+Silvus Technologies,StreamCaster LITE 4200,Datalink & radio
+Doodle Labs,Embedded Mesh Rider,Datalink & radio
+ARK Electronics,ARK RTK GPS,GNSS & navigation
+UXV Technologies,SRM-S-SC4200+,Datalink & radio
+UXV Technologies,SRM-S-SC4200,Datalink & radio
+UXV Technologies,SRM-S-MH+,Datalink & radio
+UXV Technologies,SRM-S-DL+,Datalink & radio
+UXV Technologies,SRM-S-MH,Datalink & radio
+UXV Technologies,SRM-S-DL,Datalink & radio
+UXV Technologies,SRM-L-SC4200,Datalink & radio
+UXV Technologies,SRM-L-PS5,Datalink & radio
+RFD Design,RFD900x-US,Datalink & radio
+Sentera,6X Multispectral,Camera & gimbal
+CubePilot,Cube Blue,Flight controller & compute
+Phoenix LiDAR Systems,miniRANGER-3 LITE,Camera & gimbal
+MicaSense,Altum-PT,Camera & gimbal
+GREMSY USA LLC,T3V3 SE,Camera & gimbal
+Phase One,iXM-100,Camera & gimbal
+CubePilot,Cube Orange+,Flight controller & compute
+Workswell,WIRIS Pro,Camera & gimbal
+Sony,Alpha 7R IVA,Camera & gimbal
+Freefly Systems,Workswell WIRIS Pro Smart Dovetail Paylo,Camera & gimbal
+Freefly Systems,Sony LR1 Smart Dovetail Payload,Camera & gimbal
+Freefly Systems,Sony A7RIV Smart Dovetail Payload,Camera & gimbal
+Doodle Labs,Pilot Pro (Doodle Labs),Ground control & software
+ModalAI,VOXL Power Module V3,Airframe & power
+ModalAI,VOXL & VOXL 2 Microhard Modem Add-on,Datalink & radio
+Doodle Labs,mini-OEM Dual-Band Mesh Rider,Datalink & radio
+Silvus Technologies,StreamCaster 4200 Enhanced Plus,Datalink & radio
+Persistent Systems,MPU 5,Datalink & radio
+Panasonic,TOUGHBOOK 55,Ground control & software
+NextVision,TRIP6,Flight controller & compute
+NextVision,Raptor Camera,Camera & gimbal
+NextVision,DragonEye2 Camera,Camera & gimbal
+Vantage Robotics,Vision2,Ground control & software
+"Reveal Technology, Inc",Farsight,Ground control & software
+Kutta Technologies,Kutta Tactical Controller (KTAC),Ground control & software
+UXV Technologies,UXV SRoC,Ground control & software
+Tomahawk Robotics,Grip S20,Ground control & software
+Teledyne FLIR Defense LLC,Hadron 640R,Camera & gimbal
+ModalAI,VOXL 2 Mini (M0104),Flight controller & compute
+ModalAI,VOXL,Flight controller & compute
+Immervision,IMVISIO-ML,Camera & gimbal
+ModalAI,VOXL 2 (M0054),Flight controller & compute
+ModalAI,Flight Core v2,Flight controller & compute
+Nvidia,Jetson Xavier NX,Flight controller & compute
+NextVision,Colibri2,Camera & gimbal
+CubePilot,Here 4,GNSS & navigation
+CubePilot,Here 3,GNSS & navigation
+Doodle Labs,mini-OEM Helix Mesh Rider,Datalink & radio
+NextVision,TRIP2,Flight controller & compute
+Microhard,pMDDL2450,Datalink & radio
+JETI Model,JETI DS-12,Ground control & software
+Microhard,pDDL1800,Datalink & radio
+UXV Technologies,Navigator Tablet 3,Ground control & software
+RFD Design,RFD900x,Datalink & radio
+Microhard,pDDL2450,Datalink & radio

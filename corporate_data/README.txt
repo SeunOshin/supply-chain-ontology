@@ -9,4 +9,8 @@ wikidata/                Saved answers from the Wikidata API (wikidata.org), pul
                          search_<name>.json = name search; <Q number>.json = one Wikidata record.
 
 The notebook reads these files and only fetches what is missing, and only when PULL = True in section 3.1.
-OpenCorporates is not used: no API access was granted.
+opencorporates/          Saved answers from the OpenCorporates API (api.opencorporates.com), pulled 19 November 2026.
+                         search_<name>_<country>.json = name search among the companies registered in that country.
+                         worldwide_check_2026-11-19.csv = a second search without the country limit, kept as a record;
+                         the same-name companies it found abroad are not used.
+                         Company data from OpenCorporates (opencorporates.com), used under its open-data terms.

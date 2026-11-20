@@ -1,0 +1,9 @@
+{
+ "image_sensor": 68,
+ "microphone": 10597,
+ "speaker": 7971,
+ "wireless_module": 305,
+ "thermal_camera": 1580,
+ "connector": 12,
+ "solder_paste": 181
+}

@@ -9,115 +9,115 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 data:advice_battery_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm Celxpert Energy, Simplo Technology and Atemitech can qualify to the flight battery specification and safety certification" ;
+    rdfs:label "Confirm each Taiwan supplier can make this battery to the item's specification" ;
     iof:isAbout data:advice_battery_1 .
 
 data:advice_battery_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Confirm the part's origin is Taiwan so the lower duty applies" ;
+    rdfs:label "Confirm the battery's country of origin for duty with each supplier" ;
     iof:isAbout data:advice_battery_1 .
 
 data:advice_battery_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Ask the Taiwan suppliers which other ports and carriers they can ship through" ;
+    rdfs:label "Ask suppliers which other ports and carriers they can ship through" ;
     iof:isAbout data:advice_battery_2 .
 
 data:advice_battery_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Check that dangerous-goods handling for lithium batteries is approved on the alternative route" ;
+    rdfs:label "Check the extra routes do not raise duty or customs exposure" ;
     iof:isAbout data:advice_battery_2 .
 
 data:advice_compute_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Ask NVIDIA for the country of origin and the country of manufacture of the units supplied" ;
+    rdfs:label "Confirm with engineering that the part is NVIDIA-proprietary with no pin-compatible equivalent" ;
     iof:isAbout data:advice_compute_1 .
 
 data:advice_compute_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Check the tariff classification and the scheduled rate change before each purchase" ;
+    rdfs:label "Agree how much working capital can be tied up in stock and where it will be stored" ;
     iof:isAbout data:advice_compute_1 .
 
+data:advice_compute_2_need_1 a iof:RequirementSpecification ;
+    rdfs:label "Get NVIDIA's written confirmation of the origin of each lot" ;
+    iof:isAbout data:advice_compute_2 .
+
+data:advice_compute_2_need_2 a iof:RequirementSpecification ;
+    rdfs:label "Check the tariff classification and the scheduled rate change with the customs broker" ;
+    iof:isAbout data:advice_compute_2 .
+
 data:advice_gimbal_motors_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm Nanjing Roytek & 3X Motion Technolo can meet the motor specification for pan, tilt and roll" ;
+    rdfs:label "Check that suppliers in CN are acceptable for this drone's customer and compliance requirements" ;
     iof:isAbout data:advice_gimbal_motors_1 .
 
 data:advice_gimbal_motors_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Check the duty on Chinese-origin motors, which is not recorded here" ;
+    rdfs:label "Obtain the gimbal motor specification to send with the quotation request" ;
+    iof:isAbout data:advice_gimbal_motors_1 .
+
+data:advice_gimbal_motors_1_need_3 a iof:RequirementSpecification ;
+    rdfs:label "Find the duty from CN, which is not recorded" ;
     iof:isAbout data:advice_gimbal_motors_1 .
 
 data:advice_gimbal_motors_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm which Nidec Corporation sites make this motor and in which countries" ;
+    rdfs:label "Confirm Nidec Corporation has a Japan site able to make this motor" ;
     iof:isAbout data:advice_gimbal_motors_2 .
 
 data:advice_gimbal_motors_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Confirm the motor would qualify as Japan origin for customs" ;
+    rdfs:label "Confirm the origin of the goods will be Japan for customs purposes" ;
     iof:isAbout data:advice_gimbal_motors_2 .
 
 data:advice_modem_5g_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm that a module from Quectel Iot Technologies Pte Ltd or Telit Wireless Services Ltd fits the X10 design and meets its carrier and regulatory approvals" ;
+    rdfs:label "Engineering confirms the form factor, interface and 5G requirement a replacement module must meet" ;
     iof:isAbout data:advice_modem_5g_1 .
 
 data:advice_modem_5g_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Confirm whether Telit Wireless Services Ltd shares a parent with Telit Cinterion (Telit Communications S.p.A.), so the second source is truly independent" ;
+    rdfs:label "Check each vetted maker's module covers the bands and carrier approvals needed in the US" ;
     iof:isAbout data:advice_modem_5g_1 .
 
 data:advice_modem_5g_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm that the modem can be stored for long periods without losing approval or function" ;
+    rdfs:label "Agree the stock level and its funding with finance and planning" ;
     iof:isAbout data:advice_modem_5g_2 .
 
 data:advice_modem_5g_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Agree with Telit Cinterion (Telit Communications S.p.A.) how long it expects to keep supplying this model" ;
+    rdfs:label "Confirm the modem's shelf life and firmware update status allow storage" ;
     iof:isAbout data:advice_modem_5g_2 .
 
 data:advice_narrow_camera_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm the module is not proprietary to its maker and that the drawings and image-quality specification can be shared" ;
+    rdfs:label "Write down the optical, sensor and interface requirements so each quotation can be checked against them" ;
     iof:isAbout data:advice_narrow_camera_1 .
 
 data:advice_narrow_camera_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Find the duty on this module from Singapore and Germany, since only the Thailand duty is recorded" ;
+    rdfs:label "Engineering must confirm a different module could fit the drone before any order is placed" ;
     iof:isAbout data:advice_narrow_camera_1 .
 
 data:advice_narrow_camera_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Agree with Primax Electronics how many modules can be held and how they are stored" ;
+    rdfs:label "Agree the stock level with finance and production planning" ;
     iof:isAbout data:advice_narrow_camera_2 .
 
 data:advice_narrow_camera_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Check that the module's shelf life and design stability allow stock to be held" ;
+    rdfs:label "Confirm storage and shelf-life conditions for camera modules" ;
     iof:isAbout data:advice_narrow_camera_2 .
 
 data:advice_narrow_image_sensor_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm with Sony that the part can be bought ahead of need and is stable in storage" ;
+    rdfs:label "Confirm with engineering that the sensor has a usable shelf life and storage needs are met" ;
     iof:isAbout data:advice_narrow_image_sensor_1 .
 
 data:advice_narrow_image_sensor_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Agree with engineering how long a supply gap the build can absorb" ;
+    rdfs:label "Agree how much stock is worth holding against the cost of tying up cash" ;
     iof:isAbout data:advice_narrow_image_sensor_1 .
 
 data:advice_narrow_image_sensor_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Engineering confirms the camera module can be altered and re-validated" ;
+    rdfs:label "Get engineering to state whether the airframe and software can take another sensor" ;
     iof:isAbout data:advice_narrow_image_sensor_2 .
 
 data:advice_narrow_image_sensor_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Approve the cost and time of re-qualifying the camera before any design work starts" ;
+    rdfs:label "Check any customer or regulatory approvals that a sensor change would affect" ;
     iof:isAbout data:advice_narrow_image_sensor_2 .
 
-data:advice_nav_cameras_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm the camera design and specification are owned by the buyer and can be released to other makers" ;
-    iof:isAbout data:advice_nav_cameras_1 .
-
-data:advice_nav_cameras_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Check the duty rate for camera modules from Singapore and Germany before comparing quotations" ;
-    iof:isAbout data:advice_nav_cameras_1 .
-
-data:advice_nav_cameras_1_need_3 a iof:RequirementSpecification ;
-    rdfs:label "Confirm Aptiv Safety & Mobility Services and Zf Cv Systems Hannover Gmbh actually make cameras to this specification" ;
-    iof:isAbout data:advice_nav_cameras_1 .
-
 data:advice_nav_cameras_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Agree the stock level with Primax Electronics's supply terms and storage capacity" ;
+    rdfs:label "Agree the stock level with Primax Electronics and with production planning" ;
     iof:isAbout data:advice_nav_cameras_2 .
 
 data:advice_nav_cameras_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Confirm the camera's shelf life and revision status allow holding stock" ;
+    rdfs:label "Confirm storage conditions suit camera modules" ;
     iof:isAbout data:advice_nav_cameras_2 .
 
 data:advice_nav_image_sensor_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm with Samsung that the part can be bought on a repeat basis" ;
+    rdfs:label "Confirm with the item owner how long a sensor interruption could be tolerated" ;
     iof:isAbout data:advice_nav_image_sensor_1 .
 
 data:advice_nav_image_sensor_1_need_2 a iof:RequirementSpecification ;
@@ -125,128 +125,155 @@ data:advice_nav_image_sensor_1_need_2 a iof:RequirementSpecification ;
     iof:isAbout data:advice_nav_image_sensor_1 .
 
 data:advice_nav_image_sensor_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Engineering to confirm the camera module and software can support a different sensor" ;
+    rdfs:label "Engineering confirms the camera's optical, interface and software constraints" ;
     iof:isAbout data:advice_nav_image_sensor_2 .
 
 data:advice_nav_image_sensor_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Agree a business case, as requalifying the product will cost effort" ;
+    rdfs:label "Check any change against the product's approval and compliance requirements" ;
     iof:isAbout data:advice_nav_image_sensor_2 .
 
 data:advice_propulsion_motors_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm the motor specification is not proprietary to Nidec Corporation" ;
+    rdfs:label "Engineering confirms whether Vertiq's motor module with built-in controller could fit this propulsion motor" ;
     iof:isAbout data:advice_propulsion_motors_1 .
 
 data:advice_propulsion_motors_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Check the duty rate for the origin country of each quoted supplier" ;
-    iof:isAbout data:advice_propulsion_motors_1 .
-
-data:advice_propulsion_motors_1_need_3 a iof:RequirementSpecification ;
-    rdfs:label "Qualify any new motor against the drone's performance requirements" ;
+    rdfs:label "Confirm Nidec Corporation's country of supply and the country of origin of any quoted part" ;
     iof:isAbout data:advice_propulsion_motors_1 .
 
 data:advice_propulsion_motors_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm which Nidec Corporation sites make this motor and in which countries" ;
+    rdfs:label "Confirm with Nidec Corporation which countries it can make and ship these motors from" ;
     iof:isAbout data:advice_propulsion_motors_2 .
 
 data:advice_propulsion_motors_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Confirm the origin and customs classification for goods shipped from the Japan site" ;
+    rdfs:label "Confirm the tariff classification and origin rules apply to the Japan-made motors" ;
     iof:isAbout data:advice_propulsion_motors_2 .
 
 data:advice_qrb5165_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm with Qualcomm which country the part ships from, as the record shows only JP and no supplier country" ;
+    rdfs:label "Confirm with Qualcomm that the part is proprietary and has no second-source or equivalent" ;
     iof:isAbout data:advice_qrb5165_1 .
 
 data:advice_qrb5165_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Check the part has no shelf-life or obsolescence limit that would make holding stock unwise" ;
+    rdfs:label "Confirm the chip's shelf-life and storage conditions allow holding stock" ;
     iof:isAbout data:advice_qrb5165_1 .
 
+data:advice_qrb5165_2_need_1 a iof:RequirementSpecification ;
+    rdfs:label "Assign someone to review the events and duty rates regularly" ;
+    iof:isAbout data:advice_qrb5165_2 .
+
 data:advice_radio_sl_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm with Skydio, Inc. whether the radio depends on any part from the sanctioned battery supplier or other China-sourced inputs" ;
+    rdfs:label "Confirm with Skydio that the radio is made only by Skydio and has no second source" ;
     iof:isAbout data:advice_radio_sl_1 .
 
 data:advice_radio_sl_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Agree where and how the buffer stock will be held and kept serviceable" ;
+    rdfs:label "Agree how much stock to hold and where, and check the part can be stored without losing quality" ;
     iof:isAbout data:advice_radio_sl_1 .
 
 data:advice_sensor_package_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm with Skydio, Inc. whether the sanctions affect the supply of this sensor package" ;
+    rdfs:label "Confirm with Skydio, Inc. which sensor variants are in use and how the sanctions affect their supply" ;
     iof:isAbout data:advice_sensor_package_1 .
 
 data:advice_sensor_package_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Name an owner to review the sanctions event on a regular basis" ;
+    rdfs:label "Agree how much stock to hold and where to store it" ;
     iof:isAbout data:advice_sensor_package_1 .
 
+data:advice_sensor_package_2_need_1 a iof:RequirementSpecification ;
+    rdfs:label "Name an owner to review the sanctions event and Skydio, Inc.'s status regularly" ;
+    iof:isAbout data:advice_sensor_package_2 .
+
 data:advice_tele_camera_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm with the design team that the module specification can be quoted by other makers" ;
+    rdfs:label "Engineering confirms the 48 MP, 1/2-inch telephoto specification the quotation must meet" ;
     iof:isAbout data:advice_tele_camera_1 .
 
 data:advice_tele_camera_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Ask each quoted supplier for its country of origin and the duty that would apply on import to the US" ;
-    iof:isAbout data:advice_tele_camera_1 .
-
-data:advice_tele_camera_1_need_3 a iof:RequirementSpecification ;
-    rdfs:label "Treat Aptiv Safety & Mobility Services and Zf Cv Systems Hannover Gmbh as unverified until samples and references are checked" ;
+    rdfs:label "Confirm the vetted makers' parts could fit this camera" ;
     iof:isAbout data:advice_tele_camera_1 .
 
 data:advice_tele_camera_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Agree the stock level with production planning" ;
+    rdfs:label "Confirm each lead actually makes a module matching this specification" ;
     iof:isAbout data:advice_tele_camera_2 .
 
 data:advice_tele_camera_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Check that the module's shelf life and storage conditions allow holding stock" ;
+    rdfs:label "Look up the duty for each candidate country of origin" ;
     iof:isAbout data:advice_tele_camera_2 .
 
 data:advice_tele_image_sensor_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm with Sony the production site and country, which are not recorded" ;
+    rdfs:label "Confirm with Sony that it will supply the extra stock" ;
     iof:isAbout data:advice_tele_image_sensor_1 .
 
 data:advice_tele_image_sensor_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Agree storage and shelf-life conditions for the sensor" ;
+    rdfs:label "Check storage conditions and shelf life for the sensor" ;
     iof:isAbout data:advice_tele_image_sensor_1 .
 
 data:advice_tele_image_sensor_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Engineering confirms the sensor interface and image-quality requirements" ;
+    rdfs:label "Engineering review of the sensor interface and image-quality requirements" ;
     iof:isAbout data:advice_tele_image_sensor_2 .
 
 data:advice_tele_image_sensor_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Decide whether requalification effort is justified" ;
+    rdfs:label "Agreement on the cost and effort of requalifying the product" ;
     iof:isAbout data:advice_tele_image_sensor_2 .
 
 data:advice_thermal_module_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm with Teledyne FLIR where the module is made and what could interrupt supply" ;
+    rdfs:label "Confirm with Teledyne FLIR that no licensed second source or equivalent part exists" ;
     iof:isAbout data:advice_thermal_module_1 .
 
 data:advice_thermal_module_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Agree how much stock to hold and how long it keeps, given storage and obsolescence limits" ;
+    rdfs:label "Check the module's shelf life and storage needs, and agree the buffer level with production planning" ;
     iof:isAbout data:advice_thermal_module_1 .
 
 data:advice_thermal_module_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Engineering to confirm the radiometric performance the drone needs" ;
+    rdfs:label "Engineering review of the mechanical, electrical and software changes a different module would need" ;
     iof:isAbout data:advice_thermal_module_2 .
 
 data:advice_thermal_module_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Check how much redesign and re-certification a different thermal module would require" ;
+    rdfs:label "Check whether the change affects airworthiness or customer approvals" ;
     iof:isAbout data:advice_thermal_module_2 .
 
 data:advice_wide_camera_2_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Agree stock levels with the product and finance teams" ;
+    rdfs:label "Confirm the duty rate that would apply to each supplier's country of origin" ;
     iof:isAbout data:advice_wide_camera_2 .
 
 data:advice_wide_camera_2_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Confirm the module can be stored without shelf-life or obsolescence problems" ;
+    rdfs:label "Verify that each supplier makes modules of this class and can meet the specification" ;
     iof:isAbout data:advice_wide_camera_2 .
 
 data:advice_wide_image_sensor_1_need_1 a iof:RequirementSpecification ;
-    rdfs:label "Confirm with Sony where the sensor is made, since its country is not recorded" ;
+    rdfs:label "Confirm storage conditions and shelf life for the sensors with Sony" ;
     iof:isAbout data:advice_wide_image_sensor_1 .
 
 data:advice_wide_image_sensor_1_need_2 a iof:RequirementSpecification ;
-    rdfs:label "Set the stock level with engineering and finance, based on the product's build plan" ;
+    rdfs:label "Agree the stock-holding level with finance and production planning" ;
     iof:isAbout data:advice_wide_image_sensor_1 .
 
-data:advice_wide_image_sensor_1_need_3 a iof:RequirementSpecification ;
-    rdfs:label "Check the sensor's storage and shelf-life limits" ;
-    iof:isAbout data:advice_wide_image_sensor_1 .
+data:advice_wide_image_sensor_2_need_1 a iof:RequirementSpecification ;
+    rdfs:label "Engineering confirms the image quality and fit requirements for a replacement sensor" ;
+    iof:isAbout data:advice_wide_image_sensor_2 .
+
+data:advice_wide_image_sensor_2_need_2 a iof:RequirementSpecification ;
+    rdfs:label "Check that any new sensor meets the vetted-parts requirements for this product" ;
+    iof:isAbout data:advice_wide_image_sensor_2 .
+
+data:blue_uas_vetting a iof:SupplierEvaluationProcess ;
+    rdfs:label "Blue UAS Framework vetting" ;
+    bfo:BFO_0000057 data:vetted_ark_electronics,
+        data:vetted_auterion,
+        data:vetted_doodle_labs,
+        data:vetted_dtc_communications_inc,
+        data:vetted_elsight,
+        data:vetted_immervision,
+        data:vetted_microhard,
+        data:vetted_mobilicom,
+        data:vetted_modalai,
+        data:vetted_perf_drone_systems,
+        data:vetted_persistent_systems,
+        data:vetted_radionor,
+        data:vetted_raspberry_pi,
+        data:vetted_rpx_technologies,
+        data:vetted_sierra_wireless,
+        data:vetted_silvus_technologies,
+        data:vetted_vantage_robotics,
+        data:vetted_vertiq,
+        data:vetted_workswell ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> .
 
 data:bom a iof:DesignSpecification ;
     rdfs:label "Skydio X10 public reconstruction BOM v0.2" ;
@@ -1217,6 +1244,15 @@ data:finding_110 a ns1:RiskFinding ;
     iof:hasValueExpressionAtSomeTime data:finding_110_value ;
     iof:isAbout data:battery .
 
+data:finding_115 a ns1:RiskFinding ;
+    rdfs:label "Geographic concentration: High for Skydio Connect SL point-to-point radio (2.4/5 GHz)" ;
+    rdfs:comment "100% of 4 source location(s) are in US." ;
+    prov:wasDerivedFrom data:country_US ;
+    iof:classifiedBy data:band_high,
+        data:rule_geographic_concentration ;
+    iof:hasValueExpressionAtSomeTime data:finding_115_value ;
+    iof:isAbout data:radio_sl .
+
 data:finding_116 a ns1:RiskFinding ;
     rdfs:label "Route concentration: Unknown for Skydio Connect SL point-to-point radio (2.4/5 GHz)" ;
     rdfs:comment "No shipment is recorded." ;
@@ -1340,6 +1376,15 @@ data:finding_21 a ns1:RiskFinding ;
     iof:hasValueExpressionAtSomeTime data:finding_21_value ;
     iof:isAbout data:qrb5165 .
 
+data:finding_23 a ns1:RiskFinding ;
+    rdfs:label "No recorded alternative: High for Navigation cameras (custom 32 MP)" ;
+    rdfs:comment "0 other supplier(s) recorded for this kind of part." ;
+    prov:wasDerivedFrom data:sup_primax_electronics ;
+    iof:classifiedBy data:band_high,
+        data:rule_no_recorded_alternative ;
+    iof:hasValueExpressionAtSomeTime data:finding_23_value ;
+    iof:isAbout data:nav_cameras .
+
 data:finding_25 a ns1:RiskFinding ;
     rdfs:label "Route concentration: Unknown for Navigation cameras (custom 32 MP)" ;
     rdfs:comment "No shipment is recorded." ;
@@ -1354,6 +1399,16 @@ data:finding_26 a ns1:RiskFinding ;
     iof:classifiedBy data:band_low,
         data:rule_ownership_concentration ;
     iof:hasValueExpressionAtSomeTime data:finding_26_value ;
+    iof:isAbout data:nav_cameras .
+
+data:finding_27 a ns1:RiskFinding ;
+    rdfs:label "Tariff exposure: High for Navigation cameras (custom 32 MP)" ;
+    rdfs:comment "Highest duty now is 12.5% under 8525.89.3000 (US HTS 2026 Revision 22) from TH." ;
+    prov:wasDerivedFrom data:code_us_8525893000,
+        data:country_TH ;
+    iof:classifiedBy data:band_high,
+        data:rule_tariff_exposure ;
+    iof:hasValueExpressionAtSomeTime data:finding_27_value ;
     iof:isAbout data:nav_cameras .
 
 data:finding_28 a ns1:RiskFinding ;
@@ -1372,15 +1427,6 @@ data:finding_3 a ns1:RiskFinding ;
         data:rule_geographic_concentration ;
     iof:hasValueExpressionAtSomeTime data:finding_3_value ;
     iof:isAbout data:airframe .
-
-data:finding_31 a ns1:RiskFinding ;
-    rdfs:label "Geographic concentration: High for Interchangeable sensor package (VT300-Z, VT300-L or V100-L)" ;
-    rdfs:comment "100% of 4 source location(s) are in US." ;
-    prov:wasDerivedFrom data:country_US ;
-    iof:classifiedBy data:band_high,
-        data:rule_geographic_concentration ;
-    iof:hasValueExpressionAtSomeTime data:finding_31_value ;
-    iof:isAbout data:sensor_package .
 
 data:finding_32 a ns1:RiskFinding ;
     rdfs:label "Route concentration: Unknown for Interchangeable sensor package (VT300-Z, VT300-L or V100-L)" ;
@@ -1430,6 +1476,16 @@ data:finding_40 a ns1:RiskFinding ;
     iof:hasValueExpressionAtSomeTime data:finding_40_value ;
     iof:isAbout data:narrow_camera .
 
+data:finding_41 a ns1:RiskFinding ;
+    rdfs:label "Tariff exposure: High for 64 MP narrow camera module (1/1.7-inch CMOS)" ;
+    rdfs:comment "Highest duty now is 12.5% under 8525.89.3000 (US HTS 2026 Revision 22) from TH." ;
+    prov:wasDerivedFrom data:code_us_8525893000,
+        data:country_TH ;
+    iof:classifiedBy data:band_high,
+        data:rule_tariff_exposure ;
+    iof:hasValueExpressionAtSomeTime data:finding_41_value ;
+    iof:isAbout data:narrow_camera .
+
 data:finding_42 a ns1:RiskFinding ;
     rdfs:label "Disruption exposure: Low for 64 MP narrow camera module (1/1.7-inch CMOS)" ;
     rdfs:comment "0 event(s) linked for a single reason only, such as the same country." ;
@@ -1464,10 +1520,19 @@ data:finding_49 a ns1:RiskFinding ;
 
 data:finding_5 a ns1:RiskFinding ;
     rdfs:label "Ownership concentration: Unknown for Folding airframe and body enclosure" ;
-    rdfs:comment "3 of 3 suppliers could not be identified, so a shared parent cannot be ruled out." ;
+    rdfs:comment "2 of 3 suppliers could not be identified, so a shared parent cannot be ruled out." ;
     iof:classifiedBy data:band_unknown,
         data:rule_ownership_concentration ;
     iof:isAbout data:airframe .
+
+data:finding_50 a ns1:RiskFinding ;
+    rdfs:label "Single source: High for 50.3 MP wide camera module (1-inch CMOS)" ;
+    rdfs:comment "1 recorded supplier(s): Primax Electronics." ;
+    prov:wasDerivedFrom data:sup_primax_electronics ;
+    iof:classifiedBy data:band_high,
+        data:rule_single_source ;
+    iof:hasValueExpressionAtSomeTime data:finding_50_value ;
+    iof:isAbout data:wide_camera .
 
 data:finding_51 a ns1:RiskFinding ;
     rdfs:label "No recorded alternative: High for 50.3 MP wide camera module (1-inch CMOS)" ;
@@ -1492,16 +1557,6 @@ data:finding_54 a ns1:RiskFinding ;
     iof:classifiedBy data:band_low,
         data:rule_ownership_concentration ;
     iof:hasValueExpressionAtSomeTime data:finding_54_value ;
-    iof:isAbout data:wide_camera .
-
-data:finding_55 a ns1:RiskFinding ;
-    rdfs:label "Tariff exposure: High for 50.3 MP wide camera module (1-inch CMOS)" ;
-    rdfs:comment "Highest duty now is 12.5% under 8525.89.3000 (US HTS 2026 Revision 22) from TH." ;
-    prov:wasDerivedFrom data:code_us_8525893000,
-        data:country_TH ;
-    iof:classifiedBy data:band_high,
-        data:rule_tariff_exposure ;
-    iof:hasValueExpressionAtSomeTime data:finding_55_value ;
     iof:isAbout data:wide_camera .
 
 data:finding_56 a ns1:RiskFinding ;
@@ -1995,48 +2050,60 @@ data:port_yantian a iof:GeospatialLocation ;
 
 data:prediction_brushless_motor_changzhou_hetai_motor_and_electrica a ns1:PredictedSupplyLink ;
     rdfs:label "Predicted: Changzhou Hetai Motor And Electrica for brushless motors" ;
-    rdfs:comment "Seen shipping brushless motors in 5 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    rdfs:comment "Seen shipping brushless motors in 17 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
     iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_changzhou_hetai_motor_and_electrica_score ;
     iof:isAbout data:candidate_changzhou_hetai_motor_and_electrica,
         data:gimbal_motors,
         data:propulsion_motors .
 
-data:prediction_brushless_motor_minebea_electronics_motor_zh_lt a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Minebea Electronics Motor Zh Co Lt for brushless motors" ;
-    rdfs:comment "Seen shipping brushless motors in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_brushless_motor_minebea_elec_motor_zhuhai a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Minebea Elec Motor Zhuhai Co for brushless motors" ;
+    rdfs:comment "Seen shipping brushless motors in 4 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_minebea_electronics_motor_zh_lt_score ;
-    iof:isAbout data:candidate_minebea_electronics_motor_zh_lt,
+    iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_minebea_elec_motor_zhuhai_score ;
+    iof:isAbout data:candidate_minebea_elec_motor_zhuhai,
         data:gimbal_motors,
         data:propulsion_motors .
 
 data:prediction_brushless_motor_minebea_electronics_motor_zhuhai a ns1:PredictedSupplyLink ;
     rdfs:label "Predicted: Minebea Electronics Motor Zhuhai for brushless motors" ;
-    rdfs:comment "Seen shipping brushless motors in 9 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    rdfs:comment "Seen shipping brushless motors in 35 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
     iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_minebea_electronics_motor_zhuhai_score ;
     iof:isAbout data:candidate_minebea_electronics_motor_zhuhai,
         data:gimbal_motors,
         data:propulsion_motors .
 
-data:prediction_brushless_motor_nanjing_roytek_3x_motion a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Nanjing Roytek & 3X Motion for brushless motors" ;
-    rdfs:comment "Seen shipping brushless motors in 19 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_brushless_motor_nanjing_roytek_3x_motiontechnolo a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Nanjing Roytek & 3X Motiontechnolo for brushless motors" ;
+    rdfs:comment "Seen shipping brushless motors in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_nanjing_roytek_3x_motion_score ;
-    iof:isAbout data:candidate_nanjing_roytek_3x_motion,
+    iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_nanjing_roytek_3x_motiontechnolo_score ;
+    iof:isAbout data:candidate_nanjing_roytek_3x_motiontechnolo,
         data:gimbal_motors,
         data:propulsion_motors .
 
-data:prediction_brushless_motor_nidec_techno_motor_vietnam_corporat a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Nidec Techno Motor Vietnam Corporat for brushless motors" ;
+data:prediction_brushless_motor_nanjing_roytek_and_3x_motion a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Nanjing Roytek And 3X Motion for brushless motors" ;
     rdfs:comment "Seen shipping brushless motors in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_nidec_techno_motor_vietnam_corporat_score ;
-    iof:isAbout data:candidate_nidec_techno_motor_vietnam_corporat,
+    iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_nanjing_roytek_and_3x_motion_score ;
+    iof:isAbout data:candidate_nanjing_roytek_and_3x_motion,
         data:gimbal_motors,
         data:propulsion_motors .
+
+data:prediction_camera_module_aptiv_safety_mobility_services a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Aptiv Safety & Mobility Services for camera modules" ;
+    rdfs:comment "Seen shipping camera modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    prov:wasDerivedFrom data:link_model ;
+    iof:hasValueExpressionAtSomeTime data:prediction_camera_module_aptiv_safety_mobility_services_score ;
+    iof:isAbout data:candidate_aptiv_safety_mobility_services,
+        data:cat_camera_modules,
+        data:narrow_camera,
+        data:nav_cameras,
+        data:tele_camera,
+        data:wide_camera .
 
 data:prediction_camera_module_aptiv_safety_mobility_services_si a ns1:PredictedSupplyLink ;
     rdfs:label "Predicted: Aptiv Safety & Mobility Services Si for camera modules" ;
@@ -2044,6 +2111,18 @@ data:prediction_camera_module_aptiv_safety_mobility_services_si a ns1:PredictedS
     prov:wasDerivedFrom data:link_model ;
     iof:hasValueExpressionAtSomeTime data:prediction_camera_module_aptiv_safety_mobility_services_si_score ;
     iof:isAbout data:candidate_aptiv_safety_mobility_services_si,
+        data:cat_camera_modules,
+        data:narrow_camera,
+        data:nav_cameras,
+        data:tele_camera,
+        data:wide_camera .
+
+data:prediction_camera_module_dongguan_primax_electronic_teleco a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Dongguan Primax Electronic & Teleco for camera modules" ;
+    rdfs:comment "Seen shipping camera modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    prov:wasDerivedFrom data:link_model ;
+    iof:hasValueExpressionAtSomeTime data:prediction_camera_module_dongguan_primax_electronic_teleco_score ;
+    iof:isAbout data:candidate_dongguan_primax_electronic_teleco,
         data:cat_camera_modules,
         data:narrow_camera,
         data:nav_cameras,
@@ -2068,30 +2147,6 @@ data:prediction_camera_module_zf_cv_systems a ns1:PredictedSupplyLink ;
     prov:wasDerivedFrom data:link_model ;
     iof:hasValueExpressionAtSomeTime data:prediction_camera_module_zf_cv_systems_score ;
     iof:isAbout data:candidate_zf_cv_systems,
-        data:cat_camera_modules,
-        data:narrow_camera,
-        data:nav_cameras,
-        data:tele_camera,
-        data:wide_camera .
-
-data:prediction_camera_module_zf_cv_systems_global a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Zf Cv Systems Global Gmbh for camera modules" ;
-    rdfs:comment "Seen shipping camera modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
-    prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_camera_module_zf_cv_systems_global_score ;
-    iof:isAbout data:candidate_zf_cv_systems_global,
-        data:cat_camera_modules,
-        data:narrow_camera,
-        data:nav_cameras,
-        data:tele_camera,
-        data:wide_camera .
-
-data:prediction_camera_module_zf_cv_systems_hannover a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Zf Cv Systems Hannover Gmbh for camera modules" ;
-    rdfs:comment "Seen shipping camera modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
-    prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_camera_module_zf_cv_systems_hannover_score ;
-    iof:isAbout data:candidate_zf_cv_systems_hannover,
         data:cat_camera_modules,
         data:narrow_camera,
         data:nav_cameras,
@@ -2153,21 +2208,30 @@ data:prediction_image_sensor_shinsei a ns1:PredictedSupplyLink ;
         data:tele_image_sensor,
         data:wide_image_sensor .
 
-data:prediction_integrated_circuit_altice_labs_sa a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Altice Labs Sa for integrated circuits" ;
-    rdfs:comment "Seen shipping integrated circuits in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_integrated_circuit_8devices_uab a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: 8Devices Uab for integrated circuits" ;
+    rdfs:comment "Seen shipping integrated circuits in 3 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_integrated_circuit_altice_labs_sa_score ;
-    iof:isAbout data:candidate_altice_labs_sa,
+    iof:hasValueExpressionAtSomeTime data:prediction_integrated_circuit_8devices_uab_score ;
+    iof:isAbout data:candidate_8devices_uab,
         data:compute,
         data:qrb5165 .
 
-data:prediction_integrated_circuit_brevetek_makine_arge_inovasyon a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Brevetek Makine Arge Inovasyon for integrated circuits" ;
+data:prediction_integrated_circuit_baxter_medical_systems_k a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Baxter Medical Systems Gmbh Co K for integrated circuits" ;
     rdfs:comment "Seen shipping integrated circuits in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_integrated_circuit_brevetek_makine_arge_inovasyon_score ;
-    iof:isAbout data:candidate_brevetek_makine_arge_inovasyon,
+    iof:hasValueExpressionAtSomeTime data:prediction_integrated_circuit_baxter_medical_systems_k_score ;
+    iof:isAbout data:candidate_baxter_medical_systems_k,
+        data:compute,
+        data:qrb5165 .
+
+data:prediction_integrated_circuit_erdrich_umformtechnik a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Erdrich Umformtechnik Gmbh for integrated circuits" ;
+    rdfs:comment "Seen shipping integrated circuits in 22 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    prov:wasDerivedFrom data:link_model ;
+    iof:hasValueExpressionAtSomeTime data:prediction_integrated_circuit_erdrich_umformtechnik_score ;
+    iof:isAbout data:candidate_erdrich_umformtechnik,
         data:compute,
         data:qrb5165 .
 
@@ -2180,32 +2244,14 @@ data:prediction_integrated_circuit_erdrich_umformtechnik_s_r_o a ns1:PredictedSu
         data:compute,
         data:qrb5165 .
 
-data:prediction_integrated_circuit_onsemi a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Onsemi for integrated circuits" ;
+data:prediction_integrated_circuit_pdsi_b_v a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Pdsi B V for integrated circuits" ;
     rdfs:comment "Seen shipping integrated circuits in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_integrated_circuit_onsemi_score ;
-    iof:isAbout data:candidate_onsemi,
+    iof:hasValueExpressionAtSomeTime data:prediction_integrated_circuit_pdsi_b_v_score ;
+    iof:isAbout data:candidate_pdsi_b_v,
         data:compute,
         data:qrb5165 .
-
-data:prediction_integrated_circuit_variosystems_ag a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Variosystems Ag for integrated circuits" ;
-    rdfs:comment "Seen shipping integrated circuits in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
-    prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_integrated_circuit_variosystems_ag_score ;
-    iof:isAbout data:candidate_variosystems_ag,
-        data:compute,
-        data:qrb5165 .
-
-data:prediction_li_ion_battery_bst_power_shenzhen a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Bst Power Shenzhen for lithium-ion batteries" ;
-    rdfs:comment "Seen shipping lithium-ion batteries in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
-    prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_li_ion_battery_bst_power_shenzhen_score ;
-    iof:isAbout data:battery,
-        data:candidate_bst_power_shenzhen,
-        data:cat_li_ion_batteries .
 
 data:prediction_li_ion_battery_dongguan_best_new_energy_technology a ns1:PredictedSupplyLink ;
     rdfs:label "Predicted: Dongguan Best New Energy Technology for lithium-ion batteries" ;
@@ -2225,88 +2271,97 @@ data:prediction_li_ion_battery_guangdong_rept_battero_energy a ns1:PredictedSupp
         data:candidate_guangdong_rept_battero_energy,
         data:cat_li_ion_batteries .
 
-data:prediction_li_ion_battery_lg_energy_solution_nanjing_lt a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Lg Energy Solution Nanjing Co Lt for lithium-ion batteries" ;
+data:prediction_li_ion_battery_quzhou_great_power_energy_technolog a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Quzhou Great Power Energy Technolog for lithium-ion batteries" ;
     rdfs:comment "Seen shipping lithium-ion batteries in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_li_ion_battery_lg_energy_solution_nanjing_lt_score ;
+    iof:hasValueExpressionAtSomeTime data:prediction_li_ion_battery_quzhou_great_power_energy_technolog_score ;
     iof:isAbout data:battery,
-        data:candidate_lg_energy_solution_nanjing_lt,
+        data:candidate_quzhou_great_power_energy_technolog,
         data:cat_li_ion_batteries .
 
-data:prediction_li_ion_battery_shenzhen_utility_energy a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Shenzhen Utility Energy Co Ltd for lithium-ion batteries" ;
+data:prediction_li_ion_battery_shenzhen_gaopeng_energy_technoloy a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Shenzhen Gaopeng Energy Technoloy for lithium-ion batteries" ;
     rdfs:comment "Seen shipping lithium-ion batteries in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_li_ion_battery_shenzhen_utility_energy_score ;
+    iof:hasValueExpressionAtSomeTime data:prediction_li_ion_battery_shenzhen_gaopeng_energy_technoloy_score ;
     iof:isAbout data:battery,
-        data:candidate_shenzhen_utility_energy,
+        data:candidate_shenzhen_gaopeng_energy_technoloy,
         data:cat_li_ion_batteries .
 
-data:prediction_thermal_camera_dahua_technology_hk a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Dahua Technology Hk Limited for thermal cameras" ;
-    rdfs:comment "Seen shipping thermal cameras in 5 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_li_ion_battery_shenzhen_quanmai_xingye_energy a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Shenzhen Quanmai Xingye Energy for lithium-ion batteries" ;
+    rdfs:comment "Seen shipping lithium-ion batteries in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_dahua_technology_hk_score ;
-    iof:isAbout data:candidate_dahua_technology_hk,
+    iof:hasValueExpressionAtSomeTime data:prediction_li_ion_battery_shenzhen_quanmai_xingye_energy_score ;
+    iof:isAbout data:battery,
+        data:candidate_shenzhen_quanmai_xingye_energy,
+        data:cat_li_ion_batteries .
+
+data:prediction_thermal_camera_auras_technology_kunshan a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Auras Technology Kunshan Co Ltd for thermal cameras" ;
+    rdfs:comment "Seen shipping thermal cameras in 40 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    prov:wasDerivedFrom data:link_model ;
+    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_auras_technology_kunshan_score ;
+    iof:isAbout data:candidate_auras_technology_kunshan,
         data:thermal_module .
 
-data:prediction_thermal_camera_es_hk_industrial a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Es Hk Industrial Co Ltd for thermal cameras" ;
-    rdfs:comment "Seen shipping thermal cameras in 2 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
-    prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_es_hk_industrial_score ;
-    iof:isAbout data:candidate_es_hk_industrial,
-        data:thermal_module .
-
-data:prediction_thermal_camera_grand_dynasty_industrial a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Grand Dynasty Industrial Co Ltd for thermal cameras" ;
+data:prediction_thermal_camera_auras_technology_kunshanco a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Auras Technology Kunshanco Ltd for thermal cameras" ;
     rdfs:comment "Seen shipping thermal cameras in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_grand_dynasty_industrial_score ;
-    iof:isAbout data:candidate_grand_dynasty_industrial,
+    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_auras_technology_kunshanco_score ;
+    iof:isAbout data:candidate_auras_technology_kunshanco,
         data:thermal_module .
 
-data:prediction_thermal_camera_uni_trend_technology_hong_kong a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Uni Trend Technology Hong Kong Ltd for thermal cameras" ;
+data:prediction_thermal_camera_aurastechnology_kunshan a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Aurastechnology Kunshan Co Ltd for thermal cameras" ;
     rdfs:comment "Seen shipping thermal cameras in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_uni_trend_technology_hong_kong_score ;
-    iof:isAbout data:candidate_uni_trend_technology_hong_kong,
+    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_aurastechnology_kunshan_score ;
+    iof:isAbout data:candidate_aurastechnology_kunshan,
         data:thermal_module .
 
-data:prediction_thermal_camera_uni_trend_technology_hong_kong_li a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Uni Trend Technology Hong Kong Li for thermal cameras" ;
-    rdfs:comment "Seen shipping thermal cameras in 4 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_thermal_camera_yaoyu_trade a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Yaoyu Trade Co Ltd for thermal cameras" ;
+    rdfs:comment "Seen shipping thermal cameras in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_uni_trend_technology_hong_kong_li_score ;
-    iof:isAbout data:candidate_uni_trend_technology_hong_kong_li,
+    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_yaoyu_trade_score ;
+    iof:isAbout data:candidate_yaoyu_trade,
         data:thermal_module .
 
-data:prediction_wireless_module_quectel_iot_technologies a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Quectel Iot Technologies Pte Ltd for wireless modules" ;
-    rdfs:comment "Seen shipping wireless modules in 4 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_thermal_camera_zehong_guangzhou_technology a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Zehong Guangzhou Technology Co Ltd for thermal cameras" ;
+    rdfs:comment "Seen shipping thermal cameras in 33 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_quectel_iot_technologies_score ;
-    iof:isAbout data:candidate_quectel_iot_technologies,
-        data:modem_5g,
-        data:radio_sl .
+    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_zehong_guangzhou_technology_score ;
+    iof:isAbout data:candidate_zehong_guangzhou_technology,
+        data:thermal_module .
 
-data:prediction_wireless_module_quectel_wireless_solutions a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Quectel Wireless Solutions Co Ltd for wireless modules" ;
-    rdfs:comment "Seen shipping wireless modules in 7 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
-    prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_quectel_wireless_solutions_score ;
-    iof:isAbout data:candidate_quectel_wireless_solutions,
-        data:modem_5g,
-        data:radio_sl .
-
-data:prediction_wireless_module_sercomm a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Sercomm Corp for wireless modules" ;
+data:prediction_wireless_module_deltanordic_sweden_ab a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Deltanordic Sweden Ab for wireless modules" ;
     rdfs:comment "Seen shipping wireless modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_sercomm_score ;
-    iof:isAbout data:candidate_sercomm,
+    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_deltanordic_sweden_ab_score ;
+    iof:isAbout data:candidate_deltanordic_sweden_ab,
+        data:modem_5g,
+        data:radio_sl .
+
+data:prediction_wireless_module_fca_shanghai_auto_parts_trade a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Fca Shanghai Auto Parts Trade for wireless modules" ;
+    rdfs:comment "Seen shipping wireless modules in 5 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    prov:wasDerivedFrom data:link_model ;
+    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_fca_shanghai_auto_parts_trade_score ;
+    iof:isAbout data:candidate_fca_shanghai_auto_parts_trade,
+        data:modem_5g,
+        data:radio_sl .
+
+data:prediction_wireless_module_fj_dynamics_international a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Fj Dynamics International Limited for wireless modules" ;
+    rdfs:comment "Seen shipping wireless modules in 2 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    prov:wasDerivedFrom data:link_model ;
+    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_fj_dynamics_international_score ;
+    iof:isAbout data:candidate_fj_dynamics_international,
         data:modem_5g,
         data:radio_sl .
 
@@ -2319,12 +2374,12 @@ data:prediction_wireless_module_telit_wireless_services a ns1:PredictedSupplyLin
         data:modem_5g,
         data:radio_sl .
 
-data:prediction_wireless_module_telit_wireless_solutions_hong_kong a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Telit Wireless Solutions Hong Kong for wireless modules" ;
-    rdfs:comment "Seen shipping wireless modules in 56 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_wireless_module_topp_s_r_l a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Topp S R L for wireless modules" ;
+    rdfs:comment "Seen shipping wireless modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_telit_wireless_solutions_hong_kong_score ;
-    iof:isAbout data:candidate_telit_wireless_solutions_hong_kong,
+    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_topp_s_r_l_score ;
+    iof:isAbout data:candidate_topp_s_r_l,
         data:modem_5g,
         data:radio_sl .
 
@@ -2749,41 +2804,314 @@ data:ship_rwrd006200260267_journey a iof:SupplyChainTransportProcess ;
     iof:occursAt data:route_singapore_to_los_angeles_ca ;
     iof:startsAt data:site_fuyu .
 
-data:candidate_altice_labs_sa a iof:BusinessOrganization ;
-    rdfs:label "Altice Labs Sa" ;
-    bfo:BFO_0000171 data:country_PT .
+data:vetted_compute_ark_electronics a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: ARK Pi6X; ARK Pi6X Flow. Listed as a flight or companion computer; the BOM item is the main processor module." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:compute,
+        data:vetted_ark_electronics .
 
-data:candidate_aptiv_safety_mobility_services_si a iof:BusinessOrganization ;
-    rdfs:label "Aptiv Safety & Mobility Services Si" ;
+data:vetted_compute_auterion a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: Skynode X; Skynode S. Listed as a flight or companion computer; the BOM item is the main processor module." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:compute,
+        data:vetted_auterion .
+
+data:vetted_compute_modalai a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: VOXL 2 (M0154); VOXL 2 (M0054); VOXL 2 Mini (M0204); VOXL 2 Mini (M0104); VOXL. Listed as a flight or companion computer; the BOM item is the main processor module." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:compute,
+        data:vetted_modalai .
+
+data:vetted_compute_raspberry_pi a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: Raspberry Pi 5 (4GB); Raspberry Pi 5 (8GB); Raspberry Pi CM4; Raspberry Pi 4 Model B (4GB). Listed as a flight or companion computer; the BOM item is the main processor module." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:compute,
+        data:vetted_raspberry_pi .
+
+data:vetted_modem_5g_ark_electronics a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: ARK M.2 LTE (NA); ARK M.2 LTE (EMEA); ARK M.2 LTE (APAC). Listed as a cellular (LTE) module or modem; the BOM item is a built-in 5G/LTE modem." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:modem_5g,
+        data:vetted_ark_electronics .
+
+data:vetted_modem_5g_elsight a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: Halo. Listed as a cellular (LTE) module or modem; the BOM item is a built-in 5G/LTE modem." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:modem_5g,
+        data:vetted_elsight .
+
+data:vetted_modem_5g_microhard a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: Microhard pMLTE. Listed as a cellular (LTE) module or modem; the BOM item is a built-in 5G/LTE modem." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:modem_5g,
+        data:vetted_microhard .
+
+data:vetted_modem_5g_modalai a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: VOXL 2 LTE + I/O Module. Listed as a cellular (LTE) module or modem; the BOM item is a built-in 5G/LTE modem." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:modem_5g,
+        data:vetted_modalai .
+
+data:vetted_modem_5g_sierra_wireless a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: RC7630 IoT Module; RC7620 IoT Module; RC7611 IoT Module. Listed as a cellular (LTE) module or modem; the BOM item is a built-in 5G/LTE modem." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:modem_5g,
+        data:vetted_sierra_wireless .
+
+data:vetted_narrow_camera_immervision a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: IMVISIO-ML. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:narrow_camera,
+        data:vetted_immervision .
+
+data:vetted_narrow_camera_modalai a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: Tracking Sensor; FPV EO Sensor. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:narrow_camera,
+        data:vetted_modalai .
+
+data:vetted_narrow_camera_raspberry_pi a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: Raspberry Pi Camera Module 2. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:narrow_camera,
+        data:vetted_raspberry_pi .
+
+data:vetted_nav_cameras_immervision a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: IMVISIO-ML. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:nav_cameras,
+        data:vetted_immervision .
+
+data:vetted_nav_cameras_modalai a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: Tracking Sensor; FPV EO Sensor. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:nav_cameras,
+        data:vetted_modalai .
+
+data:vetted_nav_cameras_raspberry_pi a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: Raspberry Pi Camera Module 2. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:nav_cameras,
+        data:vetted_raspberry_pi .
+
+data:vetted_propulsion_motors_vertiq a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: 81-08 G2 Module. Listed as a motor module with a built-in controller; the only motor on the list." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:propulsion_motors,
+        data:vetted_vertiq .
+
+data:vetted_radio_sl_doodle_labs a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: Mini-OEM, Doodle Helix Mesh Rider; M1-M6 Radio; Doodle Dual Band; Nimble Mesh Rider; Long-Range Transceiver; Embedded Mesh Rider; mini-OEM Dual-Band Mesh Rider; mini-OEM Helix Mesh Rider. Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:radio_sl,
+        data:vetted_doodle_labs .
+
+data:vetted_radio_sl_dtc_communications_inc a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: BluSDR-90UL; BluSDR-6; BluSDR-30. Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:radio_sl,
+        data:vetted_dtc_communications_inc .
+
+data:vetted_radio_sl_microhard a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: pMDDL2450; pDDL1800; pDDL2450. Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:radio_sl,
+        data:vetted_microhard .
+
+data:vetted_radio_sl_mobilicom a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: SkyHopper PRO Micro; SkyHopper PRO Lite; SkyHopper PRO. Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:radio_sl,
+        data:vetted_mobilicom .
+
+data:vetted_radio_sl_perf_drone_systems a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: DataLink. Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:radio_sl,
+        data:vetted_perf_drone_systems .
+
+data:vetted_radio_sl_persistent_systems a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: Embedded Module; MPU 5. Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:radio_sl,
+        data:vetted_persistent_systems .
+
+data:vetted_radio_sl_radionor a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: CRE2-144-M2-SMA. Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:radio_sl,
+        data:vetted_radionor .
+
+data:vetted_radio_sl_silvus_technologies a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: StreamCaster Radio; StreamCaster 4240; SC4200 Dual Band Radio; StreamCaster 4400; StreamCaster 4200 Plus; StreamCaster LITE 5200; StreamCaster LITE 4200; StreamCaster 4200 Enhanced Plus. Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:radio_sl,
+        data:vetted_silvus_technologies .
+
+data:vetted_tele_camera_immervision a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: IMVISIO-ML. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:tele_camera,
+        data:vetted_immervision .
+
+data:vetted_tele_camera_modalai a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: Tracking Sensor; FPV EO Sensor. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:tele_camera,
+        data:vetted_modalai .
+
+data:vetted_tele_camera_raspberry_pi a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: Raspberry Pi Camera Module 2. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:tele_camera,
+        data:vetted_raspberry_pi .
+
+data:vetted_thermal_module_rpx_technologies a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: EmbIR-3. Listed as a thermal camera or thermal core; the BOM item is a radiometric thermal module." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:thermal_module,
+        data:vetted_rpx_technologies .
+
+data:vetted_thermal_module_vantage_robotics a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: 640 Thermal Greenseer. Listed as a thermal camera or thermal core; the BOM item is a radiometric thermal module." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:thermal_module,
+        data:vetted_vantage_robotics .
+
+data:vetted_thermal_module_workswell a iof:InformationContentEntity ;
+    rdfs:comment "Close match, on the Blue UAS Framework list for: WIRIS Enterprise; WIRIS Pro. Listed as a thermal camera or thermal core; the BOM item is a radiometric thermal module." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:thermal_module,
+        data:vetted_workswell .
+
+data:vetted_wide_camera_immervision a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: IMVISIO-ML. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:vetted_immervision,
+        data:wide_camera .
+
+data:vetted_wide_camera_modalai a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: Tracking Sensor; FPV EO Sensor. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:vetted_modalai,
+        data:wide_camera .
+
+data:vetted_wide_camera_raspberry_pi a iof:InformationContentEntity ;
+    rdfs:comment "Loose match, on the Blue UAS Framework list for: Raspberry Pi Camera Module 2. Listed as a small camera module; not a like-for-like part for this camera." ;
+    prov:wasDerivedFrom <https://bluelist.dcma.mil/> ;
+    iof:classifiedBy data:listing_vetted_alternative ;
+    iof:isAbout data:vetted_raspberry_pi,
+        data:wide_camera .
+
+data:advice_qrb5165_2 a iof:ActionSpecification ;
+    rdfs:label "No change, monitor for Qualcomm QRB5165 SoC" ;
+    dcterms:description "Duty from Japan is 0.0% and the linked events share only goods or country with the item. They give no sign of direct harm now, so monitoring suffices." ;
+    rdfs:comment "Keep sourcing the chip from Qualcomm as now. Keep watching the Strait of Hormuz shipping disruption and the new Section 301 semiconductor tariffs, which are currently at zero duty on this part." ;
+    prov:wasAttributedTo data:sourcing_adviser ;
+    prov:wasDerivedFrom data:code_us_8542310070,
+        data:event_hormuz_closure_2026,
+        data:event_us_tariffs_china_semiconductors,
+        data:finding_15 ;
+    iof:classifiedBy data:firmness_no_supplier_named,
+        data:strategy_no_change_monitor ;
+    iof:isAbout data:qrb5165 .
+
+data:advice_sensor_package_2 a iof:ActionSpecification ;
+    rdfs:label "No change, monitor for Interchangeable sensor package (VT300-Z, VT300-L or V100-L)" ;
+    dcterms:description "No alternative supplier, vetted maker or predicted supplier is recorded, and the part is judged proprietary, so switching or adding sources is not supported. The sanctions are tied to the battery supplier, not the sensor." ;
+    rdfs:comment "Keep Skydio, Inc. as the sole supplier and track the China sanctions on it. Watch for any effect on sensor package deliveries. Revisit sourcing if Skydio, Inc. reports disruption." ;
+    prov:wasAttributedTo data:sourcing_adviser ;
+    prov:wasDerivedFrom data:event_skydio_sanctions_2024,
+        data:finding_31,
+        data:finding_35 ;
+    iof:classifiedBy data:firmness_with_the_present_supplier,
+        data:strategy_no_change_monitor ;
+    iof:isAbout data:sensor_package,
+        data:sup_skydio .
+
+data:candidate_8devices_uab a iof:BusinessOrganization ;
+    rdfs:label "8Devices Uab" ;
+    bfo:BFO_0000171 data:country_LT .
+
+data:candidate_aptiv_safety_mobility_services a iof:BusinessOrganization ;
+    rdfs:label "Aptiv Safety & Mobility Services" ;
     bfo:BFO_0000171 data:country_SG .
 
-data:candidate_brevetek_makine_arge_inovasyon a iof:BusinessOrganization ;
-    rdfs:label "Brevetek Makine Arge Inovasyon" ;
-    bfo:BFO_0000171 data:country_TR .
-
-data:candidate_bst_power_shenzhen a iof:BusinessOrganization ;
-    rdfs:label "Bst Power Shenzhen" ;
+data:candidate_auras_technology_kunshan a iof:BusinessOrganization ;
+    rdfs:label "Auras Technology Kunshan Co Ltd" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_dahua_technology_hk a iof:BusinessOrganization ;
-    rdfs:label "Dahua Technology Hk Limited" ;
-    bfo:BFO_0000171 data:country_HK .
+data:candidate_auras_technology_kunshanco a iof:BusinessOrganization ;
+    rdfs:label "Auras Technology Kunshanco Ltd" ;
+    bfo:BFO_0000171 data:country_CN .
+
+data:candidate_aurastechnology_kunshan a iof:BusinessOrganization ;
+    rdfs:label "Aurastechnology Kunshan Co Ltd" ;
+    bfo:BFO_0000171 data:country_CN .
+
+data:candidate_baxter_medical_systems_k a iof:BusinessOrganization ;
+    rdfs:label "Baxter Medical Systems Gmbh Co K" ;
+    bfo:BFO_0000171 data:country_DE .
+
+data:candidate_deltanordic_sweden_ab a iof:BusinessOrganization ;
+    rdfs:label "Deltanordic Sweden Ab" ;
+    bfo:BFO_0000171 data:country_SE .
 
 data:candidate_dongguan_best_new_energy_technology a iof:BusinessOrganization ;
     rdfs:label "Dongguan Best New Energy Technology" ;
     bfo:BFO_0000171 data:country_CN .
 
+data:candidate_dongguan_primax_electronic_teleco a iof:BusinessOrganization ;
+    rdfs:label "Dongguan Primax Electronic & Teleco" ;
+    bfo:BFO_0000171 data:country_CN .
+
+data:candidate_erdrich_umformtechnik a iof:BusinessOrganization ;
+    rdfs:label "Erdrich Umformtechnik Gmbh" ;
+    bfo:BFO_0000171 data:country_DE .
+
 data:candidate_erdrich_umformtechnik_s_r_o a iof:BusinessOrganization ;
     rdfs:label "Erdrich Umformtechnik S R O" ;
     bfo:BFO_0000171 data:country_CZ .
 
-data:candidate_es_hk_industrial a iof:BusinessOrganization ;
-    rdfs:label "Es Hk Industrial Co Ltd" ;
+data:candidate_fca_shanghai_auto_parts_trade a iof:BusinessOrganization ;
+    rdfs:label "Fca Shanghai Auto Parts Trade" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_grand_dynasty_industrial a iof:BusinessOrganization ;
-    rdfs:label "Grand Dynasty Industrial Co Ltd" ;
-    bfo:BFO_0000171 data:country_TW .
+data:candidate_fj_dynamics_international a iof:BusinessOrganization ;
+    rdfs:label "Fj Dynamics International Limited" ;
+    bfo:BFO_0000171 data:country_CN .
 
 data:candidate_guangdong_rept_battero_energy a iof:BusinessOrganization ;
     rdfs:label "Guangdong Rept Battero Energy" ;
@@ -2801,73 +3129,61 @@ data:candidate_l_k_industries_phils a iof:BusinessOrganization ;
     rdfs:label "L & K Industries Phils Inc" ;
     bfo:BFO_0000171 data:country_PH .
 
-data:candidate_lg_energy_solution_nanjing_lt a iof:BusinessOrganization ;
-    rdfs:label "Lg Energy Solution Nanjing Co Lt" ;
+data:candidate_minebea_elec_motor_zhuhai a iof:BusinessOrganization ;
+    rdfs:label "Minebea Elec Motor Zhuhai Co" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_minebea_electronics_motor_zh_lt a iof:BusinessOrganization ;
-    rdfs:label "Minebea Electronics Motor Zh Co Lt" ;
+data:candidate_nanjing_roytek_3x_motiontechnolo a iof:BusinessOrganization ;
+    rdfs:label "Nanjing Roytek & 3X Motiontechnolo" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_minebea_electronics_motor_zhuhai a iof:BusinessOrganization ;
-    rdfs:label "Minebea Electronics Motor Zhuhai" ;
+data:candidate_nanjing_roytek_and_3x_motion a iof:BusinessOrganization ;
+    rdfs:label "Nanjing Roytek And 3X Motion" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_nanjing_roytek_3x_motion a iof:BusinessOrganization ;
-    rdfs:label "Nanjing Roytek & 3X Motion" ;
-    bfo:BFO_0000171 data:country_CN .
-
-data:candidate_onsemi a iof:BusinessOrganization ;
-    rdfs:label "Onsemi" ;
-    bfo:BFO_0000171 data:country_SG .
+data:candidate_pdsi_b_v a iof:BusinessOrganization ;
+    rdfs:label "Pdsi B V" ;
+    bfo:BFO_0000171 data:country_NL .
 
 data:candidate_pixon_technologies a iof:BusinessOrganization ;
     rdfs:label "Pixon Technologies Corp" ;
     bfo:BFO_0000171 data:country_TW .
 
-data:candidate_quectel_wireless_solutions a iof:BusinessOrganization ;
-    rdfs:label "Quectel Wireless Solutions Co Ltd" ;
+data:candidate_quzhou_great_power_energy_technolog a iof:BusinessOrganization ;
+    rdfs:label "Quzhou Great Power Energy Technolog" ;
     bfo:BFO_0000171 data:country_CN .
 
 data:candidate_samsung_high_tech_electronic a iof:BusinessOrganization ;
     rdfs:label "Samsung High Tech Electronic Co" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_sercomm a iof:BusinessOrganization ;
-    rdfs:label "Sercomm Corp" ;
-    bfo:BFO_0000171 data:country_TW .
+data:candidate_shenzhen_gaopeng_energy_technoloy a iof:BusinessOrganization ;
+    rdfs:label "Shenzhen Gaopeng Energy Technoloy" ;
+    bfo:BFO_0000171 data:country_CN .
 
-data:candidate_shenzhen_utility_energy a iof:BusinessOrganization ;
-    rdfs:label "Shenzhen Utility Energy Co Ltd" ;
+data:candidate_shenzhen_quanmai_xingye_energy a iof:BusinessOrganization ;
+    rdfs:label "Shenzhen Quanmai Xingye Energy" ;
     bfo:BFO_0000171 data:country_CN .
 
 data:candidate_shinsei a iof:BusinessOrganization ;
     rdfs:label "Shinsei Co Ltd" ;
     bfo:BFO_0000171 data:country_JP .
 
-data:candidate_telit_wireless_solutions_hong_kong a iof:BusinessOrganization ;
-    rdfs:label "Telit Wireless Solutions Hong Kong" ;
+data:candidate_telit_wireless_services a iof:BusinessOrganization ;
+    rdfs:label "Telit Wireless Services Ltd" ;
     bfo:BFO_0000171 data:country_HK .
 
-data:candidate_uni_trend_technology_hong_kong a iof:BusinessOrganization ;
-    rdfs:label "Uni Trend Technology Hong Kong Ltd" ;
+data:candidate_topp_s_r_l a iof:BusinessOrganization ;
+    rdfs:label "Topp S R L" ;
+    bfo:BFO_0000171 data:country_IT .
+
+data:candidate_yaoyu_trade a iof:BusinessOrganization ;
+    rdfs:label "Yaoyu Trade Co Ltd" ;
     bfo:BFO_0000171 data:country_HK .
 
-data:candidate_uni_trend_technology_hong_kong_li a iof:BusinessOrganization ;
-    rdfs:label "Uni Trend Technology Hong Kong Li" ;
-    bfo:BFO_0000171 data:country_HK .
-
-data:candidate_variosystems_ag a iof:BusinessOrganization ;
-    rdfs:label "Variosystems Ag" ;
-    bfo:BFO_0000171 data:country_CH .
-
-data:candidate_zf_cv_systems a iof:BusinessOrganization ;
-    rdfs:label "Zf Cv Systems" ;
-    bfo:BFO_0000171 data:country_DE .
-
-data:candidate_zf_cv_systems_global a iof:BusinessOrganization ;
-    rdfs:label "Zf Cv Systems Global Gmbh" ;
-    bfo:BFO_0000171 data:country_CH .
+data:candidate_zehong_guangzhou_technology a iof:BusinessOrganization ;
+    rdfs:label "Zehong Guangzhou Technology Co Ltd" ;
+    bfo:BFO_0000171 data:country_CN .
 
 data:cat_packaging a iof:Classifier ;
     rdfs:label "Packaging: corrugated board, honeycomb foam, trays (customs descriptions, HS 4819, 4823)" ;
@@ -2907,30 +3223,31 @@ data:country_IR a iof:GeospatialSite ;
     rdfs:label "IR" ;
     iof:designatedBy data:country_code_IR .
 
-data:country_MY a iof:GeospatialSite ;
-    rdfs:label "MY" ;
-    iof:designatedBy data:country_code_MY .
+data:country_IT a iof:GeospatialSite ;
+    rdfs:label "IT" ;
+    iof:designatedBy data:country_code_IT .
 
-data:country_PT a iof:GeospatialSite ;
-    rdfs:label "PT" ;
-    iof:designatedBy data:country_code_PT .
+data:country_LT a iof:GeospatialSite ;
+    rdfs:label "LT" ;
+    iof:designatedBy data:country_code_LT .
+
+data:country_NL a iof:GeospatialSite ;
+    rdfs:label "NL" ;
+    iof:designatedBy data:country_code_NL .
 
 data:country_SA a iof:GeospatialSite ;
     rdfs:label "SA" ;
     iof:designatedBy data:country_code_SA .
 
-data:country_TR a iof:GeospatialSite ;
-    rdfs:label "TR" ;
-    iof:designatedBy data:country_code_TR .
+data:country_SE a iof:GeospatialSite ;
+    rdfs:label "SE" ;
+    iof:designatedBy data:country_code_SE .
 
 data:country_code_AE a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "AE" .
 
 data:country_code_CD a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "CD" .
-
-data:country_code_CH a iof:PhysicalLocationIdentifier ;
-    iof:hasTextValue "CH" .
 
 data:country_code_CN a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "CN" .
@@ -2947,32 +3264,35 @@ data:country_code_HK a iof:PhysicalLocationIdentifier ;
 data:country_code_IR a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "IR" .
 
+data:country_code_IT a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "IT" .
+
 data:country_code_JP a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "JP" .
 
 data:country_code_KR a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "KR" .
 
-data:country_code_MY a iof:PhysicalLocationIdentifier ;
-    iof:hasTextValue "MY" .
+data:country_code_LT a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "LT" .
+
+data:country_code_NL a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "NL" .
 
 data:country_code_PH a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "PH" .
 
-data:country_code_PT a iof:PhysicalLocationIdentifier ;
-    iof:hasTextValue "PT" .
-
 data:country_code_SA a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "SA" .
+
+data:country_code_SE a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "SE" .
 
 data:country_code_SG a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "SG" .
 
 data:country_code_TH a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "TH" .
-
-data:country_code_TR a iof:PhysicalLocationIdentifier ;
-    iof:hasTextValue "TR" .
 
 data:country_code_TW a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "TW" .
@@ -3360,15 +3680,6 @@ data:finding_114 a ns1:RiskFinding ;
 data:finding_114_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 0e+00 .
 
-data:finding_115 a ns1:RiskFinding ;
-    rdfs:label "Geographic concentration: High for Skydio Connect SL point-to-point radio (2.4/5 GHz)" ;
-    rdfs:comment "100% of 4 source location(s) are in US." ;
-    prov:wasDerivedFrom data:country_US ;
-    iof:classifiedBy data:band_high,
-        data:rule_geographic_concentration ;
-    iof:hasValueExpressionAtSomeTime data:finding_115_value ;
-    iof:isAbout data:radio_sl .
-
 data:finding_115_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+02 .
 
@@ -3433,15 +3744,6 @@ data:finding_13_value a iof:ValueExpression ;
 data:finding_14_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 2e+00 .
 
-data:finding_15 a ns1:RiskFinding ;
-    rdfs:label "Single source: High for Qualcomm QRB5165 SoC" ;
-    rdfs:comment "1 recorded supplier(s): Qualcomm." ;
-    prov:wasDerivedFrom data:sup_qualcomm ;
-    iof:classifiedBy data:band_high,
-        data:rule_single_source ;
-    iof:hasValueExpressionAtSomeTime data:finding_15_value ;
-    iof:isAbout data:qrb5165 .
-
 data:finding_15_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+00 .
 
@@ -3481,36 +3783,35 @@ data:finding_20_value a iof:ValueExpression ;
 data:finding_21_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 2e+00 .
 
+data:finding_22 a ns1:RiskFinding ;
+    rdfs:label "Single source: High for Navigation cameras (custom 32 MP)" ;
+    rdfs:comment "1 recorded supplier(s): Primax Electronics." ;
+    prov:wasDerivedFrom data:sup_primax_electronics ;
+    iof:classifiedBy data:band_high,
+        data:rule_single_source ;
+    iof:hasValueExpressionAtSomeTime data:finding_22_value ;
+    iof:isAbout data:nav_cameras .
+
 data:finding_22_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+00 .
 
-data:finding_23 a ns1:RiskFinding ;
-    rdfs:label "No recorded alternative: High for Navigation cameras (custom 32 MP)" ;
-    rdfs:comment "0 other supplier(s) recorded for this kind of part." ;
-    prov:wasDerivedFrom data:sup_primax_electronics ;
-    iof:classifiedBy data:band_high,
-        data:rule_no_recorded_alternative ;
-    iof:hasValueExpressionAtSomeTime data:finding_23_value ;
-    iof:isAbout data:nav_cameras .
-
 data:finding_23_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 0e+00 .
+
+data:finding_24 a ns1:RiskFinding ;
+    rdfs:label "Geographic concentration: High for Navigation cameras (custom 32 MP)" ;
+    rdfs:comment "100% of 1 source location(s) are in TH." ;
+    prov:wasDerivedFrom data:country_TH ;
+    iof:classifiedBy data:band_high,
+        data:rule_geographic_concentration ;
+    iof:hasValueExpressionAtSomeTime data:finding_24_value ;
+    iof:isAbout data:nav_cameras .
 
 data:finding_24_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+02 .
 
 data:finding_26_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 0e+00 .
-
-data:finding_27 a ns1:RiskFinding ;
-    rdfs:label "Tariff exposure: High for Navigation cameras (custom 32 MP)" ;
-    rdfs:comment "Highest duty now is 12.5% under 8525.89.3000 (US HTS 2026 Revision 22) from TH." ;
-    prov:wasDerivedFrom data:code_us_8525893000,
-        data:country_TH ;
-    iof:classifiedBy data:band_high,
-        data:rule_tariff_exposure ;
-    iof:hasValueExpressionAtSomeTime data:finding_27_value ;
-    iof:isAbout data:nav_cameras .
 
 data:finding_27_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1.25e+01 .
@@ -3545,20 +3846,20 @@ data:finding_30 a ns1:RiskFinding ;
 data:finding_30_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 0e+00 .
 
+data:finding_31 a ns1:RiskFinding ;
+    rdfs:label "Geographic concentration: High for Interchangeable sensor package (VT300-Z, VT300-L or V100-L)" ;
+    rdfs:comment "100% of 4 source location(s) are in US." ;
+    prov:wasDerivedFrom data:country_US ;
+    iof:classifiedBy data:band_high,
+        data:rule_geographic_concentration ;
+    iof:hasValueExpressionAtSomeTime data:finding_31_value ;
+    iof:isAbout data:sensor_package .
+
 data:finding_31_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+02 .
 
 data:finding_33_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 0e+00 .
-
-data:finding_35 a ns1:RiskFinding ;
-    rdfs:label "Disruption exposure: High for Interchangeable sensor package (VT300-Z, VT300-L or V100-L)" ;
-    rdfs:comment "An event names a supplier or its parent: China sanctions Skydio, cutting off its battery supplier Dongguan Poweramp." ;
-    prov:wasDerivedFrom data:event_skydio_sanctions_2024 ;
-    iof:classifiedBy data:band_high,
-        data:rule_disruption_exposure ;
-    iof:hasValueExpressionAtSomeTime data:finding_35_value ;
-    iof:isAbout data:sensor_package .
 
 data:finding_35_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+00 .
@@ -3587,21 +3888,20 @@ data:finding_3_value a iof:ValueExpression ;
 data:finding_40_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 0e+00 .
 
-data:finding_41 a ns1:RiskFinding ;
-    rdfs:label "Tariff exposure: High for 64 MP narrow camera module (1/1.7-inch CMOS)" ;
-    rdfs:comment "Highest duty now is 12.5% under 8525.89.3000 (US HTS 2026 Revision 22) from TH." ;
-    prov:wasDerivedFrom data:code_us_8525893000,
-        data:country_TH ;
-    iof:classifiedBy data:band_high,
-        data:rule_tariff_exposure ;
-    iof:hasValueExpressionAtSomeTime data:finding_41_value ;
-    iof:isAbout data:narrow_camera .
-
 data:finding_41_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1.25e+01 .
 
 data:finding_42_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 0e+00 .
+
+data:finding_43 a ns1:RiskFinding ;
+    rdfs:label "Single source: High for 48 MP telephoto camera module (1/2-inch CMOS)" ;
+    rdfs:comment "1 recorded supplier(s): Primax Electronics." ;
+    prov:wasDerivedFrom data:sup_primax_electronics ;
+    iof:classifiedBy data:band_high,
+        data:rule_single_source ;
+    iof:hasValueExpressionAtSomeTime data:finding_43_value ;
+    iof:isAbout data:tele_camera .
 
 data:finding_43_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+00 .
@@ -3617,6 +3917,15 @@ data:finding_44 a ns1:RiskFinding ;
 
 data:finding_44_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 0e+00 .
+
+data:finding_45 a ns1:RiskFinding ;
+    rdfs:label "Geographic concentration: High for 48 MP telephoto camera module (1/2-inch CMOS)" ;
+    rdfs:comment "100% of 1 source location(s) are in TH." ;
+    prov:wasDerivedFrom data:country_TH ;
+    iof:classifiedBy data:band_high,
+        data:rule_geographic_concentration ;
+    iof:hasValueExpressionAtSomeTime data:finding_45_value ;
+    iof:isAbout data:tele_camera .
 
 data:finding_45_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+02 .
@@ -3643,15 +3952,6 @@ data:finding_49_value a iof:ValueExpression ;
 data:finding_4_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 3.3e+01 .
 
-data:finding_50 a ns1:RiskFinding ;
-    rdfs:label "Single source: High for 50.3 MP wide camera module (1-inch CMOS)" ;
-    rdfs:comment "1 recorded supplier(s): Primax Electronics." ;
-    prov:wasDerivedFrom data:sup_primax_electronics ;
-    iof:classifiedBy data:band_high,
-        data:rule_single_source ;
-    iof:hasValueExpressionAtSomeTime data:finding_50_value ;
-    iof:isAbout data:wide_camera .
-
 data:finding_50_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+00 .
 
@@ -3672,6 +3972,16 @@ data:finding_52_value a iof:ValueExpression ;
 
 data:finding_54_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 0e+00 .
+
+data:finding_55 a ns1:RiskFinding ;
+    rdfs:label "Tariff exposure: High for 50.3 MP wide camera module (1-inch CMOS)" ;
+    rdfs:comment "Highest duty now is 12.5% under 8525.89.3000 (US HTS 2026 Revision 22) from TH." ;
+    prov:wasDerivedFrom data:code_us_8525893000,
+        data:country_TH ;
+    iof:classifiedBy data:band_high,
+        data:rule_tariff_exposure ;
+    iof:hasValueExpressionAtSomeTime data:finding_55_value ;
+    iof:isAbout data:wide_camera .
 
 data:finding_55_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1.25e+01 .
@@ -3787,26 +4097,8 @@ data:finding_83_value a iof:ValueExpression ;
 data:finding_84_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+00 .
 
-data:finding_85 a ns1:RiskFinding ;
-    rdfs:label "Single source: High for Sony IMX989 1-inch 50.3 MP CMOS image sensor" ;
-    rdfs:comment "1 recorded supplier(s): Sony." ;
-    prov:wasDerivedFrom data:sup_sony ;
-    iof:classifiedBy data:band_high,
-        data:rule_single_source ;
-    iof:hasValueExpressionAtSomeTime data:finding_85_value ;
-    iof:isAbout data:wide_image_sensor .
-
 data:finding_85_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 1e+00 .
-
-data:finding_86 a ns1:RiskFinding ;
-    rdfs:label "No recorded alternative: High for Sony IMX989 1-inch 50.3 MP CMOS image sensor" ;
-    rdfs:comment "0 other supplier(s) recorded for this kind of part." ;
-    prov:wasDerivedFrom data:sup_sony ;
-    iof:classifiedBy data:band_high,
-        data:rule_no_recorded_alternative ;
-    iof:hasValueExpressionAtSomeTime data:finding_86_value ;
-    iof:isAbout data:wide_image_sensor .
 
 data:finding_86_value a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 0e+00 .
@@ -4065,6 +4357,22 @@ data:id_LEI_H1J8DDZKZP6H7RWC0H53 a iof:OrganizationIdentifier ;
     rdfs:label "LEI H1J8DDZKZP6H7RWC0H53" ;
     iof:hasTextValue "H1J8DDZKZP6H7RWC0H53" .
 
+data:id_OpenCorporates_sg_198004601C a iof:OrganizationIdentifier ;
+    rdfs:label "OpenCorporates sg/198004601C" ;
+    iof:hasTextValue "sg/198004601C" .
+
+data:id_OpenCorporates_us_de_2862596 a iof:OrganizationIdentifier ;
+    rdfs:label "OpenCorporates us_de/2862596" ;
+    iof:hasTextValue "us_de/2862596" .
+
+data:id_OpenCorporates_us_de_5475586 a iof:OrganizationIdentifier ;
+    rdfs:label "OpenCorporates us_de/5475586" ;
+    iof:hasTextValue "us_de/5475586" .
+
+data:id_OpenCorporates_us_va_11229111 a iof:OrganizationIdentifier ;
+    rdfs:label "OpenCorporates us_va/11229111" ;
+    iof:hasTextValue "us_va/11229111" .
+
 data:id_Wikidata_Q107412212 a iof:OrganizationIdentifier ;
     rdfs:label "Wikidata Q107412212" ;
     iof:hasTextValue "Q107412212" .
@@ -4163,109 +4471,109 @@ data:org_name_getacholdings a iof:BusinessOrganization ;
     prov:wasDerivedFrom <https://financialreports.eu/filings/getac-3005/annual-report/2026/48015052/> .
 
 data:prediction_brushless_motor_changzhou_hetai_motor_and_electrica_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.63e-01 .
+    iof:hasSimpleExpressionValue 9.1e-01 .
 
-data:prediction_brushless_motor_minebea_electronics_motor_zh_lt_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.32e-01 .
+data:prediction_brushless_motor_minebea_elec_motor_zhuhai_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 8.95e-01 .
 
 data:prediction_brushless_motor_minebea_electronics_motor_zhuhai_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.16e-01 .
+    iof:hasSimpleExpressionValue 8.89e-01 .
 
-data:prediction_brushless_motor_nanjing_roytek_3x_motion_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.96e-01 .
+data:prediction_brushless_motor_nanjing_roytek_3x_motiontechnolo_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 8.71e-01 .
 
-data:prediction_brushless_motor_nidec_techno_motor_vietnam_corporat_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.45e-01 .
+data:prediction_brushless_motor_nanjing_roytek_and_3x_motion_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 8.47e-01 .
+
+data:prediction_camera_module_aptiv_safety_mobility_services_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.87e-01 .
 
 data:prediction_camera_module_aptiv_safety_mobility_services_si_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.9e-01 .
+    iof:hasSimpleExpressionValue 6.99e-01 .
+
+data:prediction_camera_module_dongguan_primax_electronic_teleco_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.88e-01 .
 
 data:prediction_camera_module_samsung_high_tech_electronic_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.84e-01 .
-
-data:prediction_camera_module_zf_cv_systems_global_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.36e-01 .
-
-data:prediction_camera_module_zf_cv_systems_hannover_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.69e-01 .
+    iof:hasSimpleExpressionValue 7.34e-01 .
 
 data:prediction_camera_module_zf_cv_systems_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.15e-01 .
+    iof:hasSimpleExpressionValue 6.59e-01 .
 
 data:prediction_image_sensor_l_and_k_industries_phils_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.31e-01 .
-
-data:prediction_image_sensor_l_k_industries_philippines_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.17e-01 .
-
-data:prediction_image_sensor_l_k_industries_phils_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.55e-01 .
-
-data:prediction_image_sensor_pixon_technologies_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.14e-01 .
-
-data:prediction_image_sensor_shinsei_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.11e-01 .
-
-data:prediction_integrated_circuit_altice_labs_sa_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.45e-01 .
-
-data:prediction_integrated_circuit_brevetek_makine_arge_inovasyon_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.48e-01 .
-
-data:prediction_integrated_circuit_erdrich_umformtechnik_s_r_o_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.84e-01 .
-
-data:prediction_integrated_circuit_onsemi_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.55e-01 .
-
-data:prediction_integrated_circuit_variosystems_ag_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.5e-01 .
-
-data:prediction_li_ion_battery_bst_power_shenzhen_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.32e-01 .
-
-data:prediction_li_ion_battery_dongguan_best_new_energy_technology_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.28e-01 .
-
-data:prediction_li_ion_battery_guangdong_rept_battero_energy_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.28e-01 .
-
-data:prediction_li_ion_battery_lg_energy_solution_nanjing_lt_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.21e-01 .
-
-data:prediction_li_ion_battery_shenzhen_utility_energy_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.29e-01 .
-
-data:prediction_thermal_camera_dahua_technology_hk_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.83e-01 .
-
-data:prediction_thermal_camera_es_hk_industrial_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.99e-01 .
-
-data:prediction_thermal_camera_grand_dynasty_industrial_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.34e-01 .
-
-data:prediction_thermal_camera_uni_trend_technology_hong_kong_li_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.05e-01 .
-
-data:prediction_thermal_camera_uni_trend_technology_hong_kong_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.43e-01 .
-
-data:prediction_wireless_module_quectel_iot_technologies_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.12e-01 .
-
-data:prediction_wireless_module_quectel_wireless_solutions_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.67e-01 .
-
-data:prediction_wireless_module_sercomm_score a iof:ValueExpression ;
     iof:hasSimpleExpressionValue 5.3e-01 .
 
-data:prediction_wireless_module_telit_wireless_services_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.51e-01 .
+data:prediction_image_sensor_l_k_industries_philippines_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 4.82e-01 .
 
-data:prediction_wireless_module_telit_wireless_solutions_hong_kong_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.37e-01 .
+data:prediction_image_sensor_l_k_industries_phils_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6e-01 .
+
+data:prediction_image_sensor_pixon_technologies_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 4.32e-01 .
+
+data:prediction_image_sensor_shinsei_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 4.59e-01 .
+
+data:prediction_integrated_circuit_8devices_uab_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.63e-01 .
+
+data:prediction_integrated_circuit_baxter_medical_systems_k_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.94e-01 .
+
+data:prediction_integrated_circuit_erdrich_umformtechnik_s_r_o_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 7.3e-01 .
+
+data:prediction_integrated_circuit_erdrich_umformtechnik_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.67e-01 .
+
+data:prediction_integrated_circuit_pdsi_b_v_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.68e-01 .
+
+data:prediction_li_ion_battery_dongguan_best_new_energy_technology_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 9.14e-01 .
+
+data:prediction_li_ion_battery_guangdong_rept_battero_energy_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 8.84e-01 .
+
+data:prediction_li_ion_battery_quzhou_great_power_energy_technolog_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 8.97e-01 .
+
+data:prediction_li_ion_battery_shenzhen_gaopeng_energy_technoloy_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 8.91e-01 .
+
+data:prediction_li_ion_battery_shenzhen_quanmai_xingye_energy_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 9e-01 .
+
+data:prediction_thermal_camera_auras_technology_kunshan_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.25e-01 .
+
+data:prediction_thermal_camera_auras_technology_kunshanco_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 7.33e-01 .
+
+data:prediction_thermal_camera_aurastechnology_kunshan_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.31e-01 .
+
+data:prediction_thermal_camera_yaoyu_trade_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.74e-01 .
+
+data:prediction_thermal_camera_zehong_guangzhou_technology_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.46e-01 .
+
+data:prediction_wireless_module_deltanordic_sweden_ab_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 7.26e-01 .
+
+data:prediction_wireless_module_fca_shanghai_auto_parts_trade_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.89e-01 .
+
+data:prediction_wireless_module_fj_dynamics_international_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.46e-01 .
+
+data:prediction_wireless_module_telit_wireless_services_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.77e-01 .
+
+data:prediction_wireless_module_topp_s_r_l_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.82e-01 .
 
 data:route_pusan_to_oakland_ca a iof:ShippingRoute ;
     rdfs:label "Pusan -> Oakland, Ca" ;
@@ -4645,8 +4953,8 @@ data:sup_super_bold_vietnam_packaging_prod a iof:Supplier ;
 
 data:advice_battery_1 a iof:ActionSpecification ;
     rdfs:label "Switch supplier for Flight battery" ;
-    dcterms:description "Dongguan Poweramp Technology is cut off by Chinese sanctions on Skydio and faces 40.9% duty from China, against 10.0% from Taiwan. Recorded Taiwan suppliers already exist for this kind of part." ;
-    rdfs:comment "Move flight battery purchasing away from Dongguan Poweramp Technology, which is exposed to Chinese sanctions and the highest duty, to recorded Taiwan suppliers Celxpert Energy and Simplo Technology, and use Atemitech as a further option." ;
+    dcterms:description "Sanctions cut off Dongguan Poweramp Technology, and Chinese origin carries a far higher duty than Taiwan origin. Three recorded Taiwan suppliers can take the work." ;
+    rdfs:comment "Move flight battery volume away from Dongguan Poweramp Technology, the Chinese supplier cut off by sanctions and carrying the highest duty, to the Taiwan-based recorded suppliers Celxpert Energy, Simplo Technology and Atemitech, which are already recorded for this kind of part." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:code_us_8507600090,
         data:event_skydio_sanctions_2024,
@@ -4662,14 +4970,12 @@ data:advice_battery_1 a iof:ActionSpecification ;
 
 data:advice_battery_2 a iof:ActionSpecification ;
     rdfs:label "Diversify transport and logistics for Flight battery" ;
-    dcterms:description "Two thirds of recorded shipments use one route, and most sources are in Taiwan, so a single port or regional disruption would hit supply." ;
-    rdfs:comment "Split flight battery shipments between the Kaohsiung to Long Beach route and at least one other port or carrier, so a disruption on one route does not stop supply." ;
+    dcterms:description "Two thirds of recorded shipments use one route, and most source locations are in Taiwan, so a disruption on that route or in Taiwan would hit supply." ;
+    rdfs:comment "Split flight battery shipments from the Taiwan suppliers across more than one port or carrier, so the Kaohsiung to Long Beach route is no longer the main path." ;
     prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:code_us_8507600090,
-        data:finding_108,
+    prov:wasDerivedFrom data:finding_108,
         data:finding_109,
-        data:sup_celxpert_energy,
-        data:sup_simplo_technology ;
+        data:sup_atemitech ;
     iof:classifiedBy data:firmness_qualify_and_award,
         data:strategy_diversify_transport_and_logistics ;
     iof:isAbout data:battery,
@@ -4677,37 +4983,37 @@ data:advice_battery_2 a iof:ActionSpecification ;
         data:sup_simplo_technology .
 
 data:advice_compute_1 a iof:ActionSpecification ;
-    rdfs:label "No change, monitor for NVIDIA Jetson Orin SoC (main processor)" ;
-    dcterms:description "I judged the Jetson Orin SoC proprietary to NVIDIA, so it is sole source and no other supplier can be proposed. The 50% duty applies only to China origin, and Vietnam origin carries none." ;
-    rdfs:comment "Keep buying the Jetson Orin SoC from NVIDIA and do not approach other suppliers. Keep the single-source position and the scheduled change in the China duty rate under review, and confirm the country of origin on each purchase." ;
+    rdfs:label "Hold safety stock for NVIDIA Jetson Orin SoC (main processor)" ;
+    dcterms:description "I judged this a proprietary NVIDIA part, so it is sole source and no other supplier can be proposed. Stock is the only cover against a supply break, and shipping disruption is already linked to it." ;
+    rdfs:comment "Keep extra Jetson Orin processors in stock, bought from NVIDIA, to cover an interruption. No other source should be sought, because this named processor is made only by its maker and no alternative is recorded." ;
+    prov:wasAttributedTo data:sourcing_adviser ;
+    prov:wasDerivedFrom data:event_hormuz_closure_2026,
+        data:finding_8,
+        data:finding_9,
+        data:sup_nvidia ;
+    iof:classifiedBy data:firmness_with_the_present_supplier,
+        data:strategy_hold_safety_stock ;
+    iof:isAbout data:compute,
+        data:sup_nvidia .
+
+data:advice_compute_2 a iof:ActionSpecification ;
+    rdfs:label "Diversify supply location for NVIDIA Jetson Orin SoC (main processor)" ;
+    dcterms:description "Chinese-origin goods carry 50% duty under this tariff line, against 0% from Vietnam. A new Section 301 tariff on Chinese semiconductors is announced. Same supplier, different origin." ;
+    rdfs:comment "Ask NVIDIA to confirm the country of origin for these processors and to supply from a non-Chinese site, such as Vietnam. Avoid Chinese-origin lots while the 50% duty applies and a rate change is scheduled." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:code_us_8542310070,
         data:event_us_tariffs_china_semiconductors,
         data:finding_13,
-        data:finding_8,
-        data:finding_9,
         data:sup_nvidia ;
-    iof:classifiedBy data:firmness_no_supplier_named,
-        data:strategy_no_change_monitor ;
-    iof:isAbout data:compute .
-
-data:advice_gimbal_motors_1 a iof:ActionSpecification ;
-    rdfs:label "Dual or multiple sourcing for Gimbal camera angle motors (pan, tilt, roll)" ;
-    dcterms:description "Only one supplier is recorded and no alternative is known. Gimbal motors are brushless motors, not a proprietary part, so I judged other makers possible. Nanjing Roytek & 3X Motion Technolo has the most shipments of the leads." ;
-    rdfs:comment "Keep Nidec Corporation and request a quotation from Nanjing Roytek & 3X Motion Technolo for the gimbal motors, with Changzhou Hetai Motor And Electrica as a fallback. These are unverified leads, so do not move any volume until a sample has been qualified." ;
-    prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:finding_100,
-        data:finding_99,
-        data:sup_nidec ;
-    iof:classifiedBy data:firmness_request_for_quotation,
-        data:strategy_dual_or_multiple_sourcing ;
-    iof:isAbout data:candidate_changzhou_hetai_motor_and_electrica,
-        data:gimbal_motors .
+    iof:classifiedBy data:firmness_with_the_present_supplier,
+        data:strategy_diversify_supply_location ;
+    iof:isAbout data:compute,
+        data:sup_nvidia .
 
 data:advice_gimbal_motors_2 a iof:ActionSpecification ;
     rdfs:label "Diversify supply location for Gimbal camera angle motors (pan, tilt, roll)" ;
-    dcterms:description "Half of the source locations are in Thailand, where duty is 16.9%. Duty from Japan is 12.5%. Nidec Corporation's own location is not recorded, so a Japan site must be confirmed." ;
-    rdfs:comment "Ask Nidec Corporation to quote supply of these motors from a Japan site instead of Thailand, to reduce the Thai share and the higher duty." ;
+    dcterms:description "Half of the source locations are in Thailand, where duty is 16.9%. Duty from Japan on the same code is 12.5%. Nidec Corporation is already the recorded supplier." ;
+    rdfs:comment "Ask Nidec Corporation whether this motor can be supplied from a Japan site instead of the Thailand site, to reduce reliance on Thailand and the higher duty." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:code_us_8501104040,
         data:finding_101,
@@ -4720,8 +5026,8 @@ data:advice_gimbal_motors_2 a iof:ActionSpecification ;
 
 data:advice_modem_5g_1 a iof:ActionSpecification ;
     rdfs:label "Dual or multiple sourcing for Built-in 5G/LTE cellular modem" ;
-    dcterms:description "Only one supplier is recorded, no alternative exists, and all sourcing is in VN. A cellular module is a generic part, not a sole-source named chip. Quectel Iot Technologies Pte Ltd and Telit Wireless Services Ltd ship from MY and HK." ;
-    rdfs:comment "Keep Telit Cinterion (Telit Communications S.p.A.) as the current supplier and ask Quectel Iot Technologies Pte Ltd and Telit Wireless Services Ltd for quotations on a comparable 5G/LTE modem module. Treat both as unverified leads, and qualify a second source only if a quotation and fit check hold up." ;
+    dcterms:description "The item has one recorded supplier, no recorded alternative and all sourcing in one country. Vetted makers are preferred to predicted leads, but nothing says their parts fit, so only quotations can be requested." ;
+    rdfs:comment "Keep Telit Cinterion (Telit Communications S.p.A.) as the current supplier. Ask Sierra Wireless, ARK Electronics and Microhard for quotations on a built-in 5G/LTE modem, then test whether their listed modules fit the product and qualify at least one as a second source." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:finding_120,
         data:finding_121,
@@ -4729,15 +5035,16 @@ data:advice_modem_5g_1 a iof:ActionSpecification ;
         data:sup_telit ;
     iof:classifiedBy data:firmness_request_for_quotation,
         data:strategy_dual_or_multiple_sourcing ;
-    iof:isAbout data:candidate_quectel_iot_technologies,
-        data:candidate_telit_wireless_services,
-        data:modem_5g,
-        data:sup_telit .
+    iof:isAbout data:modem_5g,
+        data:sup_telit,
+        data:vetted_ark_electronics,
+        data:vetted_microhard,
+        data:vetted_sierra_wireless .
 
 data:advice_modem_5g_2 a iof:ActionSpecification ;
     rdfs:label "Hold safety stock for Built-in 5G/LTE cellular modem" ;
-    dcterms:description "Qualifying another module takes time. Until then, one supplier at one location in VN is the only supply, and stock is the only cover." ;
-    rdfs:comment "Keep extra stock of the cellular modem from Telit Cinterion (Telit Communications S.p.A.) while a second source is being qualified, to cover any interruption at the single supplier or its VN site." ;
+    dcterms:description "With one supplier and one source country, any interruption stops supply, and no alternative can be approved quickly. Buffer stock covers the gap during qualification." ;
+    rdfs:comment "Hold extra built-in modems from Telit Cinterion (Telit Communications S.p.A.) while a second source is being qualified, so production continues if the single Vietnam-based supply is interrupted." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:finding_120,
         data:finding_122,
@@ -4749,24 +5056,23 @@ data:advice_modem_5g_2 a iof:ActionSpecification ;
 
 data:advice_narrow_camera_1 a iof:ActionSpecification ;
     rdfs:label "Dual or multiple sourcing for 64 MP narrow camera module (1/1.7-inch CMOS)" ;
-    dcterms:description "Only one supplier is recorded, with no alternative and all supply from Thailand. Predicted suppliers in Singapore and Germany could break this, but they are unverified and can only be asked to quote." ;
-    rdfs:comment "Keep Primax Electronics as the current supplier. Ask Aptiv Safety & Mobility Services and Zf Cv Systems Hannover Gmbh, which ship from outside Thailand, for quotations on the same camera module so a second source can be qualified. Treat both as unverified leads until they quote and pass qualification." ;
+    dcterms:description "Only one supplier is recorded, in one country, with no alternative known. The part is a camera module, not a named proprietary chip, so I did not judge it sole source. Vetted makers rank above predicted leads." ;
+    rdfs:comment "Keep Primax Electronics as the current supplier. Ask ModalAI and Immervision for quotations on a second camera module that could meet this 64 MP narrow camera requirement. Treat both as leads only, because neither is a like-for-like part." ;
     prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:code_us_8525893000,
-        data:finding_36,
+    prov:wasDerivedFrom data:finding_36,
         data:finding_37,
         data:finding_38,
-        data:finding_41,
         data:sup_primax_electronics ;
     iof:classifiedBy data:firmness_request_for_quotation,
         data:strategy_dual_or_multiple_sourcing ;
-    iof:isAbout data:candidate_zf_cv_systems_hannover,
-        data:narrow_camera .
+    iof:isAbout data:narrow_camera,
+        data:vetted_immervision,
+        data:vetted_modalai .
 
 data:advice_narrow_camera_2 a iof:ActionSpecification ;
     rdfs:label "Hold safety stock for 64 MP narrow camera module (1/1.7-inch CMOS)" ;
-    dcterms:description "All supply comes from one supplier in one country with no alternative recorded, so any interruption would stop the item. Stock gives cover until another source is approved." ;
-    rdfs:comment "While a second source is being qualified, keep extra stock of the camera module bought from Primax Electronics to cover an interruption at the single Thailand source." ;
+    dcterms:description "All supply comes from one supplier at one location, and no alternative can be relied on yet. Stock gives cover while the quotations are assessed and any second source is qualified." ;
+    rdfs:comment "Keep extra stock of this camera module bought from Primax Electronics. It covers an interruption at the single supplier or in Thailand while a second source is being qualified." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:finding_36,
         data:finding_38,
@@ -4778,8 +5084,8 @@ data:advice_narrow_camera_2 a iof:ActionSpecification ;
 
 data:advice_narrow_image_sensor_1 a iof:ActionSpecification ;
     rdfs:label "Hold safety stock for Sony 1/1.7-inch 64 MP CMOS image sensor" ;
-    dcterms:description "I judged this named Sony sensor proprietary to its maker, so it is sole source and no other supplier can be proposed. Stock is the available defence against single-source and Japan-only exposure." ;
-    rdfs:comment "Keep extra stock of this Sony sensor, bought from Sony, to cover an interruption at the single maker. Review the stock level against how long a lapse the skydio_x10 build could tolerate." ;
+    dcterms:description "I judged this named Sony sensor proprietary to its maker, so it is sole source and no other supplier can be proposed. Stock is the available protection against single-source and Japan-only exposure." ;
+    rdfs:comment "Keep extra stock of this Sony image sensor, bought from Sony, to cover an interruption at the single maker in Japan. Review the stock held whenever the item is next bought." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:finding_71,
         data:finding_72,
@@ -4792,8 +5098,8 @@ data:advice_narrow_image_sensor_1 a iof:ActionSpecification ;
 
 data:advice_narrow_image_sensor_2 a iof:ActionSpecification ;
     rdfs:label "Substitute or redesign the part for Sony 1/1.7-inch 64 MP CMOS image sensor" ;
-    dcterms:description "The Sony sensor is proprietary and sole source, so a second source exists only through a design change. No alternative is recorded, and the predicted leads are unverified." ;
-    rdfs:comment "Ask engineering to assess whether the skydio_x10 camera design could accept a second, equivalent image sensor, so that other makers could supply it. Treat any resulting supplier as a new qualification." ;
+    dcterms:description "I judged the Sony sensor proprietary, so it is sole source. Only a design change can create real alternatives; no other supplier can be named for this exact part." ;
+    rdfs:comment "Ask engineering to assess whether the camera design could accept a different image sensor, so that more than one maker could supply it. Do not approach other suppliers until a design option exists." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:finding_71,
         data:finding_72,
@@ -4804,8 +5110,8 @@ data:advice_narrow_image_sensor_2 a iof:ActionSpecification ;
 
 data:advice_nav_cameras_2 a iof:ActionSpecification ;
     rdfs:label "Hold safety stock for Navigation cameras (custom 32 MP)" ;
-    dcterms:description "All supply comes from one supplier at one Thai location. Stock gives cover until a second source is approved." ;
-    rdfs:comment "Hold extra stock of the navigation cameras bought from Primax Electronics to cover any interruption in Thailand while a second source is being qualified." ;
+    dcterms:description "Everything comes from one supplier in one country, and no alternative is yet confirmed. Stock bridges the gap but does not reduce the duty." ;
+    rdfs:comment "Keep extra stock of the custom navigation cameras bought from Primax Electronics, to cover an interruption at its single Thailand source while a second source is quoted and qualified." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:finding_22,
         data:finding_24,
@@ -4817,10 +5123,11 @@ data:advice_nav_cameras_2 a iof:ActionSpecification ;
 
 data:advice_nav_image_sensor_1 a iof:ActionSpecification ;
     rdfs:label "Hold safety stock for Samsung 1/2.8-inch 32 MP colour CMOS image sensor" ;
-    dcterms:description "I judged this a named Samsung sensor model, proprietary to its maker and so sole source. No other supplier can be proposed, and all supply sits in one country, so a buffer is the practical defence." ;
-    rdfs:comment "Keep extra stock of this image sensor, bought from Samsung, to cover an interruption at the single source. Review the stock level whenever the exposure changes, since no second source can be approached for this part." ;
+    dcterms:description "I judged this named Samsung sensor to be proprietary to its maker (sole source), so no other supplier can be proposed. Stock is the only direct cover for single-source and Korea-only exposure." ;
+    rdfs:comment "Keep a buffer of this Samsung image sensor, bought from Samsung, to cover an interruption at the single Korean source. Review the buffer whenever the sourcing picture changes." ;
     prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:finding_64,
+    prov:wasDerivedFrom data:code_us_8541499500,
+        data:finding_64,
         data:finding_65,
         data:finding_66,
         data:sup_samsung ;
@@ -4831,8 +5138,8 @@ data:advice_nav_image_sensor_1 a iof:ActionSpecification ;
 
 data:advice_nav_image_sensor_2 a iof:ActionSpecification ;
     rdfs:label "Substitute or redesign the part for Samsung 1/2.8-inch 32 MP colour CMOS image sensor" ;
-    dcterms:description "Because I judged the sensor proprietary to Samsung, no other supplier can make it. Redesign is the only route to a second source, and it would also remove the concentration in one country." ;
-    rdfs:comment "Ask engineering to assess a design change that would accept a second, compatible image sensor from another maker, so that supply no longer depends on one supplier in one country." ;
+    dcterms:description "The sensor is a proprietary Samsung part (my judgment, sole source), so a second source is only possible if the design changes. No alternative maker is recorded." ;
+    rdfs:comment "Ask engineering to assess whether the camera design could accept a second, form-fit sensor from a different maker, so that a second source becomes possible in future." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:finding_64,
         data:finding_65,
@@ -4842,10 +5149,24 @@ data:advice_nav_image_sensor_2 a iof:ActionSpecification ;
         data:strategy_substitute_or_redesign_the_part ;
     iof:isAbout data:nav_image_sensor .
 
+data:advice_propulsion_motors_1 a iof:ActionSpecification ;
+    rdfs:label "Dual or multiple sourcing for Propulsion motors" ;
+    dcterms:description "One recorded supplier and no recorded alternative leave supply exposed. A vetted maker is preferred to the unverified predicted leads, but nothing says its part fits this item." ;
+    rdfs:comment "Keep Nidec Corporation and ask Vertiq for a quotation on a second source for the propulsion motors. Vertiq is a vetted maker, though a loose match. Only a quotation can be requested, and fit must be confirmed first." ;
+    prov:wasAttributedTo data:sourcing_adviser ;
+    prov:wasDerivedFrom data:finding_92,
+        data:finding_93,
+        data:sup_nidec ;
+    iof:classifiedBy data:firmness_request_for_quotation,
+        data:strategy_dual_or_multiple_sourcing ;
+    iof:isAbout data:propulsion_motors,
+        data:sup_nidec,
+        data:vetted_vertiq .
+
 data:advice_propulsion_motors_2 a iof:ActionSpecification ;
     rdfs:label "Diversify supply location for Propulsion motors" ;
-    dcterms:description "Duty from Thailand is 16.5% against 12.5% from Japan, and half of the recorded source locations are in Thailand. Nidec Corporation's country is not recorded, so its Japan capability is unconfirmed." ;
-    rdfs:comment "Ask Nidec Corporation whether it can supply the motors from a site in Japan instead of Thailand. If it can, move part or all of the volume there to cut duty and reduce reliance on Thailand." ;
+    dcterms:description "Duty from Japan is 12.5% against 16.5% from Thailand, and half of the source locations are in Thailand. Nidec Corporation's own location is not recorded, so a Japan site is unconfirmed." ;
+    rdfs:comment "Ask Nidec Corporation whether it can supply these motors from a Japan site instead of Thailand. The duty from Japan is lower than from Thailand, which would also ease the tariff and the Thailand concentration." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:code_us_8501314000,
         data:finding_94,
@@ -4858,27 +5179,26 @@ data:advice_propulsion_motors_2 a iof:ActionSpecification ;
 
 data:advice_qrb5165_1 a iof:ActionSpecification ;
     rdfs:label "Hold safety stock for Qualcomm QRB5165 SoC" ;
-    dcterms:description "I judged the QRB5165 proprietary to Qualcomm (sole source), so no other supplier can be proposed. Stock is the only buffer against single-source, no-alternative and single-location exposure." ;
-    rdfs:comment "Keep extra stock of the QRB5165 SoC to ride out an interruption, since no other supplier can be approached. Review the stock position whenever the Qualcomm supply picture or shipping conditions change." ;
+    dcterms:description "I judged the QRB5165 a proprietary Qualcomm chip (sole source), so no other supplier can be proposed. Buffer stock is the remaining defence against single-source and location concentration." ;
+    rdfs:comment "Keep extra stock of this Qualcomm system-on-chip, bought from Qualcomm, to ride out an interruption. Do not seek another supplier, because the part is proprietary to its maker." ;
     prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:event_hormuz_closure_2026,
-        data:finding_15,
+    prov:wasDerivedFrom data:finding_15,
         data:finding_16,
         data:finding_17,
         data:sup_qualcomm ;
-    iof:classifiedBy data:firmness_no_supplier_named,
+    iof:classifiedBy data:firmness_with_the_present_supplier,
         data:strategy_hold_safety_stock ;
-    iof:isAbout data:qrb5165 .
+    iof:isAbout data:qrb5165,
+        data:sup_qualcomm .
 
 data:advice_radio_sl_1 a iof:ActionSpecification ;
     rdfs:label "Hold safety stock for Skydio Connect SL point-to-point radio (2.4/5 GHz)" ;
-    dcterms:description "I judged this radio proprietary to Skydio (sole source), so no other supplier is proposed. The predicted suppliers ship generic wireless modules. Stock is the only cover against a Skydio interruption, including the sanctions event." ;
-    rdfs:comment "Keep a buffer of the Connect SL radio bought from Skydio, Inc., its maker. Review the buffer whenever Skydio, Inc.'s sanctions situation or its supply chain changes, since no second source can be approached." ;
+    dcterms:description "I judged this a Skydio-branded part, so it is sole source and no other supplier should be proposed. Stock is the main protection against Skydio being cut off, as the sanctions event shows." ;
+    rdfs:comment "Keep extra stock of the Skydio Connect SL radio bought from Skydio, Inc., the only recorded supplier, to cover an interruption. Review the stock level whenever the sanctions situation changes." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:event_skydio_sanctions_2024,
         data:finding_113,
         data:finding_114,
-        data:finding_115,
         data:finding_119,
         data:sup_skydio ;
     iof:classifiedBy data:firmness_with_the_present_supplier,
@@ -4887,39 +5207,55 @@ data:advice_radio_sl_1 a iof:ActionSpecification ;
         data:sup_skydio .
 
 data:advice_sensor_package_1 a iof:ActionSpecification ;
-    rdfs:label "No change, monitor for Interchangeable sensor package (VT300-Z, VT300-L or V100-L)" ;
-    dcterms:description "The package is named for a specific maker's own models (VT300-Z, VT300-L, V100-L), so I judged it proprietary and sole-source. No alternative supplier is recorded or predicted. The sanctions concern a battery supplier, not this part." ;
-    rdfs:comment "Keep buying the sensor package from Skydio, Inc. and keep the exposure under review. Do not approach other suppliers. Watch whether the sanctions on Skydio, Inc. begin to affect the supply of this sensor package." ;
+    rdfs:label "Hold safety stock for Interchangeable sensor package (VT300-Z, VT300-L or V100-L)" ;
+    dcterms:description "The package is likely proprietary to its maker, so I judged it sole source and propose no other supplier. Skydio, Inc. is the only source and is exposed to China's sanctions, so stock is the available buffer." ;
+    rdfs:comment "Keep extra stock of the interchangeable sensor package, covering the VT300-Z, VT300-L and V100-L variants, to ride out any interruption at Skydio, Inc.. Review the stock level whenever the sanctions situation changes." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:event_skydio_sanctions_2024,
         data:finding_29,
         data:finding_30,
         data:finding_35,
         data:sup_skydio ;
-    iof:classifiedBy data:firmness_no_supplier_named,
-        data:strategy_no_change_monitor ;
-    iof:isAbout data:sensor_package .
+    iof:classifiedBy data:firmness_with_the_present_supplier,
+        data:strategy_hold_safety_stock ;
+    iof:isAbout data:sensor_package,
+        data:sup_skydio .
+
+data:advice_tele_camera_1 a iof:ActionSpecification ;
+    rdfs:label "Dual or multiple sourcing for 48 MP telephoto camera module (1/2-inch CMOS)" ;
+    dcterms:description "Only one supplier and no recorded alternative. Vetted makers are preferred over predicted leads, but their listed parts are loose matches, so a quotation is the most that can be asked. The part is a camera module, not judged sole-source." ;
+    rdfs:comment "Keep Primax Electronics as the current supplier. Ask ModalAI and Immervision for quotations on a telephoto camera module that could do this job, so a second source exists. Treat their listed parts as loose matches, not like-for-like." ;
+    prov:wasAttributedTo data:sourcing_adviser ;
+    prov:wasDerivedFrom data:finding_43,
+        data:finding_44,
+        data:sup_primax_electronics ;
+    iof:classifiedBy data:firmness_request_for_quotation,
+        data:strategy_dual_or_multiple_sourcing ;
+    iof:isAbout data:tele_camera,
+        data:vetted_immervision,
+        data:vetted_modalai .
 
 data:advice_tele_camera_2 a iof:ActionSpecification ;
-    rdfs:label "Hold safety stock for 48 MP telephoto camera module (1/2-inch CMOS)" ;
-    dcterms:description "All supply comes from one supplier in one country, and no alternative is yet recorded. Stock covers the gap until a second source is approved." ;
-    rdfs:comment "Hold extra stock of the telephoto camera module bought from Primax Electronics while a second source is being qualified, so a Thailand disruption or a change in duty does not stop production." ;
+    rdfs:label "Diversify supply location for 48 MP telephoto camera module (1/2-inch CMOS)" ;
+    dcterms:description "All supply comes from Thailand, which also carries a 12.5% duty. Predicted suppliers are unverified leads, so only a quotation can be requested. Duty from DE or SG is not recorded." ;
+    rdfs:comment "Ask Zf Cv Systems (DE) and Aptiv Safety & Mobility Services Si (SG) for quotations on this camera module, to find a source outside Thailand. Check the duty on imports from each country before comparing them with the 12.5% now paid from TH." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:code_us_8525893000,
-        data:finding_43,
         data:finding_45,
+        data:finding_48,
         data:sup_primax_electronics ;
-    iof:classifiedBy data:firmness_no_supplier_named,
-        data:strategy_hold_safety_stock ;
-    iof:isAbout data:tele_camera .
+    iof:classifiedBy data:firmness_request_for_quotation,
+        data:strategy_diversify_supply_location ;
+    iof:isAbout data:candidate_aptiv_safety_mobility_services_si,
+        data:candidate_zf_cv_systems,
+        data:tele_camera .
 
 data:advice_tele_image_sensor_1 a iof:ActionSpecification ;
     rdfs:label "Hold safety stock for Sony 1/2-inch 48 MP CMOS image sensor" ;
-    dcterms:description "I judged this a named Sony sensor, proprietary to its maker and so sole source. No other supplier can be proposed, and stock is the direct buffer against the single-source and Japan concentration." ;
-    rdfs:comment "Keep extra stock of this sensor, bought from Sony, to cover an interruption at the single maker. Review the stock level whenever Sony's supply or the Japan location changes." ;
+    dcterms:description "I judged this named Sony sensor model proprietary to its maker, so it is sole source and no other supplier can be proposed. Stock is the direct cover for single-source, Japan-only supply." ;
+    rdfs:comment "Keep extra stock of this image sensor, bought from Sony, to cover an interruption at the single Japanese source. Review the stock level whenever the item is bought." ;
     prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:code_us_8541499500,
-        data:finding_78,
+    prov:wasDerivedFrom data:finding_78,
         data:finding_79,
         data:finding_80,
         data:sup_sony ;
@@ -4930,20 +5266,19 @@ data:advice_tele_image_sensor_1 a iof:ActionSpecification ;
 
 data:advice_tele_image_sensor_2 a iof:ActionSpecification ;
     rdfs:label "Substitute or redesign the part for Sony 1/2-inch 48 MP CMOS image sensor" ;
-    dcterms:description "Because the part is sole source, only a design change can create a second source. The predicted suppliers are unverified, and nothing recorded shows they make this sensor." ;
-    rdfs:comment "Ask engineering to assess whether the product could accept a second, interchangeable image sensor, so that more than one maker can supply it in future." ;
+    dcterms:description "Judged sole source because the sensor is a named Sony model. Redesign is the only way to create alternative suppliers without naming one for a proprietary part." ;
+    rdfs:comment "Ask engineering to assess a design change that would accept a second, non-Sony image sensor, so the item is no longer tied to one maker. Treat it as a longer-term option." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:finding_78,
-        data:finding_79,
-        data:sup_sony ;
+        data:finding_79 ;
     iof:classifiedBy data:firmness_no_supplier_named,
         data:strategy_substitute_or_redesign_the_part ;
     iof:isAbout data:tele_image_sensor .
 
 data:advice_thermal_module_1 a iof:ActionSpecification ;
     rdfs:label "Hold safety stock for Teledyne FLIR Boson+ radiometric thermal module (640x512)" ;
-    dcterms:description "I judged the Boson+ proprietary to its maker, so it is sole source and no second supplier can be proposed. Stock is the only direct cover for the single-source exposure." ;
-    rdfs:comment "Keep extra stock of the Boson+ module bought from Teledyne FLIR, so that an interruption at its single source, or at its single location in the US, does not stop production of the drone." ;
+    dcterms:description "I judged the Boson+ proprietary to its maker, so it is sole source and no other supplier can be proposed. With one supplier and one location, stock is the available protection." ;
+    rdfs:comment "Keep a buffer of the Boson+ module bought from Teledyne FLIR, the only source, so production can continue through an interruption at that supplier. Set the buffer level against Teledyne FLIR's delivery record and the build plan." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:finding_57,
         data:finding_58,
@@ -4956,8 +5291,8 @@ data:advice_thermal_module_1 a iof:ActionSpecification ;
 
 data:advice_thermal_module_2 a iof:ActionSpecification ;
     rdfs:label "Substitute or redesign the part for Teledyne FLIR Boson+ radiometric thermal module (640x512)" ;
-    dcterms:description "No alternative is recorded, and the module is proprietary to its maker, so only a design change can open a second source. The predicted suppliers are unverified and not for this module." ;
-    rdfs:comment "Have engineering assess whether the drone's thermal imaging could be redesigned around a common camera interface, so that thermal modules from other makers could be qualified later as a fallback to the Boson+." ;
+    dcterms:description "The Boson+ is sole source, so only a design change can widen the supplier pool. No alternative supplier is proposed for this exact part." ;
+    rdfs:comment "Ask engineering to assess whether the airframe and software could accept a different thermal core through a redesigned interface, so that more than one maker's module could be fitted in future." ;
     prov:wasAttributedTo data:sourcing_adviser ;
     prov:wasDerivedFrom data:finding_57,
         data:finding_58,
@@ -4967,29 +5302,54 @@ data:advice_thermal_module_2 a iof:ActionSpecification ;
     iof:isAbout data:thermal_module .
 
 data:advice_wide_camera_2 a iof:ActionSpecification ;
-    rdfs:label "Hold safety stock for 50.3 MP wide camera module (1-inch CMOS)" ;
-    dcterms:description "All supply comes from one supplier in one country, and no alternative is recorded. Stock gives cover until a second source is approved." ;
-    rdfs:comment "Hold extra stock of the camera module bought from Primax Electronics, to cover any interruption at the single Thai source while a second source is being qualified." ;
+    rdfs:label "Diversify supply location for 50.3 MP wide camera module (1-inch CMOS)" ;
+    dcterms:description "All supply comes from Thailand, which also carries the 12.5% duty. Both predicted suppliers ship camera modules to US buyers from other countries, but the model is right only about 66% of the time." ;
+    rdfs:comment "Ask Aptiv Safety & Mobility Services Si and Zf Cv Systems for quotations on camera modules made outside Thailand, to reduce reliance on one country and test whether duty differs. Treat both as unverified leads until they are checked." ;
     prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:finding_50,
+    prov:wasDerivedFrom data:code_us_8525893000,
         data:finding_52,
+        data:finding_55,
         data:sup_primax_electronics ;
-    iof:classifiedBy data:firmness_qualify_and_award,
-        data:strategy_hold_safety_stock ;
-    iof:isAbout data:sup_primax_electronics,
+    iof:classifiedBy data:firmness_request_for_quotation,
+        data:strategy_diversify_supply_location ;
+    iof:isAbout data:candidate_aptiv_safety_mobility_services_si,
+        data:candidate_zf_cv_systems,
         data:wide_camera .
 
-data:candidate_nidec_techno_motor_vietnam_corporat a iof:BusinessOrganization ;
-    rdfs:label "Nidec Techno Motor Vietnam Corporat" ;
-    bfo:BFO_0000171 data:country_VN .
+data:advice_wide_image_sensor_1 a iof:ActionSpecification ;
+    rdfs:label "Hold safety stock for Sony IMX989 1-inch 50.3 MP CMOS image sensor" ;
+    dcterms:description "I judged the IMX989 to be a proprietary Sony part, so it is sole source and no other supplier can be proposed. Buffer stock is the practical protection against single-source and Japan-only exposure." ;
+    rdfs:comment "Keep extra IMX989 sensors in stock, bought from Sony, to cover an interruption at its single Japanese source. Review the stock level regularly against build plans for the product." ;
+    prov:wasAttributedTo data:sourcing_adviser ;
+    prov:wasDerivedFrom data:code_us_8541499500,
+        data:finding_85,
+        data:finding_86,
+        data:finding_87,
+        data:sup_sony ;
+    iof:classifiedBy data:firmness_with_the_present_supplier,
+        data:strategy_hold_safety_stock ;
+    iof:isAbout data:sup_sony,
+        data:wide_image_sensor .
 
-data:candidate_quectel_iot_technologies a iof:BusinessOrganization ;
-    rdfs:label "Quectel Iot Technologies Pte Ltd" ;
-    bfo:BFO_0000171 data:country_MY .
+data:advice_wide_image_sensor_2 a iof:ActionSpecification ;
+    rdfs:label "Substitute or redesign the part for Sony IMX989 1-inch 50.3 MP CMOS image sensor" ;
+    dcterms:description "The IMX989 is proprietary to Sony, which I judged to be sole source, so the only route to a second source is a design that accepts a different sensor." ;
+    rdfs:comment "Ask engineering to assess whether the camera design can accept a second, non-proprietary sensor, so that more than one maker could supply it in future. Treat this as a design study, not a supplier change." ;
+    prov:wasAttributedTo data:sourcing_adviser ;
+    prov:wasDerivedFrom data:finding_85,
+        data:finding_86,
+        data:sup_sony ;
+    iof:classifiedBy data:firmness_no_supplier_named,
+        data:strategy_substitute_or_redesign_the_part ;
+    iof:isAbout data:wide_image_sensor .
 
-data:candidate_telit_wireless_services a iof:BusinessOrganization ;
-    rdfs:label "Telit Wireless Services Ltd" ;
-    bfo:BFO_0000171 data:country_HK .
+data:candidate_changzhou_hetai_motor_and_electrica a iof:BusinessOrganization ;
+    rdfs:label "Changzhou Hetai Motor And Electrica" ;
+    bfo:BFO_0000171 data:country_CN .
+
+data:candidate_minebea_electronics_motor_zhuhai a iof:BusinessOrganization ;
+    rdfs:label "Minebea Electronics Motor Zhuhai" ;
+    bfo:BFO_0000171 data:country_CN .
 
 data:cat_structural_parts a iof:Classifier ;
     rdfs:label "Aluminium-alloy and plastic structural and cover parts (customs descriptions, HS 8529.90, 3926.90)" ;
@@ -4998,14 +5358,6 @@ data:cat_structural_parts a iof:Classifier ;
     prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
     iof:classifiedBy data:code_us_3926909989,
         data:code_us_8529908100 .
-
-data:country_CH a iof:GeospatialSite ;
-    rdfs:label "CH" ;
-    iof:designatedBy data:country_code_CH .
-
-data:country_DE a iof:GeospatialSite ;
-    rdfs:label "DE" ;
-    iof:designatedBy data:country_code_DE .
 
 data:eventscope_scope_the_named_companies_only a iof:Classifier ;
     rdfs:label "Scope: the named companies only" .
@@ -5028,23 +5380,23 @@ data:finding_122 a ns1:RiskFinding ;
     iof:hasValueExpressionAtSomeTime data:finding_122_value ;
     iof:isAbout data:modem_5g .
 
-data:finding_22 a ns1:RiskFinding ;
-    rdfs:label "Single source: High for Navigation cameras (custom 32 MP)" ;
-    rdfs:comment "1 recorded supplier(s): Primax Electronics." ;
-    prov:wasDerivedFrom data:sup_primax_electronics ;
+data:finding_15 a ns1:RiskFinding ;
+    rdfs:label "Single source: High for Qualcomm QRB5165 SoC" ;
+    rdfs:comment "1 recorded supplier(s): Qualcomm." ;
+    prov:wasDerivedFrom data:sup_qualcomm ;
     iof:classifiedBy data:band_high,
         data:rule_single_source ;
-    iof:hasValueExpressionAtSomeTime data:finding_22_value ;
-    iof:isAbout data:nav_cameras .
+    iof:hasValueExpressionAtSomeTime data:finding_15_value ;
+    iof:isAbout data:qrb5165 .
 
-data:finding_24 a ns1:RiskFinding ;
-    rdfs:label "Geographic concentration: High for Navigation cameras (custom 32 MP)" ;
-    rdfs:comment "100% of 1 source location(s) are in TH." ;
-    prov:wasDerivedFrom data:country_TH ;
+data:finding_35 a ns1:RiskFinding ;
+    rdfs:label "Disruption exposure: High for Interchangeable sensor package (VT300-Z, VT300-L or V100-L)" ;
+    rdfs:comment "An event names a supplier or its parent: China sanctions Skydio, cutting off its battery supplier Dongguan Poweramp." ;
+    prov:wasDerivedFrom data:event_skydio_sanctions_2024 ;
     iof:classifiedBy data:band_high,
-        data:rule_geographic_concentration ;
-    iof:hasValueExpressionAtSomeTime data:finding_24_value ;
-    iof:isAbout data:nav_cameras .
+        data:rule_disruption_exposure ;
+    iof:hasValueExpressionAtSomeTime data:finding_35_value ;
+    iof:isAbout data:sensor_package .
 
 data:finding_36 a ns1:RiskFinding ;
     rdfs:label "Single source: High for 64 MP narrow camera module (1/1.7-inch CMOS)" ;
@@ -5063,24 +5415,6 @@ data:finding_38 a ns1:RiskFinding ;
         data:rule_geographic_concentration ;
     iof:hasValueExpressionAtSomeTime data:finding_38_value ;
     iof:isAbout data:narrow_camera .
-
-data:finding_43 a ns1:RiskFinding ;
-    rdfs:label "Single source: High for 48 MP telephoto camera module (1/2-inch CMOS)" ;
-    rdfs:comment "1 recorded supplier(s): Primax Electronics." ;
-    prov:wasDerivedFrom data:sup_primax_electronics ;
-    iof:classifiedBy data:band_high,
-        data:rule_single_source ;
-    iof:hasValueExpressionAtSomeTime data:finding_43_value ;
-    iof:isAbout data:tele_camera .
-
-data:finding_45 a ns1:RiskFinding ;
-    rdfs:label "Geographic concentration: High for 48 MP telephoto camera module (1/2-inch CMOS)" ;
-    rdfs:comment "100% of 1 source location(s) are in TH." ;
-    prov:wasDerivedFrom data:country_TH ;
-    iof:classifiedBy data:band_high,
-        data:rule_geographic_concentration ;
-    iof:hasValueExpressionAtSomeTime data:finding_45_value ;
-    iof:isAbout data:tele_camera .
 
 data:finding_57 a ns1:RiskFinding ;
     rdfs:label "Single source: High for Teledyne FLIR Boson+ radiometric thermal module (640x512)" ;
@@ -5162,6 +5496,24 @@ data:finding_79 a ns1:RiskFinding ;
         data:rule_no_recorded_alternative ;
     iof:hasValueExpressionAtSomeTime data:finding_79_value ;
     iof:isAbout data:tele_image_sensor .
+
+data:finding_85 a ns1:RiskFinding ;
+    rdfs:label "Single source: High for Sony IMX989 1-inch 50.3 MP CMOS image sensor" ;
+    rdfs:comment "1 recorded supplier(s): Sony." ;
+    prov:wasDerivedFrom data:sup_sony ;
+    iof:classifiedBy data:band_high,
+        data:rule_single_source ;
+    iof:hasValueExpressionAtSomeTime data:finding_85_value ;
+    iof:isAbout data:wide_image_sensor .
+
+data:finding_86 a ns1:RiskFinding ;
+    rdfs:label "No recorded alternative: High for Sony IMX989 1-inch 50.3 MP CMOS image sensor" ;
+    rdfs:comment "0 other supplier(s) recorded for this kind of part." ;
+    prov:wasDerivedFrom data:sup_sony ;
+    iof:classifiedBy data:band_high,
+        data:rule_no_recorded_alternative ;
+    iof:hasValueExpressionAtSomeTime data:finding_86_value ;
+    iof:isAbout data:wide_image_sensor .
 
 data:product a iof:MaterialProduct ;
     rdfs:label "Skydio X10 flight system (model family)" ;
@@ -5248,95 +5600,81 @@ data:site_samkwang a iof:GeospatialLocation,
     rdfs:comment "Shipper address on U.S. customs bills of lading, text as recorded; not verified as a manufacturing site." ;
     prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> .
 
-data:strategy_diversify_supply_location a iof:Classifier ;
-    rdfs:label "Strategy: Diversify supply location" .
-
 data:strategy_no_change_monitor a iof:Classifier ;
     rdfs:label "Strategy: No change, monitor" .
 
-data:advice_nav_cameras_1 a iof:ActionSpecification ;
-    rdfs:label "Dual or multiple sourcing for Navigation cameras (custom 32 MP)" ;
-    dcterms:description "One supplier in one country, with no alternative recorded and a 12.5% duty from Thailand. I judged the custom camera not proprietary to Primax Electronics. Aptiv Safety & Mobility Services and Zf Cv Systems Hannover Gmbh are unverified leads, so only quotations can be sought." ;
-    rdfs:comment "Keep Primax Electronics as the current supplier. Ask Aptiv Safety & Mobility Services and Zf Cv Systems Hannover Gmbh for quotations to build the custom camera to the same design, so a second source in Singapore or Germany can be qualified outside Thailand." ;
-    prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:code_us_8525893000,
-        data:finding_22,
-        data:finding_23,
-        data:finding_24,
-        data:finding_27,
-        data:sup_primax_electronics ;
-    iof:classifiedBy data:firmness_request_for_quotation,
-        data:strategy_dual_or_multiple_sourcing ;
-    iof:isAbout data:candidate_zf_cv_systems_hannover,
-        data:nav_cameras .
+data:vetted_auterion a iof:BusinessOrganization ;
+    rdfs:label "Auterion" .
 
-data:advice_propulsion_motors_1 a iof:ActionSpecification ;
-    rdfs:label "Dual or multiple sourcing for Propulsion motors" ;
-    dcterms:description "Only one supplier is recorded and no alternative exists. I judged the motors not sole-source, since brushless motors are a common category, though a custom design could change that. Predicted suppliers can only be asked to quote." ;
-    rdfs:comment "Keep Nidec Corporation and ask Nidec Techno Motor Vietnam Corporat and Changzhou Hetai Motor And Electrica for quotations for the propulsion motors. Treat both as unverified leads. Do not place orders until a quotation and a sample have been checked. Avoid Jin Run New Energy Techology Co, which would add to the Thailand concentration." ;
+data:vetted_doodle_labs a iof:BusinessOrganization ;
+    rdfs:label "Doodle Labs" .
+
+data:vetted_dtc_communications_inc a iof:BusinessOrganization ;
+    rdfs:label "DTC Communications, Inc." .
+
+data:vetted_elsight a iof:BusinessOrganization ;
+    rdfs:label "ElSight" .
+
+data:vetted_mobilicom a iof:BusinessOrganization ;
+    rdfs:label "Mobilicom" .
+
+data:vetted_perf_drone_systems a iof:BusinessOrganization ;
+    rdfs:label "Perf Drone Systems" .
+
+data:vetted_persistent_systems a iof:BusinessOrganization ;
+    rdfs:label "Persistent Systems" .
+
+data:vetted_radionor a iof:BusinessOrganization ;
+    rdfs:label "Radionor" .
+
+data:vetted_rpx_technologies a iof:BusinessOrganization ;
+    rdfs:label "RPX Technologies" .
+
+data:vetted_silvus_technologies a iof:BusinessOrganization ;
+    rdfs:label "Silvus Technologies" .
+
+data:vetted_vantage_robotics a iof:BusinessOrganization ;
+    rdfs:label "Vantage Robotics" .
+
+data:vetted_workswell a iof:BusinessOrganization ;
+    rdfs:label "Workswell" .
+
+data:advice_gimbal_motors_1 a iof:ActionSpecification ;
+    rdfs:label "Dual or multiple sourcing for Gimbal camera angle motors (pan, tilt, roll)" ;
+    dcterms:description "Only one supplier is recorded and no alternative exists. Changzhou Hetai Motor And Electrica and Minebea Electronics Motor Zhuhai have the most bills of lading among the predicted makers. The model is right only about 66% of the time, so a quotation is the most to ask." ;
+    rdfs:comment "Keep Nidec Corporation and ask Changzhou Hetai Motor And Electrica and Minebea Electronics Motor Zhuhai for quotations for gimbal brushless motors as a second source. Treat them as unverified leads and place no order until a sample is qualified." ;
     prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:finding_92,
-        data:finding_93,
+    prov:wasDerivedFrom data:finding_100,
+        data:finding_99,
         data:sup_nidec ;
     iof:classifiedBy data:firmness_request_for_quotation,
         data:strategy_dual_or_multiple_sourcing ;
     iof:isAbout data:candidate_changzhou_hetai_motor_and_electrica,
-        data:candidate_nidec_techno_motor_vietnam_corporat,
-        data:propulsion_motors .
+        data:candidate_minebea_electronics_motor_zhuhai,
+        data:gimbal_motors .
 
-data:advice_tele_camera_1 a iof:ActionSpecification ;
-    rdfs:label "Dual or multiple sourcing for 48 MP telephoto camera module (1/2-inch CMOS)" ;
-    dcterms:description "Only one supplier is recorded, all in Thailand, with no alternative. Aptiv Safety & Mobility Services and Zf Cv Systems Hannover Gmbh are unverified leads in other countries. I judged the module not sole-source, since it is a camera module rather than a named chip." ;
-    rdfs:comment "Keep Primax Electronics as the current supplier and ask Aptiv Safety & Mobility Services and Zf Cv Systems Hannover Gmbh for quotations for the same camera module. Both ship from outside Thailand. Qualify one of them as a second source only if its quotation and samples hold up." ;
-    prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:code_us_8525893000,
-        data:finding_43,
-        data:finding_44,
-        data:finding_45,
-        data:finding_48,
-        data:sup_primax_electronics ;
-    iof:classifiedBy data:firmness_request_for_quotation,
-        data:strategy_dual_or_multiple_sourcing ;
-    iof:isAbout data:candidate_zf_cv_systems_hannover,
-        data:sup_primax_electronics,
-        data:tele_camera .
+data:candidate_aptiv_safety_mobility_services_si a iof:BusinessOrganization ;
+    rdfs:label "Aptiv Safety & Mobility Services Si" ;
+    bfo:BFO_0000171 data:country_SG .
 
-data:advice_wide_image_sensor_1 a iof:ActionSpecification ;
-    rdfs:label "Hold safety stock for Sony IMX989 1-inch 50.3 MP CMOS image sensor" ;
-    dcterms:description "I judged the IMX989 a proprietary Sony sensor, so it is sole source and no alternative supplier is proposed. Stock is the remaining defence against a single-source, single-country interruption." ;
-    rdfs:comment "Keep extra stock of the IMX989 sensor bought from Sony to cover an interruption at the single maker and its Japan-only supply location. Do not look for another supplier; this part is Sony's own." ;
-    prov:wasAttributedTo data:sourcing_adviser ;
-    prov:wasDerivedFrom data:finding_85,
-        data:finding_86,
-        data:finding_87,
-        data:sup_sony ;
-    iof:classifiedBy data:firmness_with_the_present_supplier,
-        data:strategy_hold_safety_stock ;
-    iof:isAbout data:sup_sony,
-        data:wide_image_sensor .
-
-data:candidate_changzhou_hetai_motor_and_electrica a iof:BusinessOrganization ;
-    rdfs:label "Changzhou Hetai Motor And Electrica" ;
-    bfo:BFO_0000171 data:country_CN .
+data:candidate_zf_cv_systems a iof:BusinessOrganization ;
+    rdfs:label "Zf Cv Systems" ;
+    bfo:BFO_0000171 data:country_DE .
 
 data:code_us_8529908100 a ns1:TariffCode ;
     rdfs:label "8529.90.8100 (US HTS 2026 Revision 22)" .
 
+data:country_DE a iof:GeospatialSite ;
+    rdfs:label "DE" ;
+    iof:designatedBy data:country_code_DE .
+
+data:country_HK a iof:GeospatialSite ;
+    rdfs:label "HK" ;
+    iof:designatedBy data:country_code_HK .
+
 data:country_PH a iof:GeospatialSite ;
     rdfs:label "PH" ;
     iof:designatedBy data:country_code_PH .
-
-data:event_hormuz_closure_2026 a iof:Event ;
-    rdfs:label "Strait of Hormuz effectively closed amid US-Israel-Iran conflict, disrupting shipping and air cargo" ;
-    dcterms:date "2026-02-28" ;
-    rdfs:comment "After military strikes on 28 February 2026 involving the US, Israel and Iran, the Strait of Hormuz was effectively closed. Carriers suspended transits and rerouted, about 170 container ships were trapped, Jebel Ali was briefly suspended, air cargo capacity fell 18%, and Ras Tanura refinery shut." ;
-    prov:wasDerivedFrom <https://ciltuk.org.uk/news/hormuz-closure-triggers-global-supply-chain-shock-as-oil-shipping-and-air-cargo-disrupted/> ;
-    ns1:affects data:code_us_8542310070 ;
-    iof:classifiedBy data:eventscope_scope_all_trade_in_the_countries_or_goods,
-        data:eventtype_war_or_blockade ;
-    iof:occursAt data:country_AE,
-        data:country_IR,
-        data:country_SA .
 
 data:site_origin_sony_jp a iof:GeospatialLocation,
         iof:SupplyChainNode ;
@@ -5358,7 +5696,8 @@ data:sup_fuyu a iof:Supplier ;
     rdfs:label "Fuyu" ;
     bfo:BFO_0000171 data:site_fuyu ;
     rdfs:comment "Shipper on U.S. ocean bills of lading to Skydio: 10 shipments, 2026-05-15 to 2026-10-25. Name as recorded in customs data." ;
-    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> .
+    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
+    iof:designatedBy data:id_OpenCorporates_sg_198004601C .
 
 data:sup_samkwang a iof:Supplier ;
     rdfs:label "Samkwang" ;
@@ -5366,12 +5705,14 @@ data:sup_samkwang a iof:Supplier ;
     rdfs:comment "Shipper on U.S. ocean bills of lading to Skydio: 1 shipment, 2026-06-01 to 2026-06-01. Name as recorded in customs data." ;
     prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> .
 
+data:vetted_sierra_wireless a iof:BusinessOrganization ;
+    rdfs:label "Sierra Wireless" .
+
+data:vetted_vertiq a iof:BusinessOrganization ;
+    rdfs:label "Vertiq" .
+
 data:band_moderate a ns1:RiskBand ;
     rdfs:label "Moderate" .
-
-data:candidate_zf_cv_systems_hannover a iof:BusinessOrganization ;
-    rdfs:label "Zf Cv Systems Hannover Gmbh" ;
-    bfo:BFO_0000171 data:country_DE .
 
 data:code_us_8517620090 a ns1:TariffCode ;
     rdfs:label "8517.62.0090 (US HTS 2026 Revision 22)" .
@@ -5379,8 +5720,23 @@ data:code_us_8517620090 a ns1:TariffCode ;
 data:dutykind_section_301_china_four_year_review_increases a iof:Classifier ;
     rdfs:label "Section 301, China four-year review increases" .
 
+data:event_hormuz_closure_2026 a iof:Event ;
+    rdfs:label "Strait of Hormuz effectively closed amid US-Israel-Iran conflict, disrupting shipping and air cargo" ;
+    dcterms:date "2026-02-28" ;
+    rdfs:comment "After military strikes on 28 February 2026 involving the US, Israel and Iran, the Strait of Hormuz was effectively closed. Carriers suspended transits and rerouted, about 170 container ships were trapped, Jebel Ali was briefly suspended, air cargo capacity fell 18%, and Ras Tanura refinery shut." ;
+    prov:wasDerivedFrom <https://ciltuk.org.uk/news/hormuz-closure-triggers-global-supply-chain-shock-as-oil-shipping-and-air-cargo-disrupted/> ;
+    ns1:affects data:code_us_8542310070 ;
+    iof:classifiedBy data:eventscope_scope_all_trade_in_the_countries_or_goods,
+        data:eventtype_war_or_blockade ;
+    iof:occursAt data:country_AE,
+        data:country_IR,
+        data:country_SA .
+
 data:eventscope_scope_all_trade_in_the_countries_or_goods a iof:Classifier ;
     rdfs:label "Scope: all trade in the countries or goods" .
+
+data:firmness_qualify_and_award a iof:Classifier ;
+    rdfs:label "Firmness: Qualify and award" .
 
 data:route_all_other_china_taiwan_ports_to_oakland_ca a iof:ShippingRoute ;
     rdfs:label "All Other China (Taiwan) Ports -> Oakland, Ca" ;
@@ -5392,11 +5748,11 @@ data:route_hai_phong_to_los_angeles_ca a iof:ShippingRoute ;
     rdfs:comment "Port-to-port lane used by 4 of the 50 bills (arrivals 2026-05-27 to 2026-10-05). Company-wide lane total 2017-2026: 4 shipments." ;
     prov:wasDerivedFrom <https://data.importyeti.com/v1.0/bol/> .
 
-data:strategy_substitute_or_redesign_the_part a iof:Classifier ;
-    rdfs:label "Strategy: Substitute or redesign the part" .
+data:vetted_ark_electronics a iof:BusinessOrganization ;
+    rdfs:label "ARK Electronics" .
 
-data:firmness_qualify_and_award a iof:Classifier ;
-    rdfs:label "Firmness: Qualify and award" .
+data:vetted_microhard a iof:BusinessOrganization ;
+    rdfs:label "Microhard" .
 
 data:route_kaohsiung_to_long_beach_ca a iof:ShippingRoute ;
     rdfs:label "Kaohsiung -> Long Beach, Ca" ;
@@ -5429,6 +5785,33 @@ data:site_simplo_technology a iof:GeospatialLocation,
     rdfs:comment "Shipper address on U.S. customs bills of lading, text as recorded; not verified as a manufacturing site." ;
     prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> .
 
+data:strategy_diversify_supply_location a iof:Classifier ;
+    rdfs:label "Strategy: Diversify supply location" .
+
+data:strategy_dual_or_multiple_sourcing a iof:Classifier ;
+    rdfs:label "Strategy: Dual or multiple sourcing" .
+
+data:strategy_substitute_or_redesign_the_part a iof:Classifier ;
+    rdfs:label "Strategy: Substitute or redesign the part" .
+
+data:code_us_8501104040 a ns1:TariffCode ;
+    rdfs:label "8501.10.4040 (US HTS 2026 Revision 22)" .
+
+data:firmness_no_supplier_named a iof:Classifier ;
+    rdfs:label "Firmness: No supplier named" .
+
+data:route_singapore_to_oakland_ca a iof:ShippingRoute ;
+    rdfs:label "Singapore -> Oakland, Ca" ;
+    rdfs:comment "Port-to-port lane used by 5 of the 50 bills (arrivals 2026-05-15 to 2026-07-17). Company-wide lane total 2017-2026: 5 shipments." ;
+    prov:wasDerivedFrom <https://data.importyeti.com/v1.0/bol/> .
+
+data:site_lichien_vietnam_paper_products a iof:GeospatialLocation,
+        iof:SupplyChainNode ;
+    rdfs:label "Part Of Lot Cn-15 Van Trung Indust Nenh Ward Tax Code: XXXXXXXXXX Bac Ninh Province Vn" ;
+    bfo:BFO_0000171 data:country_VN ;
+    rdfs:comment "Shipper address on U.S. customs bills of lading, text as recorded; not verified as a manufacturing site." ;
+    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> .
+
 data:sup_atemitech a iof:Supplier ;
     rdfs:label "Atemitech" ;
     bfo:BFO_0000171 data:site_atemitech ;
@@ -5436,12 +5819,35 @@ data:sup_atemitech a iof:Supplier ;
     prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
     iof:ownedBy data:org_name_getacholdings .
 
-data:code_us_8501104040 a ns1:TariffCode ;
-    rdfs:label "8501.10.4040 (US HTS 2026 Revision 22)" .
+data:sup_celxpert_energy a iof:Supplier ;
+    rdfs:label "Celxpert Energy" ;
+    bfo:BFO_0000171 data:site_celxpert_energy ;
+    rdfs:comment "Shipper on U.S. ocean bills of lading to Skydio: 1 shipment, 2026-09-15 to 2026-09-15. Name as recorded in customs data." ;
+    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
+    iof:designatedBy data:id_LEI_984500TBB80ACDC2E741 .
 
-data:country_HK a iof:GeospatialSite ;
-    rdfs:label "HK" ;
-    iof:designatedBy data:country_code_HK .
+data:sup_simplo_technology a iof:Supplier ;
+    rdfs:label "Simplo Technology" ;
+    bfo:BFO_0000171 data:site_simplo_technology ;
+    rdfs:comment "Shipper on U.S. ocean bills of lading to Skydio: 5 shipments, 2022-02-28 to 2026-10-21. Name as recorded in customs data." ;
+    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
+    iof:designatedBy data:id_LEI_984500DA41AD99D70B07 .
+
+data:vetted_raspberry_pi a iof:BusinessOrganization ;
+    rdfs:label "Raspberry Pi" .
+
+data:cat_li_ion_batteries a iof:Classifier ;
+    rdfs:label "Lithium-ion batteries (customs descriptions, HS 8507.60)" ;
+    rdfs:comment "Researcher grouping of ocean bills of lading to Skydio by goods description; not a Skydio supplier category or a tariff classification." ;
+    prov:wasAttributedTo data:researcher ;
+    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
+    iof:classifiedBy data:code_us_8507600090 .
+
+data:dutykind_section_232_unmanned_aircraft_systems a iof:Classifier ;
+    rdfs:label "Section 232, unmanned aircraft systems" .
+
+data:dutykind_section_301_china_lists_1_2_3_4a_and_heading_9903_88_04_ a iof:Classifier ;
+    rdfs:label "Section 301, China (Lists 1, 2, 3, 4A and heading 9903.88.04)" .
 
 data:event_skydio_sanctions_2024 a iof:Event ;
     rdfs:label "China sanctions Skydio, cutting off its battery supplier Dongguan Poweramp" ;
@@ -5460,26 +5866,14 @@ data:event_skydio_sanctions_2024 a iof:Event ;
 data:firmness_request_for_quotation a iof:Classifier ;
     rdfs:label "Firmness: Request for quotation" .
 
-data:route_singapore_to_oakland_ca a iof:ShippingRoute ;
-    rdfs:label "Singapore -> Oakland, Ca" ;
-    rdfs:comment "Port-to-port lane used by 5 of the 50 bills (arrivals 2026-05-15 to 2026-07-17). Company-wide lane total 2017-2026: 5 shipments." ;
-    prov:wasDerivedFrom <https://data.importyeti.com/v1.0/bol/> .
-
-data:site_lichien_vietnam_paper_products a iof:GeospatialLocation,
-        iof:SupplyChainNode ;
-    rdfs:label "Part Of Lot Cn-15 Van Trung Indust Nenh Ward Tax Code: XXXXXXXXXX Bac Ninh Province Vn" ;
-    bfo:BFO_0000171 data:country_VN ;
-    rdfs:comment "Shipper address on U.S. customs bills of lading, text as recorded; not verified as a manufacturing site." ;
-    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> .
-
-data:strategy_dual_or_multiple_sourcing a iof:Classifier ;
-    rdfs:label "Strategy: Dual or multiple sourcing" .
-
-data:sup_nvidia a iof:Supplier ;
-    rdfs:label "NVIDIA" ;
-    rdfs:comment "Maker of the named processor; buying route (direct or via a module/carrier-board supplier) not established." ;
-    prov:wasDerivedFrom <https://www.skydio.com/resources/datasheets/skydio-x10> ;
-    iof:designatedBy data:id_Wikidata_Q182477 .
+data:sup_dongguan_poweramp a iof:Supplier ;
+    rdfs:label "Dongguan Poweramp Technology" ;
+    bfo:BFO_0000171 data:site_dongguan_poweramp ;
+    rdfs:comment "Two ImportYeti name variants with the same Songshan Lake address are treated as one organisation. Ocean shipments to Skydio 2020-12-28 to 2023-02-07. Parent company is Module 2 scope, not asserted here." ;
+    prov:wasDerivedFrom <https://dronexl.co/2024/10/30/us-drone-maker-skydio-supply-chain-crisis-chinese-sanctions>,
+        <https://pravda.com.ua/eng/news/2024/10/31/7482246>,
+        <https://www.importyeti.com/company/skydio> ;
+    iof:ownedBy data:org_LEI_3538005O8WNU39U8NX03 .
 
 data:sup_qualcomm a iof:Supplier ;
     rdfs:label "Qualcomm" ;
@@ -5487,18 +5881,8 @@ data:sup_qualcomm a iof:Supplier ;
     prov:wasDerivedFrom <https://www.qualcomm.com/internet-of-things/device-finder/skydio-x10> ;
     iof:ownedBy data:org_LEI_H1J8DDZKZP6H7RWC0H53 .
 
-data:cat_li_ion_batteries a iof:Classifier ;
-    rdfs:label "Lithium-ion batteries (customs descriptions, HS 8507.60)" ;
-    rdfs:comment "Researcher grouping of ocean bills of lading to Skydio by goods description; not a Skydio supplier category or a tariff classification." ;
-    prov:wasAttributedTo data:researcher ;
-    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
-    iof:classifiedBy data:code_us_8507600090 .
-
-data:dutykind_section_232_unmanned_aircraft_systems a iof:Classifier ;
-    rdfs:label "Section 232, unmanned aircraft systems" .
-
-data:dutykind_section_301_china_lists_1_2_3_4a_and_heading_9903_88_04_ a iof:Classifier ;
-    rdfs:label "Section 301, China (Lists 1, 2, 3, 4A and heading 9903.88.04)" .
+data:vetted_immervision a iof:BusinessOrganization ;
+    rdfs:label "Immervision" .
 
 data:event_us_tariffs_china_semiconductors a iof:Event ;
     rdfs:label "USTR announces new Section 301 tariffs on Chinese semiconductors, starting at 0%" ;
@@ -5510,32 +5894,6 @@ data:event_us_tariffs_china_semiconductors a iof:Event ;
     iof:classifiedBy data:eventscope_scope_all_trade_in_the_countries_or_goods,
         data:eventtype_tariffs ;
     iof:occursAt data:country_CN .
-
-data:sup_celxpert_energy a iof:Supplier ;
-    rdfs:label "Celxpert Energy" ;
-    bfo:BFO_0000171 data:site_celxpert_energy ;
-    rdfs:comment "Shipper on U.S. ocean bills of lading to Skydio: 1 shipment, 2026-09-15 to 2026-09-15. Name as recorded in customs data." ;
-    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
-    iof:designatedBy data:id_LEI_984500TBB80ACDC2E741 .
-
-data:sup_dongguan_poweramp a iof:Supplier ;
-    rdfs:label "Dongguan Poweramp Technology" ;
-    bfo:BFO_0000171 data:site_dongguan_poweramp ;
-    rdfs:comment "Two ImportYeti name variants with the same Songshan Lake address are treated as one organisation. Ocean shipments to Skydio 2020-12-28 to 2023-02-07. Parent company is Module 2 scope, not asserted here." ;
-    prov:wasDerivedFrom <https://dronexl.co/2024/10/30/us-drone-maker-skydio-supply-chain-crisis-chinese-sanctions>,
-        <https://pravda.com.ua/eng/news/2024/10/31/7482246>,
-        <https://www.importyeti.com/company/skydio> ;
-    iof:ownedBy data:org_LEI_3538005O8WNU39U8NX03 .
-
-data:sup_simplo_technology a iof:Supplier ;
-    rdfs:label "Simplo Technology" ;
-    bfo:BFO_0000171 data:site_simplo_technology ;
-    rdfs:comment "Shipper on U.S. ocean bills of lading to Skydio: 5 shipments, 2022-02-28 to 2026-10-21. Name as recorded in customs data." ;
-    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
-    iof:designatedBy data:id_LEI_984500DA41AD99D70B07 .
-
-data:firmness_no_supplier_named a iof:Classifier ;
-    rdfs:label "Firmness: No supplier named" .
 
 data:sup_samsung a iof:Supplier ;
     rdfs:label "Samsung" ;
@@ -5549,11 +5907,19 @@ data:sup_teledyne_flir a iof:Supplier ;
     rdfs:comment "Maker of the named thermal module; buying route not established." ;
     prov:wasDerivedFrom <https://www.skydio.com/resources/datasheets/skydio-x10> ;
     iof:designatedBy data:id_LEI_5493000HDPX16EHNN346,
+        data:id_OpenCorporates_us_va_11229111,
         data:id_Wikidata_Q5426537 ;
     iof:ownedBy data:org_LEI_549300VSMO9KYQWDND94 .
 
-data:firmness_with_the_present_supplier a iof:Classifier ;
-    rdfs:label "Firmness: With the present supplier" .
+data:code_us_8507600090 a ns1:TariffCode ;
+    rdfs:label "8507.60.0090 (US HTS 2026 Revision 22)" .
+
+data:sup_nvidia a iof:Supplier ;
+    rdfs:label "NVIDIA" ;
+    rdfs:comment "Maker of the named processor; buying route (direct or via a module/carrier-board supplier) not established." ;
+    prov:wasDerivedFrom <https://www.skydio.com/resources/datasheets/skydio-x10> ;
+    iof:designatedBy data:id_OpenCorporates_us_de_2862596,
+        data:id_Wikidata_Q182477 .
 
 data:sup_telit a iof:Supplier ;
     rdfs:label "Telit Cinterion (Telit Communications S.p.A.)" ;
@@ -5561,6 +5927,9 @@ data:sup_telit a iof:Supplier ;
     prov:wasDerivedFrom <https://fcc.report/FCC-ID/RI7FN990A40/6842000.pdf>,
         <https://support.skydio.com/hc/en-us/articles/40739840785947-Skydio-Product-FCC-ID-IC-ID-Information> ;
     iof:designatedBy data:id_LEI_254900BTBICH7TFFUN48 .
+
+data:vetted_modalai a iof:BusinessOrganization ;
+    rdfs:label "ModalAI" .
 
 data:cat_camera_modules a iof:Classifier ;
     rdfs:label "Camera modules (customs description, HS 8525.89)" ;
@@ -5578,11 +5947,18 @@ data:code_us_4823908680 a ns1:TariffCode ;
 data:code_us_85044095 a ns1:TariffCode ;
     rdfs:label "8504.40.95 (US HTS 2026 Revision 22)" .
 
-data:code_us_8507600090 a ns1:TariffCode ;
-    rdfs:label "8507.60.0090 (US HTS 2026 Revision 22)" .
+data:code_us_3926909989 a ns1:TariffCode ;
+    rdfs:label "3926.90.9989 (US HTS 2026 Revision 22)" .
 
 data:code_us_8542310070 a ns1:TariffCode ;
     rdfs:label "8542.31.0070 (US HTS 2026 Revision 22)" .
+
+data:code_us_8806920000 a ns1:TariffCode ;
+    rdfs:label "8806.92.0000 (US HTS 2026 Revision 22)" .
+
+data:country_SG a iof:GeospatialSite ;
+    rdfs:label "SG" ;
+    iof:designatedBy data:country_code_SG .
 
 data:sensor_package a iof:Assembly,
         iof:MaterialProduct ;
@@ -5596,16 +5972,6 @@ data:sensor_package a iof:Assembly,
         data:wide_camera ;
     iof:hasValueExpressionAtSomeTime data:line_sensor_package_quantity ;
     iof:isSuppliedByAtSomeTime data:sup_skydio .
-
-data:code_us_3926909989 a ns1:TariffCode ;
-    rdfs:label "3926.90.9989 (US HTS 2026 Revision 22)" .
-
-data:code_us_8806920000 a ns1:TariffCode ;
-    rdfs:label "8806.92.0000 (US HTS 2026 Revision 22)" .
-
-data:country_SG a iof:GeospatialSite ;
-    rdfs:label "SG" ;
-    iof:designatedBy data:country_code_SG .
 
 data:site_fuyu a iof:GeospatialLocation,
         iof:SupplyChainNode ;
@@ -5624,9 +5990,6 @@ data:site_skydio_san_mateo a iof:GeospatialLocation,
 data:code_us_8501314000 a ns1:TariffCode ;
     rdfs:label "8501.31.4000 (US HTS 2026 Revision 22)" .
 
-data:code_us_8541499500 a ns1:TariffCode ;
-    rdfs:label "8541.49.9500 (US HTS 2026 Revision 22)" .
-
 data:country_KR a iof:GeospatialSite ;
     rdfs:label "KR" ;
     iof:designatedBy data:country_code_KR .
@@ -5634,64 +5997,18 @@ data:country_KR a iof:GeospatialSite ;
 data:strategy_hold_safety_stock a iof:Classifier ;
     rdfs:label "Strategy: Hold safety stock" .
 
+data:code_us_8541499500 a ns1:TariffCode ;
+    rdfs:label "8541.49.9500 (US HTS 2026 Revision 22)" .
+
 data:dutykind_base_rate_column_1_general_ a iof:Classifier ;
     rdfs:label "Base rate (column 1 general)" .
 
-data:wide_camera a iof:Assembly ;
-    rdfs:label "50.3 MP wide camera module (1-inch CMOS)" ;
-    rdfs:comment "VT300-L and V100-L; maker not named." ;
-    prov:wasDerivedFrom <https://support.skydio.com/hc/en-us/articles/20370098171291>,
-        <https://www.skydio.com/x10/faqs> ;
-    iof:classifiedBy data:cat_camera_modules,
-        data:code_us_8525893000 ;
-    iof:hasComponentPartAtSomeTime data:wide_image_sensor .
-
-data:narrow_camera a iof:Assembly ;
-    rdfs:label "64 MP narrow camera module (1/1.7-inch CMOS)" ;
-    rdfs:comment "In all three sensor packages; maker not named." ;
-    prov:wasDerivedFrom <https://support.skydio.com/hc/en-us/articles/20370098171291>,
-        <https://www.skydio.com/x10/faqs> ;
-    iof:classifiedBy data:cat_camera_modules,
-        data:code_us_8525893000 ;
-    iof:hasComponentPartAtSomeTime data:narrow_image_sensor .
-
-data:nav_cameras a iof:Assembly ;
-    rdfs:label "Navigation cameras (custom 32 MP)" ;
-    rdfs:comment "Custom cameras; maker not named." ;
-    prov:wasDerivedFrom <https://www.skydio.com/resources/datasheets/skydio-x10> ;
-    iof:classifiedBy data:cat_camera_modules,
-        data:code_us_8525893000 ;
-    iof:hasComponentPartAtSomeTime data:nav_image_sensor ;
-    iof:hasValueExpressionAtSomeTime data:line_nav_cameras_quantity .
-
-data:tele_camera a iof:Assembly ;
-    rdfs:label "48 MP telephoto camera module (1/2-inch CMOS)" ;
-    rdfs:comment "VT300-Z only; maker not named." ;
-    prov:wasDerivedFrom <https://support.skydio.com/hc/en-us/articles/20370098171291> ;
-    iof:classifiedBy data:cat_camera_modules,
-        data:code_us_8525893000 ;
-    iof:hasComponentPartAtSomeTime data:tele_image_sensor .
+data:firmness_with_the_present_supplier a iof:Classifier ;
+    rdfs:label "Firmness: With the present supplier" .
 
 data:country_VN a iof:GeospatialSite ;
     rdfs:label "VN" ;
     iof:designatedBy data:country_code_VN .
-
-data:qrb5165 a iof:MaterialComponent,
-        iof:MaterialProduct ;
-    rdfs:label "Qualcomm QRB5165 SoC" ;
-    rdfs:comment "Listed with the NVIDIA Jetson Orin SoC in the flight-system specifications; its role is not stated there. Skydio separately credits Qualcomm's Spectra 480 image signal processor for image quality (support FAQ)." ;
-    prov:wasDerivedFrom <https://support.skydio.com/hc/article_attachments/49394235475227>,
-        <https://www.qualcomm.com/internet-of-things/device-finder/skydio-x10> ;
-    iof:classifiedBy data:code_us_8542310070 ;
-    iof:isSuppliedByAtSomeTime data:sup_qualcomm .
-
-data:radio_sl a iof:MaterialComponent,
-        iof:MaterialProduct ;
-    rdfs:label "Skydio Connect SL point-to-point radio (2.4/5 GHz)" ;
-    rdfs:comment "Radio hardware maker not named." ;
-    prov:wasDerivedFrom <https://support.skydio.com/hc/en-us/articles/20592871628571> ;
-    iof:classifiedBy data:code_us_8517620090 ;
-    iof:isSuppliedByAtSomeTime data:sup_skydio .
 
 data:site_skydio_hayward a iof:GeospatialLocation,
         iof:SupplyChainNode ;
@@ -5699,40 +6016,6 @@ data:site_skydio_hayward a iof:GeospatialLocation,
     bfo:BFO_0000171 data:country_US ;
     rdfs:comment "City-level location stated by Skydio; street address not taken from the cited source." ;
     prov:wasDerivedFrom <https://www.skydio.com/resources/videos/inside-look-skydio-drone-manufacturing-at-scale-in-the-us> .
-
-data:sup_nidec a iof:Supplier ;
-    rdfs:label "Nidec Corporation" ;
-    rdfs:comment "Supplier press release on motors adopted for the X10." ;
-    prov:wasDerivedFrom <https://www.nidec.com/en/product/news/2024/news0722-01/> ;
-    iof:designatedBy data:id_LEI_353800IF171MZTNL6Y31,
-        data:id_Wikidata_Q3341241 .
-
-data:sup_skydio a iof:Supplier ;
-    rdfs:label "Skydio, Inc." ;
-    bfo:BFO_0000171 data:site_skydio_hayward,
-        data:site_skydio_hayward_27279,
-        data:site_skydio_hayward_27317,
-        data:site_skydio_san_mateo ;
-    rdfs:comment "Brand owner and final assembler of the X10." ;
-    prov:wasDerivedFrom <https://www.nidec.com/en/product/news/2024/news0722-01/>,
-        <https://www.skydio.com/resources/videos/inside-look-skydio-drone-manufacturing-at-scale-in-the-us> ;
-    iof:designatedBy data:id_Wikidata_Q97321374 .
-
-data:wide_image_sensor a iof:MaterialComponent,
-        iof:MaterialProduct ;
-    rdfs:label "Sony IMX989 1-inch 50.3 MP CMOS image sensor" ;
-    rdfs:comment "Retailer listing (secondary). VT300-L and V100-L." ;
-    prov:wasDerivedFrom <https://www.adorama.com/skydr4e1br2l.html> ;
-    iof:classifiedBy data:code_us_8541499500 ;
-    iof:isSuppliedByAtSomeTime data:sup_sony .
-
-data:modem_5g a iof:MaterialComponent,
-        iof:MaterialProduct ;
-    rdfs:label "Built-in 5G/LTE cellular modem" ;
-    rdfs:comment "Connect 5G configurations; modem maker not named." ;
-    prov:wasDerivedFrom <https://www.skydio.com/resources/solution-sheet/connectivity> ;
-    iof:classifiedBy data:code_us_8517620090 ;
-    iof:isSuppliedByAtSomeTime data:sup_telit .
 
 data:narrow_image_sensor a iof:MaterialComponent,
         iof:MaterialProduct ;
@@ -5743,6 +6026,15 @@ data:narrow_image_sensor a iof:MaterialComponent,
     iof:classifiedBy data:code_us_8541499500 ;
     iof:isSuppliedByAtSomeTime data:sup_sony .
 
+data:nav_cameras a iof:Assembly ;
+    rdfs:label "Navigation cameras (custom 32 MP)" ;
+    rdfs:comment "Custom cameras; maker not named." ;
+    prov:wasDerivedFrom <https://www.skydio.com/resources/datasheets/skydio-x10> ;
+    iof:classifiedBy data:cat_camera_modules,
+        data:code_us_8525893000 ;
+    iof:hasComponentPartAtSomeTime data:nav_image_sensor ;
+    iof:hasValueExpressionAtSomeTime data:line_nav_cameras_quantity .
+
 data:nav_image_sensor a iof:MaterialComponent,
         iof:MaterialProduct ;
     rdfs:label "Samsung 1/2.8-inch 32 MP colour CMOS image sensor" ;
@@ -5750,6 +6042,22 @@ data:nav_image_sensor a iof:MaterialComponent,
     prov:wasDerivedFrom <https://www.adorama.com/skydr4e1br2v.html> ;
     iof:classifiedBy data:code_us_8541499500 ;
     iof:isSuppliedByAtSomeTime data:sup_samsung .
+
+data:qrb5165 a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "Qualcomm QRB5165 SoC" ;
+    rdfs:comment "Listed with the NVIDIA Jetson Orin SoC in the flight-system specifications; its role is not stated there. Skydio separately credits Qualcomm's Spectra 480 image signal processor for image quality (support FAQ)." ;
+    prov:wasDerivedFrom <https://support.skydio.com/hc/article_attachments/49394235475227>,
+        <https://www.qualcomm.com/internet-of-things/device-finder/skydio-x10> ;
+    iof:classifiedBy data:code_us_8542310070 ;
+    iof:isSuppliedByAtSomeTime data:sup_qualcomm .
+
+data:sup_nidec a iof:Supplier ;
+    rdfs:label "Nidec Corporation" ;
+    rdfs:comment "Supplier press release on motors adopted for the X10." ;
+    prov:wasDerivedFrom <https://www.nidec.com/en/product/news/2024/news0722-01/> ;
+    iof:designatedBy data:id_LEI_353800IF171MZTNL6Y31,
+        data:id_Wikidata_Q3341241 .
 
 data:tele_image_sensor a iof:MaterialComponent,
         iof:MaterialProduct ;
@@ -5759,22 +6067,22 @@ data:tele_image_sensor a iof:MaterialComponent,
     iof:classifiedBy data:code_us_8541499500 ;
     iof:isSuppliedByAtSomeTime data:sup_sony .
 
-data:thermal_module a iof:MaterialComponent,
-        iof:MaterialProduct ;
-    rdfs:label "Teledyne FLIR Boson+ radiometric thermal module (640x512)" ;
-    rdfs:comment "VT300-Z and VT300-L only." ;
+data:wide_camera a iof:Assembly ;
+    rdfs:label "50.3 MP wide camera module (1-inch CMOS)" ;
+    rdfs:comment "VT300-L and V100-L; maker not named." ;
     prov:wasDerivedFrom <https://support.skydio.com/hc/en-us/articles/20370098171291>,
-        <https://www.skydio.com/resources/datasheets/skydio-x10> ;
-    iof:classifiedBy data:code_us_8525895050 ;
-    iof:isSuppliedByAtSomeTime data:sup_teledyne_flir .
+        <https://www.skydio.com/x10/faqs> ;
+    iof:classifiedBy data:cat_camera_modules,
+        data:code_us_8525893000 ;
+    iof:hasComponentPartAtSomeTime data:wide_image_sensor .
 
-data:compute a iof:MaterialComponent,
+data:wide_image_sensor a iof:MaterialComponent,
         iof:MaterialProduct ;
-    rdfs:label "NVIDIA Jetson Orin SoC (main processor)" ;
-    rdfs:comment "Named main processor; module variant not stated in the datasheet." ;
-    prov:wasDerivedFrom <https://www.skydio.com/resources/datasheets/skydio-x10> ;
-    iof:classifiedBy data:code_us_8542310070 ;
-    iof:isSuppliedByAtSomeTime data:sup_nvidia .
+    rdfs:label "Sony IMX989 1-inch 50.3 MP CMOS image sensor" ;
+    rdfs:comment "Retailer listing (secondary). VT300-L and V100-L." ;
+    prov:wasDerivedFrom <https://www.adorama.com/skydr4e1br2l.html> ;
+    iof:classifiedBy data:code_us_8541499500 ;
+    iof:isSuppliedByAtSomeTime data:sup_sony .
 
 data:gimbal_motors a iof:MaterialComponent,
         iof:MaterialProduct ;
@@ -5785,14 +6093,14 @@ data:gimbal_motors a iof:MaterialComponent,
     iof:hasValueExpressionAtSomeTime data:line_gimbal_motors_quantity ;
     iof:isSuppliedByAtSomeTime data:sup_nidec .
 
-data:propulsion_motors a iof:MaterialComponent,
-        iof:MaterialProduct ;
-    rdfs:label "Propulsion motors" ;
-    rdfs:comment "Four per drone per the supplier release." ;
-    prov:wasDerivedFrom <https://www.nidec.com/en/product/news/2024/news0722-01/> ;
-    iof:classifiedBy data:code_us_8501314000 ;
-    iof:hasValueExpressionAtSomeTime data:line_propulsion_motors_quantity ;
-    iof:isSuppliedByAtSomeTime data:sup_nidec .
+data:narrow_camera a iof:Assembly ;
+    rdfs:label "64 MP narrow camera module (1/1.7-inch CMOS)" ;
+    rdfs:comment "In all three sensor packages; maker not named." ;
+    prov:wasDerivedFrom <https://support.skydio.com/hc/en-us/articles/20370098171291>,
+        <https://www.skydio.com/x10/faqs> ;
+    iof:classifiedBy data:cat_camera_modules,
+        data:code_us_8525893000 ;
+    iof:hasComponentPartAtSomeTime data:narrow_image_sensor .
 
 data:rule_disruption_exposure a ns1:RiskRule ;
     rdfs:label "Disruption exposure" .
@@ -5815,6 +6123,35 @@ data:rule_single_source a ns1:RiskRule ;
 data:rule_tariff_exposure a ns1:RiskRule ;
     rdfs:label "Tariff exposure" .
 
+data:sup_skydio a iof:Supplier ;
+    rdfs:label "Skydio, Inc." ;
+    bfo:BFO_0000171 data:site_skydio_hayward,
+        data:site_skydio_hayward_27279,
+        data:site_skydio_hayward_27317,
+        data:site_skydio_san_mateo ;
+    rdfs:comment "Brand owner and final assembler of the X10." ;
+    prov:wasDerivedFrom <https://www.nidec.com/en/product/news/2024/news0722-01/>,
+        <https://www.skydio.com/resources/videos/inside-look-skydio-drone-manufacturing-at-scale-in-the-us> ;
+    iof:designatedBy data:id_OpenCorporates_us_de_5475586,
+        data:id_Wikidata_Q97321374 .
+
+data:tele_camera a iof:Assembly ;
+    rdfs:label "48 MP telephoto camera module (1/2-inch CMOS)" ;
+    rdfs:comment "VT300-Z only; maker not named." ;
+    prov:wasDerivedFrom <https://support.skydio.com/hc/en-us/articles/20370098171291> ;
+    iof:classifiedBy data:cat_camera_modules,
+        data:code_us_8525893000 ;
+    iof:hasComponentPartAtSomeTime data:tele_image_sensor .
+
+data:propulsion_motors a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "Propulsion motors" ;
+    rdfs:comment "Four per drone per the supplier release." ;
+    prov:wasDerivedFrom <https://www.nidec.com/en/product/news/2024/news0722-01/> ;
+    iof:classifiedBy data:code_us_8501314000 ;
+    iof:hasValueExpressionAtSomeTime data:line_propulsion_motors_quantity ;
+    iof:isSuppliedByAtSomeTime data:sup_nidec .
+
 data:site_skydio_hayward_27317 a iof:GeospatialLocation,
         iof:SupplyChainNode ;
     rdfs:label "27317 Industrial Blvd, Hayward, CA 94545, United States" ;
@@ -5834,8 +6171,27 @@ data:route_hai_phong_to_oakland_ca a iof:ShippingRoute ;
     rdfs:comment "Port-to-port lane used by 20 of the 50 bills (arrivals 2026-05-09 to 2026-10-06). Company-wide lane total 2017-2026: 29 shipments." ;
     prov:wasDerivedFrom <https://data.importyeti.com/v1.0/bol/> .
 
+data:thermal_module a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "Teledyne FLIR Boson+ radiometric thermal module (640x512)" ;
+    rdfs:comment "VT300-Z and VT300-L only." ;
+    prov:wasDerivedFrom <https://support.skydio.com/hc/en-us/articles/20370098171291>,
+        <https://www.skydio.com/resources/datasheets/skydio-x10> ;
+    iof:classifiedBy data:code_us_8525895050 ;
+    iof:isSuppliedByAtSomeTime data:sup_teledyne_flir .
+
 data:band_unknown a ns1:RiskBand ;
     rdfs:label "Unknown" .
+
+data:code_us_8525893000 a ns1:TariffCode ;
+    rdfs:label "8525.89.3000 (US HTS 2026 Revision 22)" .
+
+data:sup_primax_electronics a iof:Supplier ;
+    rdfs:label "Primax Electronics" ;
+    bfo:BFO_0000171 data:site_primax_electronics ;
+    rdfs:comment "Shipper on U.S. ocean bills of lading to Skydio: 1 shipment, 2025-09-05 to 2025-09-05. Name as recorded in customs data." ;
+    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
+    iof:ownedBy data:org_LEI_254900JO4CQFFG7AIQ15 .
 
 data:battery a iof:MaterialComponent,
         iof:MaterialProduct ;
@@ -5850,6 +6206,14 @@ data:country_JP a iof:GeospatialSite ;
     rdfs:label "JP" ;
     iof:designatedBy data:country_code_JP .
 
+data:modem_5g a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "Built-in 5G/LTE cellular modem" ;
+    rdfs:comment "Connect 5G configurations; modem maker not named." ;
+    prov:wasDerivedFrom <https://www.skydio.com/resources/solution-sheet/connectivity> ;
+    iof:classifiedBy data:code_us_8517620090 ;
+    iof:isSuppliedByAtSomeTime data:sup_telit .
+
 data:airframe a iof:Assembly ;
     rdfs:label "Folding airframe and body enclosure" ;
     rdfs:comment "Inferred from published unfolded and folded dimensions; no part list or material published." ;
@@ -5858,8 +6222,13 @@ data:airframe a iof:Assembly ;
     iof:classifiedBy data:cat_structural_parts,
         data:code_us_8807300060 .
 
-data:code_us_8525893000 a ns1:TariffCode ;
-    rdfs:label "8525.89.3000 (US HTS 2026 Revision 22)" .
+data:compute a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "NVIDIA Jetson Orin SoC (main processor)" ;
+    rdfs:comment "Named main processor; module variant not stated in the datasheet." ;
+    prov:wasDerivedFrom <https://www.skydio.com/resources/datasheets/skydio-x10> ;
+    iof:classifiedBy data:code_us_8542310070 ;
+    iof:isSuppliedByAtSomeTime data:sup_nvidia .
 
 data:country_TH a iof:GeospatialSite ;
     rdfs:label "TH" ;
@@ -5881,32 +6250,36 @@ data:sup_sony a iof:Supplier ;
         data:id_Wikidata_Q107412212 ;
     iof:ownedBy data:org_LEI_529900R5WX9N2OI2N910 .
 
-data:sup_primax_electronics a iof:Supplier ;
-    rdfs:label "Primax Electronics" ;
-    bfo:BFO_0000171 data:site_primax_electronics ;
-    rdfs:comment "Shipper on U.S. ocean bills of lading to Skydio: 1 shipment, 2025-09-05 to 2025-09-05. Name as recorded in customs data." ;
-    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
-    iof:ownedBy data:org_LEI_254900JO4CQFFG7AIQ15 .
+data:radio_sl a iof:MaterialComponent,
+        iof:MaterialProduct ;
+    rdfs:label "Skydio Connect SL point-to-point radio (2.4/5 GHz)" ;
+    rdfs:comment "Radio hardware maker not named." ;
+    prov:wasDerivedFrom <https://support.skydio.com/hc/en-us/articles/20592871628571> ;
+    iof:classifiedBy data:code_us_8517620090 ;
+    iof:isSuppliedByAtSomeTime data:sup_skydio .
 
 data:country_TW a iof:GeospatialSite ;
     rdfs:label "TW" ;
     iof:designatedBy data:country_code_TW .
 
+data:researcher a prov:Agent ;
+    rdfs:label "The researcher" .
+
 data:sourcing_adviser a prov:Agent ;
     rdfs:label "Sourcing adviser (Claude, claude-sonnet-5-5)" .
 
-data:researcher a prov:Agent ;
-    rdfs:label "The researcher" .
+data:listing_vetted_alternative a iof:Classifier ;
+    rdfs:label "Vetted alternative (Blue UAS Framework)" .
 
 data:link_model a prov:Entity ;
     rdfs:label "Link prediction model: supplier names read by all-MiniLM-L6-v2, logistic regression per part" .
 
+data:band_low a ns1:RiskBand ;
+    rdfs:label "Low" .
+
 data:country_CN a iof:GeospatialSite ;
     rdfs:label "CN" ;
     iof:designatedBy data:country_code_CN .
-
-data:band_low a ns1:RiskBand ;
-    rdfs:label "Low" .
 
 data:dutykind_section_301_forced_labour_import_prohibitions_60_economies_ a iof:Classifier ;
     rdfs:label "Section 301, forced-labour import prohibitions (60 economies)" .

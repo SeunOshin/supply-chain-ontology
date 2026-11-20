@@ -328,6 +328,12 @@ span.bd.bd-some{background:#F3DFA2;color:#14202E}span.bd.bd-ok{background:var(--
 @media (max-width:1150px){.vcards{grid-template-columns:repeat(2,minmax(0,1fr))}.evfig,.evfig2{grid-template-columns:minmax(0,1fr)}.chkcols{columns:1}}
 .evwide{scroll-margin-top:16px}
 .brand{font-size:19px;line-height:1.15}
+/* what if, as at a date */
+.toolbar input[type=date]{font:13px var(--f-body);background:var(--surface);color:var(--ink);border:1px solid var(--line2);border-radius:8px;padding:7px 10px;min-height:35px;box-sizing:border-box}
+.evline .qchip b{font:600 11px var(--f-mono);color:var(--muted);margin:0 8px 0 0}.evline .qchip.off{color:var(--muted);border-style:dashed}
+.evline .evkey{flex-basis:100%;font:400 12px/1.4 var(--f-body);letter-spacing:0;color:var(--muted);margin:0}
+.daterr{align-self:center;font:500 13px var(--f-body);color:var(--sev-hi)}
+td.item .vet{display:block;margin-top:8px;font:400 12px/1.45 var(--f-body);color:var(--muted)}td.item .vet b{font-weight:600;color:var(--ink2,inherit)}
 </style></head>
 <body>
 <div class="app">
@@ -361,7 +367,7 @@ const COLOR={DesignSpecification:'bom',MaterialProduct:'prod',Assembly:'asm',Mat
  SupplyRelationship:'link',Supplier:'sup',Customer:'buyer',SupplyChainNode:'site',GeospatialLocation:'loc',GeospatialSite:'country',PhysicalLocationIdentifier:'line',
  ValueExpression:'line',ShippingRoute:'route',Shipment:'ship',SupplyChainTransportProcess:'journey',Agent:'line',Entity:'line',
  BusinessOrganization:'parent',OrganizationIdentifier:'line',TariffCode:'tariff',DutyMeasure:'duty',Event:'event',RiskFinding:'finding',RiskRule:'rule',RiskBand:'rule',
- PredictedSupplyLink:'pred',ActionSpecification:'advice',RequirementSpecification:'need'};
+ PredictedSupplyLink:'pred',InformationContentEntity:'pred',SupplierEvaluationProcess:'event',ActionSpecification:'advice',RequirementSpecification:'need'};
 const col=c=>`var(--c-${COLOR[c]||'line'})`;
 const clsName=c=>(G.classes[c]||{}).name||c;
 const clsFrom=c=>(G.classes[c]||{}).from||'';
@@ -479,7 +485,7 @@ const KINDS=[
  {id:'duties',name:'Duties',cls:['DutyMeasure'],at:[0,2],what:'Each duty on a tariff code, by country of origin, with its rate and dates',src:G.case.imported_into==='US'?'The US Harmonized Tariff Schedule':'The EU tariff, through the UK Trade Tariff service'},
  {id:'events',name:'Disruption events',cls:['Event'],at:[3,0],what:'Sanctions, export controls, tariffs, conflict and accidents that could interrupt supply',src:'A library of sourced events and a news feed, read and judged by Claude'},
  {id:'findings',name:'Risk findings',cls:['RiskFinding'],at:[1,0],what:'The band each of the seven risk rules gave each part, with the reason',src:'Seven rules applied to the records above'},
- {id:'leads',name:'Suggested suppliers',cls:['PredictedSupplyLink'],at:[2,0],what:'Suppliers the BOM does not record that a model suggests for a kind of part',src:'A model trained on US customs bills of lading from ImportYeti'},
+ {id:'leads',name:'Suggested suppliers',cls:['PredictedSupplyLink','InformationContentEntity'],at:[2,0],what:'Suppliers the BOM does not record: suggested by a model for a kind of part, or listed as vetted makers of it',src:'A model trained on US customs bills of lading from ImportYeti, and the Blue UAS Framework list of vetted drone parts'},
  {id:'actions',name:'Purchasing actions',cls:['ActionSpecification'],at:[0,0],what:'The purchasing strategy for each part at risk, and what must be in place first',src:'Written by Claude from the records above, in CIPS terms, and checked against them'}];
 // How the kinds join, in plain words. Each line stands for relations the graph really holds.
 const KJOINS=[['product','parts','is made of'],['parts','suppliers','are supplied by'],['suppliers','parents','are owned by'],['suppliers','places','are located in'],
@@ -995,10 +1001,12 @@ function vProcure(m){
   const byStrategy={};acts.forEach(a=>byStrategy[a.strategy]=(byStrategy[a.strategy]||0)+1);
   const strategies=Object.entries(byStrategy).sort((a,b)=>b[1]-a[1]);
   if(spFilter&&!byStrategy[spFilter])spFilter='';
-  const items=SP.items.map(i=>({item:i.item,advice:i.advice.filter(a=>!spFilter||a.strategy===spFilter)})).filter(i=>i.advice.length);
-  const who=a=>a.suppliers.length?a.suppliers.map(s=>`<span>${esc(s.name)}<small class="${s.lead?'lead-tag':''}">${s.lead?'Suggested lead, not yet checked':'Recorded in the bill of materials'}</small></span>`).join(''):'<span class="none">No supplier named</span>';
+  const items=SP.items.map(i=>({item:i.item,vetted:i.vetted,advice:i.advice.filter(a=>!spFilter||a.strategy===spFilter)})).filter(i=>i.advice.length);
+  const who=a=>a.suppliers.length?a.suppliers.map(s=>`<span>${esc(s.name)}<small class="${s.lead||s.vetted?'lead-tag':''}">${s.lead?'Suggested lead, not yet checked':s.vetted?'On the Blue UAS Framework list, fit not yet checked':'Recorded in the bill of materials'}</small></span>`).join(''):'<span class="none">No supplier named</span>';
   const part=name=>PART_ID.has(name)?`<button class="lnk" type="button" data-item="${esc(PART_ID.get(name))}" data-v="trace">${esc(name)}</button>`:esc(name);
-  const rows=items.map(i=>i.advice.map((a,k)=>`<tr class="${k?'':'first'}">${k?'':`<td class="item" rowspan="${i.advice.length}">${part(i.item)}</td>`}
+  // makers on the Blue UAS Framework list for the same kind of part; a related part only is said so
+  const vet=i=>(i.vetted||[]).length?`<small class="vet"><b>Vetted makers:</b> ${i.vetted.map(v=>esc(v.maker)+(v.match==='close'?'':' (related part only)')).join(', ')}</small>`:'';
+  const rows=items.map(i=>i.advice.map((a,k)=>`<tr class="${k?'':'first'}">${k?'':`<td class="item" rowspan="${i.advice.length}">${part(i.item)}${vet(i)}</td>`}
     <td class="strat"><b>${esc(a.strategy)}</b><p class="means">${esc(a.meaning)}</p><p class="here"><em>For this item:</em> ${esc(a.for_item)}</p></td>
     <td class="who">${who(a)}</td></tr>`).join('')).join('');
   // what the graph cannot tell a buyer yet, counted from the recorded data
@@ -1072,6 +1080,10 @@ function vTrace(m){
      ${it.leads.map(l=>`<tr><td>${esc(l.name)}</td><td>${esc(place(l.country))||'<span class="q">not recorded</span>'}</td>${D?`<td>${esc(l.part)}</td><td class="n">${l.bills}</td>`:''}<td class="sc"><span class="score"><b style="width:${l.score*100}%"></b></span>${l.score.toFixed(2)}</td></tr>`).join('')}</table>`
      :none('No supplier is suggested for this kind of part.')}
     <p class="note">Seen shipping this kind of part to US buyers. The fit score ranks them; it does not vouch for them.</p></section>
+   ${(it.vetted||[]).length?`<section class="panel"><h2>Vetted makers of this kind of part</h2>
+    <table class="atab"><tr><th>Maker</th><th>Match</th>${D?'<th>Listed parts</th>':''}</tr>
+     ${it.vetted.map(v=>`<tr><td>${esc(v.maker)}</td><td>${v.match==='close'?'Same kind of part':'Related part only'}</td>${D?`<td>${v.components.map(esc).join(', ')}</td>`:''}</tr>`).join('')}</table>
+    <p class="note">On the Blue UAS Framework list, the US government's list of vetted drone parts. Nothing says a listed part fits this product, so ask for a price and check the fit first.</p></section>`:''}
   </div>
   ${D?`<section class="panel" style="margin-top:16px"><h2>All seven risk rules, as recorded</h2><table class="atab"><tr><th>Rule</th><th>Band</th><th>Reason as recorded in the graph</th></tr>
     ${it.findings.map(f=>`<tr><td>${esc(f.rule)}</td><td>${bd(f.band,1)}</td><td>${esc(f.reason)}</td></tr>`).join('')}</table>
@@ -1193,26 +1205,36 @@ function vAnatomy(m){
 }
 
 // ---------------- What If: take suppliers out and see which parts lose their recorded supply (section 10.3 of the notebook)
-const WKIND={event:'Recorded disruption event',country:'Country stops supplying',supplier:'Supplier fails',group:'Parent company fails'};
-const wi={kind:'event',key:''};   // the scenario on show
+const WKIND={event:'Recorded disruption event',date:'Between two dates',country:'Country stops supplying',supplier:'Supplier fails',group:'Parent company fails'};
+const wi={kind:'event',key:'',from:'',to:''};   // the scenario on show; from and to are the days chosen for 'Between two dates'
 
 // The scenario is the heading, the product drawing is coloured by impact, and only the parts that lose supply are listed.
 function vWhatIf(m){
   const S=G.scenarios,ALL='All recorded suppliers lost',HALF='Half or more lost',SOME='Some lost',UNK='Unknown: supplier location not recorded';
   const n=(s,st)=>Object.values(s.rows).filter(r=>r[2]===st).length,worst=s=>n(s,ALL)*100+n(s,HALF)*10+n(s,SOME);
   if(!S.some(s=>s.kind===wi.kind))wi.kind=S[0].kind;
-  const opts=S.filter(s=>s.kind===wi.kind);
-  if(!opts.some(s=>s.key===wi.key))wi.key=opts.slice().sort((a,b)=>worst(b)-worst(a))[0].key;
-  const sc=opts.find(s=>s.key===wi.key),lost=new Set(sc.lost);
+  const byDate=wi.kind==='date',opts=byDate?[]:S.filter(s=>s.kind===wi.kind);
+  if(!byDate&&!opts.some(s=>s.key===wi.key))wi.key=opts.slice().sort((a,b)=>worst(b)-worst(a))[0].key;
+  // between two dates: only the events that start in the period count. The notebook worked out one position for every run of event dates;
+  // the page finds the first and last event that start in the chosen period and shows the position for that run.
+  const EV=S.filter(s=>s.kind==='event'&&s.date).sort((a,b)=>a.date.localeCompare(b.date)||a.label.localeCompare(b.label));
+  if(byDate&&!wi.from)wi.from=EV.length?EV[0].date:G.case.built;
+  if(byDate&&!wi.to)wi.to=G.case.built;
+  const backwards=byDate&&wi.from>wi.to,inside=e=>!backwards&&e.date>=wi.from&&e.date<=wi.to,hit=byDate?EV.filter(inside):[];
+  const before={kind:'date',key:'',lost:[],countries:[],events:[],rows:Object.fromEntries(ITEMS.map(it=>[it.id,[0,it.suppliers.length,it.suppliers.length?'Not affected':'No supplier recorded']]))};
+  const sc=byDate?(hit.length&&S.find(s=>s.kind==='date'&&s.key===hit[0].date+'/'+hit.at(-1).date))||before:opts.find(s=>s.key===wi.key),lost=new Set(sc.lost);
+  const day=(d,long)=>new Date(d+'T00:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:long?'long':'short',year:'numeric',timeZone:'UTC'}),started=sc.events?sc.events.length:0;
   const SUP=new Map();ITEMS.forEach(it=>it.suppliers.forEach(s=>SUP.set(s.id,s)));
-  const title=s=>s.kind==='country'?`${place(s.label)} stops supplying`:s.kind==='supplier'?`${s.label} fails`:s.kind==='group'?`${s.label} fails, with every supplier under it`:s.label;
+  const title=s=>s.kind==='date'?(wi.from===wi.to?`Events starting on ${day(wi.from,true)}`:`Events from ${day(wi.from,true)} to ${day(wi.to,true)}`):s.kind==='country'?`${place(s.label)} stops supplying`:s.kind==='supplier'?`${s.label} fails`:s.kind==='group'?`${s.label} fails, with every supplier under it`:s.label;
   const optLabel=s=>s.kind==='country'?`${place(s.label)} (${s.lost.length} supplier${s.lost.length===1?'':'s'})`:s.kind==='supplier'?`${s.label}${SUP.get(s.key)&&SUP.get(s.key).countries.length?' · '+SUP.get(s.key).countries.map(place).join(', '):' · no location recorded'}`
     :s.kind==='group'?`${s.label} (${s.lost.length} supplier${s.lost.length===1?'':'s'})`:short(s.label,90);
   const row=it=>sc.rows[it.id]||[0,0,'No supplier recorded'],all=n(sc,ALL),half=n(sc,HALF),some=n(sc,SOME),unk=n(sc,UNK),ok=ITEMS.length-all-half-some-unk;
   // the worst cases across every kind of scenario, as shortcuts. Scenarios that take out the same suppliers are shown once.
-  const seen=new Set(),worstCases=S.slice().sort((a,b)=>worst(b)-worst(a)||a.lost.length-b.lost.length).filter(s=>worst(s)&&!seen.has(s.lost.join())&&seen.add(s.lost.join())).slice(0,4);
+  const seen=new Set(),worstCases=S.filter(s=>s.kind!=='date').sort((a,b)=>worst(b)-worst(a)||a.lost.length-b.lost.length).filter(s=>worst(s)&&!seen.has(s.lost.join())&&seen.add(s.lost.join())).slice(0,4);
   const verdict=all||half||some?`${all?`${all} of ${ITEMS.length} parts lose every recorded supplier`:`No part loses every recorded supplier`}${half?`, ${half} more lose${half===1?'s':''} half or more`:''}${some?`${all||half?', and ':', but '}${some} lose${some===1?'s':''} some`:''}.`
+    :byDate?(backwards?'The start date is after the end date.':started?`The ${started===1?'one event':started+' events'} that started in this period take${started===1?'s':''} no recorded supplier out.`:'No recorded event started in this period, so no part loses supply.')
     :sc.lost.length?'No part loses a recorded supplier.':'This takes no recorded supplier out.'+(sc.kind==='event'?' The event reaches the product through tariff codes, or not at all.':'');
+  const lead=byDate&&started?`${started} of ${EV.length} recorded events started in this period. `:'';
   // each part on the drawing: how many of its recorded suppliers are lost
   const CLS={[ALL]:'hi',[HALF]:'mod',[SOME]:'some',[UNK]:'unk','Not affected':'ok','No supplier recorded':'unk'};
   const mark=it=>{const r=row(it);return {cls:CLS[r[2]],text:r[2]===UNK?'?':r[1]?r[0]+'/'+r[1]:'–',say:r[2]+(r[1]?' ('+r[0]+' of '+r[1]+' suppliers)':'')}};
@@ -1229,14 +1251,17 @@ function vWhatIf(m){
      ${strategies.length?`<p>Advice already on file: <button class="lnk" type="button" data-go="procure">${esc(strategies.join('; '))} →</button></p>`:''}</div>`}).join('')
     ||'<p class="q">No part loses half or more of its recorded suppliers, so nothing needs doing for this scenario.</p>';
   const tile=(v,l,c)=>`<div class="tile"><b${c&&v?` class="t-${c}"`:''}>${v}</b><span>${l}</span></div>`;
-  m.innerHTML=`<div class="kick">What if…</div>
+  m.innerHTML=`<div class="kick">${byDate?'Between two dates':'What if…'}</div>
   <h1>${esc(title(sc))}</h1>
-  <p class="sub">${esc(verdict)}</p>
+  <p class="sub">${esc(lead+verdict)}</p>
   ${worstCases.length?`<div class="worst"><span>Worst cases on record:</span>${worstCases.map(s=>`<button class="qchip ${s.key===sc.key&&s.kind===sc.kind?'on':''}" type="button" data-wc="${S.indexOf(s)}">${esc(short(title(s),46))}<b>${n(s,ALL)} part${n(s,ALL)===1?' loses':'s lose'} all</b></button>`).join('')}</div>`:''}
   <section class="toolbar wi"><div class="field">Or choose a disruption<div class="seg" role="group" aria-label="Kind of disruption">
     ${Object.keys(WKIND).filter(k=>S.some(s=>s.kind===k)).map(k=>`<button type="button" data-k="${k}" aria-pressed="${k===wi.kind}">${WKIND[k]}</button>`).join('')}</div></div>
-   <label class="field" style="flex:1;min-width:300px;max-width:640px">${wi.kind==='event'?'Which event':wi.kind==='country'?'Which country':wi.kind==='supplier'?'Which supplier':'Which parent company'}
-    <select id="wi-key">${opts.map(s=>`<option value="${esc(s.key)}" ${s.key===wi.key?'selected':''}>${esc(optLabel(s))}</option>`).join('')}</select></label></section>
+   ${byDate?`<label class="field">Start date<input type="date" id="wi-from" value="${esc(wi.from)}"></label><label class="field">End date<input type="date" id="wi-to" value="${esc(wi.to)}"></label>${backwards?'<span class="daterr" role="alert">The start date must be on or before the end date.</span>':''}`
+    :`<label class="field" style="flex:1;min-width:300px;max-width:640px">${wi.kind==='event'?'Which event':wi.kind==='country'?'Which country':wi.kind==='supplier'?'Which supplier':'Which parent company'}
+    <select id="wi-key">${opts.map(s=>`<option value="${esc(s.key)}" ${s.key===wi.key?'selected':''}>${esc(optLabel(s))}</option>`).join('')}</select></label>`}</section>
+  ${byDate?`<div class="worst evline"><span>Recorded events, by start date:</span>${EV.map(e=>`<button class="qchip ${inside(e)?'on':'off'}" type="button" data-d="${esc(e.date)}" title="${esc(e.label)}. Select to see this event's day alone."><b>${esc(day(e.date))}</b>${esc(short(e.label,40))}</button>`).join('')}
+   <span class="evkey">Shaded events start in the chosen period. Select one to set both dates to its start date.</span></div>`:''}
   <div class="tiles t3">${tile(all,'parts lose every recorded supplier','hi')}${tile(half+some,'parts lose some of their suppliers','mod')}${tile(sc.lost.length,'recorded suppliers taken out, of '+SUP.size)}</div>
   ${DRAW[G.case.id]?`<section class="panel"><h2>Where it hits the ${esc(DRAW[G.case.id].noun)}</h2><div class="svgwrap">${drawingSvg(mark)}</div>
    <div class="legend bandkey"><span><span class="bd bd-hi">n/n</span> Loses every recorded supplier</span><span><span class="bd bd-mod">n/n</span> Loses half or more</span><span><span class="bd bd-some">n/n</span> Loses some</span>
@@ -1248,11 +1273,13 @@ function vWhatIf(m){
    <section class="panel"><h2>What to do about it</h2>${todo}</section>
   </div>
   ${sc.lost.length?`<details class="cq" style="max-width:none;margin-top:14px"><summary>The ${sc.lost.length} supplier${sc.lost.length===1?'':'s'} taken out</summary><p class="q">${sc.lost.map(id=>esc((SUP.get(id)||{name:id}).name)).join(', ')}.</p></details>`:''}
-  <p class="note">${sc.kind==='country'?'A supplier is taken out when a location recorded for it is in that country. ':sc.kind==='event'?'An event takes out the suppliers it names, those whose parent it names and, for a broad event, those located in its countries. ':sc.kind==='group'?'The parent company and every supplier recorded under it are taken out. ':''}Every recorded supplier counts equally: the graph holds no capacity, stock or lead times, so this shows which parts are exposed, not for how long. There is no route or port scenario, because few parts record their shipments.</p>`;
+  <p class="note">${byDate?'Every recorded event that starts in the chosen period is applied together. Only a start date is recorded for an event, so one that started before the period is not counted, even if it was still going on. ':sc.kind==='country'?'A supplier is taken out when a location recorded for it is in that country. ':sc.kind==='event'?'An event takes out the suppliers it names, those whose parent it names and, for a broad event, those located in its countries. ':sc.kind==='group'?'The parent company and every supplier recorded under it are taken out. ':''}Every recorded supplier counts equally: the graph holds no capacity, stock or lead times, so this shows which parts are exposed, not for how long. There is no route or port scenario, because few parts record their shipments.</p>`;
   wire(m);
   const again=()=>{const y=window.scrollY;vWhatIf(m);window.scrollTo(0,y)};
   m.querySelectorAll('.seg button').forEach(b=>b.onclick=()=>{wi.kind=b.dataset.k;wi.key='';again()});
-  $('#wi-key').onchange=e=>{wi.key=e.target.value;again()};
+  if($('#wi-key'))$('#wi-key').onchange=e=>{wi.key=e.target.value;again()};
+  [['#wi-from','from'],['#wi-to','to']].forEach(([id,k])=>{if($(id))$(id).onchange=e=>{if(e.target.value){wi[k]=e.target.value;again()}}});
+  m.querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>{wi.from=wi.to=b.dataset.d;again()});
   m.querySelectorAll('[data-wc]').forEach(b=>b.onclick=()=>{const s=S[b.dataset.wc];wi.kind=s.kind;wi.key=s.key;again()});
   m.querySelectorAll('[data-part]').forEach(g=>{const id=g.dataset.part,open=()=>{cur=id;go('trace')};g.onclick=open;g.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}}});
 }

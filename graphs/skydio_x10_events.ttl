@@ -2093,6 +2093,22 @@ data:id_LEI_H1J8DDZKZP6H7RWC0H53 a iof:OrganizationIdentifier ;
     rdfs:label "LEI H1J8DDZKZP6H7RWC0H53" ;
     iof:hasTextValue "H1J8DDZKZP6H7RWC0H53" .
 
+data:id_OpenCorporates_sg_198004601C a iof:OrganizationIdentifier ;
+    rdfs:label "OpenCorporates sg/198004601C" ;
+    iof:hasTextValue "sg/198004601C" .
+
+data:id_OpenCorporates_us_de_2862596 a iof:OrganizationIdentifier ;
+    rdfs:label "OpenCorporates us_de/2862596" ;
+    iof:hasTextValue "us_de/2862596" .
+
+data:id_OpenCorporates_us_de_5475586 a iof:OrganizationIdentifier ;
+    rdfs:label "OpenCorporates us_de/5475586" ;
+    iof:hasTextValue "us_de/5475586" .
+
+data:id_OpenCorporates_us_va_11229111 a iof:OrganizationIdentifier ;
+    rdfs:label "OpenCorporates us_va/11229111" ;
+    iof:hasTextValue "us_va/11229111" .
+
 data:id_Wikidata_Q107412212 a iof:OrganizationIdentifier ;
     rdfs:label "Wikidata Q107412212" ;
     iof:hasTextValue "Q107412212" .
@@ -2578,7 +2594,8 @@ data:sup_fuyu a iof:Supplier ;
     rdfs:label "Fuyu" ;
     bfo:BFO_0000171 data:site_fuyu ;
     rdfs:comment "Shipper on U.S. ocean bills of lading to Skydio: 10 shipments, 2026-05-15 to 2026-10-25. Name as recorded in customs data." ;
-    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> .
+    prov:wasDerivedFrom <https://www.importyeti.com/company/skydio> ;
+    iof:designatedBy data:id_OpenCorporates_sg_198004601C .
 
 data:sup_j_packaging_vina a iof:Supplier ;
     rdfs:label "J Packaging Vina" ;
@@ -2761,7 +2778,8 @@ data:sup_nvidia a iof:Supplier ;
     rdfs:label "NVIDIA" ;
     rdfs:comment "Maker of the named processor; buying route (direct or via a module/carrier-board supplier) not established." ;
     prov:wasDerivedFrom <https://www.skydio.com/resources/datasheets/skydio-x10> ;
-    iof:designatedBy data:id_Wikidata_Q182477 .
+    iof:designatedBy data:id_OpenCorporates_us_de_2862596,
+        data:id_Wikidata_Q182477 .
 
 data:sup_qualcomm a iof:Supplier ;
     rdfs:label "Qualcomm" ;
@@ -2781,6 +2799,7 @@ data:sup_teledyne_flir a iof:Supplier ;
     rdfs:comment "Maker of the named thermal module; buying route not established." ;
     prov:wasDerivedFrom <https://www.skydio.com/resources/datasheets/skydio-x10> ;
     iof:designatedBy data:id_LEI_5493000HDPX16EHNN346,
+        data:id_OpenCorporates_us_va_11229111,
         data:id_Wikidata_Q5426537 ;
     iof:ownedBy data:org_LEI_549300VSMO9KYQWDND94 .
 
@@ -3018,7 +3037,8 @@ data:sup_skydio a iof:Supplier ;
     rdfs:comment "Brand owner and final assembler of the X10." ;
     prov:wasDerivedFrom <https://www.nidec.com/en/product/news/2024/news0722-01/>,
         <https://www.skydio.com/resources/videos/inside-look-skydio-drone-manufacturing-at-scale-in-the-us> ;
-    iof:designatedBy data:id_Wikidata_Q97321374 .
+    iof:designatedBy data:id_OpenCorporates_us_de_5475586,
+        data:id_Wikidata_Q97321374 .
 
 data:battery a iof:MaterialComponent,
         iof:MaterialProduct ;

@@ -1,0 +1,34 @@
+case,item_id,maker,components,match,basis
+skydio_x10,radio_sl,Silvus Technologies,StreamCaster Radio; StreamCaster 4240; SC4200 Dual Band Radio; StreamCaster 4400; StreamCaster 4200 Plus; StreamCaster LITE 5200; StreamCaster LITE 4200; StreamCaster 4200 Enhanced Plus,close,Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio.
+skydio_x10,radio_sl,Doodle Labs,"Mini-OEM, Doodle Helix Mesh Rider; M1-M6 Radio; Doodle Dual Band; Nimble Mesh Rider; Long-Range Transceiver; Embedded Mesh Rider; mini-OEM Dual-Band Mesh Rider; mini-OEM Helix Mesh Rider",close,Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio.
+skydio_x10,radio_sl,Microhard,pMDDL2450; pDDL1800; pDDL2450,close,Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio.
+skydio_x10,radio_sl,Persistent Systems,Embedded Module; MPU 5,close,Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio.
+skydio_x10,radio_sl,Mobilicom,SkyHopper PRO Micro; SkyHopper PRO Lite; SkyHopper PRO,close,Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio.
+skydio_x10,radio_sl,"DTC Communications, Inc.",BluSDR-90UL; BluSDR-6; BluSDR-30,close,Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio.
+skydio_x10,radio_sl,Radionor,CRE2-144-M2-SMA,close,Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio.
+skydio_x10,radio_sl,Perf Drone Systems,DataLink,close,Listed as a datalink radio; the BOM item is a 2.4/5 GHz point-to-point radio.
+skydio_x10,modem_5g,Sierra Wireless,RC7630 IoT Module; RC7620 IoT Module; RC7611 IoT Module,close,Listed as a cellular (LTE) module or modem; the BOM item is a built-in 5G/LTE modem.
+skydio_x10,modem_5g,ARK Electronics,ARK M.2 LTE (NA); ARK M.2 LTE (EMEA); ARK M.2 LTE (APAC),close,Listed as a cellular (LTE) module or modem; the BOM item is a built-in 5G/LTE modem.
+skydio_x10,modem_5g,ModalAI,VOXL 2 LTE + I/O Module,close,Listed as a cellular (LTE) module or modem; the BOM item is a built-in 5G/LTE modem.
+skydio_x10,modem_5g,Microhard,Microhard pMLTE,close,Listed as a cellular (LTE) module or modem; the BOM item is a built-in 5G/LTE modem.
+skydio_x10,modem_5g,ElSight,Halo,close,Listed as a cellular (LTE) module or modem; the BOM item is a built-in 5G/LTE modem.
+skydio_x10,thermal_module,RPX Technologies,EmbIR-3,close,Listed as a thermal camera or thermal core; the BOM item is a radiometric thermal module.
+skydio_x10,thermal_module,Workswell,WIRIS Enterprise; WIRIS Pro,close,Listed as a thermal camera or thermal core; the BOM item is a radiometric thermal module.
+skydio_x10,thermal_module,Vantage Robotics,640 Thermal Greenseer,close,Listed as a thermal camera or thermal core; the BOM item is a radiometric thermal module.
+skydio_x10,compute,ModalAI,VOXL 2 (M0154); VOXL 2 (M0054); VOXL 2 Mini (M0204); VOXL 2 Mini (M0104); VOXL,close,Listed as a flight or companion computer; the BOM item is the main processor module.
+skydio_x10,compute,Auterion,Skynode X; Skynode S,close,Listed as a flight or companion computer; the BOM item is the main processor module.
+skydio_x10,compute,Raspberry Pi,Raspberry Pi 5 (4GB); Raspberry Pi 5 (8GB); Raspberry Pi CM4; Raspberry Pi 4 Model B (4GB),close,Listed as a flight or companion computer; the BOM item is the main processor module.
+skydio_x10,compute,ARK Electronics,ARK Pi6X; ARK Pi6X Flow,close,Listed as a flight or companion computer; the BOM item is the main processor module.
+skydio_x10,nav_cameras,Immervision,IMVISIO-ML,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,nav_cameras,ModalAI,Tracking Sensor; FPV EO Sensor,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,nav_cameras,Raspberry Pi,Raspberry Pi Camera Module 2,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,tele_camera,Immervision,IMVISIO-ML,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,tele_camera,ModalAI,Tracking Sensor; FPV EO Sensor,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,tele_camera,Raspberry Pi,Raspberry Pi Camera Module 2,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,wide_camera,Immervision,IMVISIO-ML,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,wide_camera,ModalAI,Tracking Sensor; FPV EO Sensor,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,wide_camera,Raspberry Pi,Raspberry Pi Camera Module 2,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,narrow_camera,Immervision,IMVISIO-ML,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,narrow_camera,ModalAI,Tracking Sensor; FPV EO Sensor,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,narrow_camera,Raspberry Pi,Raspberry Pi Camera Module 2,loose,Listed as a small camera module; not a like-for-like part for this camera.
+skydio_x10,propulsion_motors,Vertiq,81-08 G2 Module,loose,Listed as a motor module with a built-in controller; the only motor on the list.

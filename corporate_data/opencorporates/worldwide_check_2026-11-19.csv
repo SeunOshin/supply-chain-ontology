@@ -1,0 +1,97 @@
+case,supplier,recorded,any result,same name,"active, not a branch",where,found in recorded country (first pass),example
+skydio_x10,"Skydio, Inc.",US,16,15,1,us_de,1,"SKYDIO, INC. | us_de | None | inc 2014-04-08"
+skydio_x10,NVIDIA,US,51,30,1,us_de,1,NVIDIA CORPORATION | us_de | None | inc 1998-02-24
+skydio_x10,Teledyne FLIR,US,35,12,2,"se,us_va",1,"Teledyne FLIR, LLC | us_va | Active | inc 2021-05-19"
+skydio_x10,Nidec Corporation,JP,164,1,0,,0,
+skydio_x10,Sony,JP,2,1,0,,0,
+skydio_x10,Samsung,KR,7,4,0,,0,
+skydio_x10,Qualcomm,US,64,30,2,us_de,2,"QUALCOMM TECHNOLOGIES, INC. | us_de | None | inc 2011-08-30"
+skydio_x10,Telit Cinterion (Telit Communications S.p.A.),IT,2,2,0,,0,
+skydio_x10,Dongguan Poweramp Technology,CN,0,0,0,,0,
+skydio_x10,Atemitech,TW,0,0,0,,0,
+skydio_x10,Celxpert Energy,TW,2,1,1,us_mn,0,Celxpert Energy CORP | us_mn | Active | inc 2025-10-31
+skydio_x10,Chicony Power Technology,TH,1,0,0,,0,
+skydio_x10,Fu Chia Metal Casting,TW,1,1,0,,0,
+skydio_x10,Fuyu,SG,1,1,1,sg,1,FU YU CORPORATION LIMITED | sg | Live Company | inc 1980-12-10
+skydio_x10,J Packaging Vina,VN,0,0,0,,0,
+skydio_x10,Lichien Vietnam Paper Products,VN,0,0,0,,0,
+skydio_x10,Mean Well International,TW,1,0,0,,0,
+skydio_x10,Primax Electronics,TH,4,1,0,,0,
+skydio_x10,Samkwang,KR,26,4,0,,0,
+skydio_x10,Simplo Technology,TW,14,0,0,,0,
+skydio_x10,Super Bold Vietnam Packaging Prod,VN,0,0,0,,0,
+fairphone4,"Huizhou TCL Mobile Communication Co., Ltd.",CN,0,0,0,,0,
+fairphone4,"Shanghai Weier Semiconductor Co. , Ltd.",CN,0,0,0,,0,
+fairphone4,"JCET Group Co., Ltd.",CN,0,0,0,,0,
+fairphone4,Taiwan Semiconductor Manufacturing (TSMC),TW,4,3,1,us_ca,0,Taiwan Semiconductor Manufacturing Company Limited | us_ca | Active | inc 2023-02-20
+fairphone4,Unisem,CN,86,4,4,"be,fr,ro,us_pa",0,UNISEM | fr | Actif | inc 2022-01-01
+fairphone4,Samsung Electronics,KR,7,4,0,,0,
+fairphone4,"Tianjin Samsung Electro-Mechanics co.,ltd.",CN,0,0,0,,0,
+fairphone4,"Suzhou ASEN Semiconductors Co., Ltd.",CN,0,0,0,,0,
+fairphone4,Moda-Innochips,KR,0,0,0,,0,
+fairphone4,RF360,SG,22,0,0,,0,
+fairphone4,"Qualcomm Technologies,Inc",US,64,30,2,us_de,2,"QUALCOMM TECHNOLOGIES, INC. | us_de | None | inc 2011-08-30"
+fairphone4,Taiwan Semiconductor Manufacturing Co. LTD,TW,4,3,1,us_ca,0,Taiwan Semiconductor Manufacturing Company Limited | us_ca | Active | inc 2023-02-20
+fairphone4,TSMC (China) Co. LTD,CN,0,0,0,,0,
+fairphone4,"Shanghai Huahong Hongli Semiconductor Manufacturing Co., LTD",CN,0,0,0,,0,
+fairphone4,"Glofonde Semiconductor Co., LTD",CN,0,0,0,,0,
+fairphone4,"Shenzhen Sunlord Electronics Co., Ltd.",CN,0,0,0,,0,
+fairphone4,"Shenzhen Microgate Technology CO.,LTD",CN,0,0,0,,0,
+fairphone4,"Eyang Technology Development CO.,LTD.",CN,0,0,0,,0,
+fairphone4,"BeiJing Yandong Microelectronic Co.,Ltd",CN,0,0,0,,0,
+fairphone4,TFMF,CN,8,6,4,"fr,gb,us_ny,us_tx",0,TFMF | fr | Actif | inc 2020-05-22
+fairphone4,"Murata Manufacturing Co., Ltd.",CN,1,1,0,,0,
+fairphone4,"Guangdong Fenghua Advanced Technology Holding CO.,LTD",CN,0,0,0,,0,
+fairphone4,PT.KDS INDONESIA,ID,0,0,0,,0,
+fairphone4,Viiyong Hi-Tech,CN,0,0,0,,0,
+fairphone4,Ouchi Factory,JP,0,0,0,,0,
+fairphone4,"Taiyo Yuden (Guangdong) CO., LTD.",CN,0,0,0,,0,
+fairphone4,"WAKAYAMA TAIYO YUDEN CO., LTD.",JP,0,0,0,,0,
+fairphone4,Walsin Technology Corp,TW,0,0,0,,0,
+fairphone4,"Tianjin WISOL Electronics Co.,Ltd",CN,0,0,0,,0,
+fairphone4,OBO Pro.2 Inc.,CN,1,1,1,us_ca,0,OBO PRO.2 INC. | us_ca | Active | inc 2018-09-04
+fairphone4,"AAC Technology (Nanning) Co., Ltd.",CN,0,0,0,,0,
+fairphone4,"Baolong Electronic Group Co.,Ltd.",CN,0,0,0,,0,
+fairphone4,Tianjia,CN,28,1,1,gb,0,"TIANJIA ., LTD | gb | Active | inc 2022-02-17"
+fairphone4,"Shunqi Electronic Technology Co. , Ltd.",CN,0,0,0,,0,
+fairphone4,HIROSE ELECTRIC CO LTD,JP,1,1,0,,0,
+fairphone4,HIROSE KOREA CO LTD,KR,0,0,0,,0,
+fairphone4,Yuliang,CN,25,1,0,,0,
+fairphone4,DJN,CN,912,12,12,"be,fr,gp,us_ca,us_in,us_mt,us_nj,us_ut",0,DJN | be | Situation Normale | inc 2025-10-17
+fairphone4,Corning,US,2884,7,7,"de,gb,hk,nl,us_ca,us_id,us_ny",3,CORNING INCORPORATED | us_ny | Active | inc 1936-12-24
+fairphone4,Triple Win Technology (Jin Cheng) Co.Ltd,CN,0,0,0,,0,
+fairphone4,Hong Neng,CN,107,0,0,,0,
+fairphone4,MacDermid Alpha Electronics Solutions,US,1,1,1,sg,0,MACDERMID ALPHA ELECTRONICS SOLUTIONS | sg | Live | inc 1999-08-30
+fairphone4,"KAYO BATTERY CO.,LTD",CN,0,0,0,,0,
+fairphone4,Amperex Technology,CN,61,1,1,hk,0,AMPEREX TECHNOLOGY LIMITED | hk | Live | inc 1999-06-11
+fairphone4,"Celanese(Nanjing)Chemical Co.,Ltd.",CN,0,0,0,,0,
+fairphone4,Allfine Optics Technology,CN,0,0,0,,0,
+fairphone4,Mikolta,CN,2,0,0,,0,
+fairphone4,"Bao li Jia Plastic (SZ)Co,.Ltd",CN,0,0,0,,0,
+fairphone4,Sabic,SA,438,4,4,"us_ca,us_fl,us_oh,us_tx",0,SABIC LLC | us_fl | Active | inc 2023-08-15
+fairphone4,Covestro,DE,137,13,4,"be,de,us_de",2,COVESTRO LLC | us_de | None | inc 2002-10-16
+fairphone4,Mocom,DE,145,14,14,"be,ch,de,fr,gb,hk,li,nl,nz,us_al,us_az,us_de,us_mo,us_wy",1,MOCOM | be | Situation Normale | inc 2012-08-30
+fairphone4,"Xiangjian Precision Industry(SZco.,ltd",CN,0,0,0,,0,
+fairphone4,"Kechuang copper co.,Ltd",CN,0,0,0,,0,
+fairphone4,"Yongjin Metal Technology Co.,Ltd",CN,0,0,0,,0,
+fairphone4,"Dongguan Chengguang Metal Products Co.,Ltd",CN,0,0,0,,0,
+fairphone4,"JITS Communication CO., Ltd",CN,0,0,0,,0,
+fairphone4,"Shenzhen xinkexin Industrial Material Co., Ltd",CN,0,0,0,,0,
+fairphone4,"Dongguan Qiaofu Hardware Accessories Co., Ltd",CN,0,0,0,,0,
+fairphone4,"Shenzhen Fengxiang Precision Metal Co., Ltd",CN,0,0,0,,0,
+fairphone4,Linkconn,CN,6,2,0,,0,
+fairphone4,Gongchuang,CN,10,0,0,,0,
+fairphone4,"Kam Kiu Aluminum Extrusion Co., Ltd",CN,0,0,0,,0,
+fairphone4,"Guangdong Jiaya Enterprise Co., Ltd",CN,0,0,0,,0,
+fairphone4,"Huizhou Hairunxin New Material Technology CO.,LTD",CN,0,0,0,,0,
+fairphone4,"Guangzhou Huitian New Material Co.,Ltd",CN,0,0,0,,0,
+fairphone4,NYSTEIN,CN,27,2,2,"hk,us_ny",0,"NYSTEIN, INC. | us_ny | Active | inc 2014-10-01"
+fairphone4,"Huizhou Haopin Technology Co., LTD",CN,0,0,0,,0,
+fairphone4,New Litop,CN,0,0,0,,0,
+fairphone4,"Hui Zhou Dongoing Sheng Paper Co.,Ltd",CN,0,0,0,,0,
+fairphone4,"Guangdong Ideal Color Printing CO.,LTD",CN,0,0,0,,0,
+fairphone4,"Dongguan City Chuangyi Paper Co., Ltd.",CN,0,0,0,,0,
+fairphone4,"ShenZhen Guoxin Trade Co., Ltd.",CN,0,0,0,,0,
+fairphone4,"Shenzhen Hatcher Supply Chain Co., Ltd.",CN,0,0,0,,0,
+fairphone4,AAC,none,5101,22,22,"be,fr,nl",0,AAC | nl | Active | inc None
+fairphone4,Tohoku Hirose Electric Co.,none,0,0,0,,0,

@@ -11,10 +11,5 @@ measures.csv              Balanced accuracy, precision, recall and F1 for each m
                           of false links, five-fold, tested on suppliers not seen in training.
 <case>_predictions.csv    For each kind of part a case uses, the five best-scoring suppliers seen
                           shipping that part that the BOM does not record.
-repeated_runs.csv         Balanced accuracy of each method on each fold when the five-fold test is
-                          repeated ten times with a different split of the suppliers (400 scores).
-                          Used for the box plot in step 9. Made again only when REPEAT_AGAIN is True.
-method_tests.csv          The paired t-tests between methods from step 9 (corrected for folds that
-                          share training data).
 
 The real links come from importyeti_data/link_table.csv. Nothing here is typed in by hand.
