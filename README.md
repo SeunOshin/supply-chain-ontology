@@ -1,7 +1,5 @@
 # An Industry Agnostic Ontology Framework for Supply Chain Resilience and Procurement Decision Support
 
-MSc dissertation project, University of Hull, 2026.
-
 This project builds a knowledge graph of a product's supply chain on a standard ontology and uses it to advise a buyer. It starts from a bill of materials (BOM), adds suppliers, owners, tariffs and disruption events, rates each part for risk, predicts supply links that are not on record, and ends with a purchasing strategy for every part at risk. It is tested on two products from different sectors: the Skydio X10 drone and the Fairphone 4 smartphone.
 
 Everything runs from one notebook, `Project UAT.ipynb`.
