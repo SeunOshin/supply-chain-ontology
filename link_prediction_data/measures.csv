@@ -1,21 +1,21 @@
 False links,Method,Balanced accuracy,Precision,Recall,F1
-Random pairs (as in the paper),"Paper: sentence, language model, logistic regression",0.553,0.553,0.555,0.554
-Random pairs (as in the paper),Paper baseline: sentence word counts,0.423,0.428,0.456,0.442
-Random pairs (as in the paper),"Adapted: names per part, language model, logistic regression",0.66,0.677,0.614,0.644
-Random pairs (as in the paper),Adapted baseline: name word counts per part,0.684,0.72,0.602,0.655
-Random pairs (as in the paper),"Adapted, supplier's name only (the version used on the BOMs)",0.638,0.654,0.586,0.618
-Random pairs (as in the paper),"Check: kind of part only, no names",0.453,0.453,0.45,0.452
-Wrong part and wrong buyer,"Paper: sentence, language model, logistic regression",0.518,0.519,0.512,0.515
-Wrong part and wrong buyer,Paper baseline: sentence word counts,0.464,0.463,0.453,0.458
-Wrong part and wrong buyer,"Adapted: names per part, language model, logistic regression",0.516,0.517,0.468,0.492
-Wrong part and wrong buyer,Adapted baseline: name word counts per part,0.5,0.499,0.44,0.468
-Wrong part and wrong buyer,"Adapted, supplier's name only (the version used on the BOMs)",0.554,0.563,0.485,0.521
-Wrong part and wrong buyer,"Check: kind of part only, no names",0.486,0.483,0.412,0.445
-Wrong part,"Paper: sentence, language model, logistic regression",0.564,0.564,0.566,0.565
-Wrong part,"Paper: sentence, language model, neural network",0.668,0.669,0.664,0.666
-Wrong part,Paper baseline: sentence word counts,0.489,0.489,0.502,0.495
-Wrong part,"Adapted: names per part, language model, logistic regression",0.694,0.722,0.632,0.674
-Wrong part,"Adapted: names and part, language model, neural network",0.69,0.701,0.663,0.681
-Wrong part,Adapted baseline: name word counts per part,0.721,0.768,0.632,0.693
-Wrong part,"Adapted, supplier's name only (the version used on the BOMs)",0.66,0.685,0.592,0.635
-Wrong part,"Check: kind of part only, no names",0.493,0.494,0.511,0.502
+Random pairs (as in the paper),"Paper: sentence, language model, logistic regression",0.544,0.545,0.527,0.536
+Random pairs (as in the paper),Paper baseline: sentence word counts,0.429,0.432,0.455,0.444
+Random pairs (as in the paper),"Adapted: names per part, language model, logistic regression",0.654,0.669,0.612,0.639
+Random pairs (as in the paper),Adapted baseline: name word counts per part,0.68,0.719,0.591,0.649
+Random pairs (as in the paper),"Adapted, supplier's name only (the version used on the BOMs)",0.632,0.651,0.569,0.607
+Random pairs (as in the paper),"Check: kind of part only, no names",0.446,0.442,0.404,0.422
+Wrong part and wrong buyer,"Paper: sentence, language model, logistic regression",0.527,0.527,0.516,0.521
+Wrong part and wrong buyer,Paper baseline: sentence word counts,0.468,0.468,0.465,0.466
+Wrong part and wrong buyer,"Adapted: names per part, language model, logistic regression",0.508,0.508,0.454,0.48
+Wrong part and wrong buyer,Adapted baseline: name word counts per part,0.5,0.5,0.441,0.468
+Wrong part and wrong buyer,"Adapted, supplier's name only (the version used on the BOMs)",0.55,0.557,0.483,0.517
+Wrong part and wrong buyer,"Check: kind of part only, no names",0.487,0.488,0.556,0.52
+Wrong part,"Paper: sentence, language model, logistic regression",0.573,0.573,0.577,0.575
+Wrong part,"Paper: sentence, language model, neural network",0.652,0.658,0.636,0.646
+Wrong part,Paper baseline: sentence word counts,0.486,0.485,0.472,0.479
+Wrong part,"Adapted: names per part, language model, logistic regression",0.691,0.713,0.64,0.675
+Wrong part,"Adapted: names and part, language model, neural network",0.685,0.695,0.659,0.677
+Wrong part,Adapted baseline: name word counts per part,0.711,0.75,0.634,0.687
+Wrong part,"Adapted, supplier's name only (the version used on the BOMs)",0.659,0.681,0.597,0.637
+Wrong part,"Check: kind of part only, no names",0.486,0.485,0.447,0.465

@@ -1,61 +1,61 @@
 part,supplier_key,supplier,country,bills,score
-li_ion_battery,dongguan best new energy technology,Dongguan Best New Energy Technology,CN,1,0.914
-li_ion_battery,shenzhen quanmai xingye energy,Shenzhen Quanmai Xingye Energy,CN,1,0.9
-li_ion_battery,quzhou great power energy technolog,Quzhou Great Power Energy Technolog,CN,1,0.897
-li_ion_battery,shenzhen gaopeng energy technoloy,Shenzhen Gaopeng Energy Technoloy,CN,1,0.891
-li_ion_battery,guangdong rept battero energy,Guangdong Rept Battero Energy,HK,1,0.884
-camera_module,samsung high tech electronic,Samsung High Tech Electronic Co,CN,5,0.734
-camera_module,aptiv safety mobility services si,Aptiv Safety & Mobility Services Si,SG,2,0.699
-camera_module,dongguan primax electronic teleco,Dongguan Primax Electronic & Teleco,CN,1,0.688
-camera_module,aptiv safety mobility services,Aptiv Safety & Mobility Services,SG,1,0.687
-camera_module,zf cv systems,Zf Cv Systems,DE,9,0.659
-display_module,auo display plus,Auo Display Plus Corp,CN,1,0.924
-display_module,all vision display,All Vision Display Inc,US,4,0.898
+li_ion_battery,quzhou great power energy technolog,Quzhou Great Power Energy Technolog,CN,1,0.921
+li_ion_battery,shenzhen quanmai xingye energy,Shenzhen Quanmai Xingye Energy,CN,1,0.909
+li_ion_battery,shenzhen gaopeng energy technoloy,Shenzhen Gaopeng Energy Technoloy,CN,1,0.904
+li_ion_battery,bst power shenzhen,Bst Power Shenzhen,CN,1,0.871
+li_ion_battery,shenzhen utility energy,Shenzhen Utility Energy Co Ltd,CN,1,0.867
+camera_module,zf cv systems hannover,Zf Cv Systems Hannover Gmbh,DE,1,0.744
+camera_module,dongguan primax electronic teleco,Dongguan Primax Electronic & Teleco,CN,1,0.735
+camera_module,aptiv safety mobility services si,Aptiv Safety & Mobility Services Si,SG,2,0.685
+camera_module,zf cv systems global,Zf Cv Systems Global Gmbh,CH,1,0.681
+camera_module,samsung high tech electronic,Samsung High Tech Electronic Co,CN,5,0.676
+display_module,auo display plus,Auo Display Plus Corp,CN,1,0.917
+display_module,anshan yes optoelectronics display,Anshan Yes Optoelectronics Display,CN,2,0.902
+display_module,all vision display,All Vision Display Inc,US,4,0.896
 display_module,av display international,Av Display International Company,HK,1,0.882
 display_module,taiwan screen optronics,Taiwan Screen Optronics Co Ltd,TW,1,0.873
-display_module,anshan yes optoelectronics display,Anshan Yes Optoelectronics Display,CN,2,0.873
-pcba,microtronics technology sdn bhd,Microtronics Technology Sdn Bhd,MY,1,0.879
-pcba,in tech electronics sdn bhd,In Tech Electronics Sdn Bhd,MY,1,0.872
-pcba,etron vietnam technologies,Etron Vietnam Technologies Co Ltd,VN,20,0.866
-pcba,incoils electronics sdn bhd,Incoils Electronics Sdn Bhd,MY,1,0.855
-pcba,plexus manufacturing sdn bhd,Plexus Manufacturing Sdn Bhd,MY,2,0.848
-flexible_circuit,mektec,Mektec Corp,JP,61,0.799
-flexible_circuit,mektec mfg europe de,Mektec Mfg Corp Europe De Gmbh,CZ,1,0.761
-flexible_circuit,mektec manufacturing corparation,Mektec Manufacturing Corparation,CN,1,0.735
-flexible_circuit,mektec europe sales,Mektec Europe Sales Gmbh,DE,3,0.731
-flexible_circuit,mektec manufacturing,Mektec Manufacturing Corp,TH,25,0.725
-connector,tec mold holdings,Tec Mold Holdings Limited,CN,1,0.649
-connector,ringway tech jiangsu,Ringway Tech Jiangsu Co Ltd,CN,11,0.611
-connector,chun kai industries hk,Chun Kai Industries Hk Ltd,HK,30,0.589
-connector,contek cable hk,Contek Cable Hk Ltd,CN,1,0.578
-connector,shenzhen zhongluo electronics,Shenzhen Zhongluo Electronics Co,CN,1,0.576
-microphone,ningbo xinxiang audio electronical,Ningbo Xinxiang Audio Electronical,CN,1,0.77
-microphone,ningbo feigo intelligence technolog,Ningbo Feigo Intelligence Technolog,CN,2,0.739
-microphone,renfengda trade,Renfengda Trade Limited,HK,1,0.738
-microphone,minava audio,Minava Audio Co Ltd,CN,1,0.699
-microphone,gettop acoustic,Gettop Acoustic Co Ltd,CN,2,0.683
-speaker,jiaxing v sound trade,Jiaxing V Sound Trade Co Ltd,CN,7,0.752
-speaker,jiaxing future sound,Jiaxing Future Sound Co Ltd,CN,8,0.724
-speaker,shenzhen huaxiang sutongsupply,Shenzhen Huaxiang Sutongsupply,CN,1,0.715
-speaker,sound technology development,Sound Technology Development,CN,3,0.713
-speaker,shenzhen dejiahong,Shenzhen Dejiahong Inc,CN,1,0.713
-integrated_circuit,erdrich umformtechnik s r o,Erdrich Umformtechnik S R O,CZ,1,0.73
-integrated_circuit,baxter medical systems k,Baxter Medical Systems Gmbh Co K,DE,1,0.694
-integrated_circuit,pdsi b v,Pdsi B V,NL,1,0.668
-integrated_circuit,erdrich umformtechnik,Erdrich Umformtechnik Gmbh,DE,22,0.667
-integrated_circuit,8devices uab,8Devices Uab,LT,3,0.663
-capacitor,globe capacitors private,Globe Capacitors Private Limited,IN,3,0.885
-capacitor,nantong hicon capacitor,Nantong Hicon Capacitor Co Ltd,CN,1,0.882
-capacitor,globe capacitors,Globe Capacitors Limited,IN,8,0.879
-capacitor,nantong capacitor industries,Nantong Capacitor Industries Co,CN,1,0.867
-capacitor,wuxi hongguang capacitor,Wuxi Hongguang Capacitor Co Ltd,CN,3,0.857
-polycarbonate,tilara polyplast,Tilara Polyplast Pvt Ltd,IN,1,0.657
-polycarbonate,mg polyplast industries private,Mg Polyplast Industries Private,IN,3,0.638
-polycarbonate,hebei unique plastics manufacturer,Hebei Unique Plastics Manufacturer,CN,1,0.622
-polycarbonate,polylite taiwan,Polylite Taiwan Co Ltd,TW,2,0.605
-polycarbonate,formosa idemitsu petrochemical,Formosa Idemitsu Petrochemical,TW,2,0.586
-solder_paste,iangsu chengrui metal,Iangsu Chengrui Metal,CN,1,0.684
-solder_paste,shenzhen city xinhua technology,Shenzhen City Xinhua Technology Co,CN,1,0.657
-solder_paste,ckd,Ckd Corp,JP,3,0.655
-solder_paste,vitrox,Vitrox,MY,1,0.651
-solder_paste,shenzhen oubel technology,Shenzhen Oubel Technology Co Ltd,CN,1,0.641
+pcba,microtronics technology sdn bhd,Microtronics Technology Sdn Bhd,MY,1,0.901
+pcba,plexus manufacturing sdn bhd,Plexus Manufacturing Sdn Bhd,MY,2,0.868
+pcba,futuretek holdings sdn bhd,Futuretek Holdings Sdn Bhd,MY,3,0.857
+pcba,incoils electronics sdn bhd,Incoils Electronics Sdn Bhd,MY,1,0.851
+pcba,celestica electronics m sdn bhd,Celestica Electronics M Sdn Bhd,MY,2,0.838
+flexible_circuit,mektec manufacturing corparation,Mektec Manufacturing Corparation,CN,1,0.793
+flexible_circuit,mektec international,Mektec International Corp,CN,12,0.757
+flexible_circuit,mektec mfg europe de,Mektec Mfg Corp Europe De Gmbh,CZ,1,0.75
+flexible_circuit,mektec manufacturing,Mektec Manufacturing Corp,TH,25,0.741
+flexible_circuit,mektec,Mektec Corp,JP,61,0.732
+connector,shenzhen easttop silicone,Shenzhen Easttop Silicone,CN,1,0.622
+connector,shenzhen zhongluo electronics,Shenzhen Zhongluo Electronics Co,CN,1,0.594
+connector,tec mold holdings,Tec Mold Holdings Limited,CN,1,0.589
+connector,shenglai international,Shenglai International Limited,HK,4,0.589
+connector,shenzhen e bour technology,Shenzhen E Bour Technology Co Ltd,CN,1,0.578
+microphone,ningbo feigo intelligence technolog,Ningbo Feigo Intelligence Technolog,CN,2,0.749
+microphone,ningbo xinxiang audio electronical,Ningbo Xinxiang Audio Electronical,CN,1,0.713
+microphone,xiang yu trade,Xiang Yu Trade Limited,HK,1,0.708
+microphone,renfengda trade,Renfengda Trade Limited,HK,1,0.706
+microphone,ningbo dazhou import export,Ningbo Dazhou Import& Export Co,CN,1,0.7
+speaker,jiaxing v sound trade,Jiaxing V Sound Trade Co Ltd,CN,7,0.762
+speaker,eighteen sound s r l,Eighteen Sound S R L,IT,1,0.761
+speaker,eighteen sound srl,Eighteen Sound Srl,IT,4,0.759
+speaker,jiaxing future sound,Jiaxing Future Sound Co Ltd,CN,8,0.744
+speaker,unison acoustics,Unison Acoustics Co Ltd,KR,8,0.742
+integrated_circuit,erdrich umformtechnik s r o,Erdrich Umformtechnik S R O,CZ,1,0.752
+integrated_circuit,8devices uab,8Devices Uab,LT,3,0.661
+integrated_circuit,pdsi b v,Pdsi B V,NL,1,0.652
+integrated_circuit,altice labs sa,Altice Labs Sa,PT,2,0.644
+integrated_circuit,erdrich umformtechnik,Erdrich Umformtechnik Gmbh,DE,22,0.634
+capacitor,globe capacitors,Globe Capacitors Limited,IN,8,0.895
+capacitor,nantong jianghai capacitor,Nantong Jianghai Capacitor Co Ltd,CN,7,0.87
+capacitor,nantong hicon capacitor,Nantong Hicon Capacitor Co Ltd,CN,1,0.868
+capacitor,globe capacitors private,Globe Capacitors Private Limited,IN,3,0.862
+capacitor,jb capacitors,Jb Capacitors Co Ltd,HK,3,0.852
+polycarbonate,hebei unique plastics manufacturer,Hebei Unique Plastics Manufacturer,CN,1,0.648
+polycarbonate,mg polyplast industries private,Mg Polyplast Industries Private,IN,3,0.637
+polycarbonate,polylite taiwan,Polylite Taiwan Co Ltd,TW,2,0.631
+polycarbonate,baoding xinhai plastic,Baoding Xinhai Plastic,CN,1,0.601
+polycarbonate,tilara polyplast,Tilara Polyplast Pvt Ltd,IN,1,0.58
+solder_paste,vitrox,Vitrox,MY,1,0.727
+solder_paste,chongqing qunnuo technology,Chongqing Qunnuo Technology Co,CN,1,0.679
+solder_paste,jiangsu chengrui metal,Jiangsu Chengrui Metal,CN,2,0.648
+solder_paste,shenzhen kunpeng precision,Shenzhen Kunpeng Precision,CN,1,0.646
+solder_paste,shenzhen city xinhua technology,Shenzhen City Xinhua Technology Co,CN,1,0.641

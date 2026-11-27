@@ -2291,21 +2291,21 @@ data:prediction_brushless_motor_minebea_elec_motor_zhuhai a ns1:PredictedSupplyL
         data:gimbal_motors,
         data:propulsion_motors .
 
+data:prediction_brushless_motor_minebea_electronics_motor_zh_lt a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Minebea Electronics Motor Zh Co Lt for brushless motors" ;
+    rdfs:comment "Seen shipping brushless motors in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    prov:wasDerivedFrom data:link_model ;
+    iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_minebea_electronics_motor_zh_lt_score ;
+    iof:isAbout data:candidate_minebea_electronics_motor_zh_lt,
+        data:gimbal_motors,
+        data:propulsion_motors .
+
 data:prediction_brushless_motor_minebea_electronics_motor_zhuhai a ns1:PredictedSupplyLink ;
     rdfs:label "Predicted: Minebea Electronics Motor Zhuhai for brushless motors" ;
     rdfs:comment "Seen shipping brushless motors in 35 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
     iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_minebea_electronics_motor_zhuhai_score ;
     iof:isAbout data:candidate_minebea_electronics_motor_zhuhai,
-        data:gimbal_motors,
-        data:propulsion_motors .
-
-data:prediction_brushless_motor_nanjing_roytek_3x_motiontechnolo a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Nanjing Roytek & 3X Motiontechnolo for brushless motors" ;
-    rdfs:comment "Seen shipping brushless motors in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
-    prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_brushless_motor_nanjing_roytek_3x_motiontechnolo_score ;
-    iof:isAbout data:candidate_nanjing_roytek_3x_motiontechnolo,
         data:gimbal_motors,
         data:propulsion_motors .
 
@@ -2317,18 +2317,6 @@ data:prediction_brushless_motor_nanjing_roytek_and_3x_motion a ns1:PredictedSupp
     iof:isAbout data:candidate_nanjing_roytek_and_3x_motion,
         data:gimbal_motors,
         data:propulsion_motors .
-
-data:prediction_camera_module_aptiv_safety_mobility_services a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Aptiv Safety & Mobility Services for camera modules" ;
-    rdfs:comment "Seen shipping camera modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
-    prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_camera_module_aptiv_safety_mobility_services_score ;
-    iof:isAbout data:candidate_aptiv_safety_mobility_services,
-        data:cat_camera_modules,
-        data:narrow_camera,
-        data:nav_cameras,
-        data:tele_camera,
-        data:wide_camera .
 
 data:prediction_camera_module_aptiv_safety_mobility_services_si a ns1:PredictedSupplyLink ;
     rdfs:label "Predicted: Aptiv Safety & Mobility Services Si for camera modules" ;
@@ -2366,12 +2354,24 @@ data:prediction_camera_module_samsung_high_tech_electronic a ns1:PredictedSupply
         data:tele_camera,
         data:wide_camera .
 
-data:prediction_camera_module_zf_cv_systems a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Zf Cv Systems for camera modules" ;
-    rdfs:comment "Seen shipping camera modules in 9 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_camera_module_zf_cv_systems_global a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Zf Cv Systems Global Gmbh for camera modules" ;
+    rdfs:comment "Seen shipping camera modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_camera_module_zf_cv_systems_score ;
-    iof:isAbout data:candidate_zf_cv_systems,
+    iof:hasValueExpressionAtSomeTime data:prediction_camera_module_zf_cv_systems_global_score ;
+    iof:isAbout data:candidate_zf_cv_systems_global,
+        data:cat_camera_modules,
+        data:narrow_camera,
+        data:nav_cameras,
+        data:tele_camera,
+        data:wide_camera .
+
+data:prediction_camera_module_zf_cv_systems_hannover a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Zf Cv Systems Hannover Gmbh for camera modules" ;
+    rdfs:comment "Seen shipping camera modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    prov:wasDerivedFrom data:link_model ;
+    iof:hasValueExpressionAtSomeTime data:prediction_camera_module_zf_cv_systems_hannover_score ;
+    iof:isAbout data:candidate_zf_cv_systems_hannover,
         data:cat_camera_modules,
         data:narrow_camera,
         data:nav_cameras,
@@ -2411,12 +2411,12 @@ data:prediction_image_sensor_l_k_industries_phils a ns1:PredictedSupplyLink ;
         data:tele_image_sensor,
         data:wide_image_sensor .
 
-data:prediction_image_sensor_pixon_technologies a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Pixon Technologies Corp for image sensors" ;
-    rdfs:comment "Seen shipping image sensors in 2 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_image_sensor_ningbo_xiangyang_well_import_expo a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Ningbo Xiangyang Well Import & Expo for image sensors" ;
+    rdfs:comment "Seen shipping image sensors in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_image_sensor_pixon_technologies_score ;
-    iof:isAbout data:candidate_pixon_technologies,
+    iof:hasValueExpressionAtSomeTime data:prediction_image_sensor_ningbo_xiangyang_well_import_expo_score ;
+    iof:isAbout data:candidate_ningbo_xiangyang_well_import_expo,
         data:narrow_image_sensor,
         data:nav_image_sensor,
         data:tele_image_sensor,
@@ -2442,12 +2442,12 @@ data:prediction_integrated_circuit_8devices_uab a ns1:PredictedSupplyLink ;
         data:compute,
         data:qrb5165 .
 
-data:prediction_integrated_circuit_baxter_medical_systems_k a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Baxter Medical Systems Gmbh Co K for integrated circuits" ;
-    rdfs:comment "Seen shipping integrated circuits in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_integrated_circuit_altice_labs_sa a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Altice Labs Sa for integrated circuits" ;
+    rdfs:comment "Seen shipping integrated circuits in 2 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_integrated_circuit_baxter_medical_systems_k_score ;
-    iof:isAbout data:candidate_baxter_medical_systems_k,
+    iof:hasValueExpressionAtSomeTime data:prediction_integrated_circuit_altice_labs_sa_score ;
+    iof:isAbout data:candidate_altice_labs_sa,
         data:compute,
         data:qrb5165 .
 
@@ -2478,22 +2478,13 @@ data:prediction_integrated_circuit_pdsi_b_v a ns1:PredictedSupplyLink ;
         data:compute,
         data:qrb5165 .
 
-data:prediction_li_ion_battery_dongguan_best_new_energy_technology a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Dongguan Best New Energy Technology for lithium-ion batteries" ;
+data:prediction_li_ion_battery_bst_power_shenzhen a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Bst Power Shenzhen for lithium-ion batteries" ;
     rdfs:comment "Seen shipping lithium-ion batteries in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_li_ion_battery_dongguan_best_new_energy_technology_score ;
+    iof:hasValueExpressionAtSomeTime data:prediction_li_ion_battery_bst_power_shenzhen_score ;
     iof:isAbout data:battery,
-        data:candidate_dongguan_best_new_energy_technology,
-        data:cat_li_ion_batteries .
-
-data:prediction_li_ion_battery_guangdong_rept_battero_energy a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Guangdong Rept Battero Energy for lithium-ion batteries" ;
-    rdfs:comment "Seen shipping lithium-ion batteries in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
-    prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_li_ion_battery_guangdong_rept_battero_energy_score ;
-    iof:isAbout data:battery,
-        data:candidate_guangdong_rept_battero_energy,
+        data:candidate_bst_power_shenzhen,
         data:cat_li_ion_batteries .
 
 data:prediction_li_ion_battery_quzhou_great_power_energy_technolog a ns1:PredictedSupplyLink ;
@@ -2523,13 +2514,14 @@ data:prediction_li_ion_battery_shenzhen_quanmai_xingye_energy a ns1:PredictedSup
         data:candidate_shenzhen_quanmai_xingye_energy,
         data:cat_li_ion_batteries .
 
-data:prediction_thermal_camera_auras_technology_kunshan a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Auras Technology Kunshan Co Ltd for thermal cameras" ;
-    rdfs:comment "Seen shipping thermal cameras in 40 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_li_ion_battery_shenzhen_utility_energy a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Shenzhen Utility Energy Co Ltd for lithium-ion batteries" ;
+    rdfs:comment "Seen shipping lithium-ion batteries in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_auras_technology_kunshan_score ;
-    iof:isAbout data:candidate_auras_technology_kunshan,
-        data:thermal_module .
+    iof:hasValueExpressionAtSomeTime data:prediction_li_ion_battery_shenzhen_utility_energy_score ;
+    iof:isAbout data:battery,
+        data:candidate_shenzhen_utility_energy,
+        data:cat_li_ion_batteries .
 
 data:prediction_thermal_camera_auras_technology_kunshanco a ns1:PredictedSupplyLink ;
     rdfs:label "Predicted: Auras Technology Kunshanco Ltd for thermal cameras" ;
@@ -2539,28 +2531,36 @@ data:prediction_thermal_camera_auras_technology_kunshanco a ns1:PredictedSupplyL
     iof:isAbout data:candidate_auras_technology_kunshanco,
         data:thermal_module .
 
-data:prediction_thermal_camera_aurastechnology_kunshan a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Aurastechnology Kunshan Co Ltd for thermal cameras" ;
+data:prediction_thermal_camera_hongkong_dsqa_trade a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Hongkong Dsqa Trade Limited for thermal cameras" ;
     rdfs:comment "Seen shipping thermal cameras in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_aurastechnology_kunshan_score ;
-    iof:isAbout data:candidate_aurastechnology_kunshan,
+    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_hongkong_dsqa_trade_score ;
+    iof:isAbout data:candidate_hongkong_dsqa_trade,
         data:thermal_module .
 
-data:prediction_thermal_camera_yaoyu_trade a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Yaoyu Trade Co Ltd for thermal cameras" ;
+data:prediction_thermal_camera_shenzhen_yiyunhe_trade a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Shenzhen Yiyunhe Trade Co Ltd for thermal cameras" ;
     rdfs:comment "Seen shipping thermal cameras in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_yaoyu_trade_score ;
-    iof:isAbout data:candidate_yaoyu_trade,
+    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_shenzhen_yiyunhe_trade_score ;
+    iof:isAbout data:candidate_shenzhen_yiyunhe_trade,
         data:thermal_module .
 
-data:prediction_thermal_camera_zehong_guangzhou_technology a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Zehong Guangzhou Technology Co Ltd for thermal cameras" ;
-    rdfs:comment "Seen shipping thermal cameras in 33 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_thermal_camera_zehong_guangzhou_technology_lt a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Zehong Guangzhou Technology Co Lt for thermal cameras" ;
+    rdfs:comment "Seen shipping thermal cameras in 5 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_zehong_guangzhou_technology_score ;
-    iof:isAbout data:candidate_zehong_guangzhou_technology,
+    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_zehong_guangzhou_technology_lt_score ;
+    iof:isAbout data:candidate_zehong_guangzhou_technology_lt,
+        data:thermal_module .
+
+data:prediction_thermal_camera_zehong_guangzhou_technology_on a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Zehong Guangzhou Technology Ltd On for thermal cameras" ;
+    rdfs:comment "Seen shipping thermal cameras in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    prov:wasDerivedFrom data:link_model ;
+    iof:hasValueExpressionAtSomeTime data:prediction_thermal_camera_zehong_guangzhou_technology_on_score ;
+    iof:isAbout data:candidate_zehong_guangzhou_technology_on,
         data:thermal_module .
 
 data:prediction_wireless_module_deltanordic_sweden_ab a ns1:PredictedSupplyLink ;
@@ -2581,12 +2581,21 @@ data:prediction_wireless_module_fca_shanghai_auto_parts_trade a ns1:PredictedSup
         data:modem_5g,
         data:radio_sl .
 
-data:prediction_wireless_module_fj_dynamics_international a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Fj Dynamics International Limited for wireless modules" ;
-    rdfs:comment "Seen shipping wireless modules in 2 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+data:prediction_wireless_module_foshan_midea_carrier_air a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Foshan Midea Carrier Air for wireless modules" ;
+    rdfs:comment "Seen shipping wireless modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
     prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_fj_dynamics_international_score ;
-    iof:isAbout data:candidate_fj_dynamics_international,
+    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_foshan_midea_carrier_air_score ;
+    iof:isAbout data:candidate_foshan_midea_carrier_air,
+        data:modem_5g,
+        data:radio_sl .
+
+data:prediction_wireless_module_schtoeta_engineering a ns1:PredictedSupplyLink ;
+    rdfs:label "Predicted: Schtoeta Engineering Limited for wireless modules" ;
+    rdfs:comment "Seen shipping wireless modules in 3 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
+    prov:wasDerivedFrom data:link_model ;
+    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_schtoeta_engineering_score ;
+    iof:isAbout data:candidate_schtoeta_engineering,
         data:modem_5g,
         data:radio_sl .
 
@@ -2596,15 +2605,6 @@ data:prediction_wireless_module_telit_wireless_services a ns1:PredictedSupplyLin
     prov:wasDerivedFrom data:link_model ;
     iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_telit_wireless_services_score ;
     iof:isAbout data:candidate_telit_wireless_services,
-        data:modem_5g,
-        data:radio_sl .
-
-data:prediction_wireless_module_topp_s_r_l a ns1:PredictedSupplyLink ;
-    rdfs:label "Predicted: Topp S R L for wireless modules" ;
-    rdfs:comment "Seen shipping wireless modules in 1 US bill(s) of lading. Not recorded as a supplier in this BOM." ;
-    prov:wasDerivedFrom data:link_model ;
-    iof:hasValueExpressionAtSomeTime data:prediction_wireless_module_topp_s_r_l_score ;
-    iof:isAbout data:candidate_topp_s_r_l,
         data:modem_5g,
         data:radio_sl .
 
@@ -3033,29 +3033,21 @@ data:candidate_8devices_uab a iof:BusinessOrganization ;
     rdfs:label "8Devices Uab" ;
     bfo:BFO_0000171 data:country_LT .
 
-data:candidate_aptiv_safety_mobility_services a iof:BusinessOrganization ;
-    rdfs:label "Aptiv Safety & Mobility Services" ;
-    bfo:BFO_0000171 data:country_SG .
+data:candidate_altice_labs_sa a iof:BusinessOrganization ;
+    rdfs:label "Altice Labs Sa" ;
+    bfo:BFO_0000171 data:country_PT .
 
 data:candidate_aptiv_safety_mobility_services_si a iof:BusinessOrganization ;
     rdfs:label "Aptiv Safety & Mobility Services Si" ;
     bfo:BFO_0000171 data:country_SG .
 
-data:candidate_auras_technology_kunshan a iof:BusinessOrganization ;
-    rdfs:label "Auras Technology Kunshan Co Ltd" ;
-    bfo:BFO_0000171 data:country_CN .
-
 data:candidate_auras_technology_kunshanco a iof:BusinessOrganization ;
     rdfs:label "Auras Technology Kunshanco Ltd" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_aurastechnology_kunshan a iof:BusinessOrganization ;
-    rdfs:label "Aurastechnology Kunshan Co Ltd" ;
+data:candidate_bst_power_shenzhen a iof:BusinessOrganization ;
+    rdfs:label "Bst Power Shenzhen" ;
     bfo:BFO_0000171 data:country_CN .
-
-data:candidate_baxter_medical_systems_k a iof:BusinessOrganization ;
-    rdfs:label "Baxter Medical Systems Gmbh Co K" ;
-    bfo:BFO_0000171 data:country_DE .
 
 data:candidate_changzhou_hetai_motor_and_electrica a iof:BusinessOrganization ;
     rdfs:label "Changzhou Hetai Motor And Electrica" ;
@@ -3064,10 +3056,6 @@ data:candidate_changzhou_hetai_motor_and_electrica a iof:BusinessOrganization ;
 data:candidate_deltanordic_sweden_ab a iof:BusinessOrganization ;
     rdfs:label "Deltanordic Sweden Ab" ;
     bfo:BFO_0000171 data:country_SE .
-
-data:candidate_dongguan_best_new_energy_technology a iof:BusinessOrganization ;
-    rdfs:label "Dongguan Best New Energy Technology" ;
-    bfo:BFO_0000171 data:country_CN .
 
 data:candidate_dongguan_primax_electronic_teleco a iof:BusinessOrganization ;
     rdfs:label "Dongguan Primax Electronic & Teleco" ;
@@ -3085,13 +3073,13 @@ data:candidate_fca_shanghai_auto_parts_trade a iof:BusinessOrganization ;
     rdfs:label "Fca Shanghai Auto Parts Trade" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_fj_dynamics_international a iof:BusinessOrganization ;
-    rdfs:label "Fj Dynamics International Limited" ;
+data:candidate_foshan_midea_carrier_air a iof:BusinessOrganization ;
+    rdfs:label "Foshan Midea Carrier Air" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_guangdong_rept_battero_energy a iof:BusinessOrganization ;
-    rdfs:label "Guangdong Rept Battero Energy" ;
-    bfo:BFO_0000171 data:country_HK .
+data:candidate_hongkong_dsqa_trade a iof:BusinessOrganization ;
+    rdfs:label "Hongkong Dsqa Trade Limited" ;
+    bfo:BFO_0000171 data:country_CN .
 
 data:candidate_l_and_k_industries_phils a iof:BusinessOrganization ;
     rdfs:label "L And K Industries Phils Inc" ;
@@ -3109,25 +3097,25 @@ data:candidate_minebea_elec_motor_zhuhai a iof:BusinessOrganization ;
     rdfs:label "Minebea Elec Motor Zhuhai Co" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_minebea_electronics_motor_zhuhai a iof:BusinessOrganization ;
-    rdfs:label "Minebea Electronics Motor Zhuhai" ;
+data:candidate_minebea_electronics_motor_zh_lt a iof:BusinessOrganization ;
+    rdfs:label "Minebea Electronics Motor Zh Co Lt" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_nanjing_roytek_3x_motiontechnolo a iof:BusinessOrganization ;
-    rdfs:label "Nanjing Roytek & 3X Motiontechnolo" ;
+data:candidate_minebea_electronics_motor_zhuhai a iof:BusinessOrganization ;
+    rdfs:label "Minebea Electronics Motor Zhuhai" ;
     bfo:BFO_0000171 data:country_CN .
 
 data:candidate_nanjing_roytek_and_3x_motion a iof:BusinessOrganization ;
     rdfs:label "Nanjing Roytek And 3X Motion" ;
     bfo:BFO_0000171 data:country_CN .
 
+data:candidate_ningbo_xiangyang_well_import_expo a iof:BusinessOrganization ;
+    rdfs:label "Ningbo Xiangyang Well Import & Expo" ;
+    bfo:BFO_0000171 data:country_CN .
+
 data:candidate_pdsi_b_v a iof:BusinessOrganization ;
     rdfs:label "Pdsi B V" ;
     bfo:BFO_0000171 data:country_NL .
-
-data:candidate_pixon_technologies a iof:BusinessOrganization ;
-    rdfs:label "Pixon Technologies Corp" ;
-    bfo:BFO_0000171 data:country_TW .
 
 data:candidate_quzhou_great_power_energy_technolog a iof:BusinessOrganization ;
     rdfs:label "Quzhou Great Power Energy Technolog" ;
@@ -3135,6 +3123,10 @@ data:candidate_quzhou_great_power_energy_technolog a iof:BusinessOrganization ;
 
 data:candidate_samsung_high_tech_electronic a iof:BusinessOrganization ;
     rdfs:label "Samsung High Tech Electronic Co" ;
+    bfo:BFO_0000171 data:country_CN .
+
+data:candidate_schtoeta_engineering a iof:BusinessOrganization ;
+    rdfs:label "Schtoeta Engineering Limited" ;
     bfo:BFO_0000171 data:country_CN .
 
 data:candidate_shenzhen_gaopeng_energy_technoloy a iof:BusinessOrganization ;
@@ -3145,6 +3137,14 @@ data:candidate_shenzhen_quanmai_xingye_energy a iof:BusinessOrganization ;
     rdfs:label "Shenzhen Quanmai Xingye Energy" ;
     bfo:BFO_0000171 data:country_CN .
 
+data:candidate_shenzhen_utility_energy a iof:BusinessOrganization ;
+    rdfs:label "Shenzhen Utility Energy Co Ltd" ;
+    bfo:BFO_0000171 data:country_CN .
+
+data:candidate_shenzhen_yiyunhe_trade a iof:BusinessOrganization ;
+    rdfs:label "Shenzhen Yiyunhe Trade Co Ltd" ;
+    bfo:BFO_0000171 data:country_CN .
+
 data:candidate_shinsei a iof:BusinessOrganization ;
     rdfs:label "Shinsei Co Ltd" ;
     bfo:BFO_0000171 data:country_JP .
@@ -3153,20 +3153,20 @@ data:candidate_telit_wireless_services a iof:BusinessOrganization ;
     rdfs:label "Telit Wireless Services Ltd" ;
     bfo:BFO_0000171 data:country_HK .
 
-data:candidate_topp_s_r_l a iof:BusinessOrganization ;
-    rdfs:label "Topp S R L" ;
-    bfo:BFO_0000171 data:country_IT .
-
-data:candidate_yaoyu_trade a iof:BusinessOrganization ;
-    rdfs:label "Yaoyu Trade Co Ltd" ;
-    bfo:BFO_0000171 data:country_HK .
-
-data:candidate_zehong_guangzhou_technology a iof:BusinessOrganization ;
-    rdfs:label "Zehong Guangzhou Technology Co Ltd" ;
+data:candidate_zehong_guangzhou_technology_lt a iof:BusinessOrganization ;
+    rdfs:label "Zehong Guangzhou Technology Co Lt" ;
     bfo:BFO_0000171 data:country_CN .
 
-data:candidate_zf_cv_systems a iof:BusinessOrganization ;
-    rdfs:label "Zf Cv Systems" ;
+data:candidate_zehong_guangzhou_technology_on a iof:BusinessOrganization ;
+    rdfs:label "Zehong Guangzhou Technology Ltd On" ;
+    bfo:BFO_0000171 data:country_CN .
+
+data:candidate_zf_cv_systems_global a iof:BusinessOrganization ;
+    rdfs:label "Zf Cv Systems Global Gmbh" ;
+    bfo:BFO_0000171 data:country_CH .
+
+data:candidate_zf_cv_systems_hannover a iof:BusinessOrganization ;
+    rdfs:label "Zf Cv Systems Hannover Gmbh" ;
     bfo:BFO_0000171 data:country_DE .
 
 data:cat_packaging a iof:Classifier ;
@@ -3199,17 +3199,21 @@ data:country_CD a iof:GeospatialSite ;
     rdfs:label "CD" ;
     iof:designatedBy data:country_code_CD .
 
+data:country_CH a iof:GeospatialSite ;
+    rdfs:label "CH" ;
+    iof:designatedBy data:country_code_CH .
+
 data:country_CZ a iof:GeospatialSite ;
     rdfs:label "CZ" ;
     iof:designatedBy data:country_code_CZ .
 
+data:country_HK a iof:GeospatialSite ;
+    rdfs:label "HK" ;
+    iof:designatedBy data:country_code_HK .
+
 data:country_IR a iof:GeospatialSite ;
     rdfs:label "IR" ;
     iof:designatedBy data:country_code_IR .
-
-data:country_IT a iof:GeospatialSite ;
-    rdfs:label "IT" ;
-    iof:designatedBy data:country_code_IT .
 
 data:country_LT a iof:GeospatialSite ;
     rdfs:label "LT" ;
@@ -3218,6 +3222,10 @@ data:country_LT a iof:GeospatialSite ;
 data:country_NL a iof:GeospatialSite ;
     rdfs:label "NL" ;
     iof:designatedBy data:country_code_NL .
+
+data:country_PT a iof:GeospatialSite ;
+    rdfs:label "PT" ;
+    iof:designatedBy data:country_code_PT .
 
 data:country_SA a iof:GeospatialSite ;
     rdfs:label "SA" ;
@@ -3232,6 +3240,9 @@ data:country_code_AE a iof:PhysicalLocationIdentifier ;
 
 data:country_code_CD a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "CD" .
+
+data:country_code_CH a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "CH" .
 
 data:country_code_CN a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "CN" .
@@ -3248,9 +3259,6 @@ data:country_code_HK a iof:PhysicalLocationIdentifier ;
 data:country_code_IR a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "IR" .
 
-data:country_code_IT a iof:PhysicalLocationIdentifier ;
-    iof:hasTextValue "IT" .
-
 data:country_code_JP a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "JP" .
 
@@ -3265,6 +3273,9 @@ data:country_code_NL a iof:PhysicalLocationIdentifier ;
 
 data:country_code_PH a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "PH" .
+
+data:country_code_PT a iof:PhysicalLocationIdentifier ;
+    iof:hasTextValue "PT" .
 
 data:country_code_SA a iof:PhysicalLocationIdentifier ;
     iof:hasTextValue "SA" .
@@ -4116,109 +4127,109 @@ data:org_name_getacholdings a iof:BusinessOrganization ;
     prov:wasDerivedFrom <https://financialreports.eu/filings/getac-3005/annual-report/2026/48015052/> .
 
 data:prediction_brushless_motor_changzhou_hetai_motor_and_electrica_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 9.1e-01 .
+    iof:hasSimpleExpressionValue 9.07e-01 .
 
 data:prediction_brushless_motor_minebea_elec_motor_zhuhai_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.95e-01 .
+    iof:hasSimpleExpressionValue 8.98e-01 .
+
+data:prediction_brushless_motor_minebea_electronics_motor_zh_lt_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 8.69e-01 .
 
 data:prediction_brushless_motor_minebea_electronics_motor_zhuhai_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.89e-01 .
-
-data:prediction_brushless_motor_nanjing_roytek_3x_motiontechnolo_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.71e-01 .
+    iof:hasSimpleExpressionValue 8.8e-01 .
 
 data:prediction_brushless_motor_nanjing_roytek_and_3x_motion_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.47e-01 .
-
-data:prediction_camera_module_aptiv_safety_mobility_services_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.87e-01 .
+    iof:hasSimpleExpressionValue 8.88e-01 .
 
 data:prediction_camera_module_aptiv_safety_mobility_services_si_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.99e-01 .
+    iof:hasSimpleExpressionValue 6.85e-01 .
 
 data:prediction_camera_module_dongguan_primax_electronic_teleco_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.88e-01 .
+    iof:hasSimpleExpressionValue 7.35e-01 .
 
 data:prediction_camera_module_samsung_high_tech_electronic_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.34e-01 .
+    iof:hasSimpleExpressionValue 6.76e-01 .
 
-data:prediction_camera_module_zf_cv_systems_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.59e-01 .
+data:prediction_camera_module_zf_cv_systems_global_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.81e-01 .
+
+data:prediction_camera_module_zf_cv_systems_hannover_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 7.44e-01 .
 
 data:prediction_image_sensor_l_and_k_industries_phils_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 5.3e-01 .
+    iof:hasSimpleExpressionValue 5.36e-01 .
 
 data:prediction_image_sensor_l_k_industries_philippines_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 4.82e-01 .
+    iof:hasSimpleExpressionValue 5.62e-01 .
 
 data:prediction_image_sensor_l_k_industries_phils_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6e-01 .
+    iof:hasSimpleExpressionValue 4.97e-01 .
 
-data:prediction_image_sensor_pixon_technologies_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 4.32e-01 .
+data:prediction_image_sensor_ningbo_xiangyang_well_import_expo_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 4.19e-01 .
 
 data:prediction_image_sensor_shinsei_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 4.59e-01 .
+    iof:hasSimpleExpressionValue 4.24e-01 .
 
 data:prediction_integrated_circuit_8devices_uab_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.63e-01 .
+    iof:hasSimpleExpressionValue 6.61e-01 .
 
-data:prediction_integrated_circuit_baxter_medical_systems_k_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.94e-01 .
+data:prediction_integrated_circuit_altice_labs_sa_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.44e-01 .
 
 data:prediction_integrated_circuit_erdrich_umformtechnik_s_r_o_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.3e-01 .
+    iof:hasSimpleExpressionValue 7.52e-01 .
 
 data:prediction_integrated_circuit_erdrich_umformtechnik_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.67e-01 .
+    iof:hasSimpleExpressionValue 6.34e-01 .
 
 data:prediction_integrated_circuit_pdsi_b_v_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.68e-01 .
+    iof:hasSimpleExpressionValue 6.52e-01 .
 
-data:prediction_li_ion_battery_dongguan_best_new_energy_technology_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 9.14e-01 .
-
-data:prediction_li_ion_battery_guangdong_rept_battero_energy_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.84e-01 .
+data:prediction_li_ion_battery_bst_power_shenzhen_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 8.71e-01 .
 
 data:prediction_li_ion_battery_quzhou_great_power_energy_technolog_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.97e-01 .
+    iof:hasSimpleExpressionValue 9.21e-01 .
 
 data:prediction_li_ion_battery_shenzhen_gaopeng_energy_technoloy_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 8.91e-01 .
+    iof:hasSimpleExpressionValue 9.04e-01 .
 
 data:prediction_li_ion_battery_shenzhen_quanmai_xingye_energy_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 9e-01 .
+    iof:hasSimpleExpressionValue 9.09e-01 .
 
-data:prediction_thermal_camera_auras_technology_kunshan_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.25e-01 .
+data:prediction_li_ion_battery_shenzhen_utility_energy_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 8.67e-01 .
 
 data:prediction_thermal_camera_auras_technology_kunshanco_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.33e-01 .
+    iof:hasSimpleExpressionValue 7.15e-01 .
 
-data:prediction_thermal_camera_aurastechnology_kunshan_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.31e-01 .
+data:prediction_thermal_camera_hongkong_dsqa_trade_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.9e-01 .
 
-data:prediction_thermal_camera_yaoyu_trade_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.74e-01 .
+data:prediction_thermal_camera_shenzhen_yiyunhe_trade_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.47e-01 .
 
-data:prediction_thermal_camera_zehong_guangzhou_technology_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.46e-01 .
+data:prediction_thermal_camera_zehong_guangzhou_technology_lt_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.45e-01 .
+
+data:prediction_thermal_camera_zehong_guangzhou_technology_on_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.57e-01 .
 
 data:prediction_wireless_module_deltanordic_sweden_ab_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 7.26e-01 .
+    iof:hasSimpleExpressionValue 6.44e-01 .
 
 data:prediction_wireless_module_fca_shanghai_auto_parts_trade_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.89e-01 .
+    iof:hasSimpleExpressionValue 7.15e-01 .
 
-data:prediction_wireless_module_fj_dynamics_international_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.46e-01 .
+data:prediction_wireless_module_foshan_midea_carrier_air_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.6e-01 .
+
+data:prediction_wireless_module_schtoeta_engineering_score a iof:ValueExpression ;
+    iof:hasSimpleExpressionValue 6.52e-01 .
 
 data:prediction_wireless_module_telit_wireless_services_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.77e-01 .
-
-data:prediction_wireless_module_topp_s_r_l_score a iof:ValueExpression ;
-    iof:hasSimpleExpressionValue 6.82e-01 .
+    iof:hasSimpleExpressionValue 7.36e-01 .
 
 data:route_pusan_to_oakland_ca a iof:ShippingRoute ;
     rdfs:label "Pusan -> Oakland, Ca" ;
@@ -4598,6 +4609,10 @@ data:cat_structural_parts a iof:Classifier ;
     iof:classifiedBy data:code_us_3926909989,
         data:code_us_8529908100 .
 
+data:country_DE a iof:GeospatialSite ;
+    rdfs:label "DE" ;
+    iof:designatedBy data:country_code_DE .
+
 data:event_hormuz_closure_2026 a iof:Event ;
     rdfs:label "Strait of Hormuz effectively closed amid US-Israel-Iran conflict, disrupting shipping and air cargo" ;
     dcterms:date "2026-02-28" ;
@@ -4700,14 +4715,6 @@ data:site_samkwang a iof:GeospatialLocation,
 
 data:code_us_8529908100 a ns1:TariffCode ;
     rdfs:label "8529.90.8100 (US HTS 2026 Revision 22)" .
-
-data:country_DE a iof:GeospatialSite ;
-    rdfs:label "DE" ;
-    iof:designatedBy data:country_code_DE .
-
-data:country_HK a iof:GeospatialSite ;
-    rdfs:label "HK" ;
-    iof:designatedBy data:country_code_HK .
 
 data:country_PH a iof:GeospatialSite ;
     rdfs:label "PH" ;
@@ -4949,6 +4956,10 @@ data:code_us_4823908680 a ns1:TariffCode ;
 data:code_us_85044095 a ns1:TariffCode ;
     rdfs:label "8504.40.95 (US HTS 2026 Revision 22)" .
 
+data:country_SG a iof:GeospatialSite ;
+    rdfs:label "SG" ;
+    iof:designatedBy data:country_code_SG .
+
 data:sup_nidec a iof:Supplier ;
     rdfs:label "Nidec Corporation" ;
     rdfs:comment "Supplier press release on motors adopted for the X10." ;
@@ -4967,10 +4978,6 @@ data:code_us_8541499500 a ns1:TariffCode ;
 
 data:code_us_8806920000 a ns1:TariffCode ;
     rdfs:label "8806.92.0000 (US HTS 2026 Revision 22)" .
-
-data:country_SG a iof:GeospatialSite ;
-    rdfs:label "SG" ;
-    iof:designatedBy data:country_code_SG .
 
 data:site_fuyu a iof:GeospatialLocation,
         iof:SupplyChainNode ;
@@ -5251,12 +5258,12 @@ data:link_model a prov:Entity ;
 data:band_low a ns1:RiskBand ;
     rdfs:label "Low" .
 
+data:dutykind_section_301_forced_labour_import_prohibitions_60_economies_ a iof:Classifier ;
+    rdfs:label "Section 301, forced-labour import prohibitions (60 economies)" .
+
 data:country_CN a iof:GeospatialSite ;
     rdfs:label "CN" ;
     iof:designatedBy data:country_code_CN .
-
-data:dutykind_section_301_forced_labour_import_prohibitions_60_economies_ a iof:Classifier ;
-    rdfs:label "Section 301, forced-labour import prohibitions (60 economies)" .
 
 data:band_high a ns1:RiskBand ;
     rdfs:label "High" .

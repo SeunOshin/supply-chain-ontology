@@ -1,36 +1,36 @@
 part,supplier_key,supplier,country,bills,score
-li_ion_battery,dongguan best new energy technology,Dongguan Best New Energy Technology,CN,1,0.914
-li_ion_battery,shenzhen quanmai xingye energy,Shenzhen Quanmai Xingye Energy,CN,1,0.9
-li_ion_battery,quzhou great power energy technolog,Quzhou Great Power Energy Technolog,CN,1,0.897
-li_ion_battery,shenzhen gaopeng energy technoloy,Shenzhen Gaopeng Energy Technoloy,CN,1,0.891
-li_ion_battery,guangdong rept battero energy,Guangdong Rept Battero Energy,HK,1,0.884
-camera_module,samsung high tech electronic,Samsung High Tech Electronic Co,CN,5,0.734
-camera_module,aptiv safety mobility services si,Aptiv Safety & Mobility Services Si,SG,2,0.699
-camera_module,dongguan primax electronic teleco,Dongguan Primax Electronic & Teleco,CN,1,0.688
-camera_module,aptiv safety mobility services,Aptiv Safety & Mobility Services,SG,1,0.687
-camera_module,zf cv systems,Zf Cv Systems,DE,9,0.659
-image_sensor,l k industries phils,L & K Industries Phils Inc,PH,31,0.6
-image_sensor,l and k industries phils,L And K Industries Phils Inc,PH,1,0.53
-image_sensor,l k industries philippines,L&K Industries Philippines Inc,PH,1,0.482
-image_sensor,shinsei,Shinsei Co Ltd,JP,1,0.459
-image_sensor,pixon technologies,Pixon Technologies Corp,TW,2,0.432
-thermal_camera,auras technology kunshanco,Auras Technology Kunshanco Ltd,CN,1,0.733
-thermal_camera,yaoyu trade,Yaoyu Trade Co Ltd,HK,1,0.674
-thermal_camera,zehong guangzhou technology,Zehong Guangzhou Technology Co Ltd,CN,33,0.646
-thermal_camera,aurastechnology kunshan,Aurastechnology Kunshan Co Ltd,CN,1,0.631
-thermal_camera,auras technology kunshan,Auras Technology Kunshan Co Ltd,CN,40,0.625
-brushless_motor,changzhou hetai motor and electrica,Changzhou Hetai Motor And Electrica,CN,17,0.91
-brushless_motor,minebea elec motor zhuhai,Minebea Elec Motor Zhuhai Co,CN,4,0.895
-brushless_motor,minebea electronics motor zhuhai,Minebea Electronics Motor Zhuhai,CN,35,0.889
-brushless_motor,nanjing roytek 3x motiontechnolo,Nanjing Roytek & 3X Motiontechnolo,CN,1,0.871
-brushless_motor,nanjing roytek and 3x motion,Nanjing Roytek And 3X Motion,CN,1,0.847
-integrated_circuit,erdrich umformtechnik s r o,Erdrich Umformtechnik S R O,CZ,1,0.73
-integrated_circuit,baxter medical systems k,Baxter Medical Systems Gmbh Co K,DE,1,0.694
-integrated_circuit,pdsi b v,Pdsi B V,NL,1,0.668
-integrated_circuit,erdrich umformtechnik,Erdrich Umformtechnik Gmbh,DE,22,0.667
-integrated_circuit,8devices uab,8Devices Uab,LT,3,0.663
-wireless_module,deltanordic sweden ab,Deltanordic Sweden Ab,SE,1,0.726
-wireless_module,fca shanghai auto parts trade,Fca Shanghai Auto Parts Trade,CN,5,0.689
-wireless_module,topp s r l,Topp S R L,IT,1,0.682
-wireless_module,telit wireless services,Telit Wireless Services Ltd,HK,1,0.677
-wireless_module,fj dynamics international,Fj Dynamics International Limited,CN,2,0.646
+li_ion_battery,quzhou great power energy technolog,Quzhou Great Power Energy Technolog,CN,1,0.921
+li_ion_battery,shenzhen quanmai xingye energy,Shenzhen Quanmai Xingye Energy,CN,1,0.909
+li_ion_battery,shenzhen gaopeng energy technoloy,Shenzhen Gaopeng Energy Technoloy,CN,1,0.904
+li_ion_battery,bst power shenzhen,Bst Power Shenzhen,CN,1,0.871
+li_ion_battery,shenzhen utility energy,Shenzhen Utility Energy Co Ltd,CN,1,0.867
+camera_module,zf cv systems hannover,Zf Cv Systems Hannover Gmbh,DE,1,0.744
+camera_module,dongguan primax electronic teleco,Dongguan Primax Electronic & Teleco,CN,1,0.735
+camera_module,aptiv safety mobility services si,Aptiv Safety & Mobility Services Si,SG,2,0.685
+camera_module,zf cv systems global,Zf Cv Systems Global Gmbh,CH,1,0.681
+camera_module,samsung high tech electronic,Samsung High Tech Electronic Co,CN,5,0.676
+image_sensor,l k industries philippines,L&K Industries Philippines Inc,PH,1,0.562
+image_sensor,l and k industries phils,L And K Industries Phils Inc,PH,1,0.536
+image_sensor,l k industries phils,L & K Industries Phils Inc,PH,31,0.497
+image_sensor,shinsei,Shinsei Co Ltd,JP,1,0.424
+image_sensor,ningbo xiangyang well import expo,Ningbo Xiangyang Well Import & Expo,CN,1,0.419
+thermal_camera,auras technology kunshanco,Auras Technology Kunshanco Ltd,CN,1,0.715
+thermal_camera,hongkong dsqa trade,Hongkong Dsqa Trade Limited,CN,1,0.69
+thermal_camera,zehong guangzhou technology on,Zehong Guangzhou Technology Ltd On,CN,1,0.657
+thermal_camera,shenzhen yiyunhe trade,Shenzhen Yiyunhe Trade Co Ltd,CN,1,0.647
+thermal_camera,zehong guangzhou technology lt,Zehong Guangzhou Technology Co Lt,CN,5,0.645
+brushless_motor,changzhou hetai motor and electrica,Changzhou Hetai Motor And Electrica,CN,17,0.907
+brushless_motor,minebea elec motor zhuhai,Minebea Elec Motor Zhuhai Co,CN,4,0.898
+brushless_motor,nanjing roytek and 3x motion,Nanjing Roytek And 3X Motion,CN,1,0.888
+brushless_motor,minebea electronics motor zhuhai,Minebea Electronics Motor Zhuhai,CN,35,0.88
+brushless_motor,minebea electronics motor zh lt,Minebea Electronics Motor Zh Co Lt,CN,1,0.869
+integrated_circuit,erdrich umformtechnik s r o,Erdrich Umformtechnik S R O,CZ,1,0.752
+integrated_circuit,8devices uab,8Devices Uab,LT,3,0.661
+integrated_circuit,pdsi b v,Pdsi B V,NL,1,0.652
+integrated_circuit,altice labs sa,Altice Labs Sa,PT,2,0.644
+integrated_circuit,erdrich umformtechnik,Erdrich Umformtechnik Gmbh,DE,22,0.634
+wireless_module,telit wireless services,Telit Wireless Services Ltd,HK,1,0.736
+wireless_module,fca shanghai auto parts trade,Fca Shanghai Auto Parts Trade,CN,5,0.715
+wireless_module,foshan midea carrier air,Foshan Midea Carrier Air,CN,1,0.66
+wireless_module,schtoeta engineering,Schtoeta Engineering Limited,CN,3,0.652
+wireless_module,deltanordic sweden ab,Deltanordic Sweden Ab,SE,1,0.644
